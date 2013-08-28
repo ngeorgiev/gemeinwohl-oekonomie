@@ -6,10 +6,10 @@ var Data = {
             goals : 'Ziele',
             impulsQuestions : 'Impulsfragen',
             table : 'Bewertungstabelle',
-            measurementCharacteristics : 'Besonderheiten bei der Bewertung',
-            definitionAndBackground : 'Definitionen und Hintergrund',
-            implementationHelp : 'Hilfen für die Umsetzung',
-            literatureLinksExperts : 'Literatur/Links/Experten',
+            evaluationDetails : 'Besonderheiten bei der Bewertung',
+            definition : 'Definitionen und Hintergrund',
+            implementationHelp : 'Umsetzunghilfen',
+            moreinfo : 'Mehr Info',
 
             subindicator : 'Sub-Indikator',
             levels : {
@@ -273,7 +273,23 @@ var Data = {
                         {
                             content: 'Zum Beispiel in Form von umfassenden Fortbildungsmaßnahmen (Diversity-Trainings, Gleichstellungsworkshops, Gender-Trainings), die die Sensibilisierung für Diversität und den Aufbau von Gleichstellungskompetenzen zum Ergebnis haben.'
                         }
-                    ]
+                    ],
+                    details : {
+                        content :
+                            'Folgende Aspekte sind (neben Mitbestimmung, die in C5 behandelt wird) für mitarbeiter-orientierte Organisationskultur und -strukturen zentral:'
+                    }
+                },
+                definition : {
+                    content:
+                    'Gleichstellung und Diversität wird in den folgenden Ausführungen nur zur Wahrung besse-rer Übersichtlichkeit in einem eigenen Abschnitt erläutert. Im Sinne der Chancengleichheit müssen jedoch alle Maßnahmen zur Wahrung und Steigerung der Arbeitsplatzqualität auch darauf hin überprüft werden, ob sie (tatsächlich) allen MitarbeiterInnen gleicherma-ßen zur Verfügung stehen.'
+                },
+                implementationHelp : {
+                    content:
+                    'Die Durchführung von MitarbeiterInnenbefragungen kann wesentliche Anhaltspunkte für die Identifikation von Handlungsfeldern liefern, insbesondere wenn die Befragung organi-sationsextern durchgeführt und intern über den Betriebsrat abgewickelt wird.'
+                },
+                moreinfo : {
+                    content:
+                    '<p><strong>allgemein</strong></p>'
                 }
             },
             /* ----------------------------------- C2 ----------------------------------- */
