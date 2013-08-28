@@ -2,13 +2,29 @@
 
 var Controller = {
 
+    createPageHtml : function () {
+        Controller.createMatrixHtml();
+        Controller.createIndicatorsHtml();
+    },
+
+    createMatrixHtml : function () {
+
+        var matrixHtml = '';
+        var compiledTemplate = dust.compile(gwoeMatrixTemplate, 'gwoeMatrixTemplate');
+        dust.loadSource(compiledTemplate);
+        dust.render('gwoeMatrixTemplate', Data.matrix, function(err, out) {
+            matrixHtml += out;
+        });
+
+        document.getElementById('gwoe-matrix-container').innerHTML = matrixHtml;
+    },
+
     /**
      * Creates the HTML for all indicators
      *
      * @returns {boolean}
      */
-    createIndicatorsHTML : function () {
-
+    createIndicatorsHtml : function () {
 
         var structure = Data.indicators.structure;
         var indicatorsData = Data.indicators.data;
@@ -30,8 +46,6 @@ var Controller = {
                 indicatorHtml += out;
             });
         }
-
-        console.log(indicatorHtml);
 
         document.getElementById('indicators-container').innerHTML = indicatorHtml;
 
