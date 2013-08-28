@@ -1,25 +1,21 @@
 'use strict';
 
-Controller.createIndicatorsHTML();
+Controller.createPageHtml();
 
 /* Tabs */
 
 /* Tab Trigger */
 $('.ind-trigger').each(function (i, elem) {
-    console.log('found.');
     var indicatorEl = $(elem);
     var indicatorModalId = indicatorEl.attr('data-modal');
 
-    console.log('adding listener... ');
     indicatorEl.click(function () {
-        console.log('listener added. ' + indicatorModalId);
         Router.showIndicator(indicatorModalId);
     });
 });
 
 $('.back-to-matrix').each(function (i, elem) {
     $(elem).click(function () {
-        console.log('Back clcked');
         Router.showMatrix();
     });
 });

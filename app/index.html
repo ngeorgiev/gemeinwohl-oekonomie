@@ -46,146 +46,8 @@
 
 <div class="page-wrapper">
 
+    <div id="gwoe-matrix-container"></div>
 
-    <div id="gwoe-matrix" class="bubble">
-
-        <table class="dtable">
-
-            <thead>
-            <tr class="dheader-style">
-                <th class="dtable-cell col-1-6">
-                    <span class="matrix-value-header">Wert</span> / <span class="gwoe-blue">Berührungsgruppe</span>
-                </th>
-                <th class="dtable-cell col-1-6 gwoe-green">Menschenwürde</th>
-                <th class="dtable-cell col-1-6 gwoe-green">Solidarität</th>
-                <th class="dtable-cell col-1-6 gwoe-green">Ökologische Nachhaltigkeit</th>
-                <th class="dtable-cell col-1-6 gwoe-green">Soziale Gerechtigkeit</th>
-                <th class="dtable-cell col-1-6 gwoe-green">Demokratische Mitbestimmung & Transparenz</th>
-            </tr>
-            </thead>
-
-            <tbody>
-            <tr>
-                <td class="dtable-cell col-1-6 dheader-style gwoe-blue-b">
-                    A) LieferantInnen
-                </td>
-                <td class="dtable-cell indicator-cell" colspan="5">
-                    <div class="indicator-title">
-                        A1: Ethisches Beschaffungsmanagement
-                    </div>
-
-                    <div class="indicator-description">
-                        Aktive Auseinandersetzung mit den Risiken zugekaufter
-                        Produkte / Dienstleistungen, Berücksichtigung sozialer und ökologischer Aspekte bei der Auswahl
-                        von LieferantInnen und DienstleistungsnehmerInnen.
-                    </div>
-                    <div class="indicator-points">
-                        30
-                    </div>
-                </td>
-            </tr>
-
-            <tr>
-                <td class="dtable-cell col-1-6 dheader-style gwoe-blue-b">
-                    B) GeldgeberInnen
-                </td>
-                <td class="dtable-cell indicator-cell" colspan="5">
-                    <div class="indicator-title">
-                        B1: Ethisches Finanzmanagement
-                    </div>
-                    <div class="indicator-description">
-                        Berücksichtigung sozialer und ökologischer Aspekte bei der Auswahl der Finanzdienstleistungen;
-                        gemeinwohlorienterte Veranlagung und Finanzierung.
-                    </div>
-                    <div class="indicator-points">
-                        90
-                    </div>
-                </td>
-            </tr>
-
-            <tr>
-                <td class="dtable-cell col-1-6 dheader-style gwoe-blue-b">
-                    C) MitarbeiterInnen inklusive EigentümerInnen
-                </td>
-
-                <td class="dtable-cell indicator-cell col-1-6 ind-trigger" data-modal="matrix-c1">
-                    <div class="indicator-title">
-                        C1: Arbeitsplatzqualität und Gleichstellung
-                    </div>
-                    <div class="indicator-description">
-                        Mitarbeiterorientierte Organisations-kultur und –strukturen, Faire Beschäftigungs- und
-                        Entgeltpolitik, Arbeitsschutz und Gesundheitsförderung einschließlich Work-Life-Balance/flexible
-                        Arbeitszeiten, Gleichstellung und Diversität
-                    </div>
-                    <div class="indicator-points">
-                        90
-                    </div>
-                </td>
-
-                <td class="dtable-cell indicator-cell col-1-6 ind-trigger" data-modal="matrix-c2">
-                    <div class="indicator-title">
-                        C2: gerechte Verteilung der Erwerbsarbeit
-                    </div>
-                    <div class="indicator-description">
-                        Abbau von Überstunden, Verzicht auf All-inclusive-Verträge, Reduktion der Regelarbeitszeit,
-                        Beitrag zur Reduktion der Arbeitslosigkeit
-                    </div>
-                    <div class="indicator-points">
-                        50
-                    </div>
-                </td>
-
-                <td class="dtable-cell indicator-cell col-1-6">
-                    <div class="indicator-title">
-                        C3: Förderung ökologischen Verhaltens der MitarbeiterInnen
-                    </div>
-                    <div class="indicator-description">
-                        Aktive Förderung eines nachhaltigen Lebensstils der MitarbeiterInnen (Mobilität, Ernährung),
-                        Weiterbildung und Bewusstsein schaffende Maßnahmen, nachhaltige Organisationskultur
-                    </div>
-                    <div class="indicator-points">
-                        30
-                    </div>
-                </td>
-
-                <td class="dtable-cell indicator-cell col-1-6">
-                    <div class="indicator-title">
-                        C4: gerechte Verteilung des Einkommens
-                    </div>
-                    <div class="indicator-description">
-                        Geringe innerbetriebliche Einkommensspreizung (netto), Einhaltung von Mindesteinkommen und
-                        Höchsteinkommen
-                    </div>
-                    <div class="indicator-points">
-                        60
-                    </div>
-                </td>
-
-                <td class="dtable-cell indicator-cell col-1-6">
-                    <div class="indicator-title">
-                        C5: Innerbetriebliche Demokratie und Transparenz
-                    </div>
-                    <div class="indicator-description">
-                        Umfassende innerbetriebliche Transparenz, Wahl der Führungskräfte durch die Mitarbeiter,
-                        konsensuale Mitbestimmung bei Grundsatz- und Rahmenentscheidungen, Übergabe Eigentum an
-                        MitarbeiterInnen. Z.B. Soziokratie
-                    </div>
-                    <div class="indicator-points">
-                        90
-                    </div>
-                </td>
-
-            </tr>
-
-            </tbody>
-        </table>
-        <!-- end of matrix table -->
-
-
-    </div>
-    <!-- end of bubble -->
-
-    <!-- Indicator Details -->
     <div id="indicators-container"></div>
 
 </div>
@@ -206,6 +68,7 @@
 <script src="scripts/data/gwoe-matrix-data.js"></script>
 <script src="scripts/data/gwoe-indicators-data.js"></script>
 
+<script src="scripts/templates/gwoe-matrix-template.js"></script>
 <script src="scripts/templates/indicator-templates.js"></script>
 
 <script src="scripts/config.js"></script>
