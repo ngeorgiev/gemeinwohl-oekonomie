@@ -35,6 +35,27 @@ var indicatorTabsTemplate =
                     </div>\
                 </li>\
             \
+                <span id="matrix-{shortcodeSlug}-definition" class="fixedanchor"></span>\
+                <li class="tabcontainer">\
+                    <a href="#matrix-{shortcodeSlug}-definition" class="tablink matrix-definition-tab-title"></a>\
+                    <div id="matrix-{shortcodeSlug}-definition-content" class="tabcontent">\
+                    </div>\
+                </li>\
+            \
+                <span id="matrix-{shortcodeSlug}-implementationHelp" class="fixedanchor"></span>\
+                <li class="tabcontainer">\
+                    <a href="#matrix-{shortcodeSlug}-implementationHelp" class="tablink matrix-implementationHelp-tab-title"></a>\
+                    <div id="matrix-{shortcodeSlug}-implementationHelp-content" class="tabcontent">\
+                    </div>\
+                </li>\
+            \
+                <span id="matrix-{shortcodeSlug}-moreinfo" class="fixedanchor"></span>\
+                <li class="tabcontainer">\
+                    <a href="#matrix-{shortcodeSlug}-moreinfo" class="tablink matrix-moreinfo-tab-title"></a>\
+                    <div id="matrix-{shortcodeSlug}-moreinfo-content" class="tabcontent">\
+                    </div>\
+                </li>\
+            \
             </ul> \
         </div>\
     </div>';

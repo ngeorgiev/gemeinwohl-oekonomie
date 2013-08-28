@@ -39,10 +39,15 @@ var Controller = {
             // the current indicator data
             indicator = indicatorsData[indicatorIndex];
 
+            // add tab names
             $('.matrix-goals-tab-title').html(structure.goals);
             $('.matrix-impulsQuestions-tab-title').html(structure.impulsQuestions);
             $('.matrix-table-tab-title').html(structure.table);
+            $('.matrix-definition-tab-title').html(structure.definition);
+            $('.matrix-implementationHelp-tab-title').html(structure.implementationHelp);
+            $('.matrix-moreinfo-tab-title').html(structure.moreinfo);
 
+            // add tab contents
             document.getElementById('matrix-'+indicator.shortcodeSlug+'-goals-content').innerHTML =
                 indicator.goals.content;
             document.getElementById('matrix-'+indicator.shortcodeSlug+'-impulsQuestions-content').innerHTML =
@@ -51,6 +56,7 @@ var Controller = {
                 Controller.getMeasurementTableHTMLString(indicator);
             document.getElementById('matrix-'+indicator.shortcodeSlug+'-indicator-table-legend').innerHTML =
                 Controller.getTableLegendString();
+            // TODO: add the rest.
         }
 
         return true; // avoid message 'function has inconsistent return points'
@@ -72,53 +78,56 @@ var Controller = {
         var hmlString = Controller.getMeasurementTableHeaderHTMLString(Data.indicators.structure);
 
         var indicatorTableData = indicator.table;
-        if (typeof indicatorTableData !== 'undefined') {
 
-            var numOfSubindicators = indicatorTableData.subindicators.length;
-            for (var indicatorIndex = 0; indicatorIndex < numOfSubindicators; indicatorIndex++) {
-                var subindicator = indicatorTableData.subindicators[indicatorIndex];
-                var subindicatorAdded = false;
+        // return emtpy table if no table data is defined.
+        if (typeof indicatorTableData === 'undefined') {
+            return hmlString;
+        }
 
-                var numOfDevTracks = subindicator.developmentTracks.length;
-                for (var devTrackIndex = 0; devTrackIndex < numOfDevTracks; devTrackIndex++) {
-                    var devTrack = subindicator.developmentTracks[devTrackIndex];
-                    var numOfDevDetails = devTrack.developmentDetails.length;
+        var numOfSubindicators = indicatorTableData.subindicators.length;
+        for (var indicatorIndex = 0; indicatorIndex < numOfSubindicators; indicatorIndex++) {
+            var subindicator = indicatorTableData.subindicators[indicatorIndex];
+            var subindicatorAdded = false;
 
-                    // one row for every dev track
-                    hmlString += '<tr>';
+            var numOfDevTracks = subindicator.developmentTracks.length;
+            for (var devTrackIndex = 0; devTrackIndex < numOfDevTracks; devTrackIndex++) {
+                var devTrack = subindicator.developmentTracks[devTrackIndex];
+                var numOfDevDetails = devTrack.developmentDetails.length;
 
-                    if (!subindicatorAdded) {
-                        // add subindicator info
-                        // if more than one dev track and this is the first one
-                        if (numOfDevTracks > 1) {
-                            hmlString += '<td rowspan="2" class="dtable-cell indicator-cell dheader-style" >';
-                        } else {
-                            hmlString += '<td class="dtable-cell indicator-cell dheader-style">';
-                        }
-                        hmlString += subindicator.title + '<br/><br/>';
-                        hmlString += '('+Data.indicators.structure.relevance+': '+
-                            Data.indicators.structure.relevances[subindicator.relevance]+')';
-                        hmlString += '</td>';
+                // one row for every dev track
+                hmlString += '<tr>';
+
+                if (!subindicatorAdded) {
+                    // add subindicator info
+                    // if more than one dev track and this is the first one
+                    if (numOfDevTracks > 1) {
+                        hmlString += '<td rowspan="2" class="dtable-cell indicator-cell dheader-style" >';
+                    } else {
+                        hmlString += '<td class="dtable-cell indicator-cell dheader-style">';
                     }
-
-                    // add development tracks
-                    for (var devDetailsIndex = 0; devDetailsIndex < numOfDevDetails; devDetailsIndex++) {
-                        var devDetail = devTrack.developmentDetails[devDetailsIndex];
-
-                        // if more than one dev track and this is the first one
-                        if (devDetail.levels.length > 1) {
-                            hmlString += '<td colspan="'+devDetail.levels.length+'"  class="dtable-cell indicator-cell" >';
-                        } else {
-                            hmlString += '<td class="dtable-cell indicator-cell">';
-                        }
-
-                        hmlString += devDetail.description;
-                        hmlString += '</td>';
-                    }
-
-                    subindicatorAdded = true;
-                    hmlString += '</tr>';
+                    hmlString += subindicator.title + '<br/><br/>';
+                    hmlString += '('+Data.indicators.structure.relevance+': '+
+                        Data.indicators.structure.relevances[subindicator.relevance]+')';
+                    hmlString += '</td>';
                 }
+
+                // add development tracks
+                for (var devDetailsIndex = 0; devDetailsIndex < numOfDevDetails; devDetailsIndex++) {
+                    var devDetail = devTrack.developmentDetails[devDetailsIndex];
+
+                    // if more than one dev track and this is the first one
+                    if (devDetail.levels.length > 1) {
+                        hmlString += '<td colspan="'+devDetail.levels.length+'"  class="dtable-cell indicator-cell" >';
+                    } else {
+                        hmlString += '<td class="dtable-cell indicator-cell">';
+                    }
+
+                    hmlString += devDetail.description;
+                    hmlString += '</td>';
+                }
+
+                subindicatorAdded = true;
+                hmlString += '</tr>';
             }
         }
 
