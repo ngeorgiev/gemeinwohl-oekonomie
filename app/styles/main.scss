@@ -8,8 +8,8 @@ $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
 $grey: #CCCCCC;
 $grey-middle: #555555;
 $grey-border: #D8D8D8;
-$grey-light-darker: #FAFAFA;
-$grey-light: #FFFFFF;
+$grey-light: #FEFEFE;
+$grey-light-darker: #F8F8F8;
 $grey-light-border: #E5E5E5;
 
 $gwoe-blue: #99CCCC;
@@ -20,12 +20,32 @@ $advanced-level-color: #FFF101;
 $experienced-level-color: #A3CF9A;
 $model-level-color: #40AE49;
 
+$negative-color: #DE6B3C;
+$negative-content-color: #7B7C7F;
+
 /* Sizes */
 $normal-font-size: 14px;
 $smaller-font-size: 12px;
 
-
 $border-medium-size: 4px;
+
+/* GENERAL - Start */
+.divcontainer:before,
+.divcontainer:after {
+  content: "";
+  display: table;
+}
+
+.divcontainer:after {
+  clear: both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.divcontainer {
+  zoom: 1;
+}
+
+/* end -------------- */
 
 .page-wrapper {
   padding: 5%;
@@ -53,6 +73,42 @@ $border-medium-size: 4px;
 .gwoe-blue-b {
   color: $gwoe-blue;
   font-weight: bold;
+}
+
+.negative-color {
+  color: $negative-color;
+}
+
+.negative-color-b {
+  color: $negative-color;
+  font-weight: bold;
+}
+
+.whitebg {
+  background-color: $grey-light;
+}
+
+.negative-container {
+  display: table;
+  margin-bottom: 10px;
+}
+
+.negative-content {
+  display: table-cell;
+  width: 100%;
+  font-size: $smaller-font-size;
+  color: $negative-content-color;
+}
+
+.negative-points-container {
+  display: table-cell;
+  width: 90px;
+  margin-left: 10px;
+  color: $negative-color;
+  font-weight: bold;
+}
+
+.negative-points {
 }
 
 .header-text-top {
@@ -90,7 +146,6 @@ $border-medium-size: 4px;
   font-weight: bold;
 }
 
-
 /* Indicator Pages */
 
 .indicator-page-title {
@@ -111,11 +166,11 @@ $border-medium-size: 4px;
 }
 
 .subindicator-header {
-  border-top: $border-medium-size  solid $grey-border !important;
+  border-top: $border-medium-size solid $grey-border !important;
 }
 
 .basic-level-header {
-  border-top: $border-medium-size  solid $basic-level-color !important;
+  border-top: $border-medium-size solid $basic-level-color !important;
 }
 
 .advanced-level-header {
@@ -159,9 +214,14 @@ $border-medium-size: 4px;
 
 /* CSS Div Table */
 .dtable {
+  display: table;
   width: 100%;
   border: 1px solid $grey;
   background-color: #FFFFFF;
+}
+
+.dtable-row {
+  display: table-row;
 }
 
 .dheader-style {
@@ -175,6 +235,7 @@ $border-medium-size: 4px;
 }
 
 .dtable-cell {
+  display: table-cell;
   vertical-align: top;
   border-right: 1px solid $grey-light-border;
   border-bottom: 1px solid $grey-light-border;
@@ -191,6 +252,62 @@ $border-medium-size: 4px;
 
 .col-5-6 {
   width: 83.33334%;
+}
+
+/* Table Style */
+
+.bootrap-row {
+  border-top: 1px solid $grey-light-border;
+}
+
+/* CSS Bootstrap Div Table */
+/* hack: http://codepen.io/basement31/pen/Ifaeu */
+
+.bootstrap-table {
+  position: relative;
+}
+
+/* Layout */
+.row {
+  overflow: hidden;
+  position: relative;
+  margin: 0px !important;
+}
+
+.row-wrapper {
+  overflow: hidden;
+  margin-bottom: -500px;
+}
+
+.row-cell {
+  padding-bottom: 540px;
+}
+
+.row-cell {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+}
+
+/* Style */
+.bootstrap-table {
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.row {
+  border-top: 1px solid #CCCCCC;
+}
+
+.row-cell {
+  border-left: 1px solid #CCCCCC;
+}
+
+.last-row {
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.last-cell {
+  border-right: 1px solid #CCCCCC;
 }
 
 /* Modal */
@@ -248,12 +365,12 @@ $border-medium-size: 4px;
 
 $tabs-border-color: $grey-border;
 
-#tabs {
+.tabs {
   min-height: 350px;
   width: 100%;
 }
 
-#tablist {
+.tablist {
   float: left;
   width: 100%;
   margin: 0;

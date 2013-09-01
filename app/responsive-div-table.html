@@ -13,19 +13,228 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="styles/vendor/bootstrap-grid.css">
+
+
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
+
+    <style type="text/css">
+
+        body {
+            margin: 0;
+        }
+
+        .page-wrapper {
+            padding: 5%;
+        }
+
+        .bootstrap-table {
+            position: relative;
+        }
+
+            /* hack: http://codepen.io/basement31/pen/Ifaeu */
+            /* Layout */
+        .row {
+            overflow: hidden;
+            position: relative;
+        }
+
+        .row-wrapper {
+            overflow: hidden;
+            margin-bottom: -500px;
+        }
+
+        .row-cell {
+            padding-bottom: 540px;
+        }
+
+        .row-cell {
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 5px;
+        }
+
+        /* Style */
+        .row {
+            border-top: 1px solid #CCCCCC;
+        }
+
+        .row-cell {
+            border-left: 1px solid #CCCCCC;
+        }
+
+        .last-row {
+            border-bottom: 1px solid #CCCCCC;
+        }
+
+        .last-cell {
+            border-right: 1px solid #CCCCCC;
+        }
+
+        /* 2 - Layout */
+
+        .inner-table {
+            position: relative;
+        }
+
+        .inner-row {
+            overflow: hidden;
+            position: relative;
+        }
+
+        .first-inner-row {
+            overflow: hidden;
+            position: relative;
+        }
+
+        .first-inner-cell {
+            padding-bottom: 540px;
+        }
+
+        .inner-cell {
+            padding-bottom: 540px;
+        }
+
+        /* make it equal width with the cell on the right*/
+        .colspan-cell {
+            margin-bottom: -100000px;
+            padding-bottom: 100000px;
+        }
+
+        .col-lg20-2 {
+            width: 20%;
+            float: left;
+        }
+
+        .col-lg40-2 {
+            width: 40%;
+            float: left;
+        }
+
+        .col-lg60-2 {
+            width: 60%;
+            float: left;
+        }
+
+        .col-lg20-10 {
+            width: 83.3333%;
+            float: left;
+        }
+
+        /* 2 - Style */
+        .inner-row {
+            border-top: 1px solid #CCCCCC;
+        }
+        .colspan-cell {
+            border-left: 0px;
+            border-right: 1px solid #CCCCCC;
+        }
+
+        .colspan-row {
+            border-left: 1px solid #CCCCCC;
+        }
+
+        .inner-cell {
+            border-left: 1px solid #CCCCCC;
+        }
+    </style>
 </head>
 <body>
+
 
 <div class="page-wrapper">
 
     <div class="bubble">
+
+        <br/><br/><br/><br/>
+
+        <div class="bootstrap-table">
+            <div class="row">
+                <div class="row-wrapper">
+                    <div class="row-cell col-lg-2 col-md-2 col-sm-2 col-xs-2">Header 1</div>
+                    <div class="row-cell col-lg-2 col-md-2 col-sm-2 col-xs-2">Header 2</div>
+                    <div class="row-cell col-lg-2 col-md-2 col-sm-2 col-xs-2">Header 3</div>
+                    <div class="row-cell col-lg-2 col-md-2 col-sm-2 col-xs-2">Header 4</div>
+                    <div class="row-cell col-lg-2 col-md-2 col-sm-2 col-xs-2">Header 5</div>
+                    <div class="row-cell last-cell col-lg-2 col-md-2 col-sm-2 col-xs-2">Header 6</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="row-wrapper">
+                    <div class="row-cell col-lg-2 col-md-2 col-sm-2 col-xs-2">Row 1 - Entry 1 - col-2</div>
+                    <div class="row-cell last-cell col-lg-10 col-md-10 col-sm-10 col-xs-10">Row 1 - Entry 2 - col-10
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="row-wrapper">
+                    <div class="row-cell col-lg-2 col-md-2 col-sm-2 col-xs-2">Row 2 - Entry 1 - col-2</div>
+                    <div class="row-cell col-lg-8 col-md-8 col-sm-8 col-xs-8">Row 2 - Entry 2 - col-8</div>
+                    <div class="row-cell last-cell col-lg-2 col-md-2 col-sm-2 col-xs-2">Row 2 - Entry 3 - col-2</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="row-wrapper">
+                    <div class="row-cell col-lg-2 col-md-2 col-sm-2 col-xs-2">Row 3 - Entry 1 - col-2</div>
+                    <div class="row-cell col-lg-2 col-md-2 col-sm-2 col-xs-2">Row 3 - Entry 2 - col-2</div>
+                    <div class="row-cell col-lg-2 col-md-2 col-sm-2 col-xs-2">Row 3 - Entry 3 - col-2</div>
+                    <div class="row-cell col-lg-2 col-md-2 col-sm-2 col-xs-2">Row 3 - Entry 4 - col-2</div>
+                    <div class="row-cell col-lg-2 col-md-2 col-sm-2 col-xs-2">Row 3 - Entry 5 - col-2</div>
+                    <div class="row-cell last-cell col-lg-2 col-md-2 col-sm-2 col-xs-2">Row 3 - Entry 6 - col-2</div>
+                </div>
+            </div>
+            <div class="row colspan-row">
+
+                <div class="row-cell colspan-cell col-lg-2 col-md-2 col-sm-2 col-xs-2">Row 3 - Entry 1 - col-2</div>
+                <div class="col-lg20-10">
+                    <div class="inner-table">
+                        <div class="first-inner-row">
+                            <div class="row-wrapper">
+                                <div class="first-inner-cell col-lg20-2 col-md-2 col-sm-2 col-xs-2">Row 3 - Entry 1 -
+                                    col-2
+                                </div>
+                                <div class="inner-cell col-lg40-2 col-md-2 col-sm-2 col-xs-2">Row 3 - Entry 3 - col-2
+                                </div>
+                                <div class="inner-cell col-lg20-2 col-md-2 col-sm-2 col-xs-2">Row 3 - Entry 2 - col-2
+                                </div>
+                                <div class="inner-cell last-cell col-lg20-2 col-md-2 col-sm-2 col-xs-2">Row 3 - Entry 5 - col-2
+                                </div>
+                            </div>
+                        </div>
+                        <div class="inner-row">
+                            <div class="row-wrapper">
+                                <div class="first-inner-cell col-lg60-2 col-md-2 col-sm-2 col-xs-2">Row 3 - Entry 2 -
+                                    col-2
+                                </div>
+                                <div class="inner-cell col-lg20-2 col-md-2 col-sm-2 col-xs-2">Row 3 - Entry 1 - col-2
+                                </div>
+                                <div class="inner-cell last-cell col-lg20-2 col-md-2 col-sm-2 col-xs-2">Row 3 - Entry 5 - col-2
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row last-row">
+                <div class="row-wrapper">
+                    <div class="row-cell col-lg-2 col-md-2 col-sm-2 col-xs-2">Row 3 - Entry 1 - col-2</div>
+                    <div class="row-cell col-lg-2 col-md-2 col-sm-2 col-xs-2">Row 3 - Entry 2 - col-2</div>
+                    <div class="row-cell col-lg-2 col-md-2 col-sm-2 col-xs-2">Row 3 - Entry 3 - col-2</div>
+                    <div class="row-cell col-lg-2 col-md-2 col-sm-2 col-xs-2">Row 3 - Entry 4 - col-2</div>
+                    <div class="row-cell col-lg-2 col-md-2 col-sm-2 col-xs-2">Row 3 - Entry 5 - col-2</div>
+                    <div class="row-cell last-cell col-lg-2 col-md-2 col-sm-2 col-xs-2">Row 3 - Entry 6 - col-2</div>
+                </div>
+            </div>
+        </div>
+
+        <br/><br/><br/><br/>
+
 
         <div class="dtable">
 
@@ -57,7 +266,8 @@
             </div>
         </div>
 
-    </div> <!-- end of buble -->
+    </div>
+    <!-- end of buble -->
 
 </div>
 
@@ -68,7 +278,6 @@
 
 <!-- build:js scripts/main.js -->
 <script src="bower_components/jquery/jquery.js"></script>
-<script src="scripts/main.js"></script>
 <!-- endbuild -->
 
 <!-- build:js(.tmp) scripts/coffee.js -->

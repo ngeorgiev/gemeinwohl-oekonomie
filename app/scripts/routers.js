@@ -2,6 +2,9 @@
 
 var Router = {
 
+    hashSymbol : '#',
+    matrixPrefix : 'matrix-',
+
     /**
      * Initializes the URL Routing
      */
@@ -12,28 +15,36 @@ var Router = {
         if (urlHash && urlHash.length > 1) {
             var hash = urlHash.substr(1);
 
-            // hack: assumes the format "matrix-a1"
-            if (hash.length === 9) {
-                Router.showIndicator(hash);
-            } else if (hash.length > 9) {
-                var indicatorId = hash.substr(0, 9);
-                var indicatorDetailId = urlHash.substr(10);
-                Router.showIndicator(indicatorId, indicatorDetailId);
+            if(hash.startsWith(Router.matrixPrefix)) {
+                // hack: assumes the format "matrix-<pageid>"
+                if (hash.length === 9) {
+                    Router.showPage(hash);
+                } else if (hash.length > 9) {
+                    var indicatorId = hash.substr(0, 9);
+                    var indicatorDetailId = urlHash.substr(10);
+                    Router.showPage(indicatorId, indicatorDetailId);
+                }
             }
         }
     },
 
-    showIndicator : function (indicatorId, indicatorDetailId) {
+    showPage : function (indicatorId, indicatorDetailId) {
 
         // init params
-        indicatorDetailId = typeof indicatorDetailId !== 'undefined' ?
-            indicatorDetailId : '-goals';
+        if (indicatorId.startsWith(Router.matrixPrefix)) { // if matrix URL
+            if (indicatorId.startsWith('n')) { // negative criteria URL
+                indicatorDetailId = ''; // no details
+            } else {
+                indicatorDetailId = typeof indicatorDetailId !== 'undefined' ?
+                    indicatorDetailId : '-goals';
+            }
+        }
         currentIndicatorId = indicatorId;
 
         $('#gwoe-matrix').fadeOut(100, function () {
-            $('#' + indicatorId).fadeIn(300);
+            $(Router.hashSymbol + indicatorId).fadeIn(300);
         });
-        window.location.hash = '#' + indicatorId + indicatorDetailId;
+        window.location.hash = Router.hashSymbol + indicatorId + indicatorDetailId;
     },
 
     showMatrix : function () {
