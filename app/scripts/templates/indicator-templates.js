@@ -1,7 +1,7 @@
 /*jshint multistr: true */
 
 var indicatorTabsTemplate =
-    '<div id="matrix-{shortcodeSlug}" class="indicator-modal display-none">\
+    '<div id="matrix-{shortcodeSlug}" class="display-none">\
         <button class="back-to-matrix">Zeige die Matrix</button>\
         \
         <div class="indicator-page-title">\

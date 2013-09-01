@@ -2,20 +2,31 @@
 
 var Router = {
 
-    hashSymbol: '#',
-    matrixPrefix: 'matrix-',
+    hashSymbol : '#',
+    hashQuickTest : 'quick-test',
+    hashMatrix : 'matrix',
+    hashMatrixMinus : 'matrix-',
+
+    mainPageId : 'main-page',
+    quickTestId : 'quick-test',
+    matrixId : 'gwoe-matrix',
+
+    fadeOutSpeed : 100,
+    fadeInSpeed : 300,
 
     /**
      * Initializes the URL Routing
      */
     init: function () {
 
-        // Open the given hash value from the URL
         var urlHash = window.location.hash;
-        if (urlHash && urlHash.length > 1) {
+
+        var pageWasShown = Router.onHashChange();
+
+        if(!pageWasShown && urlHash && urlHash.length > 1) {
             var hash = urlHash.substr(1);
 
-            if (hash.startsWith(Router.matrixPrefix)) {
+            if (hash.startsWith(Router.hashMatrixMinus)) {
                 // hack: assumes the format "matrix-<pageid>"
                 if (hash.length === 9) {
                     Router.showPage(hash);
@@ -23,23 +34,45 @@ var Router = {
                     var indicatorId = hash.substr(0, 9);
                     var indicatorDetailId = urlHash.substr(10);
                     Router.showPage(indicatorId, indicatorDetailId);
+                } else {
+                    Router.showMatrix();
                 }
+            } else if (hash.startsWith(Router.hashMatrix)) {
+                Router.showMatrix();
+            } else if (hash.startsWith(Router.hashMatrix)) {
+                Router.showQuickTest();
+            } else {
+                Router.showMainPage();
             }
         }
 
-        // if the user clicks the back button to go the main page, show the matrix
-        $(window).bind('hashchange', function () {
-            var urlHash = window.location.hash;
-            if(!urlHash) {
-                Router.showMatrix();
-            }
-        });
+        $(window).bind('hashchange', Router.onHashChange);
+    },
+
+    /**
+     * Return true if it has shown a page (main or matrix)
+     * @returns {boolean}
+     */
+    onHashChange: function () {
+        console.log('on hash change');
+        var urlHash = window.location.hash;
+        if(!urlHash) {
+            Router.showMainPage();
+            return true;
+        } else if (urlHash === Router.hashSymbol + Router.hashMatrix) {
+            Router.showMatrix();
+            return true;
+        } else if (urlHash === Router.hashSymbol + Router.hashQuickTest) {
+            Router.showQuickTest();
+            return true;
+        }
+        return false;
     },
 
     showPage: function (indicatorId, indicatorDetailId) {
 
         // init params
-        if (indicatorId.startsWith(Router.matrixPrefix)) { // if matrix URL
+        if (indicatorId.startsWith(Router.hashMatrixMinus)) { // if matrix URL
             if (indicatorId.startsWith('n')) { // negative criteria URL
                 indicatorDetailId = ''; // no details
             } else {
@@ -47,7 +80,7 @@ var Router = {
                     indicatorDetailId : '-goals';
             }
         }
-        currentIndicatorId = indicatorId;
+        visibleElementId = indicatorId;
 
         $('#gwoe-matrix').fadeOut(100, function () {
             $(Router.hashSymbol + indicatorId).fadeIn(300);
@@ -55,12 +88,46 @@ var Router = {
         window.location.hash = Router.hashSymbol + indicatorId + indicatorDetailId;
     },
 
-    showMatrix: function () {
-        $('#' + currentIndicatorId).fadeOut(100, function () {
-            $('#gwoe-matrix').fadeIn(300);
-        });
+    showMainPage : function () {
+        if (visibleElementId) {
+            $('#' + visibleElementId).fadeOut(100, Router.fadeInMainPage);
+        } else {
+            Router.fadeInMainPage();
+        }
         window.location.hash = '';
-        currentIndicatorId = '';
+        visibleElementId = Router.mainPageId;
+    },
+
+    showQuickTest : function () {
+        console.log('Hiding: ' + visibleElementId);
+        $('#' + visibleElementId).fadeOut(100, Router.fadeInQuickTest());
+        visibleElementId = Router.quickTestId;
+    },
+
+    showMatrix : function () {
+        console.log('Hiding: ' + visibleElementId);
+        $('#' + visibleElementId).fadeOut(100, Router.fadeInMatrix());
+        visibleElementId = Router.matrixId;
+    },
+
+    showMatrixByHash : function () {
+        window.location.hash = Router.hashMatrix;
+    },
+
+    fadeInContainer : function (containerId) {
+        $('#' + containerId).fadeIn(Router.fadeInSpeed);
+    },
+
+    fadeInMainPage : function (containerId) {
+        Router.fadeInContainer(Router.mainPageId);
+    },
+
+    fadeInQuickTest : function (containerId) {
+        Router.fadeInContainer(Router.quickTestId);
+    },
+
+    fadeInMatrix : function (containerId) {
+        Router.fadeInContainer(Router.matrixId);
     }
 
 };

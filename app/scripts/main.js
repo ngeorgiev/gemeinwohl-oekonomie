@@ -15,9 +15,7 @@ $('.ind-trigger').each(function (i, elem) {
 });
 
 $('.back-to-matrix').each(function (i, elem) {
-    $(elem).click(function () {
-        Router.showMatrix();
-    });
+    $(elem).click(Router.showMatrixByHash);
 });
 
 
