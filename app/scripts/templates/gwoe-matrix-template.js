@@ -3,27 +3,27 @@
 var gwoeMatrixTemplate =
     '<div id="gwoe-matrix" class="bubble">\
         \
-        <table class="dtable">\
+        <div class="bootstrap-table whitebg">\
         \
-            <thead>\
-            <tr class="dheader-style">\
-                <th class="dtable-cell col-1-6">\
-                    <span class="matrix-value-header">{valueName}</span> / <span class="gwoe-blue">{stakeholdersName}</span>\
-                </th>\
-                <th class="dtable-cell col-1-6 gwoe-green">{values[0]}</th>\
-                <th class="dtable-cell col-1-6 gwoe-green">{values[1]}</th>\
-                <th class="dtable-cell col-1-6 gwoe-green">{values[2]}</th>\
-                <th class="dtable-cell col-1-6 gwoe-green">{values[3]}</th>\
-                <th class="dtable-cell col-1-6 gwoe-green">{values[4]}</th>\
-            </tr>\
-            </thead>\
+            <div class="row dheader-style">\
+                <div class="row-wrapper">\
+                    <div class="row-cell col-lg-2 col-md-2 col-sm-2 col-xs-2">\
+                        <span class="matrix-value-header">{valueName}</span> / <span class="gwoe-blue">{stakeholdersName}</span>\
+                    </div>\
+                    <div class="row-cell gwoe-green col-lg-2 col-md-2 col-sm-2 col-xs-2">{values[0]}</div>\
+                    <div class="row-cell gwoe-green col-lg-2 col-md-2 col-sm-2 col-xs-2">{values[1]}</div>\
+                    <div class="row-cell gwoe-green col-lg-2 col-md-2 col-sm-2 col-xs-2">{values[2]}</div>\
+                    <div class="row-cell gwoe-green col-lg-2 col-md-2 col-sm-2 col-xs-2">{values[3]}</div>\
+                    <div class="row-cell last-cell gwoe-green col-lg-2 col-md-2 col-sm-2 col-xs-2">{values[4]}</div>\
+                </div>\
+            </div>\
             \
-            <tbody>\
-                <tr>\
-                    <td class="dtable-cell col-1-6 dheader-style gwoe-blue-b">\
+            <div class="row">\
+                <div class="row-wrapper">\
+                    <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">\
                         {stakeholders[0].shortcode}) {stakeholders[0].name}\
-                    </td>\
-                    <td class="dtable-cell indicator-cell" colspan="5">\
+                    </div>\
+                    <div class="row-cell indicator-cell last-cell col-lg-10 col-md-10 col-sm-10 col-xs-10">\
                         <div class="indicator-title">\
                             {stakeholders[0].values[0].shortcode}) {stakeholders[0].values[0].title}\
                         </div>\
@@ -33,85 +33,121 @@ var gwoeMatrixTemplate =
                         <div class="indicator-points">\
                             {stakeholders[0].values[0].points}\
                         </div>\
-                    </td>\
-                </tr>\
-            <tr>\
-                <td class="dtable-cell col-1-6 dheader-style gwoe-blue-b">\
-                    {stakeholders[1].shortcode}) {stakeholders[1].name}\
-                </td>\
-                <td class="dtable-cell indicator-cell" colspan="5">\
-                    <div class="indicator-title">\
-                        {stakeholders[1].values[0].shortcode}) {stakeholders[1].values[0].title}\
                     </div>\
-                    <div class="indicator-description">\
-                        {stakeholders[1].values[0].content}\
-                    </div>\
-                    <div class="indicator-points">\
-                        {stakeholders[1].values[0].points}\
-                    </div>\
-                </td>\
-            </tr>\
+                </div>\
+            </div>\
             \
-            <tr>\
-                <td class="dtable-cell col-1-6 dheader-style gwoe-blue-b">\
-                    {stakeholders[2].shortcode}) {stakeholders[2].name}\
-                </td>\
-                \
-                {#stakeholders[2].values}\
-                <td class="dtable-cell indicator-cell col-1-6 ind-trigger" data-modal="matrix-{shortcodeSlug}">\
-                    <div class="indicator-title">\
-                        {shortcode}) {title}\
+            <div class="row">\
+                <div class="row-wrapper">\
+                    <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">\
+                        {stakeholders[1].shortcode}) {stakeholders[1].name}\
                     </div>\
-                    <div class="indicator-description">\
-                        {content}\
+                    <div class="row-cell indicator-cell last-cell col-lg-10 col-md-10 col-sm-10 col-xs-10">\
+                        <div class="indicator-title">\
+                            {stakeholders[1].values[0].shortcode}) {stakeholders[1].values[0].title}\
+                        </div>\
+                        <div class="indicator-description">\
+                            {stakeholders[1].values[0].content}\
+                        </div>\
+                        <div class="indicator-points">\
+                            {stakeholders[1].values[0].points}\
+                        </div>\
                     </div>\
-                    <div class="indicator-points">\
-                        {points}\
-                    </div>\
-                </td>\
-                {/stakeholders[2].values}\
-            </tr>\
+                </div>\
+            </div>\
             \
-            <tr>\
-                <td class="dtable-cell col-1-6 dheader-style gwoe-blue-b">\
-                    {stakeholders[3].shortcode}) {stakeholders[3].name}\
-                </td>\
-                {#stakeholders[3].values}\
-                <td class="dtable-cell indicator-cell col-1-6 ind-trigger" data-modal="matrix-{shortcodeSlug}">\
-                    <div class ="indicator-title">\
-                        {shortcode}) {title}\
+            <div class="row">\
+                <div class="row-wrapper">\
+                    <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">\
+                        {stakeholders[2].shortcode}) {stakeholders[2].name}\
                     </div>\
-                    <div class="indicator-description">\
-                        {content}\
+                    \
+                    {#stakeholders[2].values}\
+                    <div class="row-cell indicator-cell {@if cond="{$idx} == 4"}last-cell {/if}ind-trigger col-lg-2 col-md-2 col-sm-2 col-xs-2" \
+                                                                        data-modal="matrix-{shortcodeSlug}">\
+                        <div class="indicator-title">\
+                            {shortcode}) {title}\
+                        </div>\
+                        <div class="indicator-description">\
+                            {content}\
+                        </div>\
+                        <div class="indicator-points">\
+                            {points}\
+                        </div>\
                     </div>\
-                    <div class="indicator-points">\
-                        {points}\
-                    </div>\
-                </td>\
-                {/stakeholders[3].values}\
-            </tr>\
+                    {/stakeholders[2].values}\
+                </div>\
+            </div>\
             \
-            <tr>\
-                <td class="dtable-cell col-1-6 dheader-style gwoe-blue-b">\
-                    {stakeholders[4].shortcode}) {stakeholders[4].name}\
-                </td>\
-                {#stakeholders[4].values}\
-                <td class="dtable-cell indicator-cell col-1-6 ind-trigger" data-modal="matrix-{shortcodeSlug}">\
-                    <div class ="indicator-title">\
-                        {shortcode}) {title}\
+            <div class="row">\
+                <div class="row-wrapper">\
+                    <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">\
+                        {stakeholders[3].shortcode}) {stakeholders[3].name}\
                     </div>\
-                    <div class="indicator-description">\
-                        {content}\
+                    {#stakeholders[3].values}\
+                    <div class="row-cell indicator-cell {@if cond="{$idx} == 4"}last-cell {/if}ind-trigger col-lg-2 col-md-2 col-sm-2 col-xs-2" \
+                                                                        data-modal="matrix-{shortcodeSlug}">\
+                        <div class ="indicator-title">\
+                            {shortcode}) {title}\
+                        </div>\
+                        <div class="indicator-description">\
+                            {content}\
+                        </div>\
+                        <div class="indicator-points">\
+                            {points}\
+                        </div>\
                     </div>\
-                    <div class="indicator-points">\
-                        {points}\
-                    </div>\
-                </td>\
-                {/stakeholders[4].values}\
-            </tr>\
+                    {/stakeholders[3].values}\
+                </div>\
+            </div>\
             \
-            </tbody>\
-        </table>\
+            <div class="row">\
+                <div class="row-wrapper">\
+                    <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">\
+                        {stakeholders[4].shortcode}) {stakeholders[4].name}\
+                    </div>\
+                    {#stakeholders[4].values}\
+                    <div class="row-cell indicator-cell {@if cond="{$idx} == 4"}last-cell {/if}ind-trigger col-lg-2 col-md-2 col-sm-2 col-xs-2" \
+                                                                        data-modal="matrix-{shortcodeSlug}">\
+                        <div class ="indicator-title">\
+                            {shortcode}) {title}\
+                        </div>\
+                        <div class="indicator-description">\
+                            {content}\
+                        </div>\
+                        <div class="indicator-points">\
+                            {points}\
+                        </div>\
+                    </div>\
+                    {/stakeholders[4].values}\
+                </div>\
+            </div>\
+            \
+            <div class="row">\
+                <div class="row-wrapper">\
+                    <div class="row-cell dheader-style negative-color-b col-lg-2 col-md-2 col-sm-2 col-xs-2">\
+                        {negativeCriteriaName}\
+                    </div>\
+                    {#negativeCriteria}\
+                    <div class="row-cell indicator-cell {@if cond="{$idx} == 4"}last-cell {/if}col-lg-2 col-md-2 col-sm-2 col-xs-2">\
+                        {#values}\
+                            <div class="negative-container ind-trigger" data-modal="matrix-{shortcodeSlug}">\
+                                <div class="negative-content">\
+                                    {titleShort}\
+                                </div>\
+                                <div class="negative-points-container">\
+                                    <div class="negative-points">\
+                                        {points}\
+                                    </div>\
+                                </div>\
+                            </div>\
+                        {/values}\
+                    </div>\
+                    {/negativeCriteria}\
+                </div>\
+            </div>\
+            \
+        </div>\
         <!-- end of matrix table -->\
         \
     </div>\

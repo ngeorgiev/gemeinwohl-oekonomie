@@ -8,8 +8,8 @@ var indicatorTabsTemplate =
             <h2>{shortcode}: {name}</h2>\
         </div>\
         \
-        <div id="tabs">\
-            <ul id="tablist">\
+        <div class="tabs">\
+            <ul class="tablist">\
             \
                 <span id="matrix-{shortcodeSlug}-goals" class="fixedanchor"></span>\
                 <li class="tabcontainer">\

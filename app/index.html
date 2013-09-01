@@ -26,28 +26,9 @@
 </head>
 <body>
 
-<!--
-    <div class="md-modal md-effect-1" id="modal-c1">
-        <div class="md-content">
-            <h3>Modal Dialog</h3>
-            <div>
-                <p>This is a modal window. You can do the following things with it:</p>
-                <ul>
-                    <li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-                    <li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-                    <li><strong>Close:</strong> click on the button below to close the modal.</li>
-                </ul>
-                <button class="md-close">Close me!</button>
-            </div>
-        </div>
-    </div>
--->
-
-
 <div class="page-wrapper">
 
     <div id="gwoe-matrix-container"></div>
-
     <div id="indicators-container"></div>
 
 </div>
@@ -61,6 +42,7 @@
 <!-- build:js scripts/plugins.js -->
 <script src="bower_components/jquery/jquery.js"></script>
 <script src="bower_components/dustjs-linkedin/dist/dust-full-2.0.0.min.js"></script>
+<script src="bower_components/dustjs-linkedin-helpers/dist/dust-helpers-1.1.1.js"></script>
 <!-- endbuild -->
 
 <!-- build:js scripts/main.js -->
@@ -70,6 +52,7 @@
 
 <script src="scripts/templates/gwoe-matrix-template.js"></script>
 <script src="scripts/templates/indicator-templates.js"></script>
+<script src="scripts/templates/negative-criteria-template.js"></script>
 
 <script src="scripts/config.js"></script>
 <script src="scripts/routers.js"></script>

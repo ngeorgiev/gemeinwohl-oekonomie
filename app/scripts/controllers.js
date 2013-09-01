@@ -26,18 +26,33 @@ var Controller = {
      */
     createIndicatorsHtml : function () {
 
-        var structure = Data.indicators.structure;
-        var indicatorsData = Data.indicators.data;
-        var numOfIndicators = indicatorsData.length;
+        var dataIndicators = Data.indicators;
+        var structure = dataIndicators.structure;
+
+        var indicators = dataIndicators.data.indicators;
+        var negativeCriteria = dataIndicators.data.negativeCriteria;
+
+        Controller.createIndicatorContainer(indicators, negativeCriteria);
+        Controller.createIndicatorTabs(structure, indicators, negativeCriteria);
+
+        return true; // avoid message 'function has inconsistent return points'
+    },
+
+    /**
+     * Creates the HTML for the Indicator Container from JSON data
+     * @param indicators - JSON data
+     * @param negativeCriteria - JSON data
+     */
+    createIndicatorContainer : function (indicators, negativeCriteria) {
 
         var indicatorHtml = '';
-        var indicatorIndex;
-        var indicator;
 
-        for (indicatorIndex = 0; indicatorIndex < numOfIndicators; indicatorIndex++) {
+        var numOfIndicators = indicators.length;
+        var indicator;
+        for (var indicatorIndex = 0; indicatorIndex < numOfIndicators; indicatorIndex++) {
 
             // the current indicator data
-            indicator = indicatorsData[indicatorIndex];
+            indicator = indicators[indicatorIndex];
 
             //
             var compiledTemplate = dust.compile(indicatorTabsTemplate, 'indicatorTabsTemplate');
@@ -47,11 +62,51 @@ var Controller = {
             });
         }
 
-        document.getElementById('indicators-container').innerHTML = indicatorHtml;
+        indicatorHtml += Controller.getNegativeCriteriaHtml(negativeCriteria);
 
-        for (indicatorIndex = 0; indicatorIndex < numOfIndicators; indicatorIndex++) {
+        document.getElementById('indicators-container').innerHTML = indicatorHtml;
+    },
+
+    /**
+     * Creates the HTML for the Negative Criteria from JSON data
+     * @param negativeCriteria - JSON data
+     * @returns {string}
+     */
+    getNegativeCriteriaHtml : function (negativeCriteria) {
+
+        var negativeCriteriaHtml = '';
+
+        var numOfNegativeCriteria = negativeCriteria.length;
+        var negativeCriterion;
+        for (var criteriaIndex = 0; criteriaIndex < numOfNegativeCriteria; criteriaIndex++) {
+
+            // the current negative criterion data
+            negativeCriterion = negativeCriteria[criteriaIndex];
+
+            var compiledTemplate = dust.compile(negativeCriteriaTemplate, 'negativeCriteriaTemplate');
+            dust.loadSource(compiledTemplate);
+            dust.render('negativeCriteriaTemplate', negativeCriterion, function(err, out) {
+                negativeCriteriaHtml += out;
+            });
+        }
+
+        return  negativeCriteriaHtml;
+    },
+
+    /**
+     * Creates the HTML for the Indicator Tabs from JSON data
+     * @param structure - JSON data
+     * @param indicators - JSON data
+     * @param negativeCriteria - JSON data
+     */
+    createIndicatorTabs : function (structure, indicators, negativeCriteria) {
+
+        var numOfIndicators = indicators.length;
+        var indicator;
+
+        for (var indicatorIndex = 0; indicatorIndex < numOfIndicators; indicatorIndex++) {
             // the current indicator data
-            indicator = indicatorsData[indicatorIndex];
+            indicator = indicators[indicatorIndex];
 
             // add tab names
             $('.matrix-goals-tab-title').html(structure.goals);
@@ -73,7 +128,17 @@ var Controller = {
             // TODO: add the rest.
         }
 
-        return true; // avoid message 'function has inconsistent return points'
+        var numOfNegativeCriteria = negativeCriteria.length;
+        var negativeCriterion;
+        for (var criteriaIndex = 0; criteriaIndex < numOfNegativeCriteria; criteriaIndex++) {
+
+            // the current negative criterion data
+            negativeCriterion = negativeCriteria[criteriaIndex];
+
+            // add contents
+            document.getElementById('matrix-'+negativeCriterion.shortcodeSlug+'-content').innerHTML =
+                negativeCriterion.content;
+        }
     },
 
     getTableLegendString : function () {

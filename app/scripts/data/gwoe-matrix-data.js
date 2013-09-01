@@ -2,8 +2,10 @@ var Data = {};
 
 Data.matrix = {
 
-    stakeholdersName : 'Berührungsgruppe',
     valueName: 'Wert',
+    stakeholdersName : 'Berührungsgruppe',
+    negativeCriteriaName : 'Negativ-Kriterien',
+
     values : [
         'Menschenwürde',
         'Solidarität',
@@ -11,6 +13,7 @@ Data.matrix = {
         'Soziale Gerechtigkeit',
         'Demokratische Mitbestimmung & Transparenz'
     ],
+
     stakeholders : [
         {
             shortcode : 'A',
@@ -101,7 +104,7 @@ Data.matrix = {
                     shortcode : 'D3',
                     shortcodeSlug : 'd3',
                     title: 'Ökologische gestaltung der Produkte und Dienstleistungen',
-                    content: 'Angebot ökologisch höherwertiger Produkte/Dienstleistungen; Bewusstsein schaffende Maßnahmen; Berücksichtigung ökologischer Aspekte bei der KundInnenwahl',
+                    content: 'Angebot ökologisch höherwertiger Produkte / Dienstleistungen; Bewusstsein schaffende Maßnahmen; Berücksichtigung ökologischer Aspekte bei der KundInnenwahl',
                     points: 90
                 },
                 {
@@ -163,40 +166,145 @@ Data.matrix = {
             ]
         }
     ],
-    negativeCriteria : {
-        name: 'Negativ-Kriterien:',
-        values: [
-            {
-                shortcode : 'N1',
-                shortcodeSlug : 'n1',
-                title: 'Verletzung der ILO-Arbeitsnormen / Menschenrechte',
-                points: -200
-            },
-            {
-                title: 'Verletzung der ILO-Arbeitsnormen / Menschenrechte',
-                points: -200
-            },
-            {
-                shortcode : 'E3',
-                shortcodeSlug : 'e3',
-                title: 'Reduktion ökologischer Auswirkungen',
-                content: 'Reduktion der Umweltauswirkungen auf ein zukunftsfähiges Niveau: Ressourcen, Energie & Klima, Emissionen, Abfälle etc.',
-                points: 70
-            },
-            {
-                shortcode : 'E4',
-                shortcodeSlug : 'e4',
-                title: 'Gemeinwohlorientierte Gewinn-Verteilung',
-                content: 'Sinkende/ keine Gewinnausschüttung an Externe, Ausschüttung an Mitarbeiter, Stärkung des Eigenkapitals, sozial-ökologische Investitionen',
-                points: 60
-            },
-            {
-                shortcode : 'E5',
-                shortcodeSlug : 'e5',
-                title: 'Gesellschaftliche Transparenz und Mitbestimmung',
-                content: 'Gemeinwohl- oder Nachhaltigkeitsbericht, Mitbestimmung von regionalen und zivilgesellschaftlichen Berührungsgruppen',
-                points: 30
-            }
-        ]
-    }
+
+    negativeCriteria : [
+        {
+            values: [
+                {
+                    shortcode : 'N1',
+                    shortcodeSlug : 'n1',
+                    titleShort: 'Verletzung der ILO-Arbeitsnormen / Menschenrechte',
+                    points: -200
+                },
+                {
+                    shortcode : 'N2',
+                    shortcodeSlug : 'n2',
+                    titleShort: 'Menschenunwürdige Produkte, z.B. Tretminen, Atomstrom, GMO',
+                    title: 'Menschenunwürdige Produkte und Dienstleistungen',
+                    points: -200
+                },
+                {
+                    shortcode : 'N3',
+                    shortcodeSlug : 'n3',
+                    titleShort: 'Beschaffung bei / Kooperation mit Unternehmen, welche die Menschenwürde verletzen',
+                    title: 'Menschenunwürdige Produkte und Dienstbeschaffung bei bzt. Kooperation mit Unternehmen, welche die Menschenwürde verletzen',
+                    points: -150
+                }
+            ]
+        },
+        {
+            values: [
+                {
+                    shortcode : 'N4',
+                    shortcodeSlug : 'n4',
+                    titleShort: 'Feindliche Übernahme',
+                    title: 'Feindliche Übernahme',
+                    points: -200
+                },
+                {
+                    shortcode : 'N5',
+                    shortcodeSlug : 'n5',
+                    titleShort: 'Sperrpatente',
+                    title: 'Sperrpatente',
+                    points: -100
+                },
+                {
+                    shortcode : 'N6',
+                    shortcodeSlug : 'n6',
+                    titleShort: 'Dumpingpreise',
+                    title: 'Dumpingpreise',
+                    points: -200
+                }
+            ]
+        },
+        {
+            values: [
+                {
+                    shortcode : 'N7',
+                    shortcodeSlug : 'n7',
+                    titleShort: 'Illegitime Umweltbelastungen',
+                    title: 'Illegitime Umweltbelastungen',
+                    points: -200
+                },
+                {
+                    shortcode : 'N8',
+                    shortcodeSlug : 'n8',
+                    titleShort: 'Verstöße gegen Umweltauflagen',
+                    title: 'Verstöße gegen Umweltauflagen',
+                    points: -200
+                },
+                {
+                    shortcode : 'N9',
+                    shortcodeSlug : 'n9',
+                    titleShort: 'Geplante Obsoleszenz (kurze Lebensdauer der Produkte)',
+                    title: 'Geplante Obsoleszenz',
+                    points: -100
+                }
+            ]
+        },
+        {
+            values: [
+                {
+                    shortcode : 'N10',
+                    shortcodeSlug : 'n10',
+                    titleShort: 'Arbeitsrechtliches Fehlverhalten seitens des Unternehmens',
+                    title: 'Arbeitsrechtliches Fehlverhalten seitens des Unternehmens',
+                    points: -200
+                },
+                {
+                    shortcode : 'N11',
+                    shortcodeSlug : 'n11',
+                    titleShort: 'Arbeitsplatzabbau oder Standortverlagerung bei Gewinn',
+                    title: 'Arbeitsplatzabbau oder Standortverlagerung trotz Gewinn',
+                    points: -150
+                },
+                {
+                    shortcode : 'N12',
+                    shortcodeSlug : 'n12',
+                    titleShort: 'Umgehung der Steuerpflicht',
+                    title: 'Arbeitsplatzabbau oder Standortverlagerung trotz Gewinn',
+                    points: -200
+                },
+                {
+                    shortcode : 'N13',
+                    shortcodeSlug : 'n13',
+                    titleShort: 'Keine unangemessene Verzinsung für nicht mitarbeitende Gesellschafter',
+                    title: 'Keine unangemessene Verzinsung für nicht mitarbeitende Gesellschafter',
+                    points: -200
+                }
+            ]
+        },
+        {
+            values: [
+                {
+                    shortcode : 'N14',
+                    shortcodeSlug : 'n14',
+                    titleShort: 'Nichtoffenlegung aller Beteiligungen und Töchter',
+                    title: 'Nichtoffenlegung aller Beteiligungen und Töchter',
+                    points: -100
+                },
+                {
+                    shortcode : 'N15',
+                    shortcodeSlug : 'n15',
+                    titleShort: 'Verhinderung eines Betriebsrats',
+                    title: 'Verhinderung eines Betriebsrats',
+                    points: -150
+                },
+                {
+                    shortcode : 'N16',
+                    shortcodeSlug : 'n16',
+                    titleShort: 'Nichtoffenlegung aller Finanzflüsse an Lobbies / Eintragung in das EU-Lobbyregister',
+                    title: 'Nichtoffenlegung aller Finanzflüsse an Lobbyisten und Lobby-Organisationen / Nichteintragung ins Lobby-Register der EU',
+                    points: -200
+                },
+                {
+                    shortcode : 'N17',
+                    shortcodeSlug : 'n17',
+                    titleShort: 'Exzessive Einkommensspreizung',
+                    title: 'Exzessive Einkommensspreizung',
+                    points: -100
+                }
+            ]
+        }
+    ]
 };

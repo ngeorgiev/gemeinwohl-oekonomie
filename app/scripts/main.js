@@ -10,7 +10,7 @@ $('.ind-trigger').each(function (i, elem) {
     var indicatorModalId = indicatorEl.attr('data-modal');
 
     indicatorEl.click(function () {
-        Router.showIndicator(indicatorModalId);
+        Router.showPage(indicatorModalId);
     });
 });
 
