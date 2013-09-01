@@ -14,3 +14,8 @@ Note: the source code will be committed when it reaches an iteration worth open 
  * 21.08.2013 - Extracted PDF data into JSON. Small UI improvements.
  * 19.08.2013 - Researched appropriate front-end technologies.
  * 18.08.2013 - First basic UI of the Gemeinwohl-Matrix.
+
+## Roadmap
+
+ * Add offline support: http://www.whatwg.org/specs/web-apps/current-work/multipage/offline.html#offline
+

@@ -30,6 +30,11 @@ $smaller-font-size: 12px;
 $border-medium-size: 4px;
 
 /* GENERAL - Start */
+
+#header-container {
+  margin-bottom: 15px;
+}
+
 .divcontainer:before,
 .divcontainer:after {
   content: "";
@@ -188,9 +193,6 @@ $border-medium-size: 4px;
 /* Hidden Modals */
 .ind-trigger {
   cursor: pointer;
-}
-
-.indicator-modal {
 }
 
 .fadeIn {
@@ -419,6 +421,7 @@ $tabs-border-color: $grey-border;
   color: #888888;
   text-decoration: none;
   outline: none;
+  border-bottom: 1px solid $tabs-border-color;
 }
 
 .tablink:hover {
@@ -436,8 +439,6 @@ $tabs-border-color: $grey-border;
   -o-transition: all 0.3s ease 0s;
   -ms-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-
-  border-top: 1px solid $tabs-border-color;
 
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);

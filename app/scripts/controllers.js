@@ -3,8 +3,34 @@
 var Controller = {
 
     createPageHtml : function () {
+        Controller.createMainPageHtml();
+        Controller.createQuickTestHtml();
         Controller.createMatrixHtml();
         Controller.createIndicatorsHtml();
+    },
+
+    createMainPageHtml : function () {
+
+        var mainPageHtml = '';
+        var compiledTemplate = dust.compile(mainPageTemplate, 'mainPageTemplate');
+        dust.loadSource(compiledTemplate);
+        dust.render('mainPageTemplate', {}, function(err, out) {
+            mainPageHtml += out;
+        });
+
+        document.getElementById('main-page-container').innerHTML = mainPageHtml;
+    },
+
+    createQuickTestHtml : function () {
+
+        var quickTestHtml = '';
+        var compiledTemplate = dust.compile(quickTestTemplate, 'quickTestTemplate');
+        dust.loadSource(compiledTemplate);
+        dust.render('quickTestTemplate', {}, function(err, out) {
+            quickTestHtml += out;
+        });
+
+        document.getElementById('quick-test-container').innerHTML = quickTestHtml;
     },
 
     createMatrixHtml : function () {
