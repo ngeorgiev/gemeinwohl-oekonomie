@@ -20,5 +20,6 @@ Note: the source code will be committed when it reaches an iteration worth open 
 
 ## Roadmap
 
+ * Refactor the web app into components.
  * Add offline support: http://www.whatwg.org/specs/web-apps/current-work/multipage/offline.html#offline
 
