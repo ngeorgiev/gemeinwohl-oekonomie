@@ -1,6 +1,6 @@
 /*jshint multistr: true */
 
-var gwoeMatrixTemplate =
+Template.gwoeMatrixTemplate =
     '<div id="gwoe-matrix" class="bubble display-none">\
         \
         <div class="bootstrap-table whitebg">\

@@ -12,7 +12,7 @@ var Controller = {
     createMainPageHtml : function () {
 
         var mainPageHtml = '';
-        var compiledTemplate = dust.compile(mainPageTemplate, 'mainPageTemplate');
+        var compiledTemplate = dust.compile(Template.mainPageTemplate, 'mainPageTemplate');
         dust.loadSource(compiledTemplate);
         dust.render('mainPageTemplate', {}, function(err, out) {
             mainPageHtml += out;
@@ -24,9 +24,9 @@ var Controller = {
     createQuickTestHtml : function () {
 
         var quickTestHtml = '';
-        var compiledTemplate = dust.compile(quickTestTemplate, 'quickTestTemplate');
+        var compiledTemplate = dust.compile(Template.quickTestTemplate, 'quickTestTemplate');
         dust.loadSource(compiledTemplate);
-        dust.render('quickTestTemplate', {}, function(err, out) {
+        dust.render('quickTestTemplate', Data.quickTest, function(err, out) {
             quickTestHtml += out;
         });
 
@@ -36,7 +36,7 @@ var Controller = {
     createMatrixHtml : function () {
 
         var matrixHtml = '';
-        var compiledTemplate = dust.compile(gwoeMatrixTemplate, 'gwoeMatrixTemplate');
+        var compiledTemplate = dust.compile(Template.gwoeMatrixTemplate, 'gwoeMatrixTemplate');
         dust.loadSource(compiledTemplate);
         dust.render('gwoeMatrixTemplate', Data.matrix, function(err, out) {
             matrixHtml += out;
@@ -81,7 +81,7 @@ var Controller = {
             indicator = indicators[indicatorIndex];
 
             //
-            var compiledTemplate = dust.compile(indicatorTabsTemplate, 'indicatorTabsTemplate');
+            var compiledTemplate = dust.compile(Template.indicatorTabsTemplate, 'indicatorTabsTemplate');
             dust.loadSource(compiledTemplate);
             dust.render('indicatorTabsTemplate', indicator, function(err, out) {
                 indicatorHtml += out;
@@ -109,7 +109,7 @@ var Controller = {
             // the current negative criterion data
             negativeCriterion = negativeCriteria[criteriaIndex];
 
-            var compiledTemplate = dust.compile(negativeCriteriaTemplate, 'negativeCriteriaTemplate');
+            var compiledTemplate = dust.compile(Template.negativeCriteriaTemplate, 'negativeCriteriaTemplate');
             dust.loadSource(compiledTemplate);
             dust.render('negativeCriteriaTemplate', negativeCriterion, function(err, out) {
                 negativeCriteriaHtml += out;

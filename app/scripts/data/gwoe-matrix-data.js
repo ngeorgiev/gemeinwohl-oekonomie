@@ -1,5 +1,3 @@
-var Data = {};
-
 Data.matrix = {
 
     valueName: 'Wert',

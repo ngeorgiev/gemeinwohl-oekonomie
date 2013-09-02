@@ -14,6 +14,8 @@ var Router = {
     fadeOutSpeed : 100,
     fadeInSpeed : 300,
 
+    visibleElementId : '',
+
     /**
      * Initializes the URL Routing
      */
@@ -54,7 +56,6 @@ var Router = {
      * @returns {boolean}
      */
     onHashChange: function () {
-        console.log('on hash change');
         var urlHash = window.location.hash;
         if(!urlHash) {
             Router.showMainPage();
@@ -80,34 +81,34 @@ var Router = {
                     indicatorDetailId : '-goals';
             }
         }
-        visibleElementId = indicatorId;
+        Router.visibleElementId = indicatorId;
 
-        $('#gwoe-matrix').fadeOut(100, function () {
-            $(Router.hashSymbol + indicatorId).fadeIn(300);
+        $('#gwoe-matrix').fadeOut(Router.fadeOutSpeed, function () {
+            $(Router.hashSymbol + indicatorId).fadeIn(Router.fadeInSpeed);
         });
         window.location.hash = Router.hashSymbol + indicatorId + indicatorDetailId;
     },
 
     showMainPage : function () {
-        if (visibleElementId) {
-            $('#' + visibleElementId).fadeOut(100, Router.fadeInMainPage);
+        if (Router.visibleElementId) {
+            $('#' + Router.visibleElementId).fadeOut(Router.fadeOutSpeed, Router.fadeInMainPage);
         } else {
             Router.fadeInMainPage();
         }
         window.location.hash = '';
-        visibleElementId = Router.mainPageId;
+        Router.visibleElementId = Router.mainPageId;
     },
 
     showQuickTest : function () {
-        console.log('Hiding: ' + visibleElementId);
-        $('#' + visibleElementId).fadeOut(100, Router.fadeInQuickTest());
-        visibleElementId = Router.quickTestId;
+        $('#' + Router.visibleElementId).fadeOut(
+            Router.fadeOutSpeed, Router.fadeInQuickTest());
+        Router.visibleElementId = Router.quickTestId;
     },
 
     showMatrix : function () {
-        console.log('Hiding: ' + visibleElementId);
-        $('#' + visibleElementId).fadeOut(100, Router.fadeInMatrix());
-        visibleElementId = Router.matrixId;
+        $('#' + Router.visibleElementId).fadeOut(
+            Router.fadeOutSpeed, Router.fadeInMatrix());
+        Router.visibleElementId = Router.matrixId;
     },
 
     showMatrixByHash : function () {
