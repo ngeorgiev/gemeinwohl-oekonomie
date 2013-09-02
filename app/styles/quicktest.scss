@@ -1,0 +1,19 @@
+/* Quick Test */
+#quick-test {
+  text-align: center;
+}
+
+.quick-test-introduction {
+}
+
+.btn-gwoe {
+    background-color: $gwoe-olive-color;
+    border-color: $gwoe-olive-color;
+    color: #FFFFFF;
+}
+
+.btn-gwoe:hover {
+    background-color: darken($gwoe-olive-color, 20%);
+    border-color: darken($gwoe-olive-color, 20%);
+    color: #FFFFFF;
+}

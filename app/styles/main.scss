@@ -12,8 +12,10 @@ $grey-light: #FEFEFE;
 $grey-light-darker: #F8F8F8;
 $grey-light-border: #E5E5E5;
 
-$gwoe-blue: #99CCCC;
-$gwoe-green: #CCCB98;
+$gwoe-turquoise-color: #99CCCC;
+$gwoe-olive-color: #CCCB98;
+$gwoe-green2: #94BE4E;
+
 
 $basic-level-color: #E8B809;
 $advanced-level-color: #FFF101;
@@ -63,20 +65,20 @@ $border-medium-size: 4px;
 }
 
 .gwoe-green {
-  color: $gwoe-green;
+  color: $gwoe-olive-color;
 }
 
 .gwoe-green-b {
-  color: $gwoe-green;
+  color: $gwoe-olive-color;
   font-weight: bold;
 }
 
 .gwoe-blue {
-  color: $gwoe-blue;
+  color: $gwoe-turquoise-color;
 }
 
 .gwoe-blue-b {
-  color: $gwoe-blue;
+  color: $gwoe-turquoise-color;
   font-weight: bold;
 }
 
@@ -147,7 +149,7 @@ $border-medium-size: 4px;
   right: 0;
   bottom: 0;
   padding: 0px 5px;
-  color: $gwoe-green;
+  color: $gwoe-olive-color;
   font-weight: bold;
 }
 
@@ -155,7 +157,7 @@ $border-medium-size: 4px;
 
 .indicator-page-title {
   padding: 5px 0px 15px 0px;
-  color: $gwoe-green;
+  color: $gwoe-olive-color;
 }
 
 .indicator-page-title h2 {
@@ -263,7 +265,7 @@ $border-medium-size: 4px;
 }
 
 /* CSS Bootstrap Div Table */
-/* hack: http://codepen.io/basement31/pen/Ifaeu */
+/* hack equal height von divs: http://codepen.io/basement31/pen/Ifaeu */
 
 .bootstrap-table {
   position: relative;
@@ -457,3 +459,7 @@ $tabs-border-color: $grey-border;
     padding: 12px 10px 12px 10px;
   }
 }
+
+
+
+@import 'quicktest';

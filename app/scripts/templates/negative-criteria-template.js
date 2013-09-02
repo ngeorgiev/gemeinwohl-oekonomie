@@ -1,6 +1,6 @@
 /*jshint multistr: true */
 
-var negativeCriteriaTemplate =
+Template.negativeCriteriaTemplate =
     '<div id="matrix-{shortcodeSlug}" class="indicator-modal display-none">\
         <button class="back-to-matrix">Zeige die Matrix</button>\
         \

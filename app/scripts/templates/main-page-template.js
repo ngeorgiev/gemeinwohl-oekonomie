@@ -1,6 +1,6 @@
 /*jshint multistr: true */
 
-var mainPageTemplate =
+Template.mainPageTemplate =
     '<div id="main-page" class="display-none">\
         Main page :)<br/>\
         <a href="#quick-test">Test</a>\

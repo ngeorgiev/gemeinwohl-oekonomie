@@ -2,6 +2,9 @@ Note: the source code will be committed when it reaches an iteration worth open 
 
 ## Progress
 
+ * 02.09.2013 - Created templates for the quick test intro page and first implementation of the question templates. Started with the quick test controllers.
+ * 01.09.2013 - Refactored the matrix table into a row spannable div table. Added empty main page and quick test page with their routing. Entered quick test data.
+ * 31.08.2013 - Added the right borders for the row spannable div table.
  * 30.08.2013 - Created negative criteria template and automated populating it with JSON data. Major: found a way to create a div table with a equal heights and rowspan.
  * 29.08.2013 - Automated generation of negative criteria in the matrix from JSON data.
  * 28.08.2013 - Automated matrix generation from from JSON data.
