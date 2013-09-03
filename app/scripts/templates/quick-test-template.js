@@ -27,7 +27,7 @@ Template.quickTestTemplate =
                 </div>\
                 <div class="quick-test-questions-buttons">\
                     {#structure.testTypes[0].individualAnswer.evaluationValues}\
-                    <button data-value="{value}" type="button" class="btn btn-lg btn-gwoe quick-test-question-button">\
+                    <button data-value="{value}" type="button" class="btn btn-lg btn-default btn-gwoe-level-{$idx} quick-test-question-button">\
                         {text}\
                     </button>\
                     {/structure.testTypes[0].individualAnswer.evaluationValues}\
@@ -36,4 +36,13 @@ Template.quickTestTemplate =
             {/questions}\
         </div>\
         {/data.tests}\
+        <div id="quick-test-result" class="display-none">\
+            <div class="quick-test-result-points-container">\
+                Ergebnis: <span id="quick-test-points"></span> von \
+                <span id="quick-test-max-points"></span> Punkte.\
+            </div>\
+            <div id="quick-test-result-text">\
+                \
+            </div>\
+        </div>\
     </div>';

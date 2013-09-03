@@ -1,5 +1,4 @@
 Data.quickTest = {
-    name : 'quickkkTest',
     structure : {
         testTypes : [
             {
@@ -29,6 +28,7 @@ Data.quickTest = {
                         }
                     ]
                 },
+                participants : ['company', 'oneperson'],
                 result : {
                     operandOnIndividualResults : 'add',
                     finalCalculation : [
@@ -38,10 +38,10 @@ Data.quickTest = {
                         },
                         {
                             participant : 'oneperson',
-                            multiplyBy : 0.75
+                            multiplyBy : 1.33
                         }
                     ],
-                    feedback : [
+                    feedbacks : [
                         {
                             minValue: 0,
                             maxValue: 32,
