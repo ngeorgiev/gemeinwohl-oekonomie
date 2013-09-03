@@ -1,9 +1,17 @@
 /* Quick Test */
+
+$btn-lighten-percentage: 0.90;
+$btn-darken-percentage: 5;
+
 #quick-test {
   text-align: center;
 }
 
 .quick-test-introduction {
+}
+
+.quick-test-questions-text {
+  margin: 25px 0px;
 }
 
 .btn-gwoe {
@@ -13,7 +21,71 @@
 }
 
 .btn-gwoe:hover {
-    background-color: darken($gwoe-olive-color, 20%);
-    border-color: darken($gwoe-olive-color, 20%);
-    color: #FFFFFF;
+    background-color: darken($gwoe-olive-color, $btn-darken-percentage);
+    border-color: darken($gwoe-olive-color, $btn-darken-percentage);
+}
+
+
+.btn-gwoe-level-dark-color {
+    border-color: $grey-light-border;
+    color: $grey-dark;
+}
+
+
+.btn-gwoe-level-0 {
+  @extend btn-gwoe-level-dark-color;
+  background-color: transparentize($negative-color, $btn-lighten-percentage);
+}
+
+.btn-gwoe-level-0:hover {
+    background-color: $negative-color;
+    border-color: darken($grey-light-border, $btn-darken-percentage);
+    color: $white;
+}
+
+.btn-gwoe-level-1 {
+    @extend btn-gwoe-level-dark-color;
+    background-color: transparentize($basic-level-color, $btn-lighten-percentage);
+}
+
+.btn-gwoe-level-1:hover {
+    background-color: $basic-level-color;
+    border-color: darken($grey-light-border, $btn-darken-percentage);
+    color: $white;
+}
+
+.btn-gwoe-level-2 {
+    background-color: transparentize($advanced-level-color, $btn-lighten-percentage);
+    border-color: $grey-light-border;
+    color: $grey-dark;
+}
+
+.btn-gwoe-level-2:hover {
+    background-color: $advanced-level-color;
+    border-color: darken($grey-light-border, $btn-darken-percentage);
+    color: $grey-dark;
+}
+
+.btn-gwoe-level-3 {
+    background-color: transparentize($experienced-level-color, $btn-lighten-percentage);
+    border-color: $grey-light-border;
+    color: $grey-dark;
+}
+
+.btn-gwoe-level-3:hover {
+    background-color: $experienced-level-color;
+    border-color: darken($grey-light-border, $btn-darken-percentage);
+    color: $grey-dark;
+}
+
+.btn-gwoe-level-4 {
+    background-color: transparentize($model-level-color, $btn-lighten-percentage);
+    border-color: $grey-light-border;
+    color: $grey-dark;
+}
+
+.btn-gwoe-level-4:hover {
+    background-color: $model-level-color;
+    border-color: darken($grey-light-border, $btn-darken-percentage);
+    color: $grey-dark;
 }
