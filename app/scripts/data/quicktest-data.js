@@ -1,4 +1,5 @@
 Data.quickTest = {
+    name : 'Schnelltest „Gemeinwohl-Ökonomie“',
     structure : {
         testTypes : [
             {
@@ -28,16 +29,25 @@ Data.quickTest = {
                         }
                     ]
                 },
-                participants : ['company', 'oneperson'],
+                participants : [
+                    {
+                        type : 'company',
+                        name : 'Unternehmen'
+                    },
+                    {
+                        type : 'oneperson',
+                        name : 'Einzelunternehmen'
+                    }
+                ],
                 result : {
                     operandOnIndividualResults : 'add',
                     finalCalculation : [
                         {
-                            participant : 'company',
+                            participantType : 'company',
                             multiplyBy : 1
                         },
                         {
-                            participant : 'oneperson',
+                            participantType : 'oneperson',
                             multiplyBy : 1.33
                         }
                     ],

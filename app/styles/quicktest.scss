@@ -7,6 +7,10 @@ $btn-darken-percentage: 5;
   text-align: center;
 }
 
+#quick-test > h1 {
+  color: $gwoe-turquoise-color;
+}
+
 .quick-test-introduction {
 }
 
@@ -14,78 +18,135 @@ $btn-darken-percentage: 5;
   margin: 25px 0px;
 }
 
+.quick-test-profile-form {
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-bottom: 50px;
+}
+
+.quick-test-profile-form-text {
+  padding-bottom: 20px;
+}
+
+#quick-test-result-companyName {
+  padding: 20px 0px;
+  font-size: 3em;
+  color: $grey-middle;
+}
+
+.quick-test-result-points-container {
+  padding-bottom: 20px;
+}
+
+#quick-test-result-progress-bar {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.progress .progress-bar.six-sec-ease-in-out {
+  -webkit-transition: width 6s ease-in-out;
+  -moz-transition: width 6s ease-in-out;
+  -ms-transition: width 6s ease-in-out;
+  -o-transition: width 6s ease-in-out;
+  transition: width 6s ease-in-out;
+}
+
+.progress.vertical .progress-bar.six-sec-ease-in-out {
+  -webkit-transition: height 6s ease-in-out;
+  -moz-transition: height 6s ease-in-out;
+  -ms-transition: height 6s ease-in-out;
+  -o-transition: height 6s ease-in-out;
+  transition: height 6s ease-in-out;
+}
+
+.progress.wide {
+  width: 100%;
+}
+
+.quick-test-result-progress-bar-container {
+  float: right;
+  width: 80%;
+  max-width: 100px;
+  margin: 0px 10%;
+}
+
+.bs-example.vertical {
+  height: 250px;
+}
+
 .btn-gwoe {
-    background-color: $gwoe-olive-color;
-    border-color: $gwoe-olive-color;
-    color: #FFFFFF;
+  background-color: $gwoe-olive-color;
+  border-color: $gwoe-olive-color;
+  color: #FFFFFF;
 }
 
 .btn-gwoe:hover {
-    background-color: darken($gwoe-olive-color, $btn-darken-percentage);
-    border-color: darken($gwoe-olive-color, $btn-darken-percentage);
+  background-color: darken($gwoe-olive-color, $btn-darken-percentage);
+  border-color: darken($gwoe-olive-color, $btn-darken-percentage);
 }
 
+.btn-gwoe-level-white-color-hover {
+  border-color: darken($grey-light-border, $btn-darken-percentage);
+  color: $white;
+}
 
 .btn-gwoe-level-dark-color {
-    border-color: $grey-light-border;
-    color: $grey-dark;
+  border-color: $grey-light-border;
+  color: $grey-dark;
 }
 
+.btn-gwoe-level-dark-color-hover {
+  border-color: darken($grey-light-border, $btn-darken-percentage);
+  color: $grey-dark;
+}
 
 .btn-gwoe-level-0 {
-  @extend btn-gwoe-level-dark-color;
+  @extend .btn-gwoe-level-dark-color;
   background-color: transparentize($negative-color, $btn-lighten-percentage);
 }
 
 .btn-gwoe-level-0:hover {
-    background-color: $negative-color;
-    border-color: darken($grey-light-border, $btn-darken-percentage);
-    color: $white;
+  @extend .btn-gwoe-level-white-color-hover;
+  background-color: $negative-color;
 }
 
 .btn-gwoe-level-1 {
-    @extend btn-gwoe-level-dark-color;
-    background-color: transparentize($basic-level-color, $btn-lighten-percentage);
+  @extend .btn-gwoe-level-dark-color;
+  background-color: transparentize($basic-level-color, $btn-lighten-percentage);
 }
 
 .btn-gwoe-level-1:hover {
-    background-color: $basic-level-color;
-    border-color: darken($grey-light-border, $btn-darken-percentage);
-    color: $white;
+  @extend .btn-gwoe-level-white-color-hover;
+  background-color: $basic-level-color;
 }
 
 .btn-gwoe-level-2 {
-    background-color: transparentize($advanced-level-color, $btn-lighten-percentage);
-    border-color: $grey-light-border;
-    color: $grey-dark;
+  @extend .btn-gwoe-level-dark-color;
+  background-color: transparentize($advanced-level-color, $btn-lighten-percentage);
 }
 
 .btn-gwoe-level-2:hover {
-    background-color: $advanced-level-color;
-    border-color: darken($grey-light-border, $btn-darken-percentage);
-    color: $grey-dark;
+  @extend .btn-gwoe-level-dark-color-hover;
+  background-color: $advanced-level-color;
 }
 
 .btn-gwoe-level-3 {
-    background-color: transparentize($experienced-level-color, $btn-lighten-percentage);
-    border-color: $grey-light-border;
-    color: $grey-dark;
+  @extend .btn-gwoe-level-dark-color;
+  background-color: transparentize($experienced-level-color, $btn-lighten-percentage);
 }
 
 .btn-gwoe-level-3:hover {
-    background-color: $experienced-level-color;
-    border-color: darken($grey-light-border, $btn-darken-percentage);
-    color: $grey-dark;
+  @extend .btn-gwoe-level-dark-color-hover;
+  background-color: $experienced-level-color;
 }
 
 .btn-gwoe-level-4 {
-    background-color: transparentize($model-level-color, $btn-lighten-percentage);
-    border-color: $grey-light-border;
-    color: $grey-dark;
+  @extend .btn-gwoe-level-dark-color;
+  background-color: transparentize($model-level-color, $btn-lighten-percentage);
 }
 
 .btn-gwoe-level-4:hover {
-    background-color: $model-level-color;
-    border-color: darken($grey-light-border, $btn-darken-percentage);
-    color: $grey-dark;
+  @extend .btn-gwoe-level-dark-color-hover;
+  background-color: $model-level-color;
 }
