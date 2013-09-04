@@ -3,6 +3,7 @@
 Controller.numberOfQuestions = 0;
 
 Controller.quickTestIntroId = 'quick-test-introduction';
+Controller.quickTestProfileId = 'quick-test-question-profile';
 Controller.questionIdPrefix = 'quick-test-question-';
 Controller.previousQuestionId = '';
 Controller.currentQuestionId = '';
@@ -21,11 +22,14 @@ Controller.initializeTestState = function () {
         numberOfEvaluationValues : 0,
         maxPoints : 0,
 
-        participant : 'oneperson',
+        // participants info
+        companyName : '',
+        participantType : 'oneperson',
 
         // array of the given evaluation values
         answers : [],
         resultPoints : '',
+        resultPercentage : 0,
         feedbackContent : '',
         resultLevel : -1
     };
@@ -46,10 +50,20 @@ Controller.createQuickTestHtml = function () {
 
     document.getElementById('quick-test-container').innerHTML = quickTestHtml;
 
-    Controller.initializeQuickTest();
-
     // add click listeners
-    $('.quick-test-question-button').click(Controller.onTestAnswerClick);
+    $('.js-quick-test-start').click(Controller.showProfileFormForTestQuestion);
+    $('.js-quick-test-question-button').click(Controller.onTestAnswerClick);
+    $('.js-start-test-button').click(Controller.onProfileFormSubmit);
+
+
+    // REMOVE ME:
+//    $('#quick-test-result-progress-bar').progressbar({display_text: 'fill'});
+//    var testState = Controller.testState;
+//    document.getElementById('quick-test-result-companyName').innerHTML = 'My Company GmBWohl';
+//    document.getElementById('quick-test-points').innerHTML = testState.resultPoints;
+//    document.getElementById('quick-test-max-points').innerHTML = testState.maxPoints;
+//    document.getElementById('quick-test-result-text').innerHTML = testState.feedbackContent;
+    // Controller.initializeQuickTest();
 };
 
 Controller.onTestAnswerClick = function (event) {
@@ -60,7 +74,22 @@ Controller.onTestAnswerClick = function (event) {
 
 Controller.initializeQuickTest = function () {
     // add click listener
-    $('.quick-test-start').click(Controller.startQuickTest);
+    Controller.showNextTestQuestion();
+};
+
+Controller.showProfileFormForTestQuestion = function () {
+//    console.log('Showing profile form');
+    Controller.previousQuestionId = Controller.quickTestIntroId;
+    Controller.currentQuestionId = Controller.quickTestProfileId;
+    Controller.fadeQuestions();
+    $('quick-test-participant-companyName').focus();
+};
+
+Controller.onProfileFormSubmit = function () {
+    var companyName = $('#quick-test-participant-companyName').val();
+    var participantType = $('#js-quick-test-participant-participantType :selected').val();
+    Controller.testState.companyName = companyName;
+    Controller.testState.participantType = participantType;
     Controller.showNextTestQuestion();
 };
 
@@ -98,12 +127,11 @@ Controller.isEndOfTest = function () {
 Controller.canAccessQuestion = function () {
     if(Controller.testState.questionIndex < Data.testQuestions.length) {
         var question = Data.testQuestions[Controller.testState.questionIndex];
-        return $.inArray(Controller.testState.participant, question.excludedParticipants);
+        return $.inArray(Controller.testState.participantType, question.excludedParticipants);
     } else {
         return false;
     }
 };
-
 
 Controller.showEndOfTest = function () {
 
@@ -125,12 +153,12 @@ Controller.showEndOfTest = function () {
     var numOfFinalCalculations = finalCalculations.length;
     for (var calcIndex = 0; calcIndex < numOfFinalCalculations; calcIndex++) {
         var finalCalc = finalCalculations[calcIndex];
-        if (finalCalc.participant === testState.participant) {
+        if (finalCalc.participantType === testState.participantType) {
             if (finalCalc.multiplyBy) {
                 finalPoints = pointsSum * parseFloat(finalCalc.multiplyBy);
             } else {
                 console.log('No \'multiplyBy\' defined in the final calculation ' +
-                    'for the participant ' + finalCalc.participant);
+                    'for the participantType ' + finalCalc.participantType);
             }
         }
     }
@@ -140,9 +168,9 @@ Controller.showEndOfTest = function () {
 
     console.log('Result points sum: ' + pointsSum);
     console.log('Result points multiplied: ' + testState.resultPoints);
+    console.log('Result percentage: ' + testState.resultPercentage);
 
     // get the feedback content
-
     var feedbackContent;
     var feedbacks = testResultStructure.feedbacks;
     var numOfFeedbacks = feedbacks.length;
@@ -161,7 +189,12 @@ Controller.showEndOfTest = function () {
     testState.maxPoints = maxPoints;
     testState.feedbackContent = feedbackContent;
 
+    testState.resultPercentage = Number(testState.resultPoints / testState.maxPoints).toFixed(2) * 100;
+    var progressBarElement = $('#quick-test-result-progress-bar');
+    progressBarElement.attr('aria-valuetransitiongoal', testState.resultPercentage);
+
     // set the result values in the template
+    document.getElementById('quick-test-result-companyName').innerHTML = testState.companyName;
     document.getElementById('quick-test-points').innerHTML = testState.resultPoints;
     document.getElementById('quick-test-max-points').innerHTML = testState.maxPoints;
     document.getElementById('quick-test-result-text').innerHTML = testState.feedbackContent;
@@ -169,13 +202,17 @@ Controller.showEndOfTest = function () {
     // show final result page
     Controller.currentQuestionId = Controller.quickTestResultId;
     Controller.fadeQuestions();
+
+    progressBarElement.progressbar({display_text: 'fill'});
 };
 
 Controller.fadeQuestions = function () {
+//    console.log("Fading out " + Controller.previousQuestionId);
     $('#' + Controller.previousQuestionId).fadeOut(
         Router.fadeOutSpeed, Controller.fadeInQuestion);
 };
 
 Controller.fadeInQuestion = function () {
+//    console.log("Fading in " + Controller.currentQuestionId);
     $('#' + Controller.currentQuestionId).fadeIn(Router.fadeInSpeed);
 };

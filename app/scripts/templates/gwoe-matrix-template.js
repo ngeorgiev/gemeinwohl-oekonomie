@@ -5,7 +5,7 @@ Template.gwoeMatrixTemplate =
         \
         <div class="bootstrap-table whitebg">\
         \
-            <div class="row dheader-style">\
+            <div class="row row-border dheader-style">\
                 <div class="row-wrapper">\
                     <div class="row-cell col-lg-2 col-md-2 col-sm-2 col-xs-2">\
                         <span class="matrix-value-header">{valueName}</span> / <span class="gwoe-blue">{stakeholdersName}</span>\
@@ -18,7 +18,7 @@ Template.gwoeMatrixTemplate =
                 </div>\
             </div>\
             \
-            <div class="row">\
+            <div class="row row-border">\
                 <div class="row-wrapper">\
                     <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">\
                         {stakeholders[0].shortcode}) {stakeholders[0].name}\
@@ -37,7 +37,7 @@ Template.gwoeMatrixTemplate =
                 </div>\
             </div>\
             \
-            <div class="row">\
+            <div class="row row-border">\
                 <div class="row-wrapper">\
                     <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">\
                         {stakeholders[1].shortcode}) {stakeholders[1].name}\
@@ -56,7 +56,7 @@ Template.gwoeMatrixTemplate =
                 </div>\
             </div>\
             \
-            <div class="row">\
+            <div class="row row-border">\
                 <div class="row-wrapper">\
                     <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">\
                         {stakeholders[2].shortcode}) {stakeholders[2].name}\
@@ -79,7 +79,7 @@ Template.gwoeMatrixTemplate =
                 </div>\
             </div>\
             \
-            <div class="row">\
+            <div class="row row-border">\
                 <div class="row-wrapper">\
                     <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">\
                         {stakeholders[3].shortcode}) {stakeholders[3].name}\
@@ -101,7 +101,7 @@ Template.gwoeMatrixTemplate =
                 </div>\
             </div>\
             \
-            <div class="row">\
+            <div class="row row-border">\
                 <div class="row-wrapper">\
                     <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">\
                         {stakeholders[4].shortcode}) {stakeholders[4].name}\
@@ -123,7 +123,7 @@ Template.gwoeMatrixTemplate =
                 </div>\
             </div>\
             \
-            <div class="row">\
+            <div class="row row-border">\
                 <div class="row-wrapper">\
                     <div class="row-cell dheader-style negative-color-b col-lg-2 col-md-2 col-sm-2 col-xs-2">\
                         {negativeCriteriaName}\
