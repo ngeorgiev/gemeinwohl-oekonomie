@@ -2,7 +2,8 @@ Note: the source code will be committed when it reaches an iteration worth open 
 
 ## Progress
 
- * 03.09.2012 - Completed basic pages for the quick test. Calculations and final recommendations are shown.
+ * 04.09.2013 - Quick test - added profile page and animation of the final result.
+ * 03.09.2013 - Completed basic pages for the quick test. Calculations and final recommendations are shown.
  * 02.09.2013 - Created templates for the quick test intro page and first implementation of the question templates. Started with the quick test controllers.
  * 01.09.2013 - Refactored the matrix table into a row spannable div table. Added empty main page and quick test page with their routing. Entered quick test data.
  * 31.08.2013 - Added the right borders for the row spannable div table.
