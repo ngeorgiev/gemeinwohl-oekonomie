@@ -43,6 +43,8 @@ var Controller = {
         });
 
         document.getElementById('gwoe-matrix-container').innerHTML = matrixHtml;
+
+        $(window).resize(Utils.applyEqualHeightOnResize);
     },
 
     /**
