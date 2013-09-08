@@ -25,14 +25,6 @@ module.exports = function (grunt) {
     grunt.initConfig({
         yeoman: yeomanConfig,
         watch: {
-            coffee: {
-                files: ['<%= yeoman.app %>/scripts/{,*/}*.coffee'],
-                tasks: ['coffee:dist']
-            },
-            coffeeTest: {
-                files: ['test/spec/{,*/}*.coffee'],
-                tasks: ['coffee:test']
-            },
             compass: {
                 files: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
                 tasks: ['compass:server', 'autoprefixer']
@@ -51,6 +43,10 @@ module.exports = function (grunt) {
                     '{.tmp,<%= yeoman.app %>}/scripts/{,*/}*.js',
                     '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
                 ]
+            },
+            filesToJson: {
+                files: ['<%= yeoman.app %>/scripts/data/matrix/{,*/}*.html'],
+                tasks: ['filesToJson']
             }
         },
         connect: {
@@ -125,26 +121,6 @@ module.exports = function (grunt) {
                     run: true,
                     urls: ['http://localhost:<%= connect.options.port %>/index.html']
                 }
-            }
-        },
-        coffee: {
-            dist: {
-                files: [{
-                    expand: true,
-                    cwd: '<%= yeoman.app %>/scripts',
-                    src: '{,*/}*.coffee',
-                    dest: '.tmp/scripts',
-                    ext: '.js'
-                }]
-            },
-            test: {
-                files: [{
-                    expand: true,
-                    cwd: 'test/spec',
-                    src: '{,*/}*.coffee',
-                    dest: '.tmp/spec',
-                    ext: '.js'
-                }]
             }
         },
         compass: {
@@ -305,21 +281,50 @@ module.exports = function (grunt) {
         concurrent: {
             server: [
                 'compass',
-                'coffee:dist',
                 'copy:styles'
             ],
             test: [
-                'coffee',
                 'copy:styles'
             ],
             dist: [
-                'coffee',
                 'compass',
                 'copy:styles',
                 'imagemin',
                 'svgmin',
                 'htmlmin'
             ]
+        },
+        filesToJson: {
+            createMatrixJsonData: {
+                options: {
+                    inputFilesFolder : 'app/scripts/data/matrix',
+                    inputFilePrefix : 'indicator-',
+                    useIndexes : true,
+                    jsonFileVariableIndexMap : {
+                        'a1-' : 0,
+                        'b1-' : 1,
+                        'c1-' : 2,
+                        'c2-' : 3,
+                        'c3-' : 4,
+                        'c4-' : 5,
+                        'c5-' : 6,
+                        'd1-' : 7,
+                        'd2-' : 8,
+                        'd3-' : 9,
+                        'd4-' : 10,
+                        'd5-' : 11,
+                        'e1-' : 12,
+                        'e2-' : 13,
+                        'e3-' : 14,
+                        'e4-' : 15,
+                        'e5-' : 16
+                    },
+                    jsonBaseFile : 'app/scripts/data/gwoe-indicators-data-base.js',
+                    jsonBaseFileVariable : 'indicators',
+                    jsonBaseFileVariableSuffix : '.content',
+                    jsonFileOutput : 'app/scripts/data/gwoe-indicators-data.js'
+                }
+            }
         }
     });
 
@@ -332,6 +337,7 @@ module.exports = function (grunt) {
             'clean:server',
             'concurrent:server',
             'autoprefixer',
+            'filesToJson',
             'connect:livereload',
             'open',
             'watch'

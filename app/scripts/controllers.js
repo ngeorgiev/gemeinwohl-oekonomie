@@ -44,7 +44,13 @@ var Controller = {
 
         document.getElementById('gwoe-matrix-container').innerHTML = matrixHtml;
 
-        $(window).resize(Utils.applyEqualHeightOnResize);
+        $(window).resize(Controller.applyEqualHeightOnResizeOfMatrix);
+    },
+
+    applyEqualHeightOnResizeOfMatrix : function () {
+        if (Router.getCurrentPageUrl() === Router.hashSymbol + Router.hashMatrix) {
+            Utils.applyEqualHeightOnResize();
+        }
     },
 
     /**
@@ -81,7 +87,7 @@ var Controller = {
 
             // the current indicator data
             indicator = indicators[indicatorIndex];
-
+            
             //
             var compiledTemplate = dust.compile(Template.indicatorTabsTemplate, 'indicatorTabsTemplate');
             dust.loadSource(compiledTemplate);
@@ -145,10 +151,26 @@ var Controller = {
             $('.matrix-moreinfo-tab-title').html(structure.moreinfo);
 
             // add tab contents
-            document.getElementById('matrix-'+indicator.shortcodeSlug+'-goals-content').innerHTML =
-                indicator.goals.content;
-            document.getElementById('matrix-'+indicator.shortcodeSlug+'-impulsQuestions-content').innerHTML =
-                indicator.impulsQuestions.content;
+            if (indicator.goals) {
+                document.getElementById('matrix-'+indicator.shortcodeSlug+'-goals-content').innerHTML =
+                    indicator.goals.content;
+            }
+            if (indicator.impulsQuestions) {
+                document.getElementById('matrix-'+indicator.shortcodeSlug+'-impulsQuestions-content').innerHTML =
+                    indicator.impulsQuestions.content;
+            }
+            if (indicator.definition) {
+                document.getElementById('matrix-'+indicator.shortcodeSlug+'-definition-content').innerHTML =
+                    indicator.definition.content;
+            }
+            if (indicator.implementationHelp) {
+                document.getElementById('matrix-'+indicator.shortcodeSlug+'-implementationHelp-content').innerHTML =
+                    indicator.implementationHelp.content;
+            }
+            if (indicator.moreinfo) {
+                document.getElementById('matrix-'+indicator.shortcodeSlug+'-moreinfo-content').innerHTML =
+                    indicator.moreinfo.content;
+            }
             document.getElementById('matrix-'+indicator.shortcodeSlug+'-indicator-table').innerHTML =
                 Controller.getMeasurementTableHTMLString(indicator);
             document.getElementById('matrix-'+indicator.shortcodeSlug+'-indicator-table-legend').innerHTML =
@@ -187,7 +209,8 @@ var Controller = {
         var indicatorTableData = indicator.table;
 
         // return emtpy table if no table data is defined.
-        if (typeof indicatorTableData === 'undefined') {
+        if (indicatorTableData === undefined ||
+            indicatorTableData.subindicators === undefined) {
             return hmlString;
         }
 
