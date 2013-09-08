@@ -159,6 +159,10 @@ var Controller = {
                 document.getElementById('matrix-'+indicator.shortcodeSlug+'-impulsQuestions-content').innerHTML =
                     indicator.impulsQuestions.content;
             }
+            if (indicator.details) {
+                document.getElementById('matrix-'+indicator.shortcodeSlug+'-details-content').innerHTML =
+                    indicator.details.content;
+            }
             if (indicator.definition) {
                 document.getElementById('matrix-'+indicator.shortcodeSlug+'-definition-content').innerHTML =
                     indicator.definition.content;

@@ -101,7 +101,7 @@ Data.matrix = {
                 {
                     shortcode : 'D3',
                     shortcodeSlug : 'd3',
-                    title: 'Ökologische gestaltung der Produkte und Dienstleistungen',
+                    title: 'Ökologische Gestaltung der Produkte und Dienstleistungen',
                     content: 'Angebot ökologisch höherwertiger Produkte / Dienstleistungen; Bewusstsein schaffende Maßnahmen; Berücksichtigung ökologischer Aspekte bei der KundInnenwahl',
                     points: 90
                 },
