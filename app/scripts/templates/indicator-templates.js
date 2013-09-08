@@ -32,6 +32,8 @@ Template.indicatorTabsTemplate =
                         <div id="matrix-{shortcodeSlug}-indicator-table-legend" class="indicator-table-legend"></div>\
                         <table id="matrix-{shortcodeSlug}-indicator-table" class="dtable">\
                         </table>\
+                        <div id="matrix-{shortcodeSlug}-details-content" \
+                             class="indicator-table-details"></div>\
                     </div>\
                 </li>\
             \
