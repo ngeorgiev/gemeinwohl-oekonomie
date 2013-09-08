@@ -447,25 +447,107 @@ Data.indicators = {
                 shortcodeSlug : 'n1',
                 name: 'Verletzung der ILO-Arbeitsrechte / Normen / Menschenrechte',
                 points: -200,
-                content :
-                    '<p>Verletzung content N1<br/>to be pasted.</p>',
-
-                footnotes :
-                    'footnotes N1 ...'
+                content : ''
             },
             {
                 shortcode : 'N2',
                 shortcodeSlug : 'n2',
                 name: 'Menschenunwürdige Produkte und Dienstleistungen',
-                points: -200,
-                content :
-                    '<p>Menschenunwürdige content N2<br/>to be pasted.</p>',
-
-                footnotes :
-                    'footnotes N2...'
+                points: -200
+            },
+            {
+                shortcode : 'N3',
+                shortcodeSlug : 'n3',
+                name: 'Menschenunwürdige Produkte und Dienstbeschaffung bei bzt. Kooperation mit Unternehmen, welche die Menschenwürde verletzen',
+                points: -150
+            },
+            {
+                shortcode : 'N4',
+                shortcodeSlug : 'n4',
+                name: 'Feindliche Übernahme',
+                points: -200
+            },
+            {
+                shortcode : 'N5',
+                shortcodeSlug : 'n5',
+                name: 'Sperrpatente',
+                points: -100
+            },
+            {
+                shortcode : 'N6',
+                shortcodeSlug : 'n6',
+                name: 'Dumpingpreise',
+                points: -200
+            },
+            {
+                shortcode : 'N7',
+                shortcodeSlug : 'n7',
+                name: 'Illegitime Umweltbelastungen',
+                points: -200
+            },
+            {
+                shortcode : 'N8',
+                shortcodeSlug : 'n8',
+                name: 'Verstöße gegen Umweltauflagen',
+                points: -200
+            },
+            {
+                shortcode : 'N9',
+                shortcodeSlug : 'n9',
+                name: 'Geplante Obsoleszenz',
+                points: -100
+            },
+            {
+                shortcode : 'N10',
+                shortcodeSlug : 'n10',
+                name: 'Arbeitsrechtliches Fehlverhalten seitens des Unternehmens',
+                points: -200
+            },
+            {
+                shortcode : 'N11',
+                shortcodeSlug : 'n11',
+                name: 'Arbeitsplatzabbau oder Standortverlagerung trotz Gewinn',
+                points: -150
+            },
+            {
+                shortcode : 'N12',
+                shortcodeSlug : 'n12',
+                name: 'Arbeitsplatzabbau oder Standortverlagerung trotz Gewinn',
+                points: -200
+            },
+            {
+                shortcode : 'N13',
+                shortcodeSlug : 'n13',
+                name: 'Keine unangemessene Verzinsung für nicht mitarbeitende Gesellschafter',
+                points: -200
+            },
+            {
+                shortcode : 'N14',
+                shortcodeSlug : 'n14',
+                name: 'Nichtoffenlegung aller Beteiligungen und Töchter',
+                points: -100
+            },
+            {
+                shortcode : 'N15',
+                shortcodeSlug : 'n15',
+                name: 'Verhinderung eines Betriebsrats',
+                points: -100
+            },
+            {
+                shortcode : 'N16',
+                shortcodeSlug : 'n16',
+                name: 'Nichtoffenlegung aller Finanzflüsse an Lobbyisten und Lobby-Organisationen / Nichteintragung ins Lobby-Register der EU',
+                points: -200
+            },
+            {
+                shortcode : 'N17',
+                shortcodeSlug : 'n17',
+                name: 'Exzessive Einkommensspreizung',
+                points: -100
             }
         ]
     }
 };
 
 var indicators = Data.indicators.data.indicators;
+var negativeCriteria = Data.indicators.data.negativeCriteria;
