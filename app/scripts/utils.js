@@ -15,32 +15,16 @@ Utils.sumIntegersInArray = function (intArray) {
     for (var arrayIndex = 0; arrayIndex < arrayLength; arrayIndex++) {
         sum += parseInt(intArray[arrayIndex], 10);
     }
-
     return sum;
 };
 
-Utils.applyEqualHeight = function () {
+Utils.applyEqualHeightOnWidthChange = function () {
     var currentResizeWidth = $(window).width();
 
     // calculate only once for a given width
     if (currentResizeWidth !== Utils.lastResizeWidth) {
         Utils.lastResizeWidth = currentResizeWidth;
-
-        var jsEqualHeightElements = $('.js-equal-height');
-        jsEqualHeightElements.each(function() { // for each element
-
-            var maxHeight = 0;
-            $(this).children().each(function () {
-                if ($(this).outerHeight() > maxHeight) { // compare heights
-                    maxHeight = $(this).outerHeight();
-                }
-            });
-            if (maxHeight !== 0) {
-                $(this).children().each(function () {
-                    $(this).css({ height: maxHeight + 'px' });
-                });
-            }
-        });
+        Utils.applyEqualHeight();
     }
 };
 
@@ -63,4 +47,23 @@ Utils.applyEqualHeightOnResize = function () {
         // set the max height to all elements
         Utils.applyEqualHeight();
     }
+};
+
+Utils.applyEqualHeight = function () {
+
+    var jsEqualHeightElements = $('.js-equal-height');
+    jsEqualHeightElements.each(function() { // for each element
+
+        var maxHeight = 0;
+        $(this).children().each(function () {
+            if ($(this).outerHeight() > maxHeight) { // compare heights
+                maxHeight = $(this).outerHeight();
+            }
+        });
+        if (maxHeight !== 0) {
+            $(this).children().each(function () {
+                $(this).css({ height: maxHeight + 'px' });
+            });
+        }
+    });
 };

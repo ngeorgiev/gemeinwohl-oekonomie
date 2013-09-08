@@ -46,7 +46,7 @@ Data.matrix = {
                 {
                     shortcode : 'C1',
                     shortcodeSlug : 'c1',
-                    title: 'Arbeitsplatzqualität und Gleichstellung',
+                    title: 'Arbeitsplatz&#8203;qualität und Gleichstellung',
                     content: 'Mitarbeiterorientierte Organisations-kultur und –strukturen, Faire Beschäftigungs- und Entgeltpolitik, Arbeitsschutz und Gesundheitsförderung einschließlich Work-Life-Balance/flexible Arbeitszeiten, Gleichstellung und Diversität',
                     points: 90
                 },
@@ -74,7 +74,7 @@ Data.matrix = {
                 {
                     shortcode : 'C5',
                     shortcodeSlug : 'c5',
-                    title: 'Innerbetriebliche Demokratie und Transparenz',
+                    title: 'Inner&#8203;betriebliche Demokratie und Transparenz',
                     content: 'Umfassende innerbetriebliche Transparenz, Wahl der Führungskräfte durch die Mitarbeiter, konsensuale Mitbestimmung bei Grundsatz- und Rahmenentscheidungen, Übergabe Eigentum an MitarbeiterInnen. Z.B. Soziokratie',
                     points: 90
                 }
@@ -150,14 +150,14 @@ Data.matrix = {
                 {
                     shortcode : 'E4',
                     shortcodeSlug : 'e4',
-                    title: 'Gemeinwohlorientierte Gewinn-Verteilung',
+                    title: 'Gemeinwohl&#8203;orientierte Gewinn-Verteilung',
                     content: 'Sinkende/ keine Gewinnausschüttung an Externe, Ausschüttung an Mitarbeiter, Stärkung des Eigenkapitals, sozial-ökologische Investitionen',
                     points: 60
                 },
                 {
                     shortcode : 'E5',
                     shortcodeSlug : 'e5',
-                    title: 'Gesellschaftliche Transparenz und Mitbestimmung',
+                    title: 'Gesellschaft&#8203;liche Transparenz und Mitbestimmung',
                     content: 'Gemeinwohl- oder Nachhaltigkeitsbericht, Mitbestimmung von regionalen und zivilgesellschaftlichen Berührungsgruppen',
                     points: 30
                 }
@@ -177,7 +177,7 @@ Data.matrix = {
                 {
                     shortcode : 'N2',
                     shortcodeSlug : 'n2',
-                    titleShort: 'Menschenunwürdige Produkte, z.B. Tretminen, Atomstrom, GMO',
+                    titleShort: 'Menschen&#8203;unwürdige Produkte, z.B. Tretminen, Atomstrom, GMO',
                     title: 'Menschenunwürdige Produkte und Dienstleistungen',
                     points: -200
                 },
@@ -209,7 +209,7 @@ Data.matrix = {
                 {
                     shortcode : 'N6',
                     shortcodeSlug : 'n6',
-                    titleShort: 'Dumpingpreise',
+                    titleShort: 'Dumping&#8203;preise',
                     title: 'Dumpingpreise',
                     points: -200
                 }
@@ -245,14 +245,14 @@ Data.matrix = {
                 {
                     shortcode : 'N10',
                     shortcodeSlug : 'n10',
-                    titleShort: 'Arbeitsrechtliches Fehlverhalten seitens des Unternehmens',
+                    titleShort: 'Arbeits&#8203;rechtliches Fehlverhalten seitens des Unternehmens',
                     title: 'Arbeitsrechtliches Fehlverhalten seitens des Unternehmens',
                     points: -200
                 },
                 {
                     shortcode : 'N11',
                     shortcodeSlug : 'n11',
-                    titleShort: 'Arbeitsplatzabbau oder Standortverlagerung bei Gewinn',
+                    titleShort: 'Arbeitsplatz&#8203;abbau oder Standortverlagerung bei Gewinn',
                     title: 'Arbeitsplatzabbau oder Standortverlagerung trotz Gewinn',
                     points: -150
                 },
@@ -277,7 +277,7 @@ Data.matrix = {
                 {
                     shortcode : 'N14',
                     shortcodeSlug : 'n14',
-                    titleShort: 'Nichtoffenlegung aller Beteiligungen und Töchter',
+                    titleShort: 'Nicht&#8203;offenlegung aller Beteiligungen und Töchter',
                     title: 'Nichtoffenlegung aller Beteiligungen und Töchter',
                     points: -100
                 },
@@ -291,7 +291,7 @@ Data.matrix = {
                 {
                     shortcode : 'N16',
                     shortcodeSlug : 'n16',
-                    titleShort: 'Nichtoffenlegung aller Finanzflüsse an Lobbies / Eintragung in das EU-Lobbyregister',
+                    titleShort: 'Nicht&#8203;offenlegung aller Finanzflüsse an Lobbies / Eintragung in das EU-Lobbyregister',
                     title: 'Nichtoffenlegung aller Finanzflüsse an Lobbyisten und Lobby-Organisationen / Nichteintragung ins Lobby-Register der EU',
                     points: -200
                 },

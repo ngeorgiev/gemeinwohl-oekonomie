@@ -51,6 +51,10 @@ var Router = {
         $(window).bind('hashchange', Router.onHashChange);
     },
 
+    getCurrentPageUrl : function() {
+        return window.location.hash;
+    },
+
     /**
      * Return true if it has shown a page (main or matrix)
      * @returns {boolean}
@@ -109,7 +113,7 @@ var Router = {
         $('#' + Router.visibleElementId).fadeOut(
             Router.fadeOutSpeed, Router.fadeInMatrix());
         Router.visibleElementId = Router.matrixId;
-        Utils.applyEqualHeight();
+        Utils.applyEqualHeightOnWidthChange();
     },
 
     showMatrixByHash : function () {

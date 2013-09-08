@@ -2,35 +2,10 @@ $iconSpritePath: "../images/glyphicons-halflings.png";
 $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
 
 @import 'sass-bootstrap/lib/bootstrap';
-@import 'css-modal/modal';
+@import 'config_default';
 
-/* Colors */
-$grey: #CCCCCC;
-$grey-middle: #555555;
-$grey-border: #D8D8D8;
-$grey-light: #FEFEFE;
-$grey-light-darker: #F8F8F8;
-$grey-light-border: #E5E5E5;
-$grey-dark: #5C5C5C;
+@import 'quicktest';
 
-$white: #FFFFFF;
-
-$gwoe-turquoise-color: #99CCCC;
-$gwoe-olive-color: #CCCB98;
-$gwoe-green2: #94BE4E;
-
-$negative-color: #DE6B3C;
-$negative-content-color: #7B7C7F;
-$basic-level-color: #E8B809;
-$advanced-level-color: #FFF101;
-$experienced-level-color: #A3CF9A;
-$model-level-color: #40AE49;
-
-/* Sizes */
-$normal-font-size: 14px;
-$smaller-font-size: 12px;
-
-$border-medium-size: 4px;
 
 /* GENERAL - Start */
 
@@ -97,26 +72,21 @@ $border-medium-size: 4px;
 }
 
 .negative-container {
-  display: table;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .negative-content {
-  display: table-cell;
-  width: 100%;
   font-size: $smaller-font-size;
   color: $negative-content-color;
-}
-
-.negative-points-container {
-  display: table-cell;
-  width: 90px;
-  margin-left: 10px;
-  color: $negative-color;
-  font-weight: bold;
+  -moz-hyphens: auto;
+  word-wrap: break-word;
 }
 
 .negative-points {
+  float: right;
+  margin-left: 10px;
+  color: $negative-color;
+  font-weight: bold;
 }
 
 .header-text-top {
@@ -143,6 +113,7 @@ $border-medium-size: 4px;
 
 .indicator-description {
   font-size: $smaller-font-size;
+  padding-bottom: 20px;
 }
 
 .indicator-points {
@@ -489,5 +460,3 @@ $tabs-border-color: $grey-border;
     padding: 12px 10px 12px 10px;
   }
 }
-
-@import 'quicktest';

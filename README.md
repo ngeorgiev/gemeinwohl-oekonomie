@@ -2,6 +2,7 @@ Note: the source code will be committed when it reaches an iteration worth open 
 
 ## Progress
 
+ * 05.09.2013 - Matrix - bootstrap layout, equal heigth of divs fixed with jquery.
  * 04.09.2013 - Quick test - added profile page and animation of the final result.
  * 03.09.2013 - Completed basic pages for the quick test. Calculations and final recommendations are shown.
  * 02.09.2013 - Created templates for the quick test intro page and first implementation of the question templates. Started with the quick test controllers.
@@ -24,3 +25,7 @@ Note: the source code will be committed when it reaches an iteration worth open 
 
  * Refactor the web app into components.
  * Add offline support: http://www.whatwg.org/specs/web-apps/current-work/multipage/offline.html#offline
+
+### Organisation
+ * In der Bewegung besprechen
+ * GWÖ-Projekt werden: http://koordination.gwoe.net/projekte/
