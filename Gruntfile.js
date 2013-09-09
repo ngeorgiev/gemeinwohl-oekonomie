@@ -45,7 +45,8 @@ module.exports = function (grunt) {
                 ]
             },
             filesToJson: {
-                files: ['<%= yeoman.app %>/scripts/data/matrix/{,*/}*.html'],
+                files: ['<%= yeoman.app %>/scripts/data/matrix/{,*/}*.html',
+                        'app/scripts/data/gwoe-indicators-data-base.js'],
                 tasks: ['filesToJson']
             }
         },
@@ -396,7 +397,7 @@ module.exports = function (grunt) {
     ]);
 
     grunt.registerTask('default', [
-        'jshint',
+        //'jshint',
         'test',
         'build'
     ]);
