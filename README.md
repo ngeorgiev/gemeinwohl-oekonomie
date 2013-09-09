@@ -2,6 +2,9 @@ Note: the source code will be committed when it reaches an iteration worth open 
 
 ## Progress
 
+ * 08.07.2013 - Adapted code to the new templating engine and imported all matrix data.
+ * 07.07.2013 - Templating engine refactoring. Open sourced the [Files to JSON grunt plugin](https://github.com/sinnwerkstatt/grunt-files-to-json-appender).
+ * 06.07.2013 - Matrix looks now professionally beautiful.
  * 05.09.2013 - Matrix - bootstrap layout, equal heigth of divs fixed with jquery.
  * 04.09.2013 - Quick test - added profile page and animation of the final result.
  * 03.09.2013 - Completed basic pages for the quick test. Calculations and final recommendations are shown.
@@ -24,7 +27,7 @@ Note: the source code will be committed when it reaches an iteration worth open 
 ## Roadmap
 
  * Refactor the web app into components.
- * Add offline support: http://www.whatwg.org/specs/web-apps/current-work/multipage/offline.html#offline
+ * Apply best practices of Javascript and CSS
 
 ### Organisation
  * In der Bewegung besprechen
