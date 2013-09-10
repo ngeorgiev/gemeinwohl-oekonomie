@@ -9,10 +9,6 @@ $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
 
 /* GENERAL - Start */
 
-#header-container {
-  margin-bottom: 15px;
-}
-
 .divcontainer:before,
 .divcontainer:after {
   content: "";
@@ -31,13 +27,27 @@ $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
 /* end -------------- */
 
 .page-wrapper {
-  padding: 5%;
+  padding: 30px 5%;
 }
 
 .bubble {
   padding: 3px;
   background: none repeat scroll 0% 0% #EEEEEE;
   border-radius: 3px 3px 3px 3px;
+}
+
+#header-container {
+  margin-bottom: 45px;
+}
+
+#header-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-end {
+  clear: both;
 }
 
 .gwoe-green {
