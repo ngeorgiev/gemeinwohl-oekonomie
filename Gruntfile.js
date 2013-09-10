@@ -296,6 +296,15 @@ module.exports = function (grunt) {
             ]
         },
         filesToJson: {
+            createJSTemplates: {
+                options: {
+                    inputFilesFolder : 'app/scripts/templates',
+                    inputFileExtension : 'html',
+                    jsonBaseFile : 'app/scripts/templates/templates-base.js',
+                    jsonBaseFileVariable : 'Template',
+                    jsonFileOutput : 'app/scripts/templates/templates.js'
+                }
+            },
             createIndicatorsJsonData: {
                 options: {
                     inputFilesFolder : 'app/scripts/data/matrix',

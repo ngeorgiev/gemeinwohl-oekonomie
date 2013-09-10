@@ -6,6 +6,21 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container:before, .container:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.container:after {
+  clear: both;
+}
 .row:before,
 .row:after {
   content: " ";
