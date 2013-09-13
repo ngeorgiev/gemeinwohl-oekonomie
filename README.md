@@ -1,4 +1,3 @@
-Note: the source code will be committed when it reaches an iteration worth open sourcing.
 
 ## Progress
 
