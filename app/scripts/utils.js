@@ -18,46 +18,42 @@ Utils.sumIntegersInArray = function (intArray) {
     return sum;
 };
 
-Utils.applyEqualHeightOnWidthChange = function () {
-    var currentResizeWidth = $(window).width();
-
-    // calculate only once for a given width
-    if (currentResizeWidth !== Utils.lastResizeWidth) {
-        Utils.lastResizeWidth = currentResizeWidth;
-        Utils.applyEqualHeight();
-    }
-};
-
 Utils.applyEqualHeightOnResize = function () {
     var currentResizeWidth = $(window).width();
+    console.log('applyEqualHeight On Resize');
 
     // fix for Chrome issue: http://code.google.com/p/chromium/issues/detail?id=133869
     if (currentResizeWidth !== Utils.lastResizeWidth) {
         Utils.lastResizeWidth = currentResizeWidth;
-
-        var jsEqualHeightElements = $('.js-equal-height');
-
-        // set height to auto (default) to calculate it again
-        jsEqualHeightElements.each(function() { // for each element
-            $(this).children().each(function () {
-                $(this).css({ height: 'auto' });
-            });
-        });
-
-        // set the max height to all elements
-        Utils.applyEqualHeight();
+        Utils.applyEqualHeightRecalculate();
     }
 };
 
+Utils.applyEqualHeightRecalculate = function () {
+    console.log('Recalculate ...');
+
+    // set height to auto (default) to calculate it again
+    Utils.getJsEqualHeightElements().each(function() { // for each element
+        $(this).children().each(function () {
+            $(this).css({ height: 'auto' });
+        });
+    });
+
+    // set the max height to all elements
+    Utils.applyEqualHeight();
+};
+
 Utils.applyEqualHeight = function () {
+    console.log('!!!applyEqualHeight');
 
-    var jsEqualHeightElements = $('.js-equal-height');
-    jsEqualHeightElements.each(function() { // for each element
-
+    Utils.getJsEqualHeightElements().each(function() { // for each element
         var maxHeight = 0;
         $(this).children().each(function () {
-            if ($(this).outerHeight() > maxHeight) { // compare heights
-                maxHeight = $(this).outerHeight();
+            var curCell = $(this);
+            if (curCell.outerHeight() > maxHeight) { // compare heights
+                maxHeight = curCell.outerHeight();
+                console.log('maxHeight = ' + maxHeight);
+                console.log('curCell = ' + curCell.id);
             }
         });
         if (maxHeight !== 0) {
@@ -66,4 +62,11 @@ Utils.applyEqualHeight = function () {
             });
         }
     });
+};
+
+Utils.getJsEqualHeightElements = function () {
+    if (Utils.jsEqualHeightElements === undefined) {
+        Utils.jsEqualHeightElements = $('.js-equal-height');
+    }
+    return Utils.jsEqualHeightElements;
 };

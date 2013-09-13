@@ -26,7 +26,9 @@ Controller.initializeTestState = function () {
         companyName : '',
         participantType : 'oneperson',
 
-        // array of the given evaluation values
+        /**
+         * string array of the given evaluation values
+         */
         answers : [],
         resultPoints : '',
         resultPercentage : 0,
@@ -68,6 +70,13 @@ Controller.createQuickTestHtml = function () {
 
 Controller.onTestAnswerClick = function (event) {
     var answerValue = $(event.target).attr('data-value');
+    // Controller.testState.questionIndex
+    var weight = Data.testQuestions[Controller.testState.questionIndex].weight;
+    if (weight !== undefined) {
+        answerValue = parseInt(answerValue, 10) * weight + '';
+    }
+    console.log('       points: ' + answerValue);
+
     Controller.testState.answers.push(answerValue);
     Controller.showNextTestQuestion();
 };
@@ -198,6 +207,20 @@ Controller.showEndOfTest = function () {
     document.getElementById('quick-test-points').innerHTML = testState.resultPoints;
     document.getElementById('quick-test-max-points').innerHTML = testState.maxPoints;
     document.getElementById('quick-test-result-text').innerHTML = testState.feedbackContent;
+
+    // set the color:
+    var testColorClass = '';
+    if (testState.resultLevel === 0) {
+        testColorClass = 'basic-level-bg-text';
+    } else if (testState.resultLevel === 1) {
+        testColorClass = 'advanced-level-bg-text';
+    } else if (testState.resultLevel === 2) {
+        testColorClass = 'experienced-level-bg-text';
+    } else if (testState.resultLevel === 3) {
+        testColorClass = 'model-level-bg-text';
+    }
+    $('#quick-test-result-progress-bar').addClass(testColorClass);
+//    document.getElementById('quick-test-result-progress-bar').className += ' ' + testColorClass;
 
     // show final result page
     Controller.currentQuestionId = Controller.quickTestResultId;

@@ -76,9 +76,9 @@ Data.quickTest = {
                         },
                         {
                             minValue: 95,
-                            maxValue: 126,
+                            maxValue: 128,
                             content :
-                                '<p>Ihr Unternehmen ist bereits vorbildlich nach vielenKriterien der Gemeinwohlökonomie. Wahrscheinlich sind Sie schon GWÖ-Unternehmen oder  seit Jahren branchenführend in der Nachhaltigkeitsszene. Als Vorreiter und Pionier sind Sie Vorbild für ihre Mitbewerber und Inspiration für andere gemeinwohl-interessierte Unternehmer. Bitte erstellen Sie einen Gemeinwohl-Bericht und geben so ihre Erfahrung weiter!</p>'
+                                '<p>Ihr Unternehmen ist bereits vorbildlich nach vielen Kriterien der Gemeinwohlökonomie. Wahrscheinlich sind Sie schon GWÖ-Unternehmen oder  seit Jahren branchenführend in der Nachhaltigkeitsszene. Als Vorreiter und Pionier sind Sie Vorbild für ihre Mitbewerber und Inspiration für andere gemeinwohl-interessierte Unternehmer. Bitte erstellen Sie einen Gemeinwohl-Bericht und geben so ihre Erfahrung weiter!</p>'
                         }
                     ]
                 }

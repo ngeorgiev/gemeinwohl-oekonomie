@@ -2,6 +2,9 @@ Note: the source code will be committed when it reaches an iteration worth open 
 
 ## Progress
 
+ * 12.09.2012 - Generating all templates with the grunt plugin. Matrix table height fixes. Quick test - created icon and adapted result colors for the Quick Test.
+ * 11.09.2012 - Few design fixes for the quick test. Create beautiful matrix icon.
+ * 10.09.2013 - Added header. Update the Grunt plugin to generate also the templates.
  * 09.09.2013 - Added table data for A1-C5.
  * 08.09.2013 - Adapted code to the new templating engine and imported all matrix data.
  * 07.09.2013 - Templating engine refactoring. Open sourced the [Files to JSON grunt plugin](https://github.com/sinnwerkstatt/grunt-files-to-json-appender).

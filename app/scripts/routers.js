@@ -113,7 +113,6 @@ var Router = {
         $('#' + Router.visibleElementId).fadeOut(
             Router.fadeOutSpeed, Router.fadeInMatrix());
         Router.visibleElementId = Router.matrixId;
-        Utils.applyEqualHeightOnWidthChange();
     },
 
     showMatrixByHash : function () {
@@ -134,6 +133,7 @@ var Router = {
 
     fadeInMatrix : function (containerId) {
         Router.fadeInContainer(Router.matrixId);
+        Utils.applyEqualHeightRecalculate();
     }
 
 };

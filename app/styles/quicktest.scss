@@ -15,8 +15,13 @@ $btn-darken-percentage: 5;
 .quick-test-introduction {
 }
 
+.quick-test-questions-indicator {
+  font-size: 1.5em;
+}
+
 .quick-test-questions-text {
   margin: 25px 0px;
+  font-size: 1.5em;
 }
 
 .quick-test-profile-form {
@@ -42,7 +47,6 @@ $btn-darken-percentage: 5;
 #quick-test-result-progress-bar {
   font-size: 1.5em;
   font-weight: bold;
-  padding-top: 10px;
 }
 
 .progress .progress-bar.six-sec-ease-in-out {
