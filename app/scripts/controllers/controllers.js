@@ -7,6 +7,7 @@ var Controller = {
         Controller.createQuickTestHtml();
         Controller.createMatrixHtml();
         Controller.createIndicatorsHtml();
+        Controller.createFooterHtml();
     },
 
     createMainPageHtml : function () {
@@ -48,6 +49,7 @@ var Controller = {
     },
 
     applyEqualHeightOnResizeOfMatrix : function () {
+        // resize only if the matrix page is opened
         if (Router.getCurrentPageUrl() === Router.hashSymbol + Router.hashMatrix) {
             Utils.applyEqualHeightOnResize();
         }
@@ -163,11 +165,11 @@ var Controller = {
                 document.getElementById('matrix-'+indicator.shortcodeSlug+'-details-content').innerHTML =
                     indicator.details.content;
             }
-            if (indicator.definition) {
+            if (indicator.definition && indicator.definition.content) {
                 document.getElementById('matrix-'+indicator.shortcodeSlug+'-definition-content').innerHTML =
                     indicator.definition.content;
             }
-            if (indicator.implementationHelp) {
+            if (indicator.implementationHelp && indicator.implementationHelp.content) {
                 document.getElementById('matrix-'+indicator.shortcodeSlug+'-implementationHelp-content').innerHTML =
                     indicator.implementationHelp.content;
             }
@@ -309,5 +311,15 @@ var Controller = {
 
     getMinMaxRangeString : function (minStr, maxStr) {
         return '(' + minStr + ' - ' + maxStr + ' %)';
+    },
+
+    createFooterHtml : function () {
+        var footerHtml = '';
+        var compiledTemplate = dust.compile(Template.footerTemplate, 'footerTemplate');
+        dust.loadSource(compiledTemplate);
+        dust.render('footerTemplate', {}, function(err, out) {
+            footerHtml += out;
+        });
+        document.getElementById('footer-container').innerHTML = footerHtml;
     }
 };

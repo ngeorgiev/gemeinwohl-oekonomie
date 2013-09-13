@@ -46,7 +46,8 @@ module.exports = function (grunt) {
             },
             filesToJson: {
                 files: ['<%= yeoman.app %>/scripts/data/matrix/{,*/}*.html',
-                        'app/scripts/data/gwoe-indicators-data-base.js'],
+                        '<%= yeoman.app %>/scripts/data/gwoe-indicators-data-base.js',
+                        '<%= yeoman.app %>/scripts/templates/{,*/}*.html'],
                 tasks: ['filesToJson']
             }
         },
