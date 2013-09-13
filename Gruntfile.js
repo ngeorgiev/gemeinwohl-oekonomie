@@ -398,12 +398,12 @@ module.exports = function (grunt) {
         'filesToJson',
         'useminPrepare',
         'concurrent:dist',
-        'autoprefixer',
+//        'autoprefixer',
         'concat',
         'cssmin',
-        'uglify',
+//        'uglify',
         'copy:dist',
-        'rev',
+//        'rev',
         'usemin'
     ]);
 
