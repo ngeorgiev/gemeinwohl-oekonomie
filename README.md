@@ -1,9 +1,10 @@
 
 ## Progress
 
- * 13.09.2012 - Moved external JS and CSS scripts into vendor for easier deployment. Fixed deployment issues.
- * 12.09.2012 - Generating all templates with the grunt plugin. Matrix table height fixes. Quick test - created icon and adapted result colors for the Quick Test.
- * 11.09.2012 - Few design fixes for the quick test. Create beautiful matrix icon.
+ * 14.09.2013 - Better design of the quick test. Added table data for D1-E5. Created small icon for the back-to-matrix button.
+ * 13.09.2013 - Moved external JS and CSS scripts into vendor for easier deployment. Fixed deployment issues.
+ * 12.09.2013 - Generating all templates with the grunt plugin. Matrix table height fixes. Quick test - created icon and adapted result colors for the Quick Test.
+ * 11.09.2013 - Few design fixes for the quick test. Create beautiful matrix icon.
  * 10.09.2013 - Added header. Update the Grunt plugin to generate also the templates.
  * 09.09.2013 - Added table data for A1-C5.
  * 08.09.2013 - Adapted code to the new templating engine and imported all matrix data.
