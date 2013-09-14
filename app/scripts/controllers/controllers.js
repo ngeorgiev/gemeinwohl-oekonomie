@@ -180,7 +180,7 @@ var Controller = {
             document.getElementById('matrix-'+indicator.shortcodeSlug+'-indicator-table').innerHTML =
                 Controller.getMeasurementTableHTMLString(indicator);
             document.getElementById('matrix-'+indicator.shortcodeSlug+'-indicator-table-legend').innerHTML =
-                Controller.getTableLegendString();
+                Controller.getTableLegendString(indicator.table);
             // TODO: add the rest.
         }
 
@@ -197,9 +197,22 @@ var Controller = {
         }
     },
 
-    getTableLegendString : function () {
+    getTableLegendString : function (indicatorTable) {
         // TODO: create the string from the JSON data.
-        return 'Table Legend: ';
+        if (indicatorTable.legend !== undefined) {
+
+            var tableLegendHtml = '';
+
+            var compiledTemplate = dust.compile(Template.tableLegend, 'tableLegend');
+            dust.loadSource(compiledTemplate);
+            dust.render('tableLegend', indicatorTable, function(err, out) {
+                tableLegendHtml += out;
+            });
+
+            return tableLegendHtml;
+        } else {
+            return '';
+        }
     },
 
     /**
