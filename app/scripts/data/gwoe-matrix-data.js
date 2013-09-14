@@ -85,8 +85,8 @@ Data.matrix = {
             name: 'KundInnen /Produkte / Dienstleistungen / Mitunternehmen',
             values: [
                 {
-                    shortcode : 'D5',
-                    shortcodeSlug : 'd5',
+                    shortcode : 'D1',
+                    shortcodeSlug : 'd1',
                     title: 'Ethische Kundenbeziehung',
                     content: 'Ethischer Umgang mit KundInnen, KundInnenorientierung/ - mitbestimmung, gemeinsame Produktentwicklung, hohe Servicequalität, hohe Produkttransparenz',
                     points: 50

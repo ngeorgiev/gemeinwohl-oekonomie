@@ -14,6 +14,11 @@ var Router = {
     fadeOutSpeed : 100,
     fadeInSpeed : 300,
 
+    /**
+     * The default subIndicator Id to be shown.
+     */
+    defaultSubIndicatorId : '-table',
+
     visibleElementId : '',
 
     /**
@@ -82,7 +87,7 @@ var Router = {
                 indicatorDetailId = ''; // no details
             } else {
                 indicatorDetailId = typeof indicatorDetailId !== 'undefined' ?
-                    indicatorDetailId : '-goals';
+                    indicatorDetailId : Router.defaultSubIndicatorId;
             }
         }
         Router.visibleElementId = indicatorId;
