@@ -192,142 +192,168 @@ Data.quickTest = {
                     {
                         stakeholders : 'A',
                         gwoeValue : '1',
+                        indicatorTitle : 'Ethisches Beschaffungsmanagement',
                         text : 'Mein Unternehmen berücksichtigt bei allen wesentlichen zugekauften Produkten und Dienstleistungen die besten regionalen, sozialen und ökologischen Alternativen und findet innovative Lösungen zur Vermeidung kritischer Stoffe ohne höherwertige Alternative.'
                     },
                     {
                         stakeholders : 'A',
                         gwoeValue : '1',
+                        indicatorTitle : 'Ethisches Beschaffungsmanagement',
                         text : 'Mein Unternehmen kooperiert aktiv mit LieferantInnen, um soziale und ökologische Aspekte besser zu lösen. Es gibt ein nachgewiesenes Controlling, d.h. alle zugekauften P/D sind intern oder extern zertifiziert.'
                     },
                     {
                         stakeholders : 'A',
                         gwoeValue : '1',
+                        indicatorTitle : 'Ethisches Beschaffungsmanagement',
                         text : 'Mein Unternehmen zahlt faire Preise, pflegt langfristige Kooperationen mit den LieferantInnen und hat erste innovative Strukturen entwickelt.'
                     },
                     {
                         stakeholders : 'B',
                         gwoeValue : '1',
+                        indicatorTitle : 'Ethisches Finanzmanagement',
                         text : 'Mein Unternehmen hat ausschließlich ethisch-ökologische Finanzdienstleister, d.h. Bank/ Vorsorgekasse und veranlagt/finanziert sich dort zu 100 %.'
                     },
                     {
                         stakeholders : 'C',
                         gwoeValue : '1',
+                        indicatorTitle : 'MitarbeiterInnen inklusive EigentümerInnen',
                         text : 'Mein Unternehmen pflegt eine wertschätzende, offeneOrganisationskultur mit klaren Aufgaben/ Kompetenzen, ausreichender Weiterbildung und einer partizipativen Führungskultur.'
                     },
                     {
                         stakeholders : 'C',
                         gwoeValue : '1',
+                        indicatorTitle : 'MitarbeiterInnen inklusive EigentümerInnen',
                         text : 'Mein Unternehmen bietet optimale Arbeitsplatzsicherheit für die Mitarbeiter. Es gibt eine Vielzahl von Arbeitszeit-Modellen, die von den MA selbst gewählt werden können. Die Rahmenbedingungen für eine optimale Work-Life-Balance sind vorhanden.',
                         excludedParticipants : ['oneperson']
                     },
                     {
                         stakeholders : 'C',
                         gwoeValue : '1',
+                        indicatorTitle : 'MitarbeiterInnen inklusive EigentümerInnen',
                         text : 'Mein Unternehmen kümmert sich aktiv um diverse Mitarbeiter und die Gleichbehandlung von Mann/Frau. Es gibt gleiche Bezahlung für Männer/ Frauen, die Führungskräfte auf allen Ebenen sind zu 50% Frauen, es gibt eine besondere Berücksichtigung von älteren Arbeitnehmern, Arbeitnehmern mit Migrationshintergrund, behinderten Arbeitenehmern. Wir zahlen keine Ausgleichstaxe.',
                         excludedParticipants : ['oneperson']
                     },
                     {
                         stakeholders : 'C',
                         gwoeValue : '2',
+                        indicatorTitle : 'Gerechte Verteilung der Erwerbsarbeit',
                         text : 'Mein Unternehmen hat keine All-incl. Verträge und baut Überstunden ab. Statt neuer Überstunden werden neue MitarbeiterInnen eingestellt. Wir leisten einen Beitrag zur Reduktion der Arbeitslosigkeit.'
                     },
                     {
                         stakeholders : 'C',
                         gwoeValue : '3',
+                        indicatorTitle : 'Förderung ökologischen Verhaltens der MitarbeiterInnen',
                         text : 'Mein Unternehmen fördert und fordert das ökologische Verhalten der Mitarbeiter durch eine biologisch, regionale, fleischlose Ernährung, umfassende Weiterbildungsmaßnahmen und finanzielle Förderung von schadstoffarmen Verkehrsmitteln.'
                     },
                     {
                         stakeholders : 'C',
                         gwoeValue : '4',
+                        indicatorTitle : 'Gerechte Verteilung des Einkommens',
                         text : 'Mein Unternehmen hat eine maximale Einkommensspreizung von 1:3, d.h. der bezahlte Höchstlohn entspricht max. das dreifache des bezahlten Niedrigstlohns.',
                         excludedParticipants : ['oneperson']
                     },
                     {
                         stakeholders : 'C',
                         gwoeValue : '4',
+                        indicatorTitle : 'Gerechte Verteilung des Einkommens',
                         text : 'Mein Unternehmen zahlt mind. 1250 Euro monatlich netto und maximal das zehnfache davon an den Höchstverdiener.',
                         excludedParticipants : ['oneperson']
                     },
                     {
                         stakeholders : 'C',
                         gwoeValue : '5',
+                        indicatorTitle : 'Innerbetriebliche Demokratie und Transparenz',
                         text : 'Mein Unternehmen hat eine hohe interne Transparenz und alle MitarbeiterInnen können konsensual die Grundsatzentscheidungen in ihrem Team mitbestimmen.',
                         excludedParticipants : ['oneperson']
                     },
                     {
                         stakeholders : 'C',
                         gwoeValue : '5',
+                        indicatorTitle : 'Innerbetriebliche Demokratie und Transparenz',
                         text : 'In meinem Unternehmen werden die Führungskräfte von ihren MitarbeiterInnen eingestellt, regelmäßig evaluiert und können auch von ihnen entlassen werden.',
                         excludedParticipants : ['oneperson']
                     },
                     {
                         stakeholders : 'C',
                         gwoeValue : '5',
+                        indicatorTitle : 'Innerbetriebliche Demokratie und Transparenz',
                         text : 'Unser Unternehmen gehört allen Mitarbeitern oder einer unabhängigen Stiftung. Es gibt keine „Übermacht“ einiger weniger Eigentümer mehr.',
                         excludedParticipants : ['oneperson']
                     },
                     {
                         stakeholders : 'D',
                         gwoeValue : '1',
+                        indicatorTitle : 'Ethische Kundenbeziehung',
                         text : 'Mein Unternehmen hat ein Gesamtkonzept für Ethik im Verkauf und sorgt für Preistransparenz, faire Preise und beliefert nur ethisch einwandfreie Kunden.'
                     },
                     {
                         stakeholders : 'D',
                         gwoeValue : '1',
+                        indicatorTitle : 'Ethische Kundenbeziehung',
                         text : 'Mein Unternehmen bezieht die Kunden bei der Produktentwicklung mit ein und lässt die Kunden bestmöglich mitentscheiden.'
                     },
                     {
                         stakeholders : 'D',
                         gwoeValue : '2',
+                        indicatorTitle : 'Solidarität mit Mitunternehmen',
                         text : 'Mein Unternehmen gibt das eigene Knowhow, Kalkulationen und Lieferquellen an gleichgesinnte Mitbewerber weiter. Gemeinsam wird an einem Produktinformationssystem gearbeitet, so dass die Kunden optimal informiert sind und Leistungen gut vergleichen können.'
                     },
                     {
                         stakeholders : 'D',
                         gwoeValue : '2',
+                        indicatorTitle : 'Solidarität mit Mitunternehmen',
                         text : 'Mein Unternehmen gibt Aufträge an Mitbewerber weiter, wenn sie nicht mehr selbst bedient werden können, unterstützt die Mitbewerber mit eigenen Arbeitskräften bei Engpässen und stellt gleichgesinnten Mitbewerbern auch Fremdkapital zu einem angemessenen Zinssatz zur Verfügung.'
                     },
                     {
                         stakeholders : 'D',
                         gwoeValue : '3',
+                        indicatorTitle : 'Ökologische Gestaltung der Produkte und Dienstleistungen',
                         text : 'Die Produkte/Dienstleistungen meines Unternehmens sind im Vergleich zu den Mitbewerbern ökologisch branchenführend z.B. Cradle-to-cradle. Wir sind Vorreiter bei der ökologischen Qualität der P/D',
                         weight : 2
                     },
                     {
                         stakeholders : 'D',
                         gwoeValue : '3',
+                        indicatorTitle : 'Ökologische Gestaltung der Produkte und Dienstleistungen',
                         text : 'Mein Unternehmen fördert das ökologische Verhalten der Kunden. Preisvorteile & Anreiz-systeme; Reparatur, Wiederverwendung und gemeinschaftliche Nutzung sind wesentliche Bestandteile unseres Geschäftsmodells.'
                     },
                     {
                         stakeholders : 'D',
                         gwoeValue : '4',
+                        indicatorTitle : 'Soziale Gestaltung der Produkte und Dienstleistungen',
                         text : 'Mein Unternehmen setzt sich aktiv mit den Zugang von Benachteiligten (Geringverdiener, MigrantInnen, älteren Menschen, Behinderte) zu unseren Produkten/ Dienstleistungen auseinander und schafftangemessene Zugangsmöglichkeiten für die Gruppen',
                         weight : 2
                     },
                     {
                         stakeholders : 'D',
                         gwoeValue : '5',
+                        indicatorTitle : 'Erhöhung der sozialen und ökologischen Branchenstandards',
                         text : 'Mein Unternehmen arbeitet mit den Mitbewerbern aktiv an höheren sozialen und ökologischen Branchenstandards und versucht hier ein positives Lobbying.'
                     },
                     {
                         stakeholders : 'E',
                         gwoeValue : '1',
+                        indicatorTitle : 'Sinn und Gesellschaftliche Wirkung der Produkte / Dienstleistungen',
                         text : 'Mein Unternehmen stellt Produkte/Dienstleistungen her, die einen deutlich positiven Nutzen für die Gesellschaft (nicht primärdie Kunden) haben. 75% bis 100% der P/D decken Grundbedarf oder haben deutlich positive + nachgewiesen Auswirkungen und lösen wesentliche gesellschaftliche Probleme (Social Business).',
                         weight : 2
                     },
                     {
                         stakeholders : 'E',
                         gwoeValue : '2',
+                        indicatorTitle : 'Beitrag zum Gemeinwesen',
                         text : 'Mein Unternehmen gibt mehr als 2,5% des Umsatzes für zusätzliches gesellschaftliches Engagement aus. Dabei haben wir eine umfassende Strategie sowie nachhaltige Wirkungen in mehreren Feldern.'
                     },
                     {
                         stakeholders : 'E',
                         gwoeValue : '3',
+                        indicatorTitle : 'Reduktion ökologischer Auswirkungen',
                         text : 'Mein Unternehmen kennt seinen ökologischen Fußabdruck und ist im Branchendurchschnitt vorbildlich. Unsere negativen ökologischen Auswirkungen sind sehr gering.',
                         weight : 2
                     },
                     {
                         stakeholders : 'E',
                         gwoeValue : '4',
+                        indicatorTitle : 'Gemeinwohlorientierte Gewinn-Verteilung',
                         text : 'Unsere Gewinne werden zwischen Arbeitnehmern und Kapitalgebern gerecht verteilt, dienen der Erhöhung der Eigenkapitalquoteoder fließt in sozial-ökologische Investitionen (gemeinwohl-orientierte Gewinnverwendung). Es gibt keine Ausschüttung an nicht mitarbeitende Eigentümer.',
                         excludedParticipants : ['oneperson'],
                         weight : 2
@@ -335,6 +361,7 @@ Data.quickTest = {
                     {
                         stakeholders : 'E',
                         gwoeValue : '5',
+                        indicatorTitle : 'Gesellschaftliche Transparenz und Mitbestimmung',
                         text : 'Mein Unternehmen publiziert einen Gemeinwohlbericht oder einen umfassenden Nachhaltigkeitsbericht ala GRI. Darüberhinaus beziehen wir die gesellschaftlichen Berührungsgruppen bei wesentlichen Entscheidungen mit ein.'
                     }
                 ]
@@ -430,8 +457,8 @@ Data.matrix = {
             name: 'KundInnen /Produkte / Dienstleistungen / Mitunternehmen',
             values: [
                 {
-                    shortcode : 'D5',
-                    shortcodeSlug : 'd5',
+                    shortcode : 'D1',
+                    shortcodeSlug : 'd1',
                     title: 'Ethische Kundenbeziehung',
                     content: 'Ethischer Umgang mit KundInnen, KundInnenorientierung/ - mitbestimmung, gemeinsame Produktentwicklung, hohe Servicequalität, hohe Produkttransparenz',
                     points: 50
@@ -1478,7 +1505,114 @@ Data.indicators = {
                 points: 50,
                 goals : {},
                 impulsQuestions : {},
-                table : {},
+                table : {
+                    subindicators : [
+                        {
+                            title : 'Gesamtheit der Maßnahmen für eine ethische Kundenbeziehung (ethisches Marketing + Verkauf)',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Gesamtkonzept für ethische Kundenbeziehung und Selbstverpflichtung der Geschäftsführung'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Umsetzung des Gesamtkonzeptes zu mind. 50 %, deutliche Maßnahmen zur Änderung von Strukturen, Prozessen und Haltung der Mitarbeiter, Gehalt unabhängig von Verkaufszahlen'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Umsetzung des Gesamtkonzeptes bis zu 75 %, umfangreiche Maßnahmen zur Änderung von Strukturen, Prozessen und Haltung der MA'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Gesamtkonzept 100%ig umgesetzt und strukturell verankert, alle MA leben die Haltung der ethischen Kundenbeziehung'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : 'Umfang der KundInnen-Mit­bestimmung/gemeinsame Produktentwicklung/Markt-forschung',
+                            relevance : 'middle',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Erste Maßnahmen zum Beirat angedacht, + Pilotprojekte gemeinsame Produktentwicklung'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Beirat vorhanden, Transparenz der Ergebnisse + bis 25 % der Produkte gemeinsame Produktentwicklung'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Beirat = Umsetzung der Empfehlungen bis 50 % + bis 50 % gemeinsame Produktentwicklung'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Beirat Umsetzung bis 75 %, mind. monatliche Treffen + bis 75 % gemeinsame Produktentwicklung'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : 'Service-Management ',
+                            relevance : 'middle',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Gesamtkonzept für Service-Management + Testphase, mind. Hotline'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Beschwerde­stelle vorhanden, einfaches Reklameprozedere'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : '+ umfassende Servicemaßnahmen'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : '+ Sanktionsmaß-nahmen bei Beschwerden + trans-parentes Reporting'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : 'Produkttransparenz[1]',
+                            relevance : 'middle',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Konzept zur Verbesserung der Produkttransparenz'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Produkttransparenz über dem Branchendurch-schnitt <br/><br/>Preiskalkulation transparent'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Produkttransparenz weit über dem Branchendurchschnitt'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : '+ Verknüpfung GWÖ-Bericht'
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
                 details : {},
                 definition : {},
                 bestPractices : {},
@@ -1493,7 +1627,88 @@ Data.indicators = {
                 points: 70,
                 goals : {},
                 impulsQuestions : {},
-                table : {},
+                table : {
+                    subindicators : [
+                        {
+                            title : 'Offenlegung von Informationen + Weitergabe von Technologie',
+                            relevance : 'middle',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Offenlegung finanzieller und technischer Information'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Umfassende Offenlegung von Kostenkalkulation, Bezugsquellen und Technologie'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Zusätzlich: Kostenlose Weitergabe einzelner Technologien'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Vollständige Transparenz und Open-Source-Prinzip'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : 'Weitergabe von Arbeitskräften, Aufträgen und Finanzmitteln; kooperative Marktteilnahme',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Kooperation nur auf Anfrage'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Kooperation in Randbereichen des Geschäfts'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Kooperation im gesamten Geschäftsbereich'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Kooperation im gesamten Geschäftsbereich + Beteiligung an kooperativer Marktteilnahme'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : 'Kooperatives Marketing ',
+                            relevance : 'middle',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Verzicht auf Diskreditierung der Konkurrenz'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Verzicht auf massenmediale Werbung (TV, Radio, Plakate)'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Mitaufbau eines gemeinsamen Produktinformationssystems (PIS)'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Mittragen der Brancheninitiative für ethisch-kooperatives Marketing'
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
                 details : {},
                 definition : {},
                 bestPractices : {},
@@ -1508,7 +1723,88 @@ Data.indicators = {
                 points: 90,
                 goals : {},
                 impulsQuestions : {},
-                table : {},
+                table : {
+                    subindicators : [
+                        {
+                            title : 'Produkte / Dienstleistungen sind im ökol. Vergleich zu Produkt / Dienstleistungen von MitwerberInnen bzw. Alternativen  von gleichem Nutzen',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'sind durch einen im Vergleich  geringeren ökologischen Fußabdruck bzw. durch erste Ansätze einer überdurchschnittlichen, ökol. Gestaltung gekennzeichnet'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Das Unternehmen verfügt über eine klare, nachvollziehbare Strategie und erkennbare Maßnahmen zur Ökologisierung der Produkte / Dienstleistungen'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'P / D weit über Branchendurchschnitt (z.B.: BAT = Best Available Technology)'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'P / D branchenführend (z.B.: Cradle-to-Cradle)'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : 'SUFFIZIENZ (siehe Exkurs weiter unten): Aktive Gestaltung für eine ökol. Nutzung und suffizienten Konsum',
+                            relevance : 'middle',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Das Unternehmen setzt sich mit nicht-suffizienten / potentiell schädlichen Anwendungsgebieten seiner P / D[3] aktiv auseinander (z.B.: interne Analyse der eigenen Produkte / Dienstleistungen)<br/><br/>Produkte sind nicht widersprüchlich zu einem suffizienten Lebensstil'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Erste Maßnahmen für suffiziente Lebensstile (Anwendung von Ausschlusskriterien, P/D für ökologisch orientierte Absatzmärkte)'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Das Unternehmen fördert eine nachhaltige Nutzung aktiv durch bessere Konditionen und Services (z.B.:  (Preisvorteile, Anreizsysteme, längere Gewährleistung, kostengünstige Reparatur)'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Umfassende Förderung eines ökologisch suffizienten Kundenverhaltens: (Preisvorteile &  Anreizsysteme Reparatur, Wiederverwendung und gemeinschaftliche Nutzung wesentlicher Bestandteil des Geschäftsmodells)'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : 'KOMMUNIKATION: Aktive Kommunikation ökologischer Aspekte den KundInnen gegenüber',
+                            relevance : 'middle',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Das Unternehmen weist aktiv auf höherwertige Alternativen (auch bei MitwerberInnen) hin<br/><br/>Die in der Kommunikation dargestellten ökologischen Aspekte  sind nicht irreführend (siehe Green-Washing)'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Explizite und umfassende Informationen über die ökologischen und Lebensstil-Aspekte der P / D hin'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Von Kunden wird aktiv -Feedback zu ökologischen und Lebensstil-Aspekten eingeholt (z.B.: Nutzungsverhalten, Verbesserungs-potentiale, etc. )'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Ökologische und Lebensstil-Aspekte wesentlicher Inhalt der KundInnen-beziehungen'
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
                 details : {},
                 definition : {},
                 bestPractices : {},
@@ -1523,7 +1819,46 @@ Data.indicators = {
                 points: 30,
                 goals : {},
                 impulsQuestions : {},
-                table : {},
+                table : {
+                    subindicators : [
+                        {
+                            title : 'Erleichterter Zugang zu Informationen/ Produkten/ Dienstleistungen für benachteiligte KundInnen-Gruppen*',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Das Unternehmen hat die relevanten benachteiligten KundInnen-Gruppen identifiziert und Informationszugang für die relevantesten Gruppen besteht'
+                                        },
+                                        {
+                                            levels : ['advanced', 'experienced', 'model'],
+                                            description : '<ul><li><span>Vertrieb ist geschult in Umgang/Lösungen für die relevantesten KundInnen-Gruppen und es werden angemessene Ressourcen für Betreuung zur Verfügung gestellt&nbsp;</span></li><li><span>Lösungen für die größten Barrieren für die relevantesten KundInnen-Gruppen bestehen und werden eingesetzt (zum Beispiel gibt es eine soziale Preisstaffelung oder adäquate Zugangserleichterungen für die KundInnen-Gruppe der einkommensschwachen Haushalte)</span></li><li><span>bestehende P/D werden speziell für Anforderungen der relevantesten KundInnen-Gruppen angepasst</span></li></ul>'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : 'Förderungswürdige Strukturen** werden durch Vertriebspolitik unterstützt',
+                            relevance : 'middle',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'KundInnen aus förderungswürdigen Strukturen erhalten relativ gleichwertige Konditionen und Serviceleistungen wie Großunternehmen / Großabnehmer'
+                                        },
+                                        {
+                                            levels : ['advanced', 'experienced', 'model'],
+                                            description : '+ spezielle Servicemaßnahme(n) unterstützen diese KundInnen<br/><br/>+ spezielle Kondition(en) unterstützen diese KundInnen + sonstige Maßnahme(n) unterstützen diese KundInnen'
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
                 details : {},
                 definition : {},
                 bestPractices : {},
@@ -1538,7 +1873,88 @@ Data.indicators = {
                 points: 30,
                 goals : {},
                 impulsQuestions : {},
-                table : {},
+                table : {
+                    subindicators : [
+                        {
+                            title : 'Kooperation mit MitwerberInnen und Partnern der Wertschöpfungs-kette',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Erste Pilotprojekte zur gemeinsamen Entwicklung höherer Standards mit Marktpartnern (z.B.: F&E-Kooperation)<br/><br/>Keine wesentlichen Konflikte mit Zivilgesellschaft bezügl. der Standards<br/><br/>Aktive Kommunikation höherer Standards nach Außen (z.B.: Webseite)'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Regelmäßige, etablierte Mechanismen zur gemeinsamen Entwicklung höherer Standards<br/><br/>Höhere Standards wesentlicher Bestandteil der Kommunikationspolitik des Unternehmens'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Selbstverpflichtung auf Branchenebene'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Sicherstellung und Überprüfbarkeit der höheren Standards  (z.B.: externe Audits und unabhängige Kontrollen; Kooperation mit NGOs)'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : 'Aktiver Beitrag zur Erhöhung legislativer Standards',
+                            relevance : 'middle',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Transparente Offenlegung der politischen Aktivitäten<br/><br/>Kein Widerstand gegen höhere soziale und ökologische legislative Standards'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Brancheninternes Engagement für höhere legislative Standards<br/><br/>(z.B.: in Kooperation mit Branchenvertretung)'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Über die Branche hinausgehendes Engagement für höhere legislative Standards (z.B.: Kooperation mit NGOs)'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Transparente, wesentliche Berührungsgruppen inkludierender Lobbying-Prozess (z.B.: Ausformulierte Gesetzesinitiativen)'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : 'Reichweite, inhaltliche Breite und Tiefe',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Ein sozialer oder ökologischer Randaspekt betroffen'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Ein wesentlicher sozialer oder ökologischer Aspekt betroffen<br/><br/>Tatsächliche Umsetzung höherer Standards betrifft > 25% des Umsatzes'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Mehrere, wesentliche  soziale oder ökologische Aspekte betroffen<br/><br/>Tatsächliche Umsetzung höherer Standards > 50%'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Alle wesentlichen sozialökologischen Aspekte<br/><br/>Erhöhung der Branchenstandards ist inhärenter Bestandteil der Unternehmenspositionierung (> 90%)'
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
                 details : {},
                 definition : {},
                 bestPractices : {},
@@ -1553,7 +1969,62 @@ Data.indicators = {
                 points: 50,
                 goals : {},
                 impulsQuestions : {},
-                table : {},
+                table : {
+                    subindicators : [
+                        {
+                            title : 'Produkte/ Dienstleistungen decken den Grundbedarf oder dienen der Entwicklung der Menschen/der Gemeinschaft/der Erde  und generieren positiven Nutzen',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Erste Pilotprojekte zur gemeinsamen Entwicklung höherer Standards mit Marktpartnern Bis zu 25% der P/D decken Grundbedarf oder haben positive + nachgewiesene Auswirkungen auf Menschen/ Gemeinschaft/Erde;<br/><br/>max. 25% der P/D erfüllen hemmenden/pseudo-/ Negativ-Nutzen F&E-Kooperation)<br/><br/>Keine wesentlichen Konflikte mit Zivilgesellschaft bezügl. der Standards<br/><br/>Aktive Kommunikation höherer Standards nach Außen (z.B.: Webseite)'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Bis zu 50% der P/D decken Grundbedarf oder haben deutlich positive + nachgewiesene Auswirkungen auf Menschen/ Gesellschaft/Erde;<br/><br/>keine P/D erfüllen hemmenden/ pseudo-/ Negativ-Nutzen'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Bis zu 75% der P/D decken Grundbedarf oder haben deutlich positive + nachgewiesene Auswirkungen auf Menschen/ Gesellschaft/ Erde'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Bis zu 100% der P/D decken Grundbedarf oder haben deutlich positive + nachgewiesen Auswirkungen und lösen wesentliche gesellschaftliche Probleme'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : 'Ökologischer und sozialer Vergleich der Produkte/ Dienstleistungen mit Alternativen mit ähnlichem Endnutzen',
+                            relevance : 'middle',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Punktuelle Ansätze: z.B. das Unternehmen bietet soziale und ökologische Nischenprodukte an'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Das Unternehmen bietet hinsichtlich sozialer/ ökologischer Aspekte überdurch-schnittliche P/D'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Hinsichtlich sozialer und ökologischer Aspekte wesentlich besser als Branchendurch-schnitt'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Im Vergleich zur Alternative sozial und ökologisch hochwertigste P/D, z.B. Energie: Ökostrom; Mobilität: Zug/Bus/Solarantrieb'
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
                 details : {},
                 definition : {},
                 bestPractices : {},
@@ -1568,7 +2039,88 @@ Data.indicators = {
                 points: 40,
                 goals : {},
                 impulsQuestions : {},
-                table : {},
+                table : {
+                    subindicators : [
+                        {
+                            title : 'Leistungen[5]',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : '0-0,5 %'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : '0,5-1,5 %'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : '1,5-2,5 %'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : '> 2,5 %'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : 'Wirkungen',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Vereinzelt spürbare Wirkungen mit vorwiegendem Symptom-charakter'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Vertiefte Wirkungen ohne Nachhaltigkeit oder erste breitenwirksame Maßnahmen'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Vertiefte und nachhaltige Wirkung in einzelnen Feldern'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Nachhaltige Wirkung in mehreren Feldern'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : 'Intensität',
+                            relevance : 'low',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Vereinzelte Maßnahmen, nicht institutionalisiert, geringe Verantwortungs-übernahme'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Regelmäßig einzelne Maßnahmen, erste Strategie erkennbar, Verantwortlichkeit erkennbar'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Umfassende Strategie, institutionalisierte Umsetzung, weitgehende Verantwortungs-übernahme'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Dementsprechende Praxis seit mind. drei Jahren'
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
                 details : {},
                 definition : {},
                 bestPractices : {},
@@ -1583,7 +2135,88 @@ Data.indicators = {
                 points: 70,
                 goals : {},
                 impulsQuestions : {},
-                table : {},
+                table : {
+                    subindicators : [
+                        {
+                            title : '1. Absolute Auswirkungen1<br/><br/>Das Unternehmen ...',
+                            relevance : 'middle',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : '... kennt die Nutzung seiner P/D und die Herkunft seiner Hilfsstoffe und Produktionsmittel'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : '+ kennt seine Ressourcennutzung und seine Emissionen<br/><br/>(OEF1-Guide Punkte 4 und 5 oder äquivalent)'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : '+ führt regelmäßig eine OEF–Analyse durch (OEF-Guide Punkte 6-9 oder äquivalent)'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : '+ veröffentlicht die Daten und tritt mit den Ergebnissen in Kooperation zu anderen Unternehmen der Branche'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : '2. Relative Auswirkungen:<br/><br/>Im Branchenvergleich liegt das Unternehmen bzgl. Stand der Technik und Gesetzesvorgaben ...',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : '… hinsichtlich einiger ökolog. Auswirkungen über dem Branchendurchschnitt'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : '… hinsichtlich einiger ökolog. Auswirkungen über dem Branchendurchschnitt mit klar erkennbaren Maßnahmen zur Verbesserung'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : '… hinsichtlich wesentlicher ökolog. Auswirkungen über dem Branchendurchschnitt mit klar erkennbaren Maßnahmen zur Verbesserung'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : '… hinsichtlich wesentlicher ökolog. Auswirkungen weit über dem Durchschnitt (Innovationsführer, Branchenleader, etc.)'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : '3. Management und Strategie<br/><br/>Das Unternehmen …',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : '… setzt erste Schritte zur Identifikation der wesentlichen ökologischen Auswirkungen und Risiken (klare Verantwortlichkeiten, institutionalisierte Prozesse, identifizierte Umweltkonten)'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : '+ … erhebt zu seinen Umweltkonten entsprechend Kennzahlen und verfügt über Optimierungs-Strategien'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : '+ …<br/><br/>wie neben, nur: langfristige Reduktions- bzw. Substitutions-strategien'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'wie neben + eindeutige Beurteilung des „Quartetts der Nachhaltigkeit“ bzgl. der Umweltkonten'
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
                 details : {},
                 definition : {},
                 bestPractices : {},
@@ -1598,7 +2231,62 @@ Data.indicators = {
                 points: 60,
                 goals : {},
                 impulsQuestions : {},
-                table : {},
+                table : {
+                    subindicators : [
+                        {
+                            title : 'Außen-Ausschüttung',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : '5-Jahresschnitt: Dividende nicht höher als Inflation plus 5%'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : '+ kennt seine Ressourcennutzung und seine Emissionen<br/>5-Jahresschnitt: Dividende nicht höher als Inflation plus 2,5%(OEF1-Guide Punkte 4 und 5 oder äquivalent)'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : '5-Jahresschnitt: Dividende nicht höher als Inflation'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Keine Gewinnausschüttung an externe EigentümerInnen'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : 'Gemeinwohl-orientierte Gewinnverwendung: Ausschüttung and Arbeit-Gebende“, Stärkung des Eigenkapitals sowie ökosoziale Reinvestitionen',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : '50-70% des Gewinnes (davon mind. 50% sozial-ökologische Investitionen) '
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : '71-80% des Gewinnes (davon mind. 50% sozial-ökologische Investitionen) '
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : '81-90% des Gewinnes (davon mind. 50% sozial-ökologische Investitionen)'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : '91-100% des Gewinnes (davon mind. 50% sozial-ökologische Investitionen)'
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
                 details : {},
                 definition : {},
                 bestPractices : {},
@@ -1613,7 +2301,140 @@ Data.indicators = {
                 points: 30,
                 goals : {},
                 impulsQuestions : {},
-                table : {},
+                table : {
+                    subindicators : [
+                        {
+                            title : '1. Transparenz -<br/>Umfang GWÖ- Bericht (hoch)',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'GWÖ-Bericht mit weniger als drei aussagekräftigen Sätzen zu jedem Subindikator'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'GWÖ-Bericht mit drei aussagekräftigen Sätzen zu jedem Subindikator'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Detaillierte Beschreibung jedes Subindikators, direkter Link von der Startseite'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : '+ alle kritischen[2] Aspekte genannt, direkter Link von der Startseite, aktive Werbung für den GWÖ-Bericht'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : '1. Transparenz -<br/>GRI Level[3]<br/>(wenn kein GWÖ-Bericht)',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'GRI Level C'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'GRI Level B'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'GRI Level A'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'GRI Level A und Sector Supplement'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : '1. Transparenz -<br/>Verifizierung<br/>(wenn kein GWÖ-Bericht)',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Punktuell, indirekt extern verifiziert'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Externe Evaluation der Risiken'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Externe Verifikation aller wesentl. Kriterien, „low level of assurance“ niedriges Niveau'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Externe Verifikation aller wesentlicher Kriterien, „high level of assurance“ +  + umfassende Kooperation mit NGOs'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : '2. Mitbestimmung -<br/>Art der Mit-bestimmung + Dokumentation',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Reaktiv:<br/>Anhörung von Beschwerden + Reaktion'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Aktiv:<br/>Dialog mit den relevanten EntscheidungsträgerInnen des Unter-nehmens + umfassende Dokumentation'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Aktiv +:<br/>Konsensorientierte Entscheidungen, Dokumentation mit Konsequenzen öffentlich zugänglich'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Innovativ:<br/>mind. 50% Konsensuale Entscheidungen'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : '2. Mitbestimmung -<br/>Umfang der Mitbestimmg + einbezogener Berührungsgruppen',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Einzelne Maßnahmen/ Projekte über begrenzte Zeit<br/><br/>Einige Berührungsgruppen'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Immer wieder um­fassende Mitbestimmungsprozesse<br/><br/>Die wichtigsten Berührungsgruppen'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Regelmäßige Einbeziehung bei wichtigen Themen/ strategischen Entscheidungen<br/><br/>Alle Berührungsgruppen'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Permanenter Dialog und Mitbestimmung bei wesentlichen Themen/ strategischen Entsch.<br/><br/>Alle Berührungsgruppen'
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
                 details : {},
                 definition : {},
                 bestPractices : {},
@@ -1979,7 +2800,7 @@ indicators[16].bestPractices.content = '<h6 id="E5GesellschaftlicheTransparenzun
 
 indicators[16].definition.content = '<p>Wolfgang G. Weber sowie das internationale Forschungsnetzwerk OPEN<a        href="file:///C:/Users/chrisruether/Dropbox/Redaktionsteam/Matrix4.1-Indikatoren/E5-Gesellschaftliche-Transparenz-und-Mitbestimmung-HR/E5-Gesellschaftliche-Transparenz-Handbuch-Endversion.docx#_ftn4"        title="" class="external-link" rel="nofollow">[4]</a> zitiert folgende Abstufung der (MitarbeiterInnen)    Beteiligung, die auch für diesen Indikator angewandt werden kann:<a            href="file:///C:/Users/chrisruether/Dropbox/Redaktionsteam/Matrix4.1-Indikatoren/E5-Gesellschaftliche-Transparenz-und-Mitbestimmung-HR/E5-Gesellschaftliche-Transparenz-Handbuch-Endversion.docx#_ftn5"            title="" class="external-link" rel="nofollow">[5]</a></p><ol>    <li>Keine Partizipation</li>    <li>Information</li>    <li>Anhörung ( = Konsultation)</li>    <li>Mitwirkung</li>    <li>Mitbestimmung, Mitentscheidung</li>    <li>Selbstbestimmung</li></ol><p>Je höher der Grad der Mitbestimmung ist, desto positiver wird dies in diesem Indikator bewertet. Dabei geht es    nicht nur darum, den Wert der „Demokratie“ auf möglichst viele gesellschaftliche Bereiche zu erweitern    (Demokratisierung), sondern auch um das Einbeziehen der kollektiven Intelligenz. Diese Form der Mitbestimmung trägt    dazu bei, dass die unterschiedlichen Tätigkeiten eines Unternehmens weiser, nachhaltiger und „besser“ werden.</p><p>    Es gibt zwei Hauptmotive für die Einbeziehung der Berührungsgruppen:</p><p>1)&nbsp;&nbsp;&nbsp; <strong>Eigeninteresse    des Unternehmens:</strong>&nbsp;Unternehmerische Ziele können mit höherer Bestimmtheit erreicht werden, wenn die    Berührungsgruppen adäquat und effektiv eingebunden werden. Auch gegen mögliche juristische Spätfolgen (wie Klagen    oder Schadenersatzansprüche von Anwohnern oder Geldgebern) wirkt Stakeholderpartizipation präventiv.</p><p>2)&nbsp;&nbsp;&nbsp;    <strong>Verpflichtung gegenüber der Gemeinschaft:</strong>&nbsp;<span            style="line-height: 13.0pt;font-size: 10.0pt;">Mitbestimmung wird als Wert an sich betrachtet und daher wird ein relevanter Anteil der Unternehmensentscheidungen öffentlich diskutiert und so umfassend und effektiv wie möglich konsensual entschieden.</span></p><p>Voraussetzung für eine Mitwirkung des gesellschaftlichen Umfeldes ist eine umfassende Transparenz über interne    Entscheidungsprozesse und deren mögliche Auswirkungen sowie ein leichter Zugang zu diesen Informationen.</p><p>Auf    der Ebene der Unternehmenstransparenz hat sich im Rahmen der Nachhaltigkeits­berichterstattung der Standard der    Global Reporting Initiative (GRI) etabliert. Trotz stetig steigen­den Anforderungen des GRI-Standards sind dennoch    Themen von ethischer Relevanz nur lückenhaft adressiert.</p><p>Der Gemeinwohl-Bericht der GWÖ ist eine weitere    Möglichkeit, diese gesellschaft­liche Transparenz herzustellen.</p><p>Ein detaillierter Vergleich zwischen    GWÖ-Indikatoren und GRI-Standards ermöglicht es Unternehmen, die bisher ihre Nachhaltigkeitsberichte nach GRI-Normen    geschrieben haben, leichter auf die GWÖ-Berichte umzusteigen.<a            href="file:///C:/Users/chrisruether/Dropbox/Redaktionsteam/Matrix4.1-Indikatoren/E5-Gesellschaftliche-Transparenz-und-Mitbestimmung-HR/E5-Gesellschaftliche-Transparenz-Handbuch-Endversion.docx#_ftn6"            title="" class="external-link" rel="nofollow">[6]</a></p><p>GWÖ-Berichte werden bei diesem Indikator für das    Kriterium Transparenz höher bewertet, weil sie uns umfassender erscheinen und zudem immer von unabhängigen    AuditorInnen überprüft werden.</p><p></p><h1 id="E5GesellschaftlicheTransparenzundMitbestimmung-Matrix41-MitbestimmungStakeholder-partizipation">    Mitbestimmung/ Stakeholder-partizipation</h1><p>Maack/ Ulrich unterscheiden von der Motivation und Ausprägung her    zwei Formen des Stakeholder-Engagements:<a            href="file:///C:/Users/chrisruether/Dropbox/Redaktionsteam/Matrix4.1-Indikatoren/E5-Gesellschaftliche-Transparenz-und-Mitbestimmung-HR/E5-Gesellschaftliche-Transparenz-Handbuch-Endversion.docx#_ftn7"            title="" class="external-link" rel="nofollow">[7]</a></p><div class="table-wrap">    <table class="confluenceTable">        <tbody>        <tr>            <td class="confluenceTd"><p><strong>„Altertümliches“ Stakeholder Management</strong></p></td>            <td class="confluenceTd"><p><strong>„Modernes“ Stakeholder Management</strong></p></td>        </tr>        <tr>            <td class="confluenceTd"><p>Strategisch motiviert (Primat der `Erfolgs-rationalität´)</p></td>            <td class="confluenceTd"><p>Ethisch-reflektiert (Primat der Legitimität)</p></td>        </tr>        <tr>            <td class="confluenceTd"><p>Technokratisch-manipulativ</p></td>            <td class="confluenceTd"><p>Verständigungsorientiert</p></td>        </tr>        <tr>            <td class="confluenceTd"><p>Management von Einflusspotenzialen</p></td>            <td class="confluenceTd"><p>Beziehungsgestaltung</p></td>        </tr>        <tr>            <td class="confluenceTd"><p>Immunisierung gegen Kritik machtvoller Stakeholder (`Schutzschild-Ansatz)</p>            </td>            <td class="confluenceTd"><p>Aufbau von Vertrauen und Erschließung von Kooperationsmöglichkeiten</p></td>        </tr>        <tr>            <td class="confluenceTd"><p>`Kurz- &amp; mittelfristige Gewinne´</p></td>            <td class="confluenceTd"><p>Langfristigkeitsperspektive</p></td>        </tr>        <tr>            <td class="confluenceTd"><p>Motto: `… weil es gefordert wird – oder sich rechnet…´</p></td>            <td class="confluenceTd"><p>Motto: `weil es das Richtige ist´ und unserem Verständnis als                verantwortungsbewussten Bürgers entspricht</p></td>        </tr>        </tbody>    </table></div><p>Diese Übersicht gibt eine erste Hilfe für die Unterscheidung, ob das Stakeholder Management nachhaltig und    beziehungsorientiert ist oder ob es nur eine weitere Maßnahme für die Steigerung des „Shareholder-Values“ &nbsp;ist.    Die Mitbestimmung nach unserem Verständnis geht noch deutlich über das „Moderne Stakeholder Management“ hinaus.</p><p>Ein erster Schritt in die Richtung mehr Mitbestimmung sind Stakeholder-Dialoge, wobei für die Bewertung derselben    wesentlich ist, inwieweit die Berührungsgruppen wirklich mitentscheiden können bzw. deren Anregungen umgesetzt    werden. Reden ohne zu Handeln wird maximal als „Erste Schritte“ bewertet.</p><p>Für den Stakeholder-Dialog gibt es    laut Maak/Ulrich folgende Leitideen, die auch für andere Maßnahmen als Orientierung gelten könnten:<a            href="file:///C:/Users/chrisruether/Dropbox/Redaktionsteam/Matrix4.1-Indikatoren/E5-Gesellschaftliche-Transparenz-und-Mitbestimmung-HR/E5-Gesellschaftliche-Transparenz-Handbuch-Endversion.docx#_ftn8"            title="" class="external-link" rel="nofollow">[8]</a></p><ul>    <li>Wechselseitige Achtung und Anerkennung</li>    <li>Verständigungsbereitschaft</li>    <li>Inklusion aller Betroffenen</li>    <li>Chancengleichheit</li>    <li>Begründungsorientierung – Auseinandersetzung auf Basis von Argumenten</li>    <li>Aufrichtigkeit und Ehrlichkeit</li>    <li>Reflexionsbereitschaft</li>    <li>Zuhören – Argumentationszugänglichkeit</li>    <li>Zwanglosigkeit der Gesprächssituation</li></ul><p><strong>Mögliche Vor- und Nachteile von Stakeholder-Dialogen/ Management</strong></p><p>Maak/Ulrich formulieren    folgende Vorteile für ein aktives Stakeholder-Management:<a            href="file:///C:/Users/chrisruether/Dropbox/Redaktionsteam/Matrix4.1-Indikatoren/E5-Gesellschaftliche-Transparenz-und-Mitbestimmung-HR/E5-Gesellschaftliche-Transparenz-Handbuch-Endversion.docx#_ftn9"            title="" class="external-link" rel="nofollow">[9]</a></p><ul>    <li>Risikominimierung</li>    <li>Verbesserte Entscheidungsqualität</li>    <li>Wechselseitiges Verständnis</li>    <li>Tragfähige Beziehungen</li>    <li>Verdiente Reputation</li>    <li>Vertrauen</li></ul><p>Natürlich gibt es auch mögliche Nachteile, wie z.B.:</p><ul>    <li>Längere Dauer von Entscheidungsprozessen</li>    <li>Erhöhter Aufwand an interner/externer Kommunikation</li>    <li>Problematik der Auswahl der Themen, über die mitbestimmt werden kann</li>    <li>Aufwand für den Prozess an sich<span style="line-height: 13.0pt;font-size: 10.0pt;">&nbsp;</span></li></ul><p>Etwas umfassender werden die Vorteile in einem Manual zur Durchführung von Stakeholder-Dialogen dargestellt, das    vom Bundesministerium für wirtschaftliche Entwicklung und Zusammenarbeit in Deutschland in Auftrag gegeben    wurde:</p><ul>    <li>„Kompetenzen werden gebündelt. Die Herausforderungen, beispielsweise durch wachsende Armut, Klimawandel,        HIV/AIDS, Korruption und Globalisierung, erfordern eine Bündelung der Expertise verschiedener Akteure.    </li>    <li>Die Zusammenarbeit in Stakeholder-Dialogen fördert eine effizientere Nutzung von Mitteln und Ressourcen, da        diese gemeinsam eingesetzt werden.    </li>    <li>Die in Kooperation erreichten Ergebnisse sind oft belastbarer, tragfähiger und nachhaltiger als Einzellösungen        und werden daher von den beteiligten Stakeholdern eher angenommen. Auch das Umfeld der Stakeholder akzeptiert        sie eher. Dies fördert die Akzeptanz und Reputation der Zusammenarbeit.    </li>    <li>Stakeholder-Dialoge steigern die Kapazität von komplexen Systemen, Lösungen zu finden. Das Zusammenführen        unterschiedlicher Kompetenzen und eine gemeinsame Gestaltung erhöhen die Lernfähigkeit im Vergleich zu        Aktivitäten nur in einer Institution oder nur in einem Sektor.    </li>    <li>Die Qualität und Glaubwürdigkeit von Meinungsbildungsprozessen steigt, wenn vielseitige Sichtweisen integriert        und Interessen ausbalanciert werden. Die Kenntnis verschiedener Argumente verhindert starre Positionen.        Allerdings fällt es häufig schwerer, Entscheidungen praktisch umzusetzen.    </li>    <li>Gemeinsam vereinbarte Strategien sind leichter umzusetzen, wenn sie in einem gleich­berechtigten, transparenten        Dialog entwickelt wurden. Dann müssen Stakeholder von den Beschlüssen nicht erst überzeugt werden, sondern        identifizieren sich sofort mit den erarbeiteten Ergebnissen.    </li>    <li>Stakeholder-Dialoge erhöhen die Bereitschaft zur Selbstverpflichtung, da die beteiligten Akteure die        Zukunftsgestaltung beeinflussen können. Sie fühlen sich mitverantwortlich, sind daher interessiert am        gemeinsamen Erfolg und multiplizieren die Ergebnisse.    </li>    <li>Stakeholder-Dialoge lösen gesellschaftliche Starre und Konflikte. Aktive Beteiligung an Stakeholder-Dialogen        fördert ein gemeinsames Ausloten von Zukunftsmöglichkeiten. Dies erweitert die Perspektiven der Beteiligten und        eröffnet neue Handlungsmöglichkeiten für alle.“<a                href="file:///C:/Users/chrisruether/Dropbox/Redaktionsteam/Matrix4.1-Indikatoren/E5-Gesellschaftliche-Transparenz-und-Mitbestimmung-HR/E5-Gesellschaftliche-Transparenz-Handbuch-Endversion.docx#_ftn10"                title="" class="external-link" rel="nofollow">[10]</a></li></ul><p>Prinzipiell stehen einem höheren Aufwand für die Organisation und eine längere Zeit bis zur Umsetzung deutliche    Vorteile gegenüber. Gemeinwohlorientiertes Verhalten kann auch wirtschaftlich erfolgreich sein!</p><h1        id="E5GesellschaftlicheTransparenzundMitbestimmung-Matrix41-Widerstände-Fragen">Widerstände - Fragen</h1><p>    Ähnlich wie bei der Innerbetrieblichen Mitbestimmung gibt es vielfache Einwände gegen die gesellschaftliche    Mitwirkung. Hier sind einige Einwände aufgelistet und ein paar Antworten aus Sicht der Gemeinwohl-Ökonomie    gegeben.</p><p align="left"><strong>„Wieso soll es überhaupt eine Mitbestimmung von außen geben, warum sollen    Externe über Interna entscheiden?“</strong></p><p align="left">Demokratiepolitisch scheint es nachvollziehbar, dass    die von einem Unternehmen betroffenen Umwelten eine direkte Mitsprachemöglichkeit haben. Indirekt funktioniert das    über die lokalen und nationalen Regierungen, direkt ist es derzeit kaum möglich. Wirtschaften findet nicht im    luftleeren Raum statt, sondern hat ökologische, ökonomische und soziale Auswirkungen.</p><p align="left">Sinnvoll    können Stakeholder-Dialoge sein, wenn:</p><ul>    <li>"ein Anliegen nur mit Unterstützung verschiedener Akteursgruppen und Entscheidungsträger umgesetzt werden        kann,    </li>    <li>die nachhaltige Umsetzung die Akzeptanz bestimmter Anspruchsgruppen (Betroffene und Beteiligte) voraussetzt        oder    </li>    <li>eine Veränderung des Status Quo angestrebt wird, die relevanten Akteure sich jedoch in Bezug auf Richtung, Ziel        und Umsetzungsmodalitäten der Veränderung nicht einig sind.“<a                href="file:///C:/Users/chrisruether/Dropbox/Redaktionsteam/Matrix4.1-Indikatoren/E5-Gesellschaftliche-Transparenz-und-Mitbestimmung-HR/E5-Gesellschaftliche-Transparenz-Handbuch-Endversion.docx#_ftn11"                title="" class="external-link" rel="nofollow">[11]</a></li></ul><p align="left">Für den einzelnen Unternehmer ist es ein Experimentierfeld, das derzeit nur dann erfolgreich sein    kann, wenn das Unternehmen hinter den Grundgedanken der Demokratie steht und diese Mitbestimmungsprozesse auch    positive Auswirkungen auf die Organisation selbst haben.</p><p align="left"><strong>„Derzeit gibt es kaum eine    gesellschaftliche Mitbestimmung in Unternehmen, wieso soll ich damit anfangen?“ </strong></p><p align="left">Für    alle wesentlichen Neuerungen in der Gesellschaft braucht es Pioniere, die anfangen. Ohne diese „Anfänger“ gibt es    keinen Wandel. Und so ein „Anfängerdasein“ ist oftmals mühselig, schwierig und ungewiss im Ausgang, gleichzeitig    kann es sehr erfüllend sein, wenn der Pionier nach zehn Jahren zurückblickt und sagen kann: „Ich bin mir meinen    Werten treu geblieben und habe trotz des Aufwandes einiges erreicht!“.</p><p align="left">Und dieses Pionier-Denken    ist prinzipiell unabhängig in welchem Bereich es verwirklicht wird.</p><p><strong>„Bei welchen Entscheidungen dürfen    welche Berührungsgruppen mitentschei­den?“</strong></p><p>Bei der Analyse der Stakeholder gibt es drei Kriterien,    die eine erste Auswahl treffen helfen:<a            href="file:///C:/Users/chrisruether/Dropbox/Redaktionsteam/Matrix4.1-Indikatoren/E5-Gesellschaftliche-Transparenz-und-Mitbestimmung-HR/E5-Gesellschaftliche-Transparenz-Handbuch-Endversion.docx#_ftn12"            title="" class="external-link" rel="nofollow">[12]</a></p><ul>    <li>Die Betroffenheit/ das Interesse der Stakeholder: niedrig, mittel, hoch.</li>    <li>Die vermutete/ wirkliche Reaktion auf die Maßnahmen/ das Projekt: positiv, neutral, negativ</li>    <li>Die reale Macht der Stakeholder: niedrig, mittel, hoch.</li></ul><p>Auf Basis dieser Kriterien kann das Unternehmen eine Matrix erstellen und so eine erste Differenzierung    vornehmen. Letztendlich entscheidet das Unternehmen nach ihren Ressourcen und Interessen, welche Stakeholder es im    Vorfeld einbezieht. Strategisch sollten die eingebunden werden, die durch ihren Widerstand einen negativen Einfluss    auf das Unternehmen sowie das Image haben. Idealerweise sollten alle interessierten und betroffenen    Berührungsgruppen eingebunden werden.</p>';
 
-indicators[16].details.content = '<p><strong>Transparenz</strong></p><p>Die Transparenz wird im wesentlichen über einen GWÖ-Bericht oder    Nachhaltigkeitsbericht erfüllt. Wenn es andere Veröffentlichungen gibt (Homepage/Broschüren), dann gelten die    Bewertungsmaßstäbe analog zu dem GWÖ- und Nachhaltigkeitsbericht (Umfang/Tiefe)</p><p>Sollte im letzten Jahr kein GWÖ-Bericht erstellt worden sein, dann kann es für einen Nachhaltigkeits­bericht folgende    Bewertung geben:</p><p><strong>Prozentuale Gewichtung Transparenz/ Mitbestimmung nach Unternehmens­größe</strong></p><p>Prinzipiell gilt: Je    größer das Unternehmen ist, desto höher ist die Bewertung der wirklichen Mitbestimmung im Vergleich zur    Transparenz.</p><p>Auch hier wäre noch detaillierter zu differenzieren, ob es sich um Dienstleistungs- oder Produktionsbetriebe handelt.    Dienstleistungsunternehmen haben prinzipiell eher geringere Auswirkungen auf die Umwelt als Produktionsunternehmen.    Ausnahmen sind z.B. Architekten, Banken und PR-Agenturen.</p><p>Auch muss bei jedem Unternehmen konkret geschaut    werden, welche Entscheidungen mögliche Stakeholder beeinflussen könnten und bei wie vielen davon welche Art von    Mitbestimmungsmög­lich­keit angewendet wurde.</p><p>&nbsp;</p><p><strong><u>Kritische Daten/    Entscheidungen</u></strong></p><p>Hier folgt eine Liste von kritischen Daten/ Entscheidungen, bei denen Transparenz    und Mitbestimmung höchst erwünscht sind:</p><ul>    <li>Bauvorhaben aller Art; Umweltverträglichkeitsprüfungen</li>    <li>Produktionsprozesse mit Risikostoffen sowie potentiellen Beeinträchtigungen der Anrainer durch Emissionen (in        Luft, Wasser, Boden), Lärm, Geruch, Lichtverschmutzung etc.    </li>    <li>Eingriffe in die Natur</li>    <li>Standortverlagerungen und der damit im Zusammenhang stehende Arbeitsplatzabbau</li>    <li>Beteiligungen an anderen Unternehmen und Tochtergesellschaften in Steueroasen</li>    <li>Lobbyingzahlungen an politische Entscheidungsträger/ - institutionen (Parteien/ Verbände)</li></ul><p><strong>&nbsp;</strong></p><p><strong>Unternehmensspezifische Besonderheiten</strong></p><p>Sowohl für EPUs    (Einpersonenunternehmen) als auch für alle anderen Unternehmen kann ein umfassend ausgefüllter Gemeinwohl-Bericht    bis zu 100% des Transparenz-Anteiles ausmachen.</p><p>Für EPUs kommt der Aspekt der Mitbestimmung kaum in Betracht,    weil die Auswirkungen von EPUs sehr gering sind. Je kleiner ein Unternehmen, desto unwesentlicher ist der Aspekt der    gesellschaftlichen Mitbestimmung.</p><p>Der GWÖ-Bericht kann entweder in einen GRI-Nachhaltigkeitsbericht integriert    werden, wobei die GWÖ-spezifischen Indikatoren konkret ausgearbeitet werden sollten, oder der GWÖ-Bericht kann    anstelle eines Nachhaltigkeitsberichts stehen.</p><p>Fehlende Website gibt 20% Minus in der Gesamtpunktzahl.</p><p>    Gibt es weder einen GWÖ-Bericht noch einen Nachhaltigkeitsbericht aus dem letzten Jahr, dann können es max. erste    Schritte sein. Es sei denn, es liegen Dokumentationen/ eine Homepage vor, die inhaltlich/ vom Umfang/ der Tiefe her    mit beiden Berichten vergleichbar sind.&nbsp;</p>';
+indicators[16].details.content = '<p><strong>Transparenz</strong></p><p>Die Transparenz wird im wesentlichen über einen GWÖ-Bericht oder    Nachhaltigkeitsbericht erfüllt. Wenn es andere Veröffentlichungen gibt (Homepage/Broschüren), dann gelten die    Bewertungsmaßstäbe analog zu dem GWÖ- und Nachhaltigkeitsbericht (Umfang/Tiefe)</p><p>Sollte im letzten Jahr kein GWÖ-Bericht erstellt worden sein, dann kann es für einen Nachhaltigkeits­bericht folgende    Bewertung geben:</p><p>Prinzipiell gilt: Je größer das Unternehmen ist, desto höher ist die Bewertung der wirklichen Mitbestimmung im    Vergleich zur Transparenz.</p><div class="table-wrap">    <table class="confluenceTable">        <tbody>        <tr>            <td class="confluenceTd"><p><strong>Mitarbeiterzahl</strong></p></td>            <td class="confluenceTd"><p><strong>Gewichtung Transparenz</strong></p></td>            <td class="confluenceTd"><p><strong>Gewichtung Mitbestimmung</strong></p></td>        </tr>        <tr>            <td class="confluenceTd"><p>1-2</p></td>            <td class="confluenceTd"><p>80 -100%</p></td>            <td class="confluenceTd"><p>0-20%</p></td>        </tr>        <tr>            <td class="confluenceTd"><p>3-10</p></td>            <td class="confluenceTd"><p>70-90%</p></td>            <td class="confluenceTd"><p>10-30%</p></td>        </tr>        <tr>            <td class="confluenceTd"><p>11-50</p></td>            <td class="confluenceTd"><p>60-80%</p></td>            <td class="confluenceTd"><p>20-40%</p></td>        </tr>        <tr>            <td class="confluenceTd"><p>51-250</p></td>            <td class="confluenceTd"><p>50-70%</p></td>            <td class="confluenceTd"><p>30-50%</p></td>        </tr>        <tr>            <td class="confluenceTd"><p>251-1.000</p></td>            <td class="confluenceTd"><p>40-60%</p></td>            <td class="confluenceTd"><p>40-60%</p></td>        </tr>        <tr>            <td class="confluenceTd"><p>Über 1.000</p></td>            <td class="confluenceTd"><p>30-50%</p></td>            <td class="confluenceTd"><p>50-70%</p></td>        </tr>        </tbody>    </table></div><p>Auch hier wäre noch detaillierter zu differenzieren, ob es sich um Dienstleistungs- oder Produktionsbetriebe handelt.    Dienstleistungsunternehmen haben prinzipiell eher geringere Auswirkungen auf die Umwelt als Produktionsunternehmen.    Ausnahmen sind z.B. Architekten, Banken und PR-Agenturen.</p><p>Auch muss bei jedem Unternehmen konkret geschaut    werden, welche Entscheidungen mögliche Stakeholder beeinflussen könnten und bei wie vielen davon welche Art von    Mitbestimmungsmög­lich­keit angewendet wurde.</p><p>&nbsp;</p><p><strong><u>Kritische Daten/    Entscheidungen</u></strong></p><p>Hier folgt eine Liste von kritischen Daten/ Entscheidungen, bei denen Transparenz    und Mitbestimmung höchst erwünscht sind:</p><ul>    <li>Bauvorhaben aller Art; Umweltverträglichkeitsprüfungen</li>    <li>Produktionsprozesse mit Risikostoffen sowie potentiellen Beeinträchtigungen der Anrainer durch Emissionen (in        Luft, Wasser, Boden), Lärm, Geruch, Lichtverschmutzung etc.    </li>    <li>Eingriffe in die Natur</li>    <li>Standortverlagerungen und der damit im Zusammenhang stehende Arbeitsplatzabbau</li>    <li>Beteiligungen an anderen Unternehmen und Tochtergesellschaften in Steueroasen</li>    <li>Lobbyingzahlungen an politische Entscheidungsträger/ - institutionen (Parteien/ Verbände)</li></ul><p><strong>&nbsp;</strong></p><p><strong>Unternehmensspezifische Besonderheiten</strong></p><p>Sowohl für EPUs    (Einpersonenunternehmen) als auch für alle anderen Unternehmen kann ein umfassend ausgefüllter Gemeinwohl-Bericht    bis zu 100% des Transparenz-Anteiles ausmachen.</p><p>Für EPUs kommt der Aspekt der Mitbestimmung kaum in Betracht,    weil die Auswirkungen von EPUs sehr gering sind. Je kleiner ein Unternehmen, desto unwesentlicher ist der Aspekt der    gesellschaftlichen Mitbestimmung.</p><p>Der GWÖ-Bericht kann entweder in einen GRI-Nachhaltigkeitsbericht integriert    werden, wobei die GWÖ-spezifischen Indikatoren konkret ausgearbeitet werden sollten, oder der GWÖ-Bericht kann    anstelle eines Nachhaltigkeitsberichts stehen.</p><p>Fehlende Website gibt 20% Minus in der Gesamtpunktzahl.</p><p>    Gibt es weder einen GWÖ-Bericht noch einen Nachhaltigkeitsbericht aus dem letzten Jahr, dann können es max. erste    Schritte sein. Es sei denn, es liegen Dokumentationen/ eine Homepage vor, die inhaltlich/ vom Umfang/ der Tiefe her    mit beiden Berichten vergleichbar sind.&nbsp;</p>';
 
 indicators[16].footnotes.content = '<div><p><a        href="file:///C:/Users/chrisruether/Dropbox/Redaktionsteam/Matrix4.1-Indikatoren/E5-Gesellschaftliche-Transparenz-und-Mitbestimmung-HR/E5-Gesellschaftliche-Transparenz-Handbuch-Endversion.docx#_ftnref1"        title="" class="external-link" rel="nofollow">[1]</a> Mit Stakeholder sind die relevanten Berühungsgruppen    gemeint, hier die regionalen oder zivilgesellschaftlichen Berührungsgruppen</p></div><div><p><a        href="file:///C:/Users/chrisruether/Dropbox/Redaktionsteam/Matrix4.1-Indikatoren/E5-Gesellschaftliche-Transparenz-und-Mitbestimmung-HR/E5-Gesellschaftliche-Transparenz-Handbuch-Endversion.docx#_ftnref2"        title="" class="external-link" rel="nofollow">[2]</a> &nbsp;Kritische Daten sind z.B. Beteiligungen an anderen    Unternehmen und Tochtergesellschaften in Steueroasen, Lobbyingzahlungen an politische Entscheidungsträger/ -    institutionen (Parteien/ Verbände)</p></div><div><p><a        href="file:///C:/Users/chrisruether/Dropbox/Redaktionsteam/Matrix4.1-Indikatoren/E5-Gesellschaftliche-Transparenz-und-Mitbestimmung-HR/E5-Gesellschaftliche-Transparenz-Handbuch-Endversion.docx#_ftnref3"        title="" class="external-link" rel="nofollow">[3]</a> Auf Basis der Vorgaben des GRI = Global Reporting    Initiative – derzeitiger Standard in der Nachhaltigkeitsberichterstattung, siehe auch <a            href="http://www.globalreporting.org/" class="external-link" rel="nofollow">www.globalreporting.org</a></p></div><div><p><a        href="file:///C:/Users/chrisruether/Dropbox/Redaktionsteam/Matrix4.1-Indikatoren/E5-Gesellschaftliche-Transparenz-und-Mitbestimmung-HR/E5-Gesellschaftliche-Transparenz-Handbuch-Endversion.docx#_ftnref4"        title="" class="external-link" rel="nofollow">[4]</a> Organizational Participation in Europe Network (OPEN)</p></div><div><p><a        href="file:///C:/Users/chrisruether/Dropbox/Redaktionsteam/Matrix4.1-Indikatoren/E5-Gesellschaftliche-Transparenz-und-Mitbestimmung-HR/E5-Gesellschaftliche-Transparenz-Handbuch-Endversion.docx#_ftnref5"        title="" class="external-link" rel="nofollow">[5]</a> Vgl. Weber, Wolfgang: Demokratie, 1994, S.272; Wegge,    Jürgen: Motivation, 2010, S. 159.</p></div><div><p><a        href="file:///C:/Users/chrisruether/Dropbox/Redaktionsteam/Matrix4.1-Indikatoren/E5-Gesellschaftliche-Transparenz-und-Mitbestimmung-HR/E5-Gesellschaftliche-Transparenz-Handbuch-Endversion.docx#_ftnref6"        title="" class="external-link" rel="nofollow">[6]</a> Dieser Vergleich ist auf unseren Wiki abrufbar: <a        href="https://wiki.gwoe.net/pages/viewpage.action?pageId=1540419" rel="nofollow">https://wiki.gwoe.net/pages/viewpage.action?pageId=1540419</a>    &nbsp;</p></div><div><p><a        href="file:///C:/Users/chrisruether/Dropbox/Redaktionsteam/Matrix4.1-Indikatoren/E5-Gesellschaftliche-Transparenz-und-Mitbestimmung-HR/E5-Gesellschaftliche-Transparenz-Handbuch-Endversion.docx#_ftnref7"        title="" class="external-link" rel="nofollow">[7]</a> Maak, Thomas/ Ulrich, Peter: Unternehmensführung, 2007, S.    177.</p></div><div><p><a        href="file:///C:/Users/chrisruether/Dropbox/Redaktionsteam/Matrix4.1-Indikatoren/E5-Gesellschaftliche-Transparenz-und-Mitbestimmung-HR/E5-Gesellschaftliche-Transparenz-Handbuch-Endversion.docx#_ftnref8"        title="" class="external-link" rel="nofollow">[8]</a> Vgl. Maak, Thomas/ Ulrich, Peter: Unternehmensführung,    2007, S. 184-5.</p></div><div><p><a        href="file:///C:/Users/chrisruether/Dropbox/Redaktionsteam/Matrix4.1-Indikatoren/E5-Gesellschaftliche-Transparenz-und-Mitbestimmung-HR/E5-Gesellschaftliche-Transparenz-Handbuch-Endversion.docx#_ftnref9"        title="" class="external-link" rel="nofollow">[9]</a> Vgl. Maak, Thomas/Ulrich, Peter: Unternehmensführung,    2007, S. 178-80.</p></div><div><p><a        href="file:///C:/Users/chrisruether/Dropbox/Redaktionsteam/Matrix4.1-Indikatoren/E5-Gesellschaftliche-Transparenz-und-Mitbestimmung-HR/E5-Gesellschaftliche-Transparenz-Handbuch-Endversion.docx#_ftnref10"        title="" class="external-link" rel="nofollow">[10]</a> GIZ: Manual, S.5+6</p></div><div><p><a        href="file:///C:/Users/chrisruether/Dropbox/Redaktionsteam/Matrix4.1-Indikatoren/E5-Gesellschaftliche-Transparenz-und-Mitbestimmung-HR/E5-Gesellschaftliche-Transparenz-Handbuch-Endversion.docx#_ftnref11"        title="" class="external-link" rel="nofollow">[11]</a> GIZ: Stakeholderdialoge. Ein Manual, gefunden auf: <a        href="http://www2.gtz.de/dokumente/bib-2011/giz2011-0182de-stakeholder-dialoge.pdf" class="external-link"        rel="nofollow">http://www2.gtz.de/dokumente/bib-2011/giz2011-0182de-stakeholder-dialoge.pdf</a>, S. 7.    (03.08.2011)</p></div><div><p><a        href="file:///C:/Users/chrisruether/Dropbox/Redaktionsteam/Matrix4.1-Indikatoren/E5-Gesellschaftliche-Transparenz-und-Mitbestimmung-HR/E5-Gesellschaftliche-Transparenz-Handbuch-Endversion.docx#_ftnref12"        title="" class="external-link" rel="nofollow">[12]</a> Vgl. 9:pm: Stakeholdermanangement. Ein    Best-Practise-Ansatz, auf <br> <a            href="http://www.virtualuniversity.ch/%20autor/weilacher/stakeholdermanagement.pdf" class="external-link"            rel="nofollow">http://www.virtualuniversity.ch/ autor/weilacher/stakeholdermanagement.pdf</a>&nbsp; S.3+4    (03.08.2011)</p></div><div><p><a        href="file:///C:/Users/chrisruether/Dropbox/Redaktionsteam/Matrix4.1-Indikatoren/E5-Gesellschaftliche-Transparenz-und-Mitbestimmung-HR/E5-Gesellschaftliche-Transparenz-Handbuch-Endversion.docx#_ftnref13"        title="" class="external-link" rel="nofollow">[13]</a> Maak, Thomas/Ulrich, Peter:Unternehmensführung, 2007,    S.173/4. Die Quellen von der Case-Study sind: „Centre for Stakeolding and Sustainiable Enterprise (2002): `The Body    Shop – Local Community Consultation`, Reserach Report Kingston University (UK); The Body Shop 1997 `Value Report`;    The Body Shop Website (Quelle: <a href="http://www.thebodyshopinternational.com/" class="external-link"                                      rel="nofollow">www.thebodyshopinternational.com</a>, abgerufen am 16.12.2004)“</p></div><div><p><a        href="file:///C:/Users/chrisruether/Dropbox/Redaktionsteam/Matrix4.1-Indikatoren/E5-Gesellschaftliche-Transparenz-und-Mitbestimmung-HR/E5-Gesellschaftliche-Transparenz-Handbuch-Endversion.docx#_ftnref14"        title="" class="external-link" rel="nofollow">[14]</a> Vgl. <a        href="http://www.global2000.at/site/de/magazin/umweltmagazin/konventionellelandwirtschaft/article-konventionellelandwirtschaft.htm"        class="external-link" rel="nofollow">http://www.global2000.at/site/de/magazin/umweltmagazin/konventionellelandwirtschaft/article-konventionellelandwirtschaft.htm</a>,    kritisch dazu: <a            href="http://www.handelsblatt.com/unternehmen/handel-dienstleister/zoff-nach-ard-markencheck-rewe-weist-vorwuerfe-gegen-oeko-siegel-zurueck/7616568.html"            class="external-link" rel="nofollow">http://www.handelsblatt.com/unternehmen/handel-dienstleister/zoff-nach-ard-markencheck-rewe-weist-vorwuerfe-gegen-oeko-siegel-zurueck/7616568.html</a>    und&nbsp; die Sendung <a href="http://www.youtube.com/watch?v=fNG8u0Aovwc" class="external-link" rel="nofollow">Markencheck        Rewe</a> (ARD) – ab 29:30 Minuten</p></div>';
 
@@ -2030,13 +2851,15 @@ Template.footerTemplate = '<div id="footer-contents">    Open Source @ <a href="
 
 Template.gwoeMatrixTemplate = '<div id="gwoe-matrix" class="bubble display-none">    <div class="bootstrap-table whitebg">        <div class="row row-border dheader-style js-equal-height">            <div class="row-cell col-lg-2 col-md-2 col-sm-2 col-xs-2">                <span class="gwoe-green">{valueName}</span> / <span class="gwoe-blue">{stakeholdersName}</span>            </div>            <div class="row-cell gwoe-green col-lg-2 col-md-2 col-sm-2 col-xs-2">{values[0]}</div>            <div class="row-cell gwoe-green col-lg-2 col-md-2 col-sm-2 col-xs-2">{values[1]}</div>            <div class="row-cell gwoe-green col-lg-2 col-md-2 col-sm-2 col-xs-2">{values[2]}</div>            <div class="row-cell gwoe-green col-lg-2 col-md-2 col-sm-2 col-xs-2">{values[3]}</div>            <div class="row-cell last-cell gwoe-green col-lg-2 col-md-2 col-sm-2 col-xs-2">{values[4]}</div>        </div>        <div class="row row-border js-equal-height clear-both">            <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">                {stakeholders[0].shortcode}) {stakeholders[0].name}            </div>            <div class="row-cell indicator-cell last-cell ind-trigger col-lg-10 col-md-10 col-sm-10 col-xs-10"                 data-modal="matrix-{stakeholders[0].values[0].shortcodeSlug}">                <div class="indicator-title">                    {stakeholders[0].values[0].shortcode}) {stakeholders[0].values[0].title}                </div>                <div class="indicator-description">                    {stakeholders[0].values[0].content}                </div>                <div class="indicator-points">                    {stakeholders[0].values[0].points}                </div>            </div>        </div>        <div class="row row-border js-equal-height">            <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">                {stakeholders[1].shortcode}) {stakeholders[1].name}            </div>            <div class="row-cell indicator-cell last-cell ind-trigger col-lg-10 col-md-10 col-sm-10 col-xs-10"                 data-modal="matrix-{stakeholders[1].values[0].shortcodeSlug}">                <div class="indicator-title">                    {stakeholders[1].values[0].shortcode}) {stakeholders[1].values[0].title}                </div>                <div class="indicator-description">                    {stakeholders[1].values[0].content}                </div>                <div class="indicator-points">                    {stakeholders[1].values[0].points}                </div>            </div>        </div>        <div class="row row-border js-equal-height">            <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">                {stakeholders[2].shortcode}) {stakeholders[2].name}            </div>            {#stakeholders[2].values}            <div class="row-cell indicator-cell {@if cond="            {$idx} == 4"}last-cell {/if}ind-trigger col-lg-2 col-md-2 col-sm-2 col-xs-2"            data-modal="matrix-{shortcodeSlug}">            <div class="indicator-title">                {shortcode}) {title|s}            </div>            <div class="indicator-description">                {content}            </div>            <div class="indicator-points">                {points}            </div>        </div>        {/stakeholders[2].values}    </div>    <div class="row row-border js-equal-height">        <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">            {stakeholders[3].shortcode}) {stakeholders[3].name}        </div>        {#stakeholders[3].values}        <div class="row-cell indicator-cell {@if cond="        {$idx} == 4"}last-cell {/if}ind-trigger col-lg-2 col-md-2 col-sm-2 col-xs-2"        data-modal="matrix-{shortcodeSlug}">        <div class="indicator-title">            {shortcode}) {title|s}        </div>        <div class="indicator-description">            {content}        </div>        <div class="indicator-points">            {points}        </div>    </div>    {/stakeholders[3].values}</div><div class="row row-border js-equal-height">    <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">        {stakeholders[4].shortcode}) {stakeholders[4].name}    </div>    {#stakeholders[4].values}    <div class="row-cell indicator-cell {@if cond="    {$idx} == 4"}last-cell {/if}ind-trigger col-lg-2 col-md-2 col-sm-2 col-xs-2"    data-modal="matrix-{shortcodeSlug}">    <div class="indicator-title">        {shortcode}) {title|s}    </div>    <div class="indicator-description">        {content}    </div>    <div class="indicator-points">        {points}    </div></div>{/stakeholders[4].values}</div><div class="row row-border js-equal-height">    <div class="row-cell dheader-style negative-color-b col-lg-2 col-md-2 col-sm-2 col-xs-2">        {negativeCriteriaName}    </div>    {#negativeCriteria}    <div class="row-cell indicator-cell {@if cond="    {$idx} == 4"}last-cell {/if}col-lg-2 col-md-2 col-sm-2 col-xs-2">    {#values}    <div class="negative-container ind-trigger" data-modal="matrix-{shortcodeSlug}">        <div class="negative-points">            {points}        </div>        <div class="negative-content">            {titleShort|s}        </div>    </div>    {/values}</div>{/negativeCriteria}</div></div><!-- end of matrix table --></div><!-- end of bubble -->';
 
-Template.indicatorTabsTemplate = '<div id="matrix-{shortcodeSlug}" class="display-none">    <button class="back-to-matrix">Zeige die Matrix</button>    <div class="indicator-page-title">        <h2>{shortcode}: {name}</h2>    </div>    <div class="tabs">        <ul class="tablist">            <span id="matrix-{shortcodeSlug}-goals" class="fixedanchor"></span>            <li class="tabcontainer">                <a href="#matrix-{shortcodeSlug}-goals" class="tablink matrix-goals-tab-title"></a>                <div id="matrix-{shortcodeSlug}-goals-content" class="tabcontent">                </div>            </li>            <span id="matrix-{shortcodeSlug}-impulsQuestions" class="fixedanchor"></span>            <li class="tabcontainer">                <a href="#matrix-{shortcodeSlug}-impulsQuestions" class="tablink matrix-impulsQuestions-tab-title"></a>                <div id="matrix-{shortcodeSlug}-impulsQuestions-content" class="tabcontent">                </div>            </li>            <span id="matrix-{shortcodeSlug}-table" class="fixedanchor"></span>            <li class="tabcontainer">                <a href="#matrix-{shortcodeSlug}-table" class="tablink matrix-table-tab-title"></a>                <div id="matrix-{shortcodeSlug}-table-content" class="tabcontent">                    <div id="matrix-{shortcodeSlug}-indicator-table-legend" class="indicator-table-legend"></div>                    <table id="matrix-{shortcodeSlug}-indicator-table" class="dtable">                    </table>                    <div id="matrix-{shortcodeSlug}-details-content"                         class="indicator-table-details"></div>                </div>            </li>            <span id="matrix-{shortcodeSlug}-definition" class="fixedanchor"></span>            <li class="tabcontainer">                <a href="#matrix-{shortcodeSlug}-definition" class="tablink matrix-definition-tab-title"></a>                <div id="matrix-{shortcodeSlug}-definition-content" class="tabcontent">                </div>            </li>            <span id="matrix-{shortcodeSlug}-implementationHelp" class="fixedanchor"></span>            <li class="tabcontainer">                <a href="#matrix-{shortcodeSlug}-implementationHelp"                   class="tablink matrix-implementationHelp-tab-title"></a>                <div id="matrix-{shortcodeSlug}-implementationHelp-content" class="tabcontent">                </div>            </li>            <span id="matrix-{shortcodeSlug}-moreinfo" class="fixedanchor"></span>            <li class="tabcontainer">                <a href="#matrix-{shortcodeSlug}-moreinfo" class="tablink matrix-moreinfo-tab-title"></a>                <div id="matrix-{shortcodeSlug}-moreinfo-content" class="tabcontent">                </div>            </li>        </ul>    </div></div>';
+Template.indicatorTabsTemplate = '<div id="matrix-{shortcodeSlug}" class="display-none">    <img class="back-to-matrix pointer" src="images/gwoe-matrix-icon-arrow-50h.png"/>    <div class="indicator-page-title">        <h2>{shortcode}: {name}</h2>    </div>    <div class="tabs">        <ul class="tablist">            <span id="matrix-{shortcodeSlug}-goals" class="fixedanchor"></span>            <li class="tabcontainer">                <a href="#matrix-{shortcodeSlug}-goals" class="tablink matrix-goals-tab-title"></a>                <div id="matrix-{shortcodeSlug}-goals-content" class="tabcontent">                </div>            </li>            <span id="matrix-{shortcodeSlug}-impulsQuestions" class="fixedanchor"></span>            <li class="tabcontainer">                <a href="#matrix-{shortcodeSlug}-impulsQuestions" class="tablink matrix-impulsQuestions-tab-title"></a>                <div id="matrix-{shortcodeSlug}-impulsQuestions-content" class="tabcontent">                </div>            </li>            <span id="matrix-{shortcodeSlug}-table" class="fixedanchor"></span>            <li class="tabcontainer">                <a href="#matrix-{shortcodeSlug}-table" class="tablink matrix-table-tab-title"></a>                <div id="matrix-{shortcodeSlug}-table-content" class="tabcontent">                    <div id="matrix-{shortcodeSlug}-indicator-table-legend" class="indicator-table-legend"></div>                    <table id="matrix-{shortcodeSlug}-indicator-table" class="dtable">                    </table>                    <div id="matrix-{shortcodeSlug}-details-content"                         class="indicator-table-details"></div>                </div>            </li>            <span id="matrix-{shortcodeSlug}-definition" class="fixedanchor"></span>            <li class="tabcontainer">                <a href="#matrix-{shortcodeSlug}-definition" class="tablink matrix-definition-tab-title"></a>                <div id="matrix-{shortcodeSlug}-definition-content" class="tabcontent">                </div>            </li>            <span id="matrix-{shortcodeSlug}-implementationHelp" class="fixedanchor"></span>            <li class="tabcontainer">                <a href="#matrix-{shortcodeSlug}-implementationHelp"                   class="tablink matrix-implementationHelp-tab-title"></a>                <div id="matrix-{shortcodeSlug}-implementationHelp-content" class="tabcontent">                </div>            </li>            <span id="matrix-{shortcodeSlug}-moreinfo" class="fixedanchor"></span>            <li class="tabcontainer">                <a href="#matrix-{shortcodeSlug}-moreinfo" class="tablink matrix-moreinfo-tab-title"></a>                <div id="matrix-{shortcodeSlug}-moreinfo-content" class="tabcontent">                </div>            </li>        </ul>    </div></div>';
 
 Template.mainPageTemplate = '<div id="main-page" class="display-none">    <div class="main-page-introtext img-center center">        Ein alternatives Wirtschaftssystem, das auf Gemeinwohl-fördernden Werten aufgebaut ist.        <br/><br/>        Ein Veränderungshebel auf wirtschaftlicher, politischer und gesellschaftlicher Ebene – eine Brücke von Altem zu Neuem.        <br/><br/>        Besuche die <a href="http://gemeinwohl-oekonomie.org">offizielle Webseite der Gemeinwohl-Ökonomie</a>.    </div>    <div class="main-page-container-link col-lg-6 col-md-6 col-sm-6 col-xs-6">        <a href="#matrix">            <img class="img-center img-responsive" src="images/gwoe-matrix-icon.png" />            <div class="main-page-container-link-title center">                Gemeinwohl-Matrix            </div>            <div class="main-page-container-link-description center">                Erfahren Sie mehr über Gemeinwohl-Bilanzen.            </div>        </a>    </div>    <div class="main-page-container-link center col-lg-6 col-md-6 col-sm-6 col-xs-6">        <a href="#quick-test">            <img class="img-center img-responsive" src="images/quick-test-icon.png" />            <div class="main-page-container-link-title center">                Schnelltest            </div>            <div class="main-page-container-link-description center">                Bekommen Sie einen ersten Einblick wie gemeinwohlorientiert Sie wirtschaften.            </div>        </a>    </div></div>';
 
 Template.negativeCriteriaTemplate = '<div id="matrix-{shortcodeSlug}" class="indicator-modal display-none">    <button class="back-to-matrix">Zeige die Matrix</button>    <div class="indicator-page-title ">        <h2 class="negative-color">{shortcode}: {name}</h2>    </div>    <div id="matrix-{shortcodeSlug}-content">        {content}    </div></div>';
 
-Template.quickTestTemplate = '<div id="quick-test" class="display-none">    <h1>{name}</h1>    <div id="quick-test-introduction">        <br/>        <p>            <button type="button" class="btn btn-lg btn-gwoe js-quick-test-start">Schnelltest starten</button>        </p>        <br/>        {#data.tests}        {introduction.content|s}        <br/>        <button type="button" class="btn btn-lg btn-gwoe js-quick-test-start">Schnelltest starten</button>        {/data.tests}    </div>    {#data.tests}    <div id="quick-test-questions">        <div id="quick-test-question-profile" class="quick-test-question display-none">            <div class="quick-test-questions-text">                <div class="quick-test-profile-form">                    <div class="quick-test-profile-form-text">                        Bitte geben Sie ein:                    </div>                    <div class="form-group">                        <label for="quick-test-participant-companyName">Unternehmenname:</label>                        <input type="text" class="form-control" id="quick-test-participant-companyName"                               placeholder="Firmenname" autofocus/>                    </div>                    <div class="form-group">                        <label for="quick-test-participant-participantType">Unternehmentyp:</label>                        <select class="form-control" id="js-quick-test-participant-participantType">                            {#structure.testTypes[0].participants}                            <option value="{type}">{name}</option>                            {/structure.testTypes[0].participants}                        </select>                    </div>                </div>            </div>            <div class="quick-test-questions-buttons">                <button type="button" class="btn btn-lg btn-default js-start-test-button">                    Weiter                </button>            </div>        </div>        {#questions}        <div id="quick-test-question-{$idx}" class="quick-test-question display-none">            <div class="quick-test-questions-indicator">                {stakeholders}{gwoeValue}            </div>            <div class="quick-test-questions-text">                {text}            </div>            <div class="quick-test-questions-buttons">                {#structure.testTypes[0].individualAnswer.evaluationValues}                <button data-value="{value}" type="button"                        class="btn btn-lg btn-default btn-gwoe-level-{$idx} js-quick-test-question-button">                    {text}                </button>                {/structure.testTypes[0].individualAnswer.evaluationValues}            </div>        </div>        {/questions}    </div>    {/data.tests}    <div id="quick-test-result" class="display-none">        <div id="quick-test-result-companyName"></div>        <div class="row">            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">                <div class="quick-test-result-progress-bar-container">                    <div class="bs-example vertical bottom v-bottom-basic">                        <div class="progress vertical bottom wide">                            <div id="quick-test-result-progress-bar" class="progress-bar"                                 aria-valuetransitiongoal="0"></div>                        </div>                    </div>                    <div class="quick-test-result-points-container">                        <span id="quick-test-points"></span> von                        <span id="quick-test-max-points"></span> Punkte.                    </div>                </div>            </div>            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">                <div id="quick-test-result-text"></div>            </div>            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>        </div>    </div></div>';
+Template.quickTestTemplate = '<div id="quick-test" class="display-none">    <h1>{name}</h1>    <div id="quick-test-introduction">        <br/>        <p>            <button type="button" class="btn btn-lg btn-gwoe js-quick-test-start">Schnelltest starten</button>        </p>        <br/>        {#data.tests}        {introduction.content|s}        <br/>        <button type="button" class="btn btn-lg btn-gwoe js-quick-test-start">Schnelltest starten</button>        {/data.tests}    </div>    {#data.tests}    <div id="quick-test-questions">        <div id="quick-test-question-profile" class="quick-test-question display-none">            <div class="quick-test-questions-text">                <div class="quick-test-profile-form">                    <div class="quick-test-profile-form-text">                        Bitte geben Sie ein:                    </div>                    <div class="form-group">                        <label for="quick-test-participant-companyName">Unternehmenname:</label>                        <input type="text" class="form-control" id="quick-test-participant-companyName"                               placeholder="Firmenname" autofocus/>                    </div>                    <div class="form-group">                        <label for="quick-test-participant-participantType">Unternehmentyp:</label>                        <select class="form-control" id="js-quick-test-participant-participantType">                            {#structure.testTypes[0].participants}                            <option value="{type}">{name}</option>                            {/structure.testTypes[0].participants}                        </select>                    </div>                </div>            </div>            <div class="quick-test-questions-buttons">                <button type="button" class="btn btn-lg btn-gwoe js-start-test-button">                    Weiter                </button>            </div>        </div>        {#questions}        <div id="quick-test-question-{$idx}" class="quick-test-question display-none">            <div class="quick-test-questions-indicator">                {stakeholders}{gwoeValue} - {indicatorTitle}            </div>            <div class="quick-test-questions-text">                {text}            </div>            <div class="quick-test-questions-buttons">                {#structure.testTypes[0].individualAnswer.evaluationValues}                <button data-value="{value}" type="button"                        class="btn btn-lg btn-default btn-gwoe-level-{$idx} js-quick-test-question-button">                    {text}                </button>                {/structure.testTypes[0].individualAnswer.evaluationValues}            </div>        </div>        {/questions}    </div>    {/data.tests}    <div id="quick-test-result" class="display-none">        <div id="quick-test-result-companyName"></div>        <div class="row">            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">                <div class="quick-test-result-progress-bar-container">                    <div class="bs-example vertical bottom v-bottom-basic">                        <div class="progress vertical bottom wide">                            <div id="quick-test-result-progress-bar" class="progress-bar"                                 aria-valuetransitiongoal="0"></div>                        </div>                    </div>                    <div class="quick-test-result-points-container">                        <span id="quick-test-points"></span> von                        <span id="quick-test-max-points"></span> Punkte.                    </div>                </div>            </div>            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">                <div id="quick-test-result-text"></div>            </div>            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>        </div>    </div></div>';
+
+Template.tableLegend = 'Legende:<div class="matrix-table-legend">    {#legend}        <span class="matrix-table-legend-dt">{short}</span>        <span class="matrix-table-legend-dd">{long}</span>,    {/legend}</div>';
 
 'use strict';
 
@@ -2053,6 +2876,11 @@ var Router = {
 
     fadeOutSpeed : 100,
     fadeInSpeed : 300,
+
+    /**
+     * The default subIndicator Id to be shown.
+     */
+    defaultSubIndicatorId : '-table',
 
     visibleElementId : '',
 
@@ -2122,7 +2950,7 @@ var Router = {
                 indicatorDetailId = ''; // no details
             } else {
                 indicatorDetailId = typeof indicatorDetailId !== 'undefined' ?
-                    indicatorDetailId : '-goals';
+                    indicatorDetailId : Router.defaultSubIndicatorId;
             }
         }
         Router.visibleElementId = indicatorId;
@@ -2360,7 +3188,7 @@ var Controller = {
             document.getElementById('matrix-'+indicator.shortcodeSlug+'-indicator-table').innerHTML =
                 Controller.getMeasurementTableHTMLString(indicator);
             document.getElementById('matrix-'+indicator.shortcodeSlug+'-indicator-table-legend').innerHTML =
-                Controller.getTableLegendString();
+                Controller.getTableLegendString(indicator.table);
             // TODO: add the rest.
         }
 
@@ -2377,9 +3205,22 @@ var Controller = {
         }
     },
 
-    getTableLegendString : function () {
+    getTableLegendString : function (indicatorTable) {
         // TODO: create the string from the JSON data.
-        return 'Table Legend: ';
+        if (indicatorTable.legend !== undefined) {
+
+            var tableLegendHtml = '';
+
+            var compiledTemplate = dust.compile(Template.tableLegend, 'tableLegend');
+            dust.loadSource(compiledTemplate);
+            dust.render('tableLegend', indicatorTable, function(err, out) {
+                tableLegendHtml += out;
+            });
+
+            return tableLegendHtml;
+        } else {
+            return '';
+        }
     },
 
     /**
