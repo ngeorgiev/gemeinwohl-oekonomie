@@ -824,7 +824,114 @@ Data.indicators = {
                 points: 50,
                 goals : {},
                 impulsQuestions : {},
-                table : {},
+                table : {
+                    subindicators : [
+                        {
+                            title : 'Gesamtheit der Maßnahmen für eine ethische Kundenbeziehung (ethisches Marketing + Verkauf)',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Gesamtkonzept für ethische Kundenbeziehung und Selbstverpflichtung der Geschäftsführung'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Umsetzung des Gesamtkonzeptes zu mind. 50 %, deutliche Maßnahmen zur Änderung von Strukturen, Prozessen und Haltung der Mitarbeiter, Gehalt unabhängig von Verkaufszahlen'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Umsetzung des Gesamtkonzeptes bis zu 75 %, umfangreiche Maßnahmen zur Änderung von Strukturen, Prozessen und Haltung der MA'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Gesamtkonzept 100%ig umgesetzt und strukturell verankert, alle MA leben die Haltung der ethischen Kundenbeziehung'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : 'Umfang der KundInnen-Mit­bestimmung/gemeinsame Produktentwicklung/Markt-forschung',
+                            relevance : 'middle',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Erste Maßnahmen zum Beirat angedacht, + Pilotprojekte gemeinsame Produktentwicklung'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Beirat vorhanden, Transparenz der Ergebnisse + bis 25 % der Produkte gemeinsame Produktentwicklung'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Beirat = Umsetzung der Empfehlungen bis 50 % + bis 50 % gemeinsame Produktentwicklung'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Beirat Umsetzung bis 75 %, mind. monatliche Treffen + bis 75 % gemeinsame Produktentwicklung'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : 'Service-Management ',
+                            relevance : 'middle',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Gesamtkonzept für Service-Management + Testphase, mind. Hotline'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Beschwerde­stelle vorhanden, einfaches Reklameprozedere'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : '+ umfassende Servicemaßnahmen'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : '+ Sanktionsmaß-nahmen bei Beschwerden + trans-parentes Reporting'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : 'Produkttransparenz[1]',
+                            relevance : 'middle',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Konzept zur Verbesserung der Produkttransparenz'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Produkttransparenz über dem Branchendurch-schnitt <br/><br/>Preiskalkulation transparent'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Produkttransparenz weit über dem Branchendurchschnitt'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : '+ Verknüpfung GWÖ-Bericht'
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
                 details : {},
                 definition : {},
                 bestPractices : {},
@@ -839,7 +946,88 @@ Data.indicators = {
                 points: 70,
                 goals : {},
                 impulsQuestions : {},
-                table : {},
+                table : {
+                    subindicators : [
+                        {
+                            title : 'Offenlegung von Informationen + Weitergabe von Technologie',
+                            relevance : 'middle',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Offenlegung finanzieller und technischer Information'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Umfassende Offenlegung von Kostenkalkulation, Bezugsquellen und Technologie'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Zusätzlich: Kostenlose Weitergabe einzelner Technologien'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Vollständige Transparenz und Open-Source-Prinzip'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : 'Weitergabe von Arbeitskräften, Aufträgen und Finanzmitteln; kooperative Marktteilnahme',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Kooperation nur auf Anfrage'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Kooperation in Randbereichen des Geschäfts'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Kooperation im gesamten Geschäftsbereich'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Kooperation im gesamten Geschäftsbereich + Beteiligung an kooperativer Marktteilnahme'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : 'Kooperatives Marketing ',
+                            relevance : 'middle',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Verzicht auf Diskreditierung der Konkurrenz'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Verzicht auf massenmediale Werbung (TV, Radio, Plakate)'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Mitaufbau eines gemeinsamen Produktinformationssystems (PIS)'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Mittragen der Brancheninitiative für ethisch-kooperatives Marketing'
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
                 details : {},
                 definition : {},
                 bestPractices : {},
@@ -854,7 +1042,88 @@ Data.indicators = {
                 points: 90,
                 goals : {},
                 impulsQuestions : {},
-                table : {},
+                table : {
+                    subindicators : [
+                        {
+                            title : 'Produkte / Dienstleistungen sind im ökol. Vergleich zu Produkt / Dienstleistungen von MitwerberInnen bzw. Alternativen  von gleichem Nutzen',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'sind durch einen im Vergleich  geringeren ökologischen Fußabdruck bzw. durch erste Ansätze einer überdurchschnittlichen, ökol. Gestaltung gekennzeichnet'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Das Unternehmen verfügt über eine klare, nachvollziehbare Strategie und erkennbare Maßnahmen zur Ökologisierung der Produkte / Dienstleistungen'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'P / D weit über Branchendurchschnitt (z.B.: BAT = Best Available Technology)'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'P / D branchenführend (z.B.: Cradle-to-Cradle)'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : 'SUFFIZIENZ (siehe Exkurs weiter unten): Aktive Gestaltung für eine ökol. Nutzung und suffizienten Konsum',
+                            relevance : 'middle',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Das Unternehmen setzt sich mit nicht-suffizienten / potentiell schädlichen Anwendungsgebieten seiner P / D[3] aktiv auseinander (z.B.: interne Analyse der eigenen Produkte / Dienstleistungen)<br/><br/>Produkte sind nicht widersprüchlich zu einem suffizienten Lebensstil'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Erste Maßnahmen für suffiziente Lebensstile (Anwendung von Ausschlusskriterien, P/D für ökologisch orientierte Absatzmärkte)'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Das Unternehmen fördert eine nachhaltige Nutzung aktiv durch bessere Konditionen und Services (z.B.:  (Preisvorteile, Anreizsysteme, längere Gewährleistung, kostengünstige Reparatur)'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Umfassende Förderung eines ökologisch suffizienten Kundenverhaltens: (Preisvorteile &  Anreizsysteme Reparatur, Wiederverwendung und gemeinschaftliche Nutzung wesentlicher Bestandteil des Geschäftsmodells)'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : 'KOMMUNIKATION: Aktive Kommunikation ökologischer Aspekte den KundInnen gegenüber',
+                            relevance : 'middle',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Das Unternehmen weist aktiv auf höherwertige Alternativen (auch bei MitwerberInnen) hin<br/><br/>Die in der Kommunikation dargestellten ökologischen Aspekte  sind nicht irreführend (siehe Green-Washing)'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Explizite und umfassende Informationen über die ökologischen und Lebensstil-Aspekte der P / D hin'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Von Kunden wird aktiv -Feedback zu ökologischen und Lebensstil-Aspekten eingeholt (z.B.: Nutzungsverhalten, Verbesserungs-potentiale, etc. )'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Ökologische und Lebensstil-Aspekte wesentlicher Inhalt der KundInnen-beziehungen'
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
                 details : {},
                 definition : {},
                 bestPractices : {},
@@ -869,7 +1138,46 @@ Data.indicators = {
                 points: 30,
                 goals : {},
                 impulsQuestions : {},
-                table : {},
+                table : {
+                    subindicators : [
+                        {
+                            title : 'Erleichterter Zugang zu Informationen/ Produkten/ Dienstleistungen für benachteiligte KundInnen-Gruppen*',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Das Unternehmen hat die relevanten benachteiligten KundInnen-Gruppen identifiziert und Informationszugang für die relevantesten Gruppen besteht'
+                                        },
+                                        {
+                                            levels : ['advanced', 'experienced', 'model'],
+                                            description : '<ul><li><span>Vertrieb ist geschult in Umgang/Lösungen für die relevantesten KundInnen-Gruppen und es werden angemessene Ressourcen für Betreuung zur Verfügung gestellt&nbsp;</span></li><li><span>Lösungen für die größten Barrieren für die relevantesten KundInnen-Gruppen bestehen und werden eingesetzt (zum Beispiel gibt es eine soziale Preisstaffelung oder adäquate Zugangserleichterungen für die KundInnen-Gruppe der einkommensschwachen Haushalte)</span></li><li><span>bestehende P/D werden speziell für Anforderungen der relevantesten KundInnen-Gruppen angepasst</span></li></ul>'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : 'Förderungswürdige Strukturen** werden durch Vertriebspolitik unterstützt',
+                            relevance : 'middle',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'KundInnen aus förderungswürdigen Strukturen erhalten relativ gleichwertige Konditionen und Serviceleistungen wie Großunternehmen / Großabnehmer'
+                                        },
+                                        {
+                                            levels : ['advanced', 'experienced', 'model'],
+                                            description : '+ spezielle Servicemaßnahme(n) unterstützen diese KundInnen<br/><br/>+ spezielle Kondition(en) unterstützen diese KundInnen + sonstige Maßnahme(n) unterstützen diese KundInnen'
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
                 details : {},
                 definition : {},
                 bestPractices : {},
@@ -884,7 +1192,88 @@ Data.indicators = {
                 points: 30,
                 goals : {},
                 impulsQuestions : {},
-                table : {},
+                table : {
+                    subindicators : [
+                        {
+                            title : 'Kooperation mit MitwerberInnen und Partnern der Wertschöpfungs-kette',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Erste Pilotprojekte zur gemeinsamen Entwicklung höherer Standards mit Marktpartnern (z.B.: F&E-Kooperation)<br/><br/>Keine wesentlichen Konflikte mit Zivilgesellschaft bezügl. der Standards<br/><br/>Aktive Kommunikation höherer Standards nach Außen (z.B.: Webseite)'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Regelmäßige, etablierte Mechanismen zur gemeinsamen Entwicklung höherer Standards<br/><br/>Höhere Standards wesentlicher Bestandteil der Kommunikationspolitik des Unternehmens'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Selbstverpflichtung auf Branchenebene'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Sicherstellung und Überprüfbarkeit der höheren Standards  (z.B.: externe Audits und unabhängige Kontrollen; Kooperation mit NGOs)'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : 'Aktiver Beitrag zur Erhöhung legislativer Standards',
+                            relevance : 'middle',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Transparente Offenlegung der politischen Aktivitäten<br/><br/>Kein Widerstand gegen höhere soziale und ökologische legislative Standards'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Brancheninternes Engagement für höhere legislative Standards<br/><br/>(z.B.: in Kooperation mit Branchenvertretung)'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Über die Branche hinausgehendes Engagement für höhere legislative Standards (z.B.: Kooperation mit NGOs)'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Transparente, wesentliche Berührungsgruppen inkludierender Lobbying-Prozess (z.B.: Ausformulierte Gesetzesinitiativen)'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : 'Reichweite, inhaltliche Breite und Tiefe',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Ein sozialer oder ökologischer Randaspekt betroffen'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Ein wesentlicher sozialer oder ökologischer Aspekt betroffen<br/><br/>Tatsächliche Umsetzung höherer Standards betrifft > 25% des Umsatzes'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Mehrere, wesentliche  soziale oder ökologische Aspekte betroffen<br/><br/>Tatsächliche Umsetzung höherer Standards > 50%'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Alle wesentlichen sozialökologischen Aspekte<br/><br/>Erhöhung der Branchenstandards ist inhärenter Bestandteil der Unternehmenspositionierung (> 90%)'
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
                 details : {},
                 definition : {},
                 bestPractices : {},
@@ -899,7 +1288,62 @@ Data.indicators = {
                 points: 50,
                 goals : {},
                 impulsQuestions : {},
-                table : {},
+                table : {
+                    subindicators : [
+                        {
+                            title : 'Produkte/ Dienstleistungen decken den Grundbedarf oder dienen der Entwicklung der Menschen/der Gemeinschaft/der Erde  und generieren positiven Nutzen',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Erste Pilotprojekte zur gemeinsamen Entwicklung höherer Standards mit Marktpartnern Bis zu 25% der P/D decken Grundbedarf oder haben positive + nachgewiesene Auswirkungen auf Menschen/ Gemeinschaft/Erde;<br/><br/>max. 25% der P/D erfüllen hemmenden/pseudo-/ Negativ-Nutzen F&E-Kooperation)<br/><br/>Keine wesentlichen Konflikte mit Zivilgesellschaft bezügl. der Standards<br/><br/>Aktive Kommunikation höherer Standards nach Außen (z.B.: Webseite)'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Bis zu 50% der P/D decken Grundbedarf oder haben deutlich positive + nachgewiesene Auswirkungen auf Menschen/ Gesellschaft/Erde;<br/><br/>keine P/D erfüllen hemmenden/ pseudo-/ Negativ-Nutzen'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Bis zu 75% der P/D decken Grundbedarf oder haben deutlich positive + nachgewiesene Auswirkungen auf Menschen/ Gesellschaft/ Erde'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Bis zu 100% der P/D decken Grundbedarf oder haben deutlich positive + nachgewiesen Auswirkungen und lösen wesentliche gesellschaftliche Probleme'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : 'Ökologischer und sozialer Vergleich der Produkte/ Dienstleistungen mit Alternativen mit ähnlichem Endnutzen',
+                            relevance : 'middle',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Punktuelle Ansätze: z.B. das Unternehmen bietet soziale und ökologische Nischenprodukte an'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Das Unternehmen bietet hinsichtlich sozialer/ ökologischer Aspekte überdurch-schnittliche P/D'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Hinsichtlich sozialer und ökologischer Aspekte wesentlich besser als Branchendurch-schnitt'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Im Vergleich zur Alternative sozial und ökologisch hochwertigste P/D, z.B. Energie: Ökostrom; Mobilität: Zug/Bus/Solarantrieb'
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
                 details : {},
                 definition : {},
                 bestPractices : {},
@@ -914,7 +1358,88 @@ Data.indicators = {
                 points: 40,
                 goals : {},
                 impulsQuestions : {},
-                table : {},
+                table : {
+                    subindicators : [
+                        {
+                            title : 'Leistungen[5]',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : '0-0,5 %'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : '0,5-1,5 %'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : '1,5-2,5 %'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : '> 2,5 %'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : 'Wirkungen',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Vereinzelt spürbare Wirkungen mit vorwiegendem Symptom-charakter'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Vertiefte Wirkungen ohne Nachhaltigkeit oder erste breitenwirksame Maßnahmen'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Vertiefte und nachhaltige Wirkung in einzelnen Feldern'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Nachhaltige Wirkung in mehreren Feldern'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : 'Intensität',
+                            relevance : 'low',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Vereinzelte Maßnahmen, nicht institutionalisiert, geringe Verantwortungs-übernahme'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Regelmäßig einzelne Maßnahmen, erste Strategie erkennbar, Verantwortlichkeit erkennbar'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Umfassende Strategie, institutionalisierte Umsetzung, weitgehende Verantwortungs-übernahme'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Dementsprechende Praxis seit mind. drei Jahren'
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
                 details : {},
                 definition : {},
                 bestPractices : {},
@@ -929,7 +1454,88 @@ Data.indicators = {
                 points: 70,
                 goals : {},
                 impulsQuestions : {},
-                table : {},
+                table : {
+                    subindicators : [
+                        {
+                            title : '1. Absolute Auswirkungen1<br/><br/>Das Unternehmen ...',
+                            relevance : 'middle',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : '... kennt die Nutzung seiner P/D und die Herkunft seiner Hilfsstoffe und Produktionsmittel'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : '+ kennt seine Ressourcennutzung und seine Emissionen<br/><br/>(OEF1-Guide Punkte 4 und 5 oder äquivalent)'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : '+ führt regelmäßig eine OEF–Analyse durch (OEF-Guide Punkte 6-9 oder äquivalent)'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : '+ veröffentlicht die Daten und tritt mit den Ergebnissen in Kooperation zu anderen Unternehmen der Branche'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : '2. Relative Auswirkungen:<br/><br/>Im Branchenvergleich liegt das Unternehmen bzgl. Stand der Technik und Gesetzesvorgaben ...',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : '… hinsichtlich einiger ökolog. Auswirkungen über dem Branchendurchschnitt'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : '… hinsichtlich einiger ökolog. Auswirkungen über dem Branchendurchschnitt mit klar erkennbaren Maßnahmen zur Verbesserung'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : '… hinsichtlich wesentlicher ökolog. Auswirkungen über dem Branchendurchschnitt mit klar erkennbaren Maßnahmen zur Verbesserung'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : '… hinsichtlich wesentlicher ökolog. Auswirkungen weit über dem Durchschnitt (Innovationsführer, Branchenleader, etc.)'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : '3. Management und Strategie<br/><br/>Das Unternehmen …',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : '… setzt erste Schritte zur Identifikation der wesentlichen ökologischen Auswirkungen und Risiken (klare Verantwortlichkeiten, institutionalisierte Prozesse, identifizierte Umweltkonten)'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : '+ … erhebt zu seinen Umweltkonten entsprechend Kennzahlen und verfügt über Optimierungs-Strategien'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : '+ …<br/><br/>wie neben, nur: langfristige Reduktions- bzw. Substitutions-strategien'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'wie neben + eindeutige Beurteilung des „Quartetts der Nachhaltigkeit“ bzgl. der Umweltkonten'
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
                 details : {},
                 definition : {},
                 bestPractices : {},
@@ -944,7 +1550,62 @@ Data.indicators = {
                 points: 60,
                 goals : {},
                 impulsQuestions : {},
-                table : {},
+                table : {
+                    subindicators : [
+                        {
+                            title : 'Außen-Ausschüttung',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : '5-Jahresschnitt: Dividende nicht höher als Inflation plus 5%'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : '+ kennt seine Ressourcennutzung und seine Emissionen<br/>5-Jahresschnitt: Dividende nicht höher als Inflation plus 2,5%(OEF1-Guide Punkte 4 und 5 oder äquivalent)'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : '5-Jahresschnitt: Dividende nicht höher als Inflation'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Keine Gewinnausschüttung an externe EigentümerInnen'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : 'Gemeinwohl-orientierte Gewinnverwendung: Ausschüttung and Arbeit-Gebende“, Stärkung des Eigenkapitals sowie ökosoziale Reinvestitionen',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : '50-70% des Gewinnes (davon mind. 50% sozial-ökologische Investitionen) '
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : '71-80% des Gewinnes (davon mind. 50% sozial-ökologische Investitionen) '
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : '81-90% des Gewinnes (davon mind. 50% sozial-ökologische Investitionen)'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : '91-100% des Gewinnes (davon mind. 50% sozial-ökologische Investitionen)'
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
                 details : {},
                 definition : {},
                 bestPractices : {},
@@ -959,7 +1620,140 @@ Data.indicators = {
                 points: 30,
                 goals : {},
                 impulsQuestions : {},
-                table : {},
+                table : {
+                    subindicators : [
+                        {
+                            title : '1. Transparenz -<br/>Umfang GWÖ- Bericht (hoch)',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'GWÖ-Bericht mit weniger als drei aussagekräftigen Sätzen zu jedem Subindikator'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'GWÖ-Bericht mit drei aussagekräftigen Sätzen zu jedem Subindikator'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Detaillierte Beschreibung jedes Subindikators, direkter Link von der Startseite'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : '+ alle kritischen[2] Aspekte genannt, direkter Link von der Startseite, aktive Werbung für den GWÖ-Bericht'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : '1. Transparenz -<br/>GRI Level[3]<br/>(wenn kein GWÖ-Bericht)',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'GRI Level C'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'GRI Level B'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'GRI Level A'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'GRI Level A und Sector Supplement'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : '1. Transparenz -<br/>Verifizierung<br/>(wenn kein GWÖ-Bericht)',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Punktuell, indirekt extern verifiziert'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Externe Evaluation der Risiken'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Externe Verifikation aller wesentl. Kriterien, „low level of assurance“ niedriges Niveau'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Externe Verifikation aller wesentlicher Kriterien, „high level of assurance“ +  + umfassende Kooperation mit NGOs'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : '2. Mitbestimmung -<br/>Art der Mit-bestimmung + Dokumentation',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Reaktiv:<br/>Anhörung von Beschwerden + Reaktion'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Aktiv:<br/>Dialog mit den relevanten EntscheidungsträgerInnen des Unter-nehmens + umfassende Dokumentation'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Aktiv +:<br/>Konsensorientierte Entscheidungen, Dokumentation mit Konsequenzen öffentlich zugänglich'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Innovativ:<br/>mind. 50% Konsensuale Entscheidungen'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            title : '2. Mitbestimmung -<br/>Umfang der Mitbestimmg + einbezogener Berührungsgruppen',
+                            relevance : 'high',
+                            developmentTracks : [
+                                {
+                                    developmentDetails : [
+                                        {
+                                            levels : ['beginner'],
+                                            description : 'Einzelne Maßnahmen/ Projekte über begrenzte Zeit<br/><br/>Einige Berührungsgruppen'
+                                        },
+                                        {
+                                            levels : ['advanced'],
+                                            description : 'Immer wieder um­fassende Mitbestimmungsprozesse<br/><br/>Die wichtigsten Berührungsgruppen'
+                                        },
+                                        {
+                                            levels : ['experienced'],
+                                            description : 'Regelmäßige Einbeziehung bei wichtigen Themen/ strategischen Entscheidungen<br/><br/>Alle Berührungsgruppen'
+                                        },
+                                        {
+                                            levels : ['model'],
+                                            description : 'Permanenter Dialog und Mitbestimmung bei wesentlichen Themen/ strategischen Entsch.<br/><br/>Alle Berührungsgruppen'
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
                 details : {},
                 definition : {},
                 bestPractices : {},
