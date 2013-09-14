@@ -16,17 +16,20 @@ $btn-darken-percentage: 5;
 }
 
 .quick-test-questions-indicator {
+  padding-top: 15px;
   font-size: 1.5em;
+  color: $gwoe-olive-color;
 }
 
 .quick-test-questions-text {
-  margin: 25px 0px;
+  margin: 60px 0px;
+  padding: 0px 15%;
   font-size: 1.5em;
 }
 
 .quick-test-profile-form {
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 30%;
+  padding-right: 30%;
   margin-bottom: 50px;
 }
 
