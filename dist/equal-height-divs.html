@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Equal Height Divs</title>
+	<style>
+
+#container3 {
+    float:left;
+    width:100%;
+    background:green;
+    overflow:hidden;
+    position:relative;
+    border: 1px solid #000000;
+}
+#container2 {
+    float:left;
+    width:100%;
+    background:yellow;
+    position:relative;
+    right:30%;
+    border-right: 1px solid #000000;
+}
+#container1 {
+    float:left;
+    width:100%;
+    background:red;
+    position:relative;
+    right:40%;
+    border-right: 1px solid #000000;
+}
+#col1 {
+    float:left;
+    width:26%;
+    position:relative;
+    left:72%;
+    overflow:hidden;
+}
+#col2 {
+    float:left;
+    width:36%;
+    position:relative;
+    left:76%;
+    overflow:hidden;
+}
+#col3 {
+    float:left;
+    width:26%;
+    position:relative;
+    left:80%;
+    overflow:hidden;
+}
+
+.points {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+}
+
+.streife {
+    width: 5px;
+    height: 100%;
+    background-color: #CCCCCC;
+}
+
+	</style>
+</head>
+<body>
+
+<div id="container3">
+    <div id="container2">
+        <div id="container1">
+            <div id="col1">
+                Column 1<br>111
+
+            </div>
+            <div id="col2">Column 2<br>222<br>222</div>
+            <div id="col3">
+                Column 3
+            </div>
+        </div>
+        <div class="points">
+            90
+        </div>
+    </div>
+    <div class="points">
+        90
+    </div>
+</div>
+
+<div id="container3">
+    <div id="container2">
+        <div id="container1">
+            <div id="col1">Column 1<br>111</div>
+            <div id="col2">Column 2<br>222<br>222</div>
+            <div id="col3">Column 3</div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

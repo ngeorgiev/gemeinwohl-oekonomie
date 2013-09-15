@@ -1,3 +1,10 @@
+## Online Demo
+ * [Open the demo](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/)
+
+## Use locally
+ * Copy the repository
+     * Click on "Download ZIP" button on the right.
+ * Open the file dist/index.html
 
 ## Progress
 
@@ -30,11 +37,21 @@
  * 19.08.2013 - Researched appropriate front-end technologies.
  * 18.08.2013 - First basic UI of the Gemeinwohl-Matrix.
 
-## Roadmap
+## Wishlist
 
- * Refactor the web app into components.
- * Apply best practices of Javascript and CSS
+ * Server-side grunt compilation (and rendering) of the templates.
+ * Responsive Indicator Tabs.
+ * More best practices of Javascript and CSS.
 
-### Organisation
- * In der Bewegung besprechen
- * GWÖ-Projekt werden: http://koordination.gwoe.net/projekte/
+## License
+ * Source code is under the MIT License.
+ * All data belongs to the [Gemeinwohl-Ökonomie movement](http://gemeinwohl-oekonomie.de)
+
+## Developers
+ * [Nikolay Georgiev](http://nikolay-georgiev.net), [sinnwerkstatt Medienagentur GmbH](https://www.sinnwerkstatt.com/), Berlin
+
+## Contribute
+ * Fork, improve and send a pull request.
+
+## Learn more
+ * Visit the official [Gemeinwohl-Ökonomie website](http://www.gemeinwohl-oekonomie.de/).
