@@ -3257,9 +3257,9 @@ var Controller = {
                     // add subindicator info
                     // if more than one dev track and this is the first one
                     if (numOfDevTracks > 1) {
-                        hmlString += '<td rowspan="2" class="dtable-cell indicator-cell dheader-style" >';
+                        hmlString += '<td rowspan="2" class="dtable-cell indicator-cell dheader-style dheader-style-border-l" >';
                     } else {
-                        hmlString += '<td class="dtable-cell indicator-cell dheader-style">';
+                        hmlString += '<td class="dtable-cell indicator-cell dheader-style dheader-style-border-l">';
                     }
                     hmlString += subindicator.title + '<br/><br/>';
                     hmlString += '('+Data.indicators.structure.relevance+': '+
@@ -3301,7 +3301,7 @@ var Controller = {
 
         var hmlString = '';
         hmlString += '<thead><tr class="dheader-style">';
-        hmlString += '<th class="dtable-cell dheader-style col-1-6 subindicator-header">'+
+        hmlString += '<th class="dtable-cell dheader-style dheader-style-border-l col-1-6 subindicator-header">'+
             structure.subindicator+'</th>';
 
         var beginner = indicatorLevels.beginner;
