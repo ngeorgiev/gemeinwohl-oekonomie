@@ -4,9 +4,9 @@ $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
 @import 'sass-bootstrap/lib/bootstrap';
 @import 'config_default';
 
+@import '_utils';
 @import '_table';
 @import 'quicktest';
-
 
 /* GENERAL - Start */
 
@@ -50,6 +50,7 @@ $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
 .header-end {
   clear: both;
 }
+
 .center {
   text-align: center;
 }
@@ -67,8 +68,7 @@ $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
 }
 
 .main-page-container-link-description,
-.main-page-container-link-description:hover
-{
+.main-page-container-link-description:hover {
   color: #666666;
 }
 
@@ -137,9 +137,9 @@ $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
 }
 
 .unselectable {
-  -webkit-user-select: none;  /* Chrome all / Safari all */
-  -moz-user-select: none;     /* Firefox all */
-  -ms-user-select: none;      /* IE 10+ */
+  -webkit-user-select: none; /* Chrome all / Safari all */
+  -moz-user-select: none; /* Firefox all */
+  -ms-user-select: none; /* IE 10+ */
 
   /* No support for these yet, use at own risk */
   -o-user-select: none;
