@@ -3599,7 +3599,7 @@ $('.ind-trigger').each(function (i, elem) {
 
     indicatorEl.click(function () {
         Router.showPage(indicatorModalId);
-        window.scrollTo(0, 0);
+        window.scrollTo(0, 170);
     });
 });
 
