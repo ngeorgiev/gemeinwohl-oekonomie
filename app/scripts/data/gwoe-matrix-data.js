@@ -1,11 +1,11 @@
 Data.matrix = {
 
     valueName: 'Wert',
-    stakeholdersName : 'Berührungsgruppe',
+    stakeholdersName : 'Berührungs&#8203;gruppe',
     negativeCriteriaName : 'Negativ-Kriterien',
 
     values : [
-        'Menschenwürde',
+        'Menschen&#8203;würde',
         'Solidarität',
         'Ökologische Nachhaltigkeit',
         'Soziale Gerechtigkeit',
@@ -15,7 +15,7 @@ Data.matrix = {
     stakeholders : [
         {
             shortcode : 'A',
-            name: 'LieferantInnen',
+            name: 'Lieferant&#8203;Innen',
             values: [
                 {
                     shortcode : 'A1',
@@ -28,7 +28,7 @@ Data.matrix = {
         },
         {
             shortcode : 'B',
-            name: 'GeldgeberInnen',
+            name: 'Geldgeber&#8203;Innen',
             values: [
                 {
                     shortcode : 'B1',
@@ -41,13 +41,13 @@ Data.matrix = {
         },
         {
             shortcode : 'C',
-            name: 'MitarbeiterInnen inklusive EigentümerInnen',
+            name: 'Mitarbeiter&#8203;Innen inklusive Eigentümer&#8203;Innen',
             values: [
                 {
                     shortcode : 'C1',
                     shortcodeSlug : 'c1',
                     title: 'Arbeitsplatz&#8203;qualität und Gleichstellung',
-                    content: 'Mitarbeiterorientierte Organisations-kultur und –strukturen, Faire Beschäftigungs- und Entgeltpolitik, Arbeitsschutz und Gesundheitsförderung einschließlich Work-Life-Balance/flexible Arbeitszeiten, Gleichstellung und Diversität',
+                    content: 'Mitarbeiter&#8203;orientierte Organisations-kultur und –strukturen, Faire Beschäftigungs- und Entgeltpolitik, Arbeitsschutz und Gesundheits&#8203;förderung einschließlich Work-Life-Balance/flexible Arbeitszeiten, Gleichstellung und Diversität',
                     points: 90
                 },
                 {
@@ -60,7 +60,7 @@ Data.matrix = {
                 {
                     shortcode : 'C3',
                     shortcodeSlug : 'c3',
-                    title: 'Förderung ökologischen Verhaltens der MitarbeiterInnen',
+                    title: 'Förderung ökologischen Verhaltens der Mitarbeiter&#8203;Innen',
                     content: 'Aktive Förderung eines nachhaltigen Lebensstils der MitarbeiterInnen (Mobilität, Ernährung), Weiterbildung und Bewusstsein schaffende Maßnahmen, nachhaltige Organisationskultur',
                     points: 30
                 },
@@ -68,54 +68,54 @@ Data.matrix = {
                     shortcode : 'C4',
                     shortcodeSlug : 'c4',
                     title: 'Gerechte Verteilung des Einkommens',
-                    content: 'Geringe innerbetriebliche Einkommensspreizung (netto), Einhaltung von Mindesteinkommen und Höchsteinkommen',
+                    content: 'Geringe innerbetriebliche Einkommens&#8203;spreizung (netto), Einhaltung von Mindest&#8203;einkommen und Höchst&#8203;einkommen',
                     points: 60
                 },
                 {
                     shortcode : 'C5',
                     shortcodeSlug : 'c5',
                     title: 'Inner&#8203;betriebliche Demokratie und Transparenz',
-                    content: 'Umfassende innerbetriebliche Transparenz, Wahl der Führungskräfte durch die Mitarbeiter, konsensuale Mitbestimmung bei Grundsatz- und Rahmenentscheidungen, Übergabe Eigentum an MitarbeiterInnen. Z.B. Soziokratie',
+                    content: 'Umfassende innerbetriebliche Transparenz, Wahl der Führungskräfte durch die Mitarbeiter, konsensuale Mitbestimmung bei Grundsatz- und Rahmen&#8203;entscheidungen, Übergabe Eigentum an MitarbeiterInnen. Z.B. Soziokratie',
                     points: 90
                 }
             ]
         },
         {
             shortcode : 'D',
-            name: 'KundInnen /Produkte / Dienstleistungen / Mitunternehmen',
+            name: 'KundInnen / Produkte / Dienst&#8203;leistungen / Mit&#8203;unternehmen',
             values: [
                 {
                     shortcode : 'D1',
                     shortcodeSlug : 'd1',
-                    title: 'Ethische Kundenbeziehung',
-                    content: 'Ethischer Umgang mit KundInnen, KundInnenorientierung/ - mitbestimmung, gemeinsame Produktentwicklung, hohe Servicequalität, hohe Produkttransparenz',
+                    title: 'Ethische Kunden&#8203;beziehung',
+                    content: 'Ethischer Umgang mit KundInnen, KundInnen&#8203;orientierung/ - mitbestimmung, gemeinsame Produkt&#8203;entwicklung, hohe Servicequalität, hohe Produkt&#8203;transparenz',
                     points: 50
                 },
                 {
                     shortcode : 'D2',
                     shortcodeSlug : 'd2',
-                    title: 'Solidarität mit Mitunternehmen',
+                    title: 'Solidarität mit Mit&#8203;unternehmen',
                     content: 'Weitergabe von Information, Know-how, Arbeitskräften, Aufträgen, zinsfreien Krediten; Beteiligung an kooperativem Marketing und kooperativer Krisenbewältigung',
                     points: 70
                 },
                 {
                     shortcode : 'D3',
                     shortcodeSlug : 'd3',
-                    title: 'Ökologische Gestaltung der Produkte und Dienstleistungen',
+                    title: 'Ökologische Gestaltung der Produkte und Dienst&#8203;leistungen',
                     content: 'Angebot ökologisch höherwertiger Produkte / Dienstleistungen; Bewusstsein schaffende Maßnahmen; Berücksichtigung ökologischer Aspekte bei der KundInnenwahl',
                     points: 90
                 },
                 {
                     shortcode : 'D4',
                     shortcodeSlug : 'd4',
-                    title: 'Soziale Gestaltung der Produkte und Dienstleistungen',
-                    content: 'Informationen / Produkten / Dienstleistungen für benachteiligte KundInnen-Gruppen. Unterstützung förderungswürdiger Marktstrukturen.',
+                    title: 'Soziale Gestaltung der Produkte und Dienst&#8203;leistungen',
+                    content: 'Informationen / Produkten / Dienstleistungen für benachteiligte KundInnen-Gruppen. Unterstützung förderungs&#8203;würdiger Marktstrukturen.',
                     points: 30
                 },
                 {
                     shortcode : 'D5',
                     shortcodeSlug : 'd5',
-                    title: 'Erhöhung der sozialen und ökologischen Branchenstandards',
+                    title: 'Erhöhung der sozialen und ökologischen Branchen&#8203;standards',
                     content: 'Vorbildwirkung, Entwicklung von höheren Standards mit MitbewerberInnen, Lobbying',
                     points: 30
                 }
@@ -123,14 +123,14 @@ Data.matrix = {
         },
         {
             shortcode : 'E',
-            name: 'Gesellschaftliches Umfeld:',
-            description: 'Region, Souverän, zukünftige Generationen, Zivilgesellschaft, Mitmenschen und Natur',
+            name: 'Gesell&#8203;schaftliches Umfeld:',
+            explanation: 'Region, Souverän, zukünftige Generationen, Zivil&#8203;gesellschaft, Mitmenschen und Natur',
             values: [
                 {
                     shortcode : 'E1',
                     shortcodeSlug : 'e1',
-                    title: 'Sinn und Gesellschaftliche Wirkung der Produkte / Dienstleistungen',
-                    content: 'P/DL decken den Grundbedarf oder dienen der Entwicklung der Menschen/der Gemeinschaft/der Erde und generieren positiven Nutzen.',
+                    title: 'Sinn und Gesell&#8203;schaftliche Wirkung der Produkte / Dienst&#8203;leistungen',
+                    content: 'P/DL decken den Grundbedarf oder dienen der Entwicklung der Menschen / der Gemeinschaft / der Erde und generieren positiven Nutzen.',
                     points: 50
                 },
                 {
@@ -144,21 +144,21 @@ Data.matrix = {
                     shortcode : 'E3',
                     shortcodeSlug : 'e3',
                     title: 'Reduktion ökologischer Auswirkungen',
-                    content: 'Reduktion der Umweltauswirkungen auf ein zukunftsfähiges Niveau: Ressourcen, Energie & Klima, Emissionen, Abfälle etc.',
+                    content: 'Reduktion der Umwelt&#8203;auswirkungen auf ein zukunftsfähiges Niveau: Ressourcen, Energie & Klima, Emissionen, Abfälle etc.',
                     points: 70
                 },
                 {
                     shortcode : 'E4',
                     shortcodeSlug : 'e4',
                     title: 'Gemeinwohl&#8203;orientierte Gewinn-Verteilung',
-                    content: 'Sinkende/ keine Gewinnausschüttung an Externe, Ausschüttung an Mitarbeiter, Stärkung des Eigenkapitals, sozial-ökologische Investitionen',
+                    content: 'Sinkende / keine Gewinn&#8203;ausschüttung an Externe, Ausschüttung an Mitarbeiter, Stärkung des Eigenkapitals, sozial-ökologische Investitionen',
                     points: 60
                 },
                 {
                     shortcode : 'E5',
                     shortcodeSlug : 'e5',
                     title: 'Gesellschaft&#8203;liche Transparenz und Mitbestimmung',
-                    content: 'Gemeinwohl- oder Nachhaltigkeitsbericht, Mitbestimmung von regionalen und zivilgesellschaftlichen Berührungsgruppen',
+                    content: 'Gemeinwohl- oder Nachhaltigkeits&#8203;bericht, Mitbestimmung von regionalen und zivilgesell&#8203;schaftlichen Berührungs&#8203;gruppen',
                     points: 30
                 }
             ]
