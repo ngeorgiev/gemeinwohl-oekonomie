@@ -136,6 +136,16 @@ $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
   word-wrap: break-word;
 }
 
+.unselectable {
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;
+}
+
 .header-text-top {
   float: right;
 }
@@ -484,7 +494,7 @@ $tabs-border-color: $grey-border;
   float: left;
   width: 100%;
   left: 0;
-  padding: 25px 5px;
+  padding: 35px 5px;
   visibility: hidden;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
