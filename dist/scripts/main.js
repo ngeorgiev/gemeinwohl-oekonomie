@@ -30,7 +30,7 @@ Utils.applyEqualHeightOnResize = function () {
 };
 
 Utils.applyEqualHeightRecalculate = function () {
-    console.log('Recalculate ...');
+//    console.log('Recalculate ...');
 
     // set height to auto (default) to calculate it again
     Utils.getJsEqualHeightElements().each(function() { // for each element
@@ -44,7 +44,7 @@ Utils.applyEqualHeightRecalculate = function () {
 };
 
 Utils.applyEqualHeight = function () {
-    console.log('!!!applyEqualHeight');
+//    console.log('!!!applyEqualHeight');
 
     Utils.getJsEqualHeightElements().each(function() { // for each element
         var maxHeight = 0;
@@ -52,8 +52,7 @@ Utils.applyEqualHeight = function () {
             var curCell = $(this);
             if (curCell.outerHeight() > maxHeight) { // compare heights
                 maxHeight = curCell.outerHeight();
-                console.log('maxHeight = ' + maxHeight);
-                console.log('curCell = ' + curCell.id);
+//                console.log('maxHeight = ' + maxHeight);
             }
         });
         if (maxHeight !== 0) {
@@ -373,11 +372,11 @@ Data.quickTest = {
 Data.matrix = {
 
     valueName: 'Wert',
-    stakeholdersName : 'Berührungsgruppe',
+    stakeholdersName : 'Berührungs&#8203;gruppe',
     negativeCriteriaName : 'Negativ-Kriterien',
 
     values : [
-        'Menschenwürde',
+        'Menschen&#8203;würde',
         'Solidarität',
         'Ökologische Nachhaltigkeit',
         'Soziale Gerechtigkeit',
@@ -387,7 +386,7 @@ Data.matrix = {
     stakeholders : [
         {
             shortcode : 'A',
-            name: 'LieferantInnen',
+            name: 'Lieferant&#8203;Innen',
             values: [
                 {
                     shortcode : 'A1',
@@ -400,7 +399,7 @@ Data.matrix = {
         },
         {
             shortcode : 'B',
-            name: 'GeldgeberInnen',
+            name: 'Geldgeber&#8203;Innen',
             values: [
                 {
                     shortcode : 'B1',
@@ -413,13 +412,13 @@ Data.matrix = {
         },
         {
             shortcode : 'C',
-            name: 'MitarbeiterInnen inklusive EigentümerInnen',
+            name: 'Mitarbeiter&#8203;Innen inklusive Eigentümer&#8203;Innen',
             values: [
                 {
                     shortcode : 'C1',
                     shortcodeSlug : 'c1',
                     title: 'Arbeitsplatz&#8203;qualität und Gleichstellung',
-                    content: 'Mitarbeiterorientierte Organisations-kultur und –strukturen, Faire Beschäftigungs- und Entgeltpolitik, Arbeitsschutz und Gesundheitsförderung einschließlich Work-Life-Balance/flexible Arbeitszeiten, Gleichstellung und Diversität',
+                    content: 'Mitarbeiter&#8203;orientierte Organisations-kultur und –strukturen, Faire Beschäftigungs- und Entgeltpolitik, Arbeitsschutz und Gesundheits&#8203;förderung einschließlich Work-Life-Balance/flexible Arbeitszeiten, Gleichstellung und Diversität',
                     points: 90
                 },
                 {
@@ -432,7 +431,7 @@ Data.matrix = {
                 {
                     shortcode : 'C3',
                     shortcodeSlug : 'c3',
-                    title: 'Förderung ökologischen Verhaltens der MitarbeiterInnen',
+                    title: 'Förderung ökologischen Verhaltens der Mitarbeiter&#8203;Innen',
                     content: 'Aktive Förderung eines nachhaltigen Lebensstils der MitarbeiterInnen (Mobilität, Ernährung), Weiterbildung und Bewusstsein schaffende Maßnahmen, nachhaltige Organisationskultur',
                     points: 30
                 },
@@ -440,54 +439,54 @@ Data.matrix = {
                     shortcode : 'C4',
                     shortcodeSlug : 'c4',
                     title: 'Gerechte Verteilung des Einkommens',
-                    content: 'Geringe innerbetriebliche Einkommensspreizung (netto), Einhaltung von Mindesteinkommen und Höchsteinkommen',
+                    content: 'Geringe innerbetriebliche Einkommens&#8203;spreizung (netto), Einhaltung von Mindest&#8203;einkommen und Höchst&#8203;einkommen',
                     points: 60
                 },
                 {
                     shortcode : 'C5',
                     shortcodeSlug : 'c5',
                     title: 'Inner&#8203;betriebliche Demokratie und Transparenz',
-                    content: 'Umfassende innerbetriebliche Transparenz, Wahl der Führungskräfte durch die Mitarbeiter, konsensuale Mitbestimmung bei Grundsatz- und Rahmenentscheidungen, Übergabe Eigentum an MitarbeiterInnen. Z.B. Soziokratie',
+                    content: 'Umfassende innerbetriebliche Transparenz, Wahl der Führungskräfte durch die Mitarbeiter, konsensuale Mitbestimmung bei Grundsatz- und Rahmen&#8203;entscheidungen, Übergabe Eigentum an MitarbeiterInnen. Z.B. Soziokratie',
                     points: 90
                 }
             ]
         },
         {
             shortcode : 'D',
-            name: 'KundInnen /Produkte / Dienstleistungen / Mitunternehmen',
+            name: 'KundInnen / Produkte / Dienst&#8203;leistungen / Mit&#8203;unternehmen',
             values: [
                 {
                     shortcode : 'D1',
                     shortcodeSlug : 'd1',
-                    title: 'Ethische Kundenbeziehung',
-                    content: 'Ethischer Umgang mit KundInnen, KundInnenorientierung/ - mitbestimmung, gemeinsame Produktentwicklung, hohe Servicequalität, hohe Produkttransparenz',
+                    title: 'Ethische Kunden&#8203;beziehung',
+                    content: 'Ethischer Umgang mit KundInnen, KundInnen&#8203;orientierung/ - mitbestimmung, gemeinsame Produkt&#8203;entwicklung, hohe Servicequalität, hohe Produkt&#8203;transparenz',
                     points: 50
                 },
                 {
                     shortcode : 'D2',
                     shortcodeSlug : 'd2',
-                    title: 'Solidarität mit Mitunternehmen',
+                    title: 'Solidarität mit Mit&#8203;unternehmen',
                     content: 'Weitergabe von Information, Know-how, Arbeitskräften, Aufträgen, zinsfreien Krediten; Beteiligung an kooperativem Marketing und kooperativer Krisenbewältigung',
                     points: 70
                 },
                 {
                     shortcode : 'D3',
                     shortcodeSlug : 'd3',
-                    title: 'Ökologische Gestaltung der Produkte und Dienstleistungen',
+                    title: 'Ökologische Gestaltung der Produkte und Dienst&#8203;leistungen',
                     content: 'Angebot ökologisch höherwertiger Produkte / Dienstleistungen; Bewusstsein schaffende Maßnahmen; Berücksichtigung ökologischer Aspekte bei der KundInnenwahl',
                     points: 90
                 },
                 {
                     shortcode : 'D4',
                     shortcodeSlug : 'd4',
-                    title: 'Soziale Gestaltung der Produkte und Dienstleistungen',
-                    content: 'Informationen / Produkten / Dienstleistungen für benachteiligte KundInnen-Gruppen. Unterstützung förderungswürdiger Marktstrukturen.',
+                    title: 'Soziale Gestaltung der Produkte und Dienst&#8203;leistungen',
+                    content: 'Informationen / Produkten / Dienstleistungen für benachteiligte KundInnen-Gruppen. Unterstützung förderungs&#8203;würdiger Marktstrukturen.',
                     points: 30
                 },
                 {
                     shortcode : 'D5',
                     shortcodeSlug : 'd5',
-                    title: 'Erhöhung der sozialen und ökologischen Branchenstandards',
+                    title: 'Erhöhung der sozialen und ökologischen Branchen&#8203;standards',
                     content: 'Vorbildwirkung, Entwicklung von höheren Standards mit MitbewerberInnen, Lobbying',
                     points: 30
                 }
@@ -495,14 +494,14 @@ Data.matrix = {
         },
         {
             shortcode : 'E',
-            name: 'Gesellschaftliches Umfeld:',
-            description: 'Region, Souverän, zukünftige Generationen, Zivilgesellschaft, Mitmenschen und Natur',
+            name: 'Gesell&#8203;schaftliches Umfeld:',
+            explanation: 'Region, Souverän, zukünftige Generationen, Zivil&#8203;gesellschaft, Mitmenschen und Natur',
             values: [
                 {
                     shortcode : 'E1',
                     shortcodeSlug : 'e1',
-                    title: 'Sinn und Gesellschaftliche Wirkung der Produkte / Dienstleistungen',
-                    content: 'P/DL decken den Grundbedarf oder dienen der Entwicklung der Menschen/der Gemeinschaft/der Erde und generieren positiven Nutzen.',
+                    title: 'Sinn und Gesell&#8203;schaftliche Wirkung der Produkte / Dienst&#8203;leistungen',
+                    content: 'P/DL decken den Grundbedarf oder dienen der Entwicklung der Menschen / der Gemeinschaft / der Erde und generieren positiven Nutzen.',
                     points: 50
                 },
                 {
@@ -516,21 +515,21 @@ Data.matrix = {
                     shortcode : 'E3',
                     shortcodeSlug : 'e3',
                     title: 'Reduktion ökologischer Auswirkungen',
-                    content: 'Reduktion der Umweltauswirkungen auf ein zukunftsfähiges Niveau: Ressourcen, Energie & Klima, Emissionen, Abfälle etc.',
+                    content: 'Reduktion der Umwelt&#8203;auswirkungen auf ein zukunftsfähiges Niveau: Ressourcen, Energie & Klima, Emissionen, Abfälle etc.',
                     points: 70
                 },
                 {
                     shortcode : 'E4',
                     shortcodeSlug : 'e4',
                     title: 'Gemeinwohl&#8203;orientierte Gewinn-Verteilung',
-                    content: 'Sinkende/ keine Gewinnausschüttung an Externe, Ausschüttung an Mitarbeiter, Stärkung des Eigenkapitals, sozial-ökologische Investitionen',
+                    content: 'Sinkende / keine Gewinn&#8203;ausschüttung an Externe, Ausschüttung an Mitarbeiter, Stärkung des Eigenkapitals, sozial-ökologische Investitionen',
                     points: 60
                 },
                 {
                     shortcode : 'E5',
                     shortcodeSlug : 'e5',
                     title: 'Gesellschaft&#8203;liche Transparenz und Mitbestimmung',
-                    content: 'Gemeinwohl- oder Nachhaltigkeitsbericht, Mitbestimmung von regionalen und zivilgesellschaftlichen Berührungsgruppen',
+                    content: 'Gemeinwohl- oder Nachhaltigkeits&#8203;bericht, Mitbestimmung von regionalen und zivilgesell&#8203;schaftlichen Berührungs&#8203;gruppen',
                     points: 30
                 }
             ]
@@ -2849,7 +2848,7 @@ negativeCriteria[8].content = '<p><strong>Beschreibung Negativ-Kriterium</strong
 
 Template.footerTemplate = '<div id="footer-contents">    Open Source @ <a href="https://github.com/sinnwerkstatt/gemeinwohl-oekonomie">GitHub</a> by <a href="https://www.sinnwerkstatt.com">Sinnwerkstatt</a></div>';
 
-Template.gwoeMatrixTemplate = '<div id="gwoe-matrix" class="bubble display-none">    <div class="bootstrap-table whitebg unselectable">        <div class="row row-border dheader-style js-equal-height">            <div class="row-cell col-lg-2 col-md-2 col-sm-2 col-xs-2">                <span class="gwoe-green">{valueName}</span> / <span class="gwoe-blue">{stakeholdersName}</span>            </div>            <div class="row-cell gwoe-green col-lg-2 col-md-2 col-sm-2 col-xs-2">{values[0]}</div>            <div class="row-cell gwoe-green col-lg-2 col-md-2 col-sm-2 col-xs-2">{values[1]}</div>            <div class="row-cell gwoe-green col-lg-2 col-md-2 col-sm-2 col-xs-2">{values[2]}</div>            <div class="row-cell gwoe-green col-lg-2 col-md-2 col-sm-2 col-xs-2">{values[3]}</div>            <div class="row-cell last-cell gwoe-green col-lg-2 col-md-2 col-sm-2 col-xs-2">{values[4]}</div>        </div>        <div class="row row-border js-equal-height clear-both">            <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">                {stakeholders[0].shortcode}) {stakeholders[0].name}            </div>            <div class="row-cell indicator-cell last-cell ind-trigger col-lg-10 col-md-10 col-sm-10 col-xs-10"                 data-modal="matrix-{stakeholders[0].values[0].shortcodeSlug}">                <div class="indicator-title">                    {stakeholders[0].values[0].shortcode}) {stakeholders[0].values[0].title}                </div>                <div class="indicator-description">                    {stakeholders[0].values[0].content}                </div>                <div class="indicator-points">                    {stakeholders[0].values[0].points}                </div>            </div>        </div>        <div class="row row-border js-equal-height">            <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">                {stakeholders[1].shortcode}) {stakeholders[1].name}            </div>            <div class="row-cell indicator-cell last-cell ind-trigger col-lg-10 col-md-10 col-sm-10 col-xs-10"                 data-modal="matrix-{stakeholders[1].values[0].shortcodeSlug}">                <div class="indicator-title">                    {stakeholders[1].values[0].shortcode}) {stakeholders[1].values[0].title}                </div>                <div class="indicator-description">                    {stakeholders[1].values[0].content}                </div>                <div class="indicator-points">                    {stakeholders[1].values[0].points}                </div>            </div>        </div>        <div class="row row-border js-equal-height">            <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">                {stakeholders[2].shortcode}) {stakeholders[2].name}            </div>            {#stakeholders[2].values}            <div class="row-cell indicator-cell {@if cond="            {$idx} == 4"}last-cell {/if}ind-trigger col-lg-2 col-md-2 col-sm-2 col-xs-2"            data-modal="matrix-{shortcodeSlug}">            <div class="indicator-title">                {shortcode}) {title|s}            </div>            <div class="indicator-description">                {content}            </div>            <div class="indicator-points">                {points}            </div>        </div>        {/stakeholders[2].values}    </div>    <div class="row row-border js-equal-height">        <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">            {stakeholders[3].shortcode}) {stakeholders[3].name}        </div>        {#stakeholders[3].values}        <div class="row-cell indicator-cell {@if cond="        {$idx} == 4"}last-cell {/if}ind-trigger col-lg-2 col-md-2 col-sm-2 col-xs-2"        data-modal="matrix-{shortcodeSlug}">        <div class="indicator-title">            {shortcode}) {title|s}        </div>        <div class="indicator-description">            {content}        </div>        <div class="indicator-points">            {points}        </div>    </div>    {/stakeholders[3].values}</div><div class="row row-border js-equal-height">    <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">        {stakeholders[4].shortcode}) {stakeholders[4].name}    </div>    {#stakeholders[4].values}    <div class="row-cell indicator-cell {@if cond="    {$idx} == 4"}last-cell {/if}ind-trigger col-lg-2 col-md-2 col-sm-2 col-xs-2"    data-modal="matrix-{shortcodeSlug}">    <div class="indicator-title">        {shortcode}) {title|s}    </div>    <div class="indicator-description">        {content}    </div>    <div class="indicator-points">        {points}    </div></div>{/stakeholders[4].values}</div><div class="row row-border js-equal-height">    <div class="row-cell dheader-style negative-color-b col-lg-2 col-md-2 col-sm-2 col-xs-2">        {negativeCriteriaName}    </div>    {#negativeCriteria}    <div class="row-cell indicator-cell {@if cond="    {$idx} == 4"}last-cell {/if}col-lg-2 col-md-2 col-sm-2 col-xs-2">    {#values}    <div class="negative-container ind-trigger" data-modal="matrix-{shortcodeSlug}">        <div class="negative-points">            {points}        </div>        <div class="negative-content">            {titleShort|s}        </div>    </div>    {/values}</div>{/negativeCriteria}</div></div><!-- end of matrix table --></div><!-- end of bubble -->';
+Template.gwoeMatrixTemplate = '<div id="gwoe-matrix" class="bubble display-none">    <div class="bootstrap-table whitebg unselectable">        <div class="row row-border dheader-style js-equal-height">            <div class="row-cell col-lg-2 col-md-2 col-sm-2 col-xs-2">                <span class="gwoe-green">{valueName}</span> / <span class="gwoe-blue">{stakeholdersName|s}</span>            </div>            <div class="row-cell gwoe-green col-lg-2 col-md-2 col-sm-2 col-xs-2">{values[0]|s}</div>            <div class="row-cell gwoe-green col-lg-2 col-md-2 col-sm-2 col-xs-2">{values[1]|s}</div>            <div class="row-cell gwoe-green col-lg-2 col-md-2 col-sm-2 col-xs-2">{values[2]|s}</div>            <div class="row-cell gwoe-green col-lg-2 col-md-2 col-sm-2 col-xs-2">{values[3]|s}</div>            <div class="row-cell last-cell gwoe-green col-lg-2 col-md-2 col-sm-2 col-xs-2">{values[4]|s}</div>        </div>        <div class="row row-border js-equal-height clear-both">            <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">                {stakeholders[0].shortcode}) {stakeholders[0].name|s}            </div>            <div class="row-cell indicator-cell last-cell ind-trigger col-lg-10 col-md-10 col-sm-10 col-xs-10"                 data-modal="matrix-{stakeholders[0].values[0].shortcodeSlug}">                <div class="indicator-title">                    {stakeholders[0].values[0].shortcode}) {stakeholders[0].values[0].title|s}                </div>                <div class="indicator-description">                    {stakeholders[0].values[0].content|s}                </div>                <div class="indicator-points">                    {stakeholders[0].values[0].points}                </div>            </div>        </div>        <div class="row row-border js-equal-height">            <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">                {stakeholders[1].shortcode}) {stakeholders[1].name|s}            </div>            <div class="row-cell indicator-cell last-cell ind-trigger col-lg-10 col-md-10 col-sm-10 col-xs-10"                 data-modal="matrix-{stakeholders[1].values[0].shortcodeSlug}">                <div class="indicator-title">                    {stakeholders[1].values[0].shortcode}) {stakeholders[1].values[0].title|s}                </div>                <div class="indicator-description">                    {stakeholders[1].values[0].content|s}                </div>                <div class="indicator-points">                    {stakeholders[1].values[0].points}                </div>            </div>        </div>        <div class="row row-border js-equal-height">            <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">                {stakeholders[2].shortcode}) {stakeholders[2].name|s}            </div>            {#stakeholders[2].values}            <div class="row-cell indicator-cell {@if cond="            {$idx} == 4"}last-cell {/if}ind-trigger col-lg-2 col-md-2 col-sm-2 col-xs-2"            data-modal="matrix-{shortcodeSlug}">            <div class="indicator-title">                {shortcode}) {title|s}            </div>            <div class="indicator-description">                {content|s}            </div>            <div class="indicator-points">                {points}            </div>        </div>        {/stakeholders[2].values}    </div>    <div class="row row-border js-equal-height">        <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">            {stakeholders[3].shortcode}) {stakeholders[3].name|s}        </div>        {#stakeholders[3].values}        <div class="row-cell indicator-cell {@if cond="        {$idx} == 4"}last-cell {/if}ind-trigger col-lg-2 col-md-2 col-sm-2 col-xs-2"        data-modal="matrix-{shortcodeSlug}">        <div class="indicator-title">            {shortcode}) {title|s}        </div>        <div class="indicator-description">            {content|s}        </div>        <div class="indicator-points">            {points}        </div>    </div>    {/stakeholders[3].values}</div><div class="row row-border js-equal-height">    <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">        {stakeholders[4].shortcode}) {stakeholders[4].name|s}        <div class="matrix-group-explanation">            {stakeholders[4].explanation|s}        </div>    </div>    {#stakeholders[4].values}    <div class="row-cell indicator-cell {@if cond="    {$idx} == 4"}last-cell {/if}ind-trigger col-lg-2 col-md-2 col-sm-2 col-xs-2"    data-modal="matrix-{shortcodeSlug}">    <div class="indicator-title">        {shortcode}) {title|s}    </div>    <div class="indicator-description">        {content|s}    </div>    <div class="indicator-points">        {points}    </div></div>{/stakeholders[4].values}</div><div class="row row-border js-equal-height">    <div class="row-cell dheader-style negative-color-b col-lg-2 col-md-2 col-sm-2 col-xs-2">        {negativeCriteriaName|s}    </div>    {#negativeCriteria}    <div class="row-cell indicator-cell {@if cond="    {$idx} == 4"}last-cell {/if}col-lg-2 col-md-2 col-sm-2 col-xs-2">    {#values}    <div class="negative-container ind-trigger" data-modal="matrix-{shortcodeSlug}">        <div class="negative-points">            {points}        </div>        <div class="negative-content">            {titleShort|s}        </div>    </div>    {/values}</div>{/negativeCriteria}</div></div><!-- end of matrix table --></div><!-- end of bubble -->';
 
 Template.indicatorTabsTemplate = '<div id="matrix-{shortcodeSlug}" class="display-none">    <img class="back-to-matrix pointer" src="images/gwoe-matrix-icon-arrow-50h.png" title="Zurück zur GWÖ-Matrix"/>    <div class="indicator-page-title">        <h2>{shortcode}: {name}</h2>    </div>    <div class="tabs">        <ul class="tablist">            <span id="matrix-{shortcodeSlug}-goals" class="fixedanchor"></span>            <li class="tabcontainer">                <a href="#matrix-{shortcodeSlug}-goals" class="tablink matrix-goals-tab-title"></a>                <div id="matrix-{shortcodeSlug}-goals-content" class="tabcontent">                </div>            </li>            <span id="matrix-{shortcodeSlug}-impulsQuestions" class="fixedanchor"></span>            <li class="tabcontainer">                <a href="#matrix-{shortcodeSlug}-impulsQuestions" class="tablink matrix-impulsQuestions-tab-title"></a>                <div id="matrix-{shortcodeSlug}-impulsQuestions-content" class="tabcontent">                </div>            </li>            <span id="matrix-{shortcodeSlug}-table" class="fixedanchor"></span>            <li class="tabcontainer">                <a href="#matrix-{shortcodeSlug}-table" class="tablink matrix-table-tab-title"></a>                <div id="matrix-{shortcodeSlug}-table-content" class="tabcontent">                    <div id="matrix-{shortcodeSlug}-indicator-table-legend" class="indicator-table-legend"></div>                    <table id="matrix-{shortcodeSlug}-indicator-table" class="dtable">                    </table>                    <div id="matrix-{shortcodeSlug}-details-content"                         class="indicator-table-details"></div>                </div>            </li>            <span id="matrix-{shortcodeSlug}-definition" class="fixedanchor"></span>            <li class="tabcontainer">                <a href="#matrix-{shortcodeSlug}-definition" class="tablink matrix-definition-tab-title"></a>                <div id="matrix-{shortcodeSlug}-definition-content" class="tabcontent">                </div>            </li>            <span id="matrix-{shortcodeSlug}-implementationHelp" class="fixedanchor"></span>            <li class="tabcontainer">                <a href="#matrix-{shortcodeSlug}-implementationHelp"                   class="tablink matrix-implementationHelp-tab-title"></a>                <div id="matrix-{shortcodeSlug}-implementationHelp-content" class="tabcontent">                </div>            </li>            <span id="matrix-{shortcodeSlug}-moreinfo" class="fixedanchor"></span>            <li class="tabcontainer">                <a href="#matrix-{shortcodeSlug}-moreinfo" class="tablink matrix-moreinfo-tab-title"></a>                <div id="matrix-{shortcodeSlug}-moreinfo-content" class="tabcontent">                </div>            </li>        </ul>    </div></div>';
 
@@ -3600,6 +3599,7 @@ $('.ind-trigger').each(function (i, elem) {
 
     indicatorEl.click(function () {
         Router.showPage(indicatorModalId);
+        window.scrollTo(0, 0);
     });
 });
 
