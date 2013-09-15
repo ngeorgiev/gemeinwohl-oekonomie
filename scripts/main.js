@@ -3599,7 +3599,8 @@ $('.ind-trigger').each(function (i, elem) {
 
     indicatorEl.click(function () {
         Router.showPage(indicatorModalId);
-        window.scrollTo(0, 170);
+//        window.scrollTo(0, 170);
+        $("html, body").animate({ scrollTop: 170 }, "slow");
     });
 });
 
