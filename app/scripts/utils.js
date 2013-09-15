@@ -30,7 +30,7 @@ Utils.applyEqualHeightOnResize = function () {
 };
 
 Utils.applyEqualHeightRecalculate = function () {
-    console.log('Recalculate ...');
+//    console.log('Recalculate ...');
 
     // set height to auto (default) to calculate it again
     Utils.getJsEqualHeightElements().each(function() { // for each element
@@ -44,7 +44,7 @@ Utils.applyEqualHeightRecalculate = function () {
 };
 
 Utils.applyEqualHeight = function () {
-    console.log('!!!applyEqualHeight');
+//    console.log('!!!applyEqualHeight');
 
     Utils.getJsEqualHeightElements().each(function() { // for each element
         var maxHeight = 0;
@@ -52,8 +52,7 @@ Utils.applyEqualHeight = function () {
             var curCell = $(this);
             if (curCell.outerHeight() > maxHeight) { // compare heights
                 maxHeight = curCell.outerHeight();
-                console.log('maxHeight = ' + maxHeight);
-                console.log('curCell = ' + curCell.id);
+//                console.log('maxHeight = ' + maxHeight);
             }
         });
         if (maxHeight !== 0) {

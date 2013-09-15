@@ -27,3 +27,42 @@ $smaller-font-size: 12px;
 $border-medium-size: 4px;
 
 $violet-color: #C54D94;
+
+
+
+.gwoe-violet {
+  background-color: $violet-color;
+  color: $white;
+}
+
+.gwoe-green {
+  color: $gwoe-olive-color;
+}
+
+.gwoe-green-bg {
+  background-color: $gwoe-olive-color;
+  color: $white;
+}
+
+.gwoe-green-b {
+  color: $gwoe-olive-color;
+  font-weight: bold;
+}
+
+.gwoe-blue {
+  color: $gwoe-turquoise-color;
+}
+
+.gwoe-blue-b {
+  color: $gwoe-turquoise-color;
+  font-weight: bold;
+}
+
+.negative-color {
+  color: $negative-color;
+}
+
+.negative-color-b {
+  color: $negative-color;
+  font-weight: bold;
+}
