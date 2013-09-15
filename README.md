@@ -1,6 +1,7 @@
 
 ## Progress
 
+ * 15.09.2013 - Matrix text is unselectable for better User Experience (UX).
  * 14.09.2013 - Better design of the quick test. Added table data for D1-E5. Created small icon for the back-to-matrix button.
  * 13.09.2013 - Moved external JS and CSS scripts into vendor for easier deployment. Fixed deployment issues.
  * 12.09.2013 - Generating all templates with the grunt plugin. Matrix table height fixes. Quick test - created icon and adapted result colors for the Quick Test.
