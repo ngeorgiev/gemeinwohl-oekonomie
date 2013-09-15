@@ -1,3 +1,7 @@
+table {
+  border-collapse: separate;
+}
+
 /* CSS Bootstrap Div Table */
 
 /* Layout */
@@ -103,7 +107,6 @@
 .dtable {
   display: table;
   width: 100%;
-  border: 1px solid $grey;
   background-color: #FFFFFF;
 }
 
@@ -116,6 +119,7 @@
   font-weight: bold;
   font-size: $normal-font-size;
   text-shadow: 0px 1px 0px #FFFFFF;
+  border-left: 1px solid #E5E5E5;
   background-color: $grey-light-darker;
   background-image: linear-gradient($grey-light, $grey-light-darker);
   background-repeat: repeat-x;

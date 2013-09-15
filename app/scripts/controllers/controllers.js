@@ -294,7 +294,7 @@ var Controller = {
 
         var hmlString = '';
         hmlString += '<thead><tr class="dheader-style">';
-        hmlString += '<th class="dtable-cell col-1-6 subindicator-header">'+
+        hmlString += '<th class="dtable-cell dheader-style col-1-6 subindicator-header">'+
             structure.subindicator+'</th>';
 
         var beginner = indicatorLevels.beginner;
