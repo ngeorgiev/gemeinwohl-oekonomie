@@ -43,6 +43,11 @@
  * Responsive Indicator Tabs.
  * More best practices of Javascript and CSS.
 
+## Version
+ * This the GWÖ-Matrix v4.1
+ * Due to the modularity of the source code we can easily adapt the matrix to new versions.
+ * The same apply also for future quick tests (Schnelltest).
+
 ## Roadmap
 The next steps we really want to develop are:
  * Create your GWÖ-Balance (GWÖ-Matrix) online - with company-specific data for every (sub)indicator.
