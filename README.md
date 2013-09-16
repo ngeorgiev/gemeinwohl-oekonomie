@@ -43,6 +43,15 @@
  * Responsive Indicator Tabs.
  * More best practices of Javascript and CSS.
 
+## Roadmap
+The next steps we really want to develop are:
+ * Create your GWÖ-Balance (GWÖ-Matrix) online - with company-specific data for every (sub)indicator.
+ * GWÖ-Web-Plattform:
+     * GWÖ-companies can create and publish GWÖ-Balances. All GWÖ-Balances can be searched, filtered, visualized.
+     * Social plattform for the GWÖ.
+Currently Nikolay (Berlin, Sinnwerkstatt) and Heike (Karlsruhe, Student) are creating a concrete concept containing 1) What 2) How we work together 3) Financing and 4) Software Development.
+When the concept is ripe we will propose it in the GWÖ movement.
+
 ## License
  * Source code is under the MIT License.
  * All data belongs to the [Gemeinwohl-Ökonomie movement](http://gemeinwohl-oekonomie.de)
