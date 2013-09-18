@@ -67,7 +67,9 @@ When the concept is ripe we will propose it in the GWÖ movement.
 ## Contribute
 ### Send a bug or propose new features
 If you want to send a bug, or want a new feature for the online GWÖ-Matrix, please:
+
  * [Create a new issue here](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/issues/new) (you will need a GitHub account)
+ * [Help with (comment on) the current issues](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/issues/).
  * You can write in English or German.
 
 ### Contribute to the source code
