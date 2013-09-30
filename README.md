@@ -1,5 +1,5 @@
 ## Online Demo
- * [Open the demo](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/)
+ * [Open the demo](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/#)
 
 ## Use locally
  * Copy the repository

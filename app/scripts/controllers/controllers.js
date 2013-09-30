@@ -34,12 +34,15 @@ var Controller = {
         document.getElementById('quick-test-container').innerHTML = quickTestHtml;
     },
 
-    createMatrixHtml : function () {
+    createMatrixHtml : function (matrixData) {
+        if (matrixData == undefined) {
+            matrixData = Data.matrix;
+        }
 
         var matrixHtml = '';
         var compiledTemplate = dust.compile(Template.gwoeMatrixTemplate, 'gwoeMatrixTemplate');
         dust.loadSource(compiledTemplate);
-        dust.render('gwoeMatrixTemplate', Data.matrix, function(err, out) {
+        dust.render('gwoeMatrixTemplate', matrixData, function(err, out) {
             matrixHtml += out;
         });
 
@@ -334,5 +337,6 @@ var Controller = {
             footerHtml += out;
         });
         document.getElementById('footer-container').innerHTML = footerHtml;
+        console.log('createFooterHtml');
     }
 };

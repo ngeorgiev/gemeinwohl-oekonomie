@@ -21,6 +21,8 @@ var Router = {
 
     visibleElementId : '',
 
+    lastUrlHash : '---',
+
     /**
      * Initializes the URL Routing
      */
@@ -61,22 +63,25 @@ var Router = {
     },
 
     /**
-     * Return true if it has shown a page (main or matrix)
+     * Return true if it has shown a page (main,  matrix or test)
      * @returns {boolean}
      */
     onHashChange: function () {
         var urlHash = window.location.hash;
-        if(!urlHash) {
+        var pageWasShown = false;
+
+        if(!urlHash && urlHash !== Router.lastUrlHash) {
             Router.showMainPage();
-            return true;
+            pageWasShown = true;
         } else if (urlHash === Router.hashSymbol + Router.hashMatrix) {
             Router.showMatrix();
-            return true;
+            pageWasShown = true;
         } else if (urlHash === Router.hashSymbol + Router.hashQuickTest) {
             Router.showQuickTest();
-            return true;
+            pageWasShown = true;
         }
-        return false;
+        Router.lastUrlHash = urlHash;
+        return pageWasShown;
     },
 
     showPage: function (indicatorId, indicatorDetailId) {
