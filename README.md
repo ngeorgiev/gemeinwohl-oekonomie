@@ -8,6 +8,8 @@
 
 ## Progress
 
+ * 08.10.2013 - quick test removed to be improved for the public.
+ * 16.09.2013 - Project Open Sourced! :)
  * 15.09.2013 - Matrix text is unselectable for better User Experience (UX). Sass refactoring. Page top scrolling on opening an indicator. Firefox border fix.
  * 14.09.2013 - Better design of the quick test. Added table data for D1-E5. Created small icon for the back-to-matrix button.
  * 13.09.2013 - Moved external JS and CSS scripts into vendor for easier deployment. Fixed deployment issues.

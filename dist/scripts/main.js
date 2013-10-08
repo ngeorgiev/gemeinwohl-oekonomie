@@ -2883,6 +2883,8 @@ var Router = {
 
     visibleElementId : '',
 
+    lastUrlHash : '---',
+
     /**
      * Initializes the URL Routing
      */
@@ -2923,22 +2925,25 @@ var Router = {
     },
 
     /**
-     * Return true if it has shown a page (main or matrix)
+     * Return true if it has shown a page (main,  matrix or test)
      * @returns {boolean}
      */
     onHashChange: function () {
         var urlHash = window.location.hash;
-        if(!urlHash) {
+        var pageWasShown = false;
+
+        if(!urlHash && urlHash !== Router.lastUrlHash) {
             Router.showMainPage();
-            return true;
+            pageWasShown = true;
         } else if (urlHash === Router.hashSymbol + Router.hashMatrix) {
             Router.showMatrix();
-            return true;
+            pageWasShown = true;
         } else if (urlHash === Router.hashSymbol + Router.hashQuickTest) {
             Router.showQuickTest();
-            return true;
+            pageWasShown = true;
         }
-        return false;
+        Router.lastUrlHash = urlHash;
+        return pageWasShown;
     },
 
     showPage: function (indicatorId, indicatorDetailId) {
@@ -3041,12 +3046,15 @@ var Controller = {
         document.getElementById('quick-test-container').innerHTML = quickTestHtml;
     },
 
-    createMatrixHtml : function () {
+    createMatrixHtml : function (matrixData) {
+        if (matrixData == undefined) {
+            matrixData = Data.matrix;
+        }
 
         var matrixHtml = '';
         var compiledTemplate = dust.compile(Template.gwoeMatrixTemplate, 'gwoeMatrixTemplate');
         dust.loadSource(compiledTemplate);
-        dust.render('gwoeMatrixTemplate', Data.matrix, function(err, out) {
+        dust.render('gwoeMatrixTemplate', matrixData, function(err, out) {
             matrixHtml += out;
         });
 
@@ -3341,6 +3349,7 @@ var Controller = {
             footerHtml += out;
         });
         document.getElementById('footer-container').innerHTML = footerHtml;
+        console.log('createFooterHtml');
     }
 };
 

@@ -4,7 +4,7 @@ var Controller = {
 
     createPageHtml : function () {
         Controller.createMainPageHtml();
-        Controller.createQuickTestHtml();
+        // Controller.createQuickTestHtml();
         Controller.createMatrixHtml();
         Controller.createIndicatorsHtml();
         Controller.createFooterHtml();
