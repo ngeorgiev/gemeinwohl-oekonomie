@@ -22,6 +22,18 @@ var Controller = {
         document.getElementById('main-page-container').innerHTML = mainPageHtml;
     },
 
+    createMainPageTestHtml : function () {
+
+        var mainPageTestHtml = '';
+        var compiledTemplate = dust.compile(Template.mainPageTestTemplate, 'mainPageTestTemplate');
+        dust.loadSource(compiledTemplate);
+        dust.render('mainPageTestTemplate', {}, function(err, out) {
+            mainPageTestHtml += out;
+        });
+
+        document.getElementById('main-page-container').innerHTML = mainPageTestHtml;
+    },
+
     createQuickTestHtml : function () {
 
         var quickTestHtml = '';

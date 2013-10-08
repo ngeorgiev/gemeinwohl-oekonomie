@@ -1,0 +1,69 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gemeinwohl-Matrix</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/vendor/bootstrap-progressbar-3.0.0-rc2.min.css" type="text/css">
+    <link rel="stylesheet" href="styles/main.css" type="text/css">
+    <!-- endbuild -->
+
+</head>
+<body>
+
+<div class="page-wrapper">
+
+    <div id="header-container">
+        <a href="#" class="img-link"><img id="header-logo" class="img-center img-responsive" src="images/gwoe_logo.png" alt="Gemeinwohl-Ökonomie" /></a>
+    </div>
+
+    <div id="main-page-container"></div>
+    <div id="quick-test-container"></div>
+
+    <div id="footer-container"></div>
+</div>
+
+
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!-- build:js scripts/plugins.js -->
+<script src="scripts/vendor/modernizr.js"></script>
+<script src="scripts/vendor/jquery.min.js"></script>
+<script src="scripts/vendor/dust-full-2.0.0.min.js"></script>
+<script src="scripts/vendor/dust-helpers-1.1.1.js"></script>
+<script src="scripts/vendor/bootstrap-progressbar.min.js"></script>
+<!-- endbuild -->
+
+<!-- build:js scripts/main.js -->
+<script src="scripts/utils.js"></script>
+<script src="scripts/config.js"></script>
+
+<script src="scripts/data/quicktest-data.js"></script>
+
+<script src="scripts/templates/templates.js"></script>
+
+<script src="scripts/routers.js"></script>
+
+<script src="scripts/controllers/controllers.js"></script>
+<script src="scripts/controllers/quicktest-controller.js"></script>
+
+<script src="scripts/main-test.js"></script>
+<!-- endbuild -->
+
+</body>
+</html>
