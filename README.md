@@ -77,5 +77,14 @@ If you want to send a bug, or want a new feature for the online GWÖ-Matrix, ple
 ### Contribute to the source code
  * Fork, improve it and send a pull request.
 
+## Integration
+ * Due to the modular architecture, the interactive matrix can be integrated easily in other projects
+
+### Change the data
+In order to change the data, you:
+* can change any files within the matrix data files: https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/tree/master/app/scripts/data/matrix
+* should run ```grunt build``` to update the JS templates. This will update the file ```app/scripts/data/gwoe-indicators-data.js``` with the new matrix data.
+
 ## Learn more
  * Visit the official [Gemeinwohl-Ökonomie website](http://www.gemeinwohl-oekonomie.de/).
+
