@@ -4,7 +4,7 @@
 ## Use locally
  * Copy the repository
      * Click on "Download ZIP" button on the right.
- * Open the file dist/index.html
+ * Open the file ```dist/index.html```
 
 ## Progress
 
@@ -81,10 +81,14 @@ If you want to send a bug, or want a new feature for the online GWÖ-Matrix, ple
  * Due to the modular architecture, the interactive matrix can be integrated easily in other projects
 
 ### Change the data
-In order to change the data, you:
-* can change any files within the matrix data files: https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/tree/master/app/scripts/data/matrix
+The indicators data is stored in HTML files. In order to change it, you:
+
+* can change any indicator HTML contents in the files: https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/tree/master/app/scripts/data/matrix
+* can change the indicator evaluation tables in the file: https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/blob/master/app/scripts/data/gwoe-indicators-data-base.js
+* can change the structure of the matrix in the file: https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/blob/master/app/scripts/data/gwoe-matrix-data.js
 * should run ```grunt build``` to update the JS templates. This will update the file ```app/scripts/data/gwoe-indicators-data.js``` with the new matrix data.
+
+The changed data can be viewed from the ```dist/index.html``` file.
 
 ## Learn more
  * Visit the official [Gemeinwohl-Ökonomie website](http://www.gemeinwohl-oekonomie.de/).
-
