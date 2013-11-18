@@ -86,7 +86,7 @@ The indicators data is stored in HTML files. In order to change it, you:
 * can change any indicator HTML contents in the files: https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/tree/master/app/scripts/data/matrix
 * can change the indicator evaluation tables in the file: https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/blob/master/app/scripts/data/gwoe-indicators-data-base.js
 * can change the structure of the matrix in the file: https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/blob/master/app/scripts/data/gwoe-matrix-data.js
-* should run ```grunt build``` to update the JS templates. This will update the file ```app/scripts/data/gwoe-indicators-data.js``` with the new matrix data.
+* should run ```grunt build``` to update the JS templates (see [how to install Grunt](https://github.com/sinnwerkstatt/sinnwerkstatt-web/wiki/Grunt#install)). This will update the file ```app/scripts/data/gwoe-indicators-data.js``` with the new matrix data.
 
 The changed data can be viewed from the ```dist/index.html``` file.
 
