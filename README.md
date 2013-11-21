@@ -21,7 +21,7 @@
 
 ### Create a web application to save a company's GWÖ balance.
 
-* Add rich text editor (completed)
+* :white_check_mark: Add rich text editor
 * Use localstorage
 * Add backend with Django
 
