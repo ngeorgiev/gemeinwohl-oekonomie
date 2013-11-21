@@ -20,6 +20,10 @@
     <link rel="stylesheet" href="styles/main.css" type="text/css">
     <!-- endbuild -->
 
+    <!-- build:js scripts/head.js -->
+    <script src="ckeditor/ckeditor.js"></script>
+    <!-- endbuild -->
+
 </head>
 <body>
 
@@ -28,6 +32,7 @@
     Test Local Storage
 
     <div id="gwoe-matrix-container"></div>
+    <div id="indicators-container"></div>
 
 </div>
 
@@ -55,13 +60,14 @@
 <script src="scripts/data/balances/gwoe-matrix-data.js"></script>
 
 <script src="scripts/templates/templates.js"></script>
+<script src="scripts/balancing/templates/templates.js"></script>
 
 <script src="scripts/routers.js"></script>
 
 <script src="scripts/controllers/controllers.js"></script>
-<script src="scripts/controllers/quicktest-controller.js"></script>
 
-<script src="scripts/main-storage.js"></script>
+<script src="scripts/balancing/controller.js"></script>
+<script src="scripts/balancing/main-storage.js"></script>
 <!-- endbuild -->
 
 </body>

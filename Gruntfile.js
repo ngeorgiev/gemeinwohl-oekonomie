@@ -47,7 +47,8 @@ module.exports = function (grunt) {
             filesToJson: {
                 files: ['<%= yeoman.app %>/scripts/data/matrix/{,*/}*.html',
                         '<%= yeoman.app %>/scripts/data/gwoe-indicators-data-base.js',
-                        '<%= yeoman.app %>/scripts/templates/{,*/}*.html'],
+                        '<%= yeoman.app %>/scripts/templates/{,*/}*.html',
+                        '<%= yeoman.app %>/scripts/balancing/templates/{,*/}*.html'],
                 tasks: ['filesToJson']
             }
         },
@@ -190,7 +191,7 @@ module.exports = function (grunt) {
             options: {
                 dest: '<%= yeoman.dist %>'
             },
-            html: '<%= yeoman.app %>/index.html'
+            html: ['<%= yeoman.app %>/index.html', '<%= yeoman.app %>/test.html']
         },
         usemin: {
             options: {
@@ -304,6 +305,15 @@ module.exports = function (grunt) {
                     jsonBaseFile : 'app/scripts/templates/templates-base.js',
                     jsonBaseFileVariable : 'Template',
                     jsonFileOutput : 'app/scripts/templates/templates.js'
+                }
+            },
+            createBalancingTemplates: {
+                options: {
+                    inputFilesFolder : 'app/scripts/balancing/templates',
+                    inputFileExtension : 'html',
+                    jsonBaseFile : 'app/scripts/balancing/templates/templates-base.js',
+                    jsonBaseFileVariable : 'Template',
+                    jsonFileOutput : 'app/scripts/balancing/templates/templates.js'
                 }
             },
             createIndicatorsJsonData: {
