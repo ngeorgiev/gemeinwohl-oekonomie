@@ -27,7 +27,7 @@
 
 
 ## Progress
-See the [CHANGELOG][CHANGELOG.md].
+See the [CHANGELOG](CHANGELOG.md).
 
 ## License
  * Source code is under the MIT License.
