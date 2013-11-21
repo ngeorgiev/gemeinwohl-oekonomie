@@ -191,7 +191,7 @@ module.exports = function (grunt) {
             options: {
                 dest: '<%= yeoman.dist %>'
             },
-            html: ['<%= yeoman.app %>/index.html', '<%= yeoman.app %>/test.html']
+            html: ['<%= yeoman.app %>/index.html', '<%= yeoman.app %>/test.html', '<%= yeoman.app %>/storage.html']
         },
         usemin: {
             options: {
@@ -269,7 +269,10 @@ module.exports = function (grunt) {
                         '*.{ico,png,txt}',
                         '.htaccess',
                         'images/{,*/}*.{webp,gif}',
-                        'styles/fonts/*'
+                        'styles/fonts/*',
+                        'ckeditor/{,*/}*.{js,css}',
+                        'ckeditor/skins/{,*/}/*.{js,css,png}',
+                        'ckeditor/skins/moono/images/*.{png}'
                     ]
                 }]
             },

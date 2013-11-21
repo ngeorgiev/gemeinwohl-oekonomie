@@ -20,10 +20,6 @@
     <link rel="stylesheet" href="styles/main.css" type="text/css">
     <!-- endbuild -->
 
-    <!-- build:js scripts/head.js -->
-    <script src="ckeditor/ckeditor.js"></script>
-    <!-- endbuild -->
-
 </head>
 <body>
 
@@ -42,7 +38,7 @@
     your browser</a> to improve your experience.</p>
 <![endif]-->
 
-<!-- build:js scripts/plugins.js -->
+<!-- build:js scripts/plugins-storage.js -->
 <script src="scripts/vendor/modernizr.js"></script>
 <script src="scripts/vendor/jquery.min.js"></script>
 <script src="scripts/vendor/dust-full-2.0.0.min.js"></script>
@@ -51,7 +47,10 @@
 <script src="scripts/vendor/store+json2.min.js"></script>
 <!-- endbuild -->
 
-<!-- build:js scripts/main.js -->
+<!-- standalone: should not be within a build because it loads files within the ckeditor dir -->
+<script src="ckeditor/ckeditor.js"></script>
+
+<!-- build:js scripts/main-storage.js -->
 <script src="scripts/utils.js"></script>
 <script src="scripts/config.js"></script>
 
