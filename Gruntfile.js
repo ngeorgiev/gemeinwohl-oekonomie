@@ -270,9 +270,7 @@ module.exports = function (grunt) {
                         '.htaccess',
                         'images/{,*/}*.{webp,gif}',
                         'styles/fonts/*',
-                        'ckeditor/{,*/}*.{js,css}',
-                        'ckeditor/skins/{,*/}/*.{js,css,png}',
-                        'ckeditor/skins/moono/images/*.{png}'
+                        'ckeditor/**',
                     ]
                 }]
             },
