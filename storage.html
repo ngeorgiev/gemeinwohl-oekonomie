@@ -25,6 +25,7 @@
     Test Local Storage
 
     <div id="gwoe-matrix-container"></div>
+    <div id="indicators-container"></div>
 
 </div>
 
@@ -34,9 +35,12 @@
     your browser</a> to improve your experience.</p>
 <![endif]-->
 
-<script src="scripts/plugins.js"></script>
+<script src="scripts/plugins-storage.js"></script>
 
-<script src="scripts/main.js"></script>
+<!-- standalone: should not be within a build because it loads files within the ckeditor dir -->
+<script src="ckeditor/ckeditor.js"></script>
+
+<script src="scripts/main-storage.js"></script>
 
 </body>
 </html>
