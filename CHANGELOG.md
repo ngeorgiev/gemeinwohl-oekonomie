@@ -1,5 +1,6 @@
 # Change Log
 
+* 22.11.2013 - Improved CKeditor and Grunt configuration.
 * 21.11.2013 - Offline: Added CKEditor.
 
 ## Progress
