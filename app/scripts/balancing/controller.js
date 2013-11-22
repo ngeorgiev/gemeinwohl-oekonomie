@@ -7,8 +7,9 @@
  */
 Controller.createIndicatorTemplates = function (indicators, negativeCriteria) {
 
-    var indicatorHtml = '';
+    var compiledTemplate;
 
+    var indicatorHtml = '';
     var numOfIndicators = indicators.length;
     var indicator;
     for (var indicatorIndex = 0; indicatorIndex < numOfIndicators; indicatorIndex++) {
@@ -16,16 +17,29 @@ Controller.createIndicatorTemplates = function (indicators, negativeCriteria) {
         // the current indicator data
         indicator = indicators[indicatorIndex];
 
-        //
-        var compiledTemplate = dust.compile(Template.indicatorBalancingTemplate, 'indicatorBalancingTemplate');
+        compiledTemplate = dust.compile(Template.indicatorBalancingTemplate, 'indicatorBalancingTemplate');
         dust.loadSource(compiledTemplate);
         dust.render('indicatorBalancingTemplate', indicator, function (err, out) {
             indicatorHtml += out;
         });
     }
 
-    indicatorHtml += Controller.getNegativeCriteriaHtml(negativeCriteria);
+    var negativeCriteriaHtml = '';
+    var numOfNegativeCriteria = negativeCriteria.length;
+    var negativeCriterion;
+    for (var criteriaIndex = 0; criteriaIndex < numOfNegativeCriteria; criteriaIndex++) {
+
+        // the current negative criterion data
+        negativeCriterion = negativeCriteria[criteriaIndex];
+
+        compiledTemplate = dust.compile(Template.negativeCriteriaBalancingTemplate, 'negativeCriteriaBalancingTemplate');
+        dust.loadSource(compiledTemplate);
+        dust.render('negativeCriteriaBalancingTemplate', negativeCriterion, function(err, out) {
+            negativeCriteriaHtml += out;
+        });
+    }
+
+    indicatorHtml += negativeCriteriaHtml;
 
     document.getElementById('indicators-container').innerHTML = indicatorHtml;
-
 };

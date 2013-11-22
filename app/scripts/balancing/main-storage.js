@@ -90,7 +90,6 @@ var negativeCriteria = dataIndicators.data.negativeCriteria;
 Controller.createIndicatorTemplates(indicators, negativeCriteria);
 
 // Add CKEditor
-
 var numOfIndicators = indicators.length;
 var indicator;
 for (var indicatorIndex = 0; indicatorIndex < numOfIndicators; indicatorIndex++) {
@@ -99,6 +98,17 @@ for (var indicatorIndex = 0; indicatorIndex < numOfIndicators; indicatorIndex++)
     indicator = indicators[indicatorIndex];
 
     var editorId = 'matrix-' + indicator.shortcodeSlug + '-editor';
+    CKEDITOR.disableAutoInline = true;
+    CKEDITOR.inline(editorId, ckeditor_config);
+}
+var numOfNegativeCriteria = negativeCriteria.length;
+var negativeCriterion;
+for (var negativeCriteriaIndex = 0; negativeCriteriaIndex < numOfNegativeCriteria; negativeCriteriaIndex++) {
+
+    // the current indicator data
+    negativeCriterion = negativeCriteria[negativeCriteriaIndex];
+
+    editorId = 'matrix-' + negativeCriterion.shortcodeSlug + '-editor';
     CKEDITOR.disableAutoInline = true;
     CKEDITOR.inline(editorId, ckeditor_config);
 }
