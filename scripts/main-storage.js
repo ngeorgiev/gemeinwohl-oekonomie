@@ -2887,6 +2887,8 @@ Template.tableLegend = 'Legende:<div class="matrix-table-legend">    {#legend}  
 
 Template.indicatorBalancingTemplate = '<div id="matrix-{shortcodeSlug}" class="display-none">    <img class="back-to-matrix pointer" src="images/gwoe-matrix-icon-arrow-50h.png" title="Zurück zur GWÖ-Matrix"/>    <div class="indicator-page-title">        <h2>{shortcode}: {name}</h2>    </div>    <textarea name="matrix-{shortcodeSlug}-editor">        <h2>Editieren Sie dieses Indikator</h2>        <p>Einfach:</p>        <ul>            <li>darauf klicken</li>            <li>editieren</li>        </ul>    </textarea></div>';
 
+Template.negativeCriteriaBalancingTemplate = '<div id="matrix-{shortcodeSlug}" class="indicator-modal display-none">    <img class="back-to-matrix pointer" src="images/gwoe-matrix-icon-arrow-50h.png" title="Zurück zur GWÖ-Matrix"/>    <div class="indicator-page-title ">        <h2 class="negative-color">{shortcode}: {name}</h2>    </div>    <textarea name="matrix-{shortcodeSlug}-editor">        <p>Trifft nicht zu. Editieren.</p>    </textarea></div>';
+
 'use strict';
 
 var Router = {
@@ -3401,8 +3403,9 @@ var Controller = {
  */
 Controller.createIndicatorTemplates = function (indicators, negativeCriteria) {
 
-    var indicatorHtml = '';
+    var compiledTemplate;
 
+    var indicatorHtml = '';
     var numOfIndicators = indicators.length;
     var indicator;
     for (var indicatorIndex = 0; indicatorIndex < numOfIndicators; indicatorIndex++) {
@@ -3410,18 +3413,31 @@ Controller.createIndicatorTemplates = function (indicators, negativeCriteria) {
         // the current indicator data
         indicator = indicators[indicatorIndex];
 
-        //
-        var compiledTemplate = dust.compile(Template.indicatorBalancingTemplate, 'indicatorBalancingTemplate');
+        compiledTemplate = dust.compile(Template.indicatorBalancingTemplate, 'indicatorBalancingTemplate');
         dust.loadSource(compiledTemplate);
         dust.render('indicatorBalancingTemplate', indicator, function (err, out) {
             indicatorHtml += out;
         });
     }
 
-    indicatorHtml += Controller.getNegativeCriteriaHtml(negativeCriteria);
+    var negativeCriteriaHtml = '';
+    var numOfNegativeCriteria = negativeCriteria.length;
+    var negativeCriterion;
+    for (var criteriaIndex = 0; criteriaIndex < numOfNegativeCriteria; criteriaIndex++) {
+
+        // the current negative criterion data
+        negativeCriterion = negativeCriteria[criteriaIndex];
+
+        compiledTemplate = dust.compile(Template.negativeCriteriaBalancingTemplate, 'negativeCriteriaBalancingTemplate');
+        dust.loadSource(compiledTemplate);
+        dust.render('negativeCriteriaBalancingTemplate', negativeCriterion, function(err, out) {
+            negativeCriteriaHtml += out;
+        });
+    }
+
+    indicatorHtml += negativeCriteriaHtml;
 
     document.getElementById('indicators-container').innerHTML = indicatorHtml;
-
 };
 
 'use strict';
@@ -3516,7 +3532,6 @@ var negativeCriteria = dataIndicators.data.negativeCriteria;
 Controller.createIndicatorTemplates(indicators, negativeCriteria);
 
 // Add CKEditor
-
 var numOfIndicators = indicators.length;
 var indicator;
 for (var indicatorIndex = 0; indicatorIndex < numOfIndicators; indicatorIndex++) {
@@ -3525,6 +3540,17 @@ for (var indicatorIndex = 0; indicatorIndex < numOfIndicators; indicatorIndex++)
     indicator = indicators[indicatorIndex];
 
     var editorId = 'matrix-' + indicator.shortcodeSlug + '-editor';
+    CKEDITOR.disableAutoInline = true;
+    CKEDITOR.inline(editorId, ckeditor_config);
+}
+var numOfNegativeCriteria = negativeCriteria.length;
+var negativeCriterion;
+for (var negativeCriteriaIndex = 0; negativeCriteriaIndex < numOfNegativeCriteria; negativeCriteriaIndex++) {
+
+    // the current indicator data
+    negativeCriterion = negativeCriteria[negativeCriteriaIndex];
+
+    editorId = 'matrix-' + negativeCriterion.shortcodeSlug + '-editor';
     CKEDITOR.disableAutoInline = true;
     CKEDITOR.inline(editorId, ckeditor_config);
 }
