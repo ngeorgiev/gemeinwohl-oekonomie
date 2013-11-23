@@ -2885,7 +2885,7 @@ Template.quickTestTemplate = '<div id="quick-test" class="display-none">    <h1>
 Template.tableLegend = 'Legende:<div class="matrix-table-legend">    {#legend}        <span class="matrix-table-legend-dt">{short}</span>        <span class="matrix-table-legend-dd">{long}</span>,    {/legend}</div>';
 
 
-Template.indicatorBalancingTemplate = '<div id="matrix-{shortcodeSlug}" class="display-none">    <img class="back-to-matrix pointer" src="images/gwoe-matrix-icon-arrow-50h.png" title="Zurück zur GWÖ-Matrix"/>    <div class="indicator-page-title">        <h2>{shortcode}: {name}</h2>    </div>    <textarea name="matrix-{shortcodeSlug}-editor">        <h2>Editieren Sie dieses Indikator</h2>        <p>Einfach:</p>        <ul>            <li>darauf klicken</li>            <li>editieren</li>        </ul>    </textarea></div>';
+Template.indicatorBalancingTemplate = '<div id="matrix-{shortcodeSlug}" class="container container-page display-none">    <div class="container pagehead">        <table>            <tr>                <td class="vmiddle">                    <img class="back-to-matrix pointer"                         src="images/gwoe-matrix-icon-arrow-50h.png" title="Zurück zur GWÖ-Matrix"/>                </td>                <td><span class="indicator-page-title"> <h2>{shortcode}: {name}</h2></span></td>            </tr>        </table>    </div>    <div class="container indicator-editor-container bubble">        <div class="bubble-inner">            <div class="meta">                <button type="button" class="button primary">Speichern</button>            </div>            <div class="bubble-contents">&nbsp;                <textarea name="matrix-{shortcodeSlug}-editor">                    <h2>Editieren Sie dieses Indikator</h2>                    <p>Einfach:</p>                    <ul>                        <li>darauf klicken</li>                        <li>editieren</li>                    </ul>                </textarea>            </div>        </div>    </div></div>';
 
 Template.negativeCriteriaBalancingTemplate = '<div id="matrix-{shortcodeSlug}" class="indicator-modal display-none">    <img class="back-to-matrix pointer" src="images/gwoe-matrix-icon-arrow-50h.png" title="Zurück zur GWÖ-Matrix"/>    <div class="indicator-page-title ">        <h2 class="negative-color">{shortcode}: {name}</h2>    </div>    <textarea name="matrix-{shortcodeSlug}-editor">        <p>Trifft nicht zu. Editieren.</p>    </textarea></div>';
 
@@ -3451,25 +3451,11 @@ var ckeditor_config = {
     // For the complete reference:
     // http://docs.ckeditor.com/#!/api/CKEDITOR.config
 
-    language : 'de',
-    uiColor : '#F8F8F8',
+    language: 'de',
+    uiColor: '#F8F8F8',
 
     // The toolbar groups arrangement, optimized for two toolbar rows.
-    toolbar : [
-        {
-            name: 'styles',
-            items: [ 'Format', 'Font', 'FontSize' ]
-        },
-        {
-            name: 'clipboard',
-            groups: [ 'clipboard', 'undo' ],
-            items: [ 'Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', '-', 'Undo', 'Redo' ]
-        },
-        {
-            name: 'tools',
-            items: [ 'Maximize', 'ShowBlocks' ]
-        },
-        '/',
+    toolbar: [
         {
             name: 'basicstyles',
             groups: [ 'basicstyles', 'cleanup' ],
@@ -3482,7 +3468,7 @@ var ckeditor_config = {
         {
             name: 'paragraph',
             groups: [ 'list', 'indent', 'blocks', 'align', 'bidi' ],
-            items: [ 'BulletedList', 'NumberedList', '-', 'Outdent', 'Indent', '-', 'Blockquote', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock']
+            items: [ 'BulletedList', 'NumberedList', '-', 'Blockquote', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight']
         },
         {
             name: 'links',
@@ -3490,12 +3476,25 @@ var ckeditor_config = {
         },
         {
             name: 'insert',
-            items: [ 'Image', 'Table', 'HorizontalRule', 'SpecialChar']
-        }
+            items: [ 'Image', 'Table', 'HorizontalRule']
+        },
+        {
+            name: 'styles',
+            items: [ 'Format', 'Font', 'FontSize' ]
+        },
+        {
+            name: 'clipboard',
+            groups: [ 'clipboard', 'undo' ],
+            items: [ 'Undo', 'Redo' ]
+        },
+        {
+            name: 'tools',
+            items: [ 'Maximize']
+        },
     ],
 
     // Toolbar groups configuration.
-    toolbarGroups : [
+    toolbarGroups: [
         { name: 'document', groups: [ 'mode', 'document', 'doctools' ] },
         { name: 'clipboard', groups: [ 'clipboard', 'undo' ] },
         { name: 'editing', groups: [ 'find', 'selection', 'spellchecker' ] },
@@ -3519,10 +3518,14 @@ var ckeditor_config = {
     // config.removeButtons = 'Subscript,Superscript';
 
     // Se the most common block elements.
-    format_tags : 'p;h1;h2;h3;pre',
+    format_tags: 'p;h1;h2;h3;pre',
 
     // Make dialogs simpler.
-    removeDialogTabs : 'image:advanced;link:advanced'
+    removeDialogTabs: 'image:advanced;link:advanced',
+
+    // plugins
+    // extraPlugins : 'onchange',
+    // minimumChangeMilliseconds : 200
 };
 
 // Controller
@@ -3531,7 +3534,7 @@ var indicators = dataIndicators.data.indicators;
 var negativeCriteria = dataIndicators.data.negativeCriteria;
 Controller.createIndicatorTemplates(indicators, negativeCriteria);
 
-// Add CKEditor
+// Add CKEditors
 var numOfIndicators = indicators.length;
 var indicator;
 for (var indicatorIndex = 0; indicatorIndex < numOfIndicators; indicatorIndex++) {
@@ -3553,9 +3556,17 @@ for (var negativeCriteriaIndex = 0; negativeCriteriaIndex < numOfNegativeCriteri
     editorId = 'matrix-' + negativeCriterion.shortcodeSlug + '-editor';
     CKEDITOR.disableAutoInline = true;
     CKEDITOR.inline(editorId, ckeditor_config);
+    /*
+    CKEDITOR.instances[editorId].on("instanceReady", function () {
+        this.document.on("keyup", function () {
+            console.log('change.');
+        });
+    });
+    */
+    CKEDITOR.instances[editorId].on( 'blur', function(e) { console.log('chaaaa') });
 }
-
 CKEDITOR.inline('header-company-title', ckeditor_config);
+
 
 Router.fadeInMatrix();
 
