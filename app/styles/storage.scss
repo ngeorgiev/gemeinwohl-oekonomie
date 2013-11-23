@@ -1,4 +1,118 @@
-.header-container {
+$iconSpritePath: "../images/glyphicons-halflings.png";
+$iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
+
+@import 'sass-bootstrap/lib/bootstrap';
+@import 'config_default';
+@import '_utils';
+@import 'general';
+@import 'buttons';
+@import '_table';
+@import '_table_indicators';
+
+$page-width: 980px;
+
+.container-page {
+  width: $page-width;
+}
+
+.container-header {
+  padding-bottom: 40px;
+}
+
+.container-header {
   text-align: center;
-  padding-bottom: 20px;
+}
+
+.indicator-page-title h2 {
+  display: inline;
+}
+
+.cke_editable {
+  padding: 1px 10px 1px 10px;
+  top: 23px;
+}
+
+.back-to-matrix {
+  float: left;
+  display: inline-block;
+}
+
+.indicator-page-title {
+  display: inline-block;
+  padding: 0 0 0 15px !important;
+}
+
+/* GENERAL - Start */
+
+.divcontainer:before,
+.divcontainer:after {
+  content: "";
+  display: table;
+}
+
+.divcontainer:after {
+  clear: both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.divcontainer {
+  zoom: 1;
+}
+
+/* end -------------- */
+
+.page-wrapper {
+  padding: 0 px 30px 5% 30px;
+}
+
+#header-container {
+  margin-bottom: 45px;
+}
+
+.main-page-introtext {
+  padding-bottom: 50px;
+}
+
+.main-page-container-link-title {
+  font-size: 4rem;
+}
+
+.main-page-container-link :hover {
+  text-decoration: none;
+}
+
+.main-page-container-link-description,
+.main-page-container-link-description:hover {
+  color: #666666;
+}
+
+.whitebg {
+  background-color: $grey-light;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: none;
+  }
+}
+
+#footer-container {
+  clear: both;
+  float: right;
+  padding: 200px 0px 30px 0px;
+  color: $grey;
+}
+
+#footer-contents > a {
+  color: $gwoe-turquoise-color;
+}
+
+.clear-both {
+  clear: both;
+}
+
+/* Action */
+
+.ind-trigger {
+  cursor: pointer;
 }

@@ -1,0 +1,22 @@
+$border-color: #EEEEEE;
+$bubble-border-color: #CCCCCC;
+$white: #FFFFFF;
+$black: #000000;
+
+
+/* BUTTONS */
+$button-lighten-percentage: 20%;
+
+$primary-color: #60B044;
+$primary-lighter-color: lighten($primary-color, $button-lighten-percentage);
+$primary-border-color: darken($primary-color, 2%);
+
+$primary-hover-color: darken($primary-color, 4%);
+$primary-hover-lighter-color: lighten($primary-hover-color, $button-lighten-percentage);
+$primary-hover-border-color: darken($primary-hover-color, 2%);
+
+$primary-hover-color: darken($primary-color, 4%);
+$primary-selected-color: darken($primary-color, 10%);
+
+$primary-disabled-border-1-color: lighten($primary-color, 6%);
+$primary-disabled-border-2-color: darken($primary-color, 8%);
