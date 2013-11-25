@@ -23,7 +23,7 @@
 
 * :white_check_mark: Add rich text editor
 * Use localstorage
-* Add backend with Django
+* Add backend independent from the frontend. E.g. Django
 
 
 ## Progress
