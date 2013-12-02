@@ -2,6 +2,7 @@
 
 console.log('Local Storage');
 
+Controller.createMainPageBalancingHtml();
 Controller.createMatrixHtml(Data.balances);
 
 var ckeditor_config = {

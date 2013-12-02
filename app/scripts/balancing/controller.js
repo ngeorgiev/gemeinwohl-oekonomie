@@ -1,5 +1,19 @@
 'use strict';
 
+Controller.createMainPageBalancingHtml = function (indicators, negativeCriteria) {
+
+    var compiledTemplate;
+
+    var mainPageBalancingHtml = '';
+    compiledTemplate = dust.compile(Template.mainPageBalancingTemplate, 'mainPageBalancingTemplate');
+    dust.loadSource(compiledTemplate);
+    dust.render('mainPageBalancingTemplate', indicator, function (err, out) {
+        mainPageBalancingHtml += out;
+    });
+
+    document.getElementById('main-page-container').innerHTML = mainPageBalancingHtml;
+};
+
 /**
  * Creates the HTML for the Indicator Container from JSON data
  * @param indicators - JSON data
@@ -34,7 +48,7 @@ Controller.createIndicatorTemplates = function (indicators, negativeCriteria) {
 
         compiledTemplate = dust.compile(Template.negativeCriteriaBalancingTemplate, 'negativeCriteriaBalancingTemplate');
         dust.loadSource(compiledTemplate);
-        dust.render('negativeCriteriaBalancingTemplate', negativeCriterion, function(err, out) {
+        dust.render('negativeCriteriaBalancingTemplate', negativeCriterion, function (err, out) {
             negativeCriteriaHtml += out;
         });
     }
