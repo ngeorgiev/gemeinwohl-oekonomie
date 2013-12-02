@@ -305,7 +305,7 @@ Data.indicators = {
                                     developmentDetails : [
                                         {
                                             levels : ['beginner'],
-                                            description : 'Erste Maßnahmen; planung weiterer Maßnahmen (ideal: Einbettung in ein Gesamtkonzept) mit konkretem Umset-zungsplan'
+                                            description : 'Erste Maßnahmen; planung weiterer Maßnahmen (ideal: Einbettung in ein Gesamtkonzept) mit konkretem Umsetzungsplan'
                                         },
                                         {
                                             levels : ['advanced'],
@@ -317,7 +317,7 @@ Data.indicators = {
                                         },
                                         {
                                             levels : ['model'],
-                                            description : 'Durch Evaluation ab-gesichertes Gesamt-konzept ist vollstän-dig umgesetzt und strukturell verankert, alle Fkleben eine MA-orientierte Organi-sationskultur'
+                                            description : 'Durch Evaluation abgesichertes Gesamtkonzept ist vollständig umgesetzt und strukturell verankert, alle Fk leben eine MA-orientierte Organisationskultur'
                                         }
                                     ]
                                 }
@@ -331,15 +331,15 @@ Data.indicators = {
                                     developmentDetails : [
                                         {
                                             levels : ['beginner'],
-                                            description : 'prekäre Beschäftigungsverhältnisse be-stehen nur bei nach-weislicher betrieblicher Notwendigkeitvorausschauende, transparente perso-nalplanung in Abstim-mung mit BR'
+                                            description : 'prekäre Beschäftigungsverhältnisse bestehen nur bei nachweislicher betrieblicher Notwendigkeitvorausschauende, transparente Personalplanung in Abstimmung mit BR'
                                         },
                                         {
                                             levels : ['advanced', 'experienced'],
-                                            description : 'Die Möglichkeit einer für den/die AN besseren Vertragsform wird geprüft (interne prüfrouti-ne) und es gibt ein umgesetztes konzept zur nachhaltig positiven Arbeitsplatzgestaltung für Arbeitskräfte in kurzzeitverträgen Gesamtkonzept zur Integration aller Beschäf-tigtengruppen im Unternehmen (z.B. gleiche Rechte auf freiwillige betriebliche Sozialleis-tungen und Förderungen, Abstimmung von Abläufen, Terminen, kommunikationswegen)'
+                                            description : 'Die Möglichkeit einer für den/die AN besseren Vertragsform wird geprüft (interne Prüfroutine) und es gibt ein umgesetztes Konzept zur nachhaltig positiven Arbeitsplatzgestaltung für Arbeitskräfte in kurzzeitverträgen Gesamtkonzept zur Integration aller Beschäftigtengruppen im Unternehmen (z.B. gleiche Rechte auf freiwillige betriebliche Sozialleis-tungen und Förderungen, Abstimmung von Abläufen, Terminen, kommunikationswegen)'
                                         },
                                         {
                                             levels : ['model'],
-                                            description : 'nachhaltige Beschäfti-gungsangebote/-perspektiven für alle MA, z.B. durch über-betriebliche koopera-tionen Chancengleichheit be-züglich Möglichkeiten zur aktiven Teilhabe, Rechte auf unterneh-mensinterne Sozial-leistungen etc.'
+                                            description : 'nachhaltige Beschäftigungsangebote/-perspektiven für alle MA, z.B. durch überbetriebliche Kooperationen Chancengleichheit bezüglich Möglichkeiten zur aktiven Teilhabe, Rechte auf unternehmensinterne Sozialleistungen etc.'
                                         }
                                     ]
                                 },
@@ -365,19 +365,19 @@ Data.indicators = {
                                     developmentDetails : [
                                         {
                                             levels : ['beginner'],
-                                            description : 'Erstellung eines Gesamtkonzepts zur BGF inkl. Umset-zungsplan. Verfügbarkeit von flexiblen Arbeitszeiten und Teilzeitmodellen zur Unterstützung einer gesunden Work-Life-Balance der MA Ergonomische Arbeits-plätze, Erfüllung des Arbeitsschutzes'
+                                            description : 'Erstellung eines Gesamtkonzepts zur BGF inkl. Umsetzungsplan. Verfügbarkeit von flexiblen Arbeitszeiten und Teilzeitmodellen zur Unterstützung einer gesunden Work-Life-Balance der MA Ergonomische Arbeitsplätze, Erfüllung des Arbeitsschutzes'
                                         },
                                         {
                                             levels : ['advanced'],
-                                            description : 'Umsetzung des Gesamtkonzepts zur BGF in wesentlichen Teilen (zu mind. 50%) MA können konkrete Angebote wahrneh-menInanspruchnahme flexibler Arbeitszeiten und Teilzeitmodelle, die zur Unterstützung der Work-Life-Balance der MA beitragen kön-nen, für mind. 50 % der MA möglich'
+                                            description : 'Umsetzung des Gesamtkonzepts zur BGF in wesentlichen Teilen (zu mind. 50%) MA können konkrete Angebote wahrnehmen, Inanspruchnahme flexibler Arbeitszeiten und Teilzeitmodelle, die zur Unterstützung der Work-Life-Balance der MA beitragen können, für mind. 50 % der MA möglich'
                                         },
                                         {
                                             levels : ['experienced'],
-                                            description : 'Umsetzung des Gesamtkonzepts zur BGF bis zu 75 %,und Einführung von qualitätssicherungs-maßnahmen; MA können vielfältige und innovative Angebote wahrnehmen. Flexible Arbeitszeiten und Teilzeitmodelle für alle MA möglich und strukturell unterstützt, Homeoffice wird nach Möglichkeit unterstützt'
+                                            description : 'Umsetzung des Gesamtkonzepts zur BGF bis zu 75 %,und Einführung von Qualitätssicherungsmaßnahmen; MA können vielfältige und innovative Angebote wahrnehmen. Flexible Arbeitszeiten und Teilzeitmodelle für alle MA möglich und strukturell unterstützt, Homeoffice wird nach Möglichkeit unterstützt'
                                         },
                                         {
                                             levels : ['model'],
-                                            description : 'BGF ist vollständig im Unternehmen verankert und in die Strukturen und Abläu-fe des Unternehmens integriert; Führungskräfte agie-ren als Multiplikatoren. Die unterschiedlichen Arbeitszeitangebo-te sind strukturell integriert und kulturell akzeptiert, die organi-sationsweite Nutzung (auch in hierarchisch höheren positionen, auch bei Männern) wird unterstützt'
+                                            description : 'BGF ist vollständig im Unternehmen verankert und in die Strukturen und Abläufe des Unternehmens integriert; Führungskräfte agieren als Multiplikatoren. Die unterschiedlichen Arbeitszeitangebote sind strukturell integriert und kulturell akzeptiert, die organisationsweite Nutzung (auch in hierarchisch höheren positionen, auch bei Männern) wird unterstützt'
                                         }
                                     ]
                                 }
@@ -391,19 +391,19 @@ Data.indicators = {
                                     developmentDetails : [
                                         {
                                             levels : ['beginner'],
-                                            description : 'Erhebung qualitativer und quantitativer Informationen im Hinblick auf Diversität und Ableitung von Zielset-zungen zur Förderung von Gleichstellung und Diversität. Beschäftigungsquote<sup>2</sup>*: Gesetzliche Teilerfüllung von mind. 75 %. Aktive Berücksichtigung von Gleichstellung und Diversität bei jeder Stellenbesetzung'
+                                            description : 'Erhebung qualitativer und quantitativer Informationen im Hinblick auf Diversität und Ableitung von Zielsetzungen zur Förderung von Gleichstellung und Diversität. Beschäftigungsquote<sup>2</sup>*: Gesetzliche Teilerfüllung von mind. 75 %. Aktive Berücksichtigung von Gleichstellung und Diversität bei jeder Stellenbesetzung'
                                         },
                                         {
                                             levels : ['advanced'],
-                                            description : 'Gesamtkonzept zur Verankerung von Diversität und Gleich-stellung im Unterneh-men (inkl. konkretem Umsetzungsplan) ist vorhanden Gesetzliche Quote wird zu 100 % erfüllt, Keine Ausgleichszahlungen Angepasste perso-nalsuche und Stellen-besetzung (unterre-präsentierte Gruppen werden bevorzugt)'
+                                            description : 'Gesamtkonzept zur Verankerung von Diversität und Gleichstellung im Unternehmen (inkl. konkretem Umsetzungsplan) ist vorhanden Gesetzliche Quote wird zu 100 % erfüllt, Keine Ausgleichszahlungen Angepasste perso-nalsuche und Stellenbesetzung (unterrepräsentierte Gruppen werden bevorzugt)'
                                         },
                                         {
                                             levels : ['experienced'],
-                                            description : 'Gesamtkonzept zur Verankerung von Diversität und Gleichstellung im Unternehmen ist in wesentlichen Teilen umgesetzt. Kompetenz und Motivation von Fkhin-sichtlich Diversität und Gleichstellung wird gezielt und nachdrück-lich gefördert<sup>3</sup>*. Anzahl der diversen MA (auch in Fach- und Führungspositionen) liegt über dem Bran-chendurchschnitt'
+                                            description : 'Gesamtkonzept zur Verankerung von Diversität und Gleichstellung im Unternehmen ist in wesentlichen Teilen umgesetzt. Kompetenz und Motivation von Fk hinsichtlich Diversität und Gleichstellung wird gezielt und nachdrücklich gefördert<sup>3</sup>*. Anzahl der diversen MA (auch in Fach- und Führungspositionen) liegt über dem Branchendurchschnitt'
                                         },
                                         {
                                             levels : ['model'],
-                                            description : 'Gesamtkonzept zu 100 % umgesetzt, d.h. es ist strukturell in allen Organisationsbe-reichen verankert und wird von allen Fkmit-getragen und gelebt Anzahl der diversen MA (auch in Fach- und Führungspositionen) liegt weit über der Branchendurchschnitt'
+                                            description : 'Gesamtkonzept zu 100 % umgesetzt, d.h. es ist strukturell in allen Organisationsbereichen verankert und wird von allen Fk mitgetragen und gelebt Anzahl der diversen MA (auch in Fach- und Führungspositionen) liegt weit über der Branchendurchschnitt'
                                         }
                                     ]
                                 }
