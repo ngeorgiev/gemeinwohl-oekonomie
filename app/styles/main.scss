@@ -29,6 +29,10 @@ $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
 
 /* end -------------- */
 
+.main-page-matrix-img {
+  width: 50%;
+}
+
 .page-wrapper {
   padding: 30px 5%;
 }
@@ -48,6 +52,8 @@ $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
 }
 
 .main-page-container-link-title {
+  padding: 10px 0px;
+  line-height: 1.1em;
   font-size: 4rem;
 }
 
