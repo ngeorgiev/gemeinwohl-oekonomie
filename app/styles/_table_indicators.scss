@@ -2,11 +2,13 @@
 /* Indicator Pages */
 
 .indicator-page-title {
-  padding: 5px 0px 15px 0px;
+  display: inline-block;
+  padding: 0 0 0 15px !important;
   color: $gwoe-olive-color;
 }
 
 .indicator-page-title h2 {
+  display: inline;
   font-weight: bold;
 }
 

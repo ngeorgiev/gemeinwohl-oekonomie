@@ -25,6 +25,11 @@ $page-width: 980px;
   text-align: center;
 }
 
+.indicator-page-title {
+  display: inline-block;
+  padding: 0 0 0 15px !important;
+}
+
 .indicator-page-title h2 {
   display: inline;
 }
@@ -37,11 +42,6 @@ $page-width: 980px;
 .back-to-matrix {
   float: left;
   display: inline-block;
-}
-
-.indicator-page-title {
-  display: inline-block;
-  padding: 0 0 0 15px !important;
 }
 
 /* GENERAL - Start */
