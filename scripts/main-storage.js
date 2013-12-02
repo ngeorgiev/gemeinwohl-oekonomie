@@ -2887,6 +2887,8 @@ Template.tableLegend = 'Legende:<div class="matrix-table-legend">    {#legend}  
 
 Template.indicatorBalancingTemplate = '<div id="matrix-{shortcodeSlug}" class="container container-page display-none">    <div class="container pagehead">        <table>            <tr>                <td class="vmiddle">                    <img class="back-to-matrix pointer"                         src="images/gwoe-matrix-icon-arrow-50h.png" title="Zurück zur GWÖ-Matrix"/>                </td>                <td><span class="indicator-page-title"> <h2>{shortcode}: {name}</h2></span></td>            </tr>        </table>    </div>    <div class="container indicator-editor-container bubble">        <div class="bubble-inner">            <div class="meta">                <button type="button" class="button primary">Speichern</button>            </div>            <div class="bubble-contents">&nbsp;                <textarea name="matrix-{shortcodeSlug}-editor">                    <h2>Editieren Sie dieses Indikator</h2>                    <p>Einfach:</p>                    <ul>                        <li>darauf klicken</li>                        <li>editieren</li>                    </ul>                </textarea>            </div>        </div>    </div></div>';
 
+Template.mainPageBalancingTemplate = '<div class="container container-page">    <textarea name="header-company-title" class="">        <h1 class="img-center">Unternehmensname hier eintragen</h1>    </textarea></div>';
+
 Template.negativeCriteriaBalancingTemplate = '<div id="matrix-{shortcodeSlug}" class="container container-page indicator-modal display-none">    <div class="container pagehead">        <table>            <tr>                <td class="vmiddle">                    <img class="back-to-matrix pointer"                         src="images/gwoe-matrix-icon-arrow-50h.png" title="Zurück zur GWÖ-Matrix"/>                </td>                <td><span class="indicator-page-title"><h2 class="negative-color">{shortcode}: {name}</h2></span></td>            </tr>        </table>    </div>    <div class="container indicator-editor-container bubble">        <div class="bubble-inner">            <div class="meta">                <button type="button" class="button primary">Speichern</button>            </div>            <div class="bubble-contents">&nbsp;                <textarea name="matrix-{shortcodeSlug}-editor">                    <p>Trifft nicht zu. Editieren.</p>                </textarea>            </div>        </div>    </div></div>';
 
 'use strict';
@@ -3396,6 +3398,20 @@ var Controller = {
 
 'use strict';
 
+Controller.createMainPageBalancingHtml = function (indicators, negativeCriteria) {
+
+    var compiledTemplate;
+
+    var mainPageBalancingHtml = '';
+    compiledTemplate = dust.compile(Template.mainPageBalancingTemplate, 'mainPageBalancingTemplate');
+    dust.loadSource(compiledTemplate);
+    dust.render('mainPageBalancingTemplate', indicator, function (err, out) {
+        mainPageBalancingHtml += out;
+    });
+
+    document.getElementById('main-page-container').innerHTML = mainPageBalancingHtml;
+};
+
 /**
  * Creates the HTML for the Indicator Container from JSON data
  * @param indicators - JSON data
@@ -3430,7 +3446,7 @@ Controller.createIndicatorTemplates = function (indicators, negativeCriteria) {
 
         compiledTemplate = dust.compile(Template.negativeCriteriaBalancingTemplate, 'negativeCriteriaBalancingTemplate');
         dust.loadSource(compiledTemplate);
-        dust.render('negativeCriteriaBalancingTemplate', negativeCriterion, function(err, out) {
+        dust.render('negativeCriteriaBalancingTemplate', negativeCriterion, function (err, out) {
             negativeCriteriaHtml += out;
         });
     }
@@ -3444,6 +3460,7 @@ Controller.createIndicatorTemplates = function (indicators, negativeCriteria) {
 
 console.log('Local Storage');
 
+Controller.createMainPageBalancingHtml();
 Controller.createMatrixHtml(Data.balances);
 
 var ckeditor_config = {
