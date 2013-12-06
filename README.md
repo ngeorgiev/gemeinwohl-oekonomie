@@ -70,11 +70,18 @@ Open Source, modular, user-friendly, multi-language, mobile, beautiful:
 See the [CHANGELOG](CHANGELOG.md).
 
 ## License
- * Source code is under the MIT License.
- * All data belongs to the [Gemeinwohl-Ökonomie movement](http://gemeinwohl-oekonomie.de)
+
+* Source code is under the MIT License.
+* All data belongs to the [Gemeinwohl-Ökonomie movement](http://gemeinwohl-oekonomie.de)
 
 ## Developers
- * [Nikolay Georgiev](http://nikolay-georgiev.net), [sinnwerkstatt Medienagentur GmbH](https://www.sinnwerkstatt.com/), Berlin
+
+* [Nikolay Georgiev](http://nikolay-georgiev.net), [sinnwerkstatt Medienagentur GmbH](https://www.sinnwerkstatt.com/), Berlin
+
+## Financial Supporters
+List of the financial supporters:
+
+* [sinnwerkstatt](https://www.sinnwerkstatt.com/)
 
 ## Contribute
 ### Send a bug or propose new features
