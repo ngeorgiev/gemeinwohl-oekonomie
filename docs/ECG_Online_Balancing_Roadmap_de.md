@@ -37,6 +37,8 @@ Unternehmen, die die Web Applikation für Online Bilanzierung nutzen würden, k�
 * Ihr Unternehmen kann die **gewünschte Funktionalitäten** der WebApp explizit an den Entwicklern mitteilen und eventuell Unterstützung bieten. Bitte fühlen Sie die Datei [Companyname_needs_de.md](Companyname_needs_de.md) aus ([Download here](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/raw/master/docs/Companyname_needs_de.md)) und entweder
     * senden Sie sie an Nikolay: ng@sinnwerkstatt.com
     * oder erstellen Sie ein [Pull Request](https://help.github.com/articles/using-pull-requests)
+* Die gewünschte Funktionalitäten werden bei der Implementierung berücksichtigt.
+* Die ausgefüllte Datei wird im [öffentlichen doc-Verzeichnis](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/tree/master/docs) veröffentlicht, falls nicht explizit anders gewünscht.
 
 # Unternehmen
 
