@@ -28,7 +28,7 @@ Die Online-Bilanzierung macht [den gesamten Prozess](http://creately.com/diagram
 Wenn die WebApp professionell entwickelt werden soll, braucht man Finanzierung. Hier sind die Vorschläge für Finanzierung
 
 * [Crowdfunding](Crowdfunding.md)
-* Förderprojekte? In Zusammenarbeit mit GWÖ-Berlin? Noch als Idee.
+* Förderprojekte? In Zusammenarbeit mit GWÖ-Berlin und andere?
 * Weitere Ideen?
 
 # Mitgestalten
