@@ -6,16 +6,34 @@
      * Click on "Download ZIP" button on the right.
  * Open the file ```dist/index.html```
 
+## Version
+ * This the GWÖ-Matrix v4.1.
+ * Due to the modularity of the source code we can easily adapt the matrix to new versions.
+ * The same applies also for future quick tests (Schnelltest).
+
+## Modularity
+
+### Offline
+Offline (only frontend, no Internet needed) use can be implemented in the following ways:
+
+* use the HTML5 localStorage
+* [read](http://www.html5rocks.com/en/tutorials/file/dndfiles/) and [save matrix files](http://stackoverflow.com/a/20194533/2510374)
+
+### Frontend separate from Backend
+The application offers a clean separation between frontend (browser) and backend (server). Being backend independent enables easily adding needed backends.
+
+### Modular frontend
+
+* Matrix structure and balances are saved as JSON file.
+* Matrix contents are saved in HTML files.
+* needs a clean separation of : collections, routing, templates.
+* ...
+
 ## Wishlist
 
  * Server-side grunt compilation (and rendering) of the templates.
  * Responsive Indicator Tabs.
  * More best practices of Javascript and CSS.
-
-## Version
- * This the GWÖ-Matrix v4.1.
- * Due to the modularity of the source code we can easily adapt the matrix to new versions.
- * The same applies also for future quick tests (Schnelltest).
 
 ## Roadmap
 
