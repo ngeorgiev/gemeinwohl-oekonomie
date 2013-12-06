@@ -7,7 +7,7 @@ für die GWÖ Online Bilanzierung.
 ## Bedeutung
 
 * engagiert die Masse/Öffentlichkeit - darüber wird geredet, berichtet usw.
-* soll am besten auch mit anderen GWÖ-Bedürfnisse verbunden werden (nicht die Web-Plattform), so dass die Gruppe von Menschen, die davon profitieren können, möglichst groß ist.
+* soll am besten auch mit anderen GWÖ-Bedürfnisse verbunden werden (nicht nur die WebApps), so dass die Gruppe von Menschen, die davon profitieren können, möglichst groß ist.
 Vorbereitung
 * soll professionell sein, damit es erfolgreich ist.
 
