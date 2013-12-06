@@ -1,4 +1,4 @@
-See the [German version](ECG_Online_Balancing_Roadmap_de.md)
+This page is still not complete. Please see the [German version](ECG_Online_Balancing_Roadmap_de.md)
 
 # Introduction
 
