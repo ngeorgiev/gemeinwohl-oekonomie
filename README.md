@@ -14,6 +14,10 @@ Open Source, modular, user-friendly, multi-language, mobile, beautiful:
 * add multi-language support.
 * create mobile version.
 
+### Roadmap:
+* clarify whether it will be used officially by the ECG movement.
+* clarify how this will be done and update this Roadmap.
+
 ## ECG Balancing Web Application
 
 * :white_check_mark: [ECG balancing web app (open initial prototype)](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/storage.html)
