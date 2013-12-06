@@ -28,9 +28,9 @@ Beispiele:
 * Stiftungen können auch Geld spenden und promoted werden.
 * Hilfe bei der Erstellung der online GWÖ-Bilanz.
 
-### Financial Supporters
+### Finanzielle Unterstützer
 
-* Unternehmen/Organisation, die das Crowdfunding unterstützt haben, werden über die Crowdfunding-Kampagne promoted und als "Financial Supporters" gelistet.
+* Unternehmen/Organisation, die das Crowdfunding unterstützt haben, werden über die Crowdfunding-Kampagne promoted und als "Finanzielle Unterstützer" gelistet.
 
 ## Plattform
 
