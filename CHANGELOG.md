@@ -1,12 +1,9 @@
 # Change Log
 
-* 22.11.2013 - Improved CKeditor and Grunt configuration.
-* 21.11.2013 - Offline: Added CKEditor.
-
-## Progress
-
 * 06.12.2013 - updated README.md with Development Principles and Roadmaps.
 * 05.12.2013 - the applications were well received by few companies and Christian Felber at a meeting in Berlin.
+* 22.11.2013 - Improved CKeditor and Grunt configuration.
+* 21.11.2013 - Offline: Added CKEditor.
 * 08.10.2013 - quick test removed to be improved for the public.
 * 16.09.2013 - Project Open Sourced! :)
 * 15.09.2013 - Matrix text is unselectable for better User Experience (UX). Sass refactoring. Page top scrolling on opening an indicator. Firefox border fix.
