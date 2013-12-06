@@ -81,7 +81,7 @@ See the [CHANGELOG](CHANGELOG.md).
 ## Financial Supporters
 List of the financial supporters:
 
-* [sinnwerkstatt](https://www.sinnwerkstatt.com/), Berlin, Germany.
+* [sinnwerkstatt](https://www.sinnwerkstatt.com/), Berlin, Germany
 
 ## Contribute
 ### Send a bug or propose new features
