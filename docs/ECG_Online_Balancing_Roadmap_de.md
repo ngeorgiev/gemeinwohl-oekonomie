@@ -40,6 +40,7 @@ Unternehmen, die die Web Applikation für Online Bilanzierung nutzen würden, k�
     * oder erstellen Sie ein [Pull Request](https://help.github.com/articles/using-pull-requests)
 * Die gewünschte Funktionalitäten werden bei der Implementierung berücksichtigt.
 * Die ausgefüllte Datei wird im [öffentlichen doc-Verzeichnis](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/tree/master/docs) veröffentlicht, falls nicht explizit anders gewünscht.
+* Sie können zu jeder Zeit Fragen an Nikolay stellen: ng@sinnwerkstatt.com
 
 # Unternehmen
 
