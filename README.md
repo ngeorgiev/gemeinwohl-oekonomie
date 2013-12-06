@@ -10,13 +10,13 @@ Open Source, modular, user-friendly, multi-language, mobile, beautiful:
 
 ## Interactive ECG matrix
 
-- [x] [interactive online ECG Matrix 4.1 (open the demo)](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/#).
-- [ ] add multi-language support.
-- [ ] create mobile version.
+* :white_check_mark: [interactive online ECG Matrix 4.1 (open the demo)](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/#).
+* add multi-language support.
+* create mobile version.
 
 ## ECG Balancing Web Application
 
-* [ECG balancing web app (open the demo)](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/storage.html)
+* :white_check_mark: [ECG balancing web app (open initial prototype)](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/storage.html)
 
 ### Roadmap:
 
