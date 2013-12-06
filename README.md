@@ -1,15 +1,30 @@
-## Online Demo
- * [Open the demo](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/#)
+## Economy for the Common Good
+The [Economy for the Common Good (ECG)](http://gemeinwohl-oekonomie.org) is an alternative economic system built on values that promote the needs of the entire population.
+ It is a tool for economic, political, and social change – a bridge to a better future.
 
-## Use locally
- * Copy the repository
-     * Click on "Download ZIP" button on the right.
- * Open the file ```dist/index.html```
+## Project Goals
+Open Source, modular, user-friendly, multi-language, mobile, beautiful:
 
-## Version
- * This the GWÖ-Matrix v4.1.
- * Due to the modularity of the source code we can easily adapt the matrix to new versions.
- * The same applies also for future quick tests (Schnelltest).
+* interactive ECG matrix (German: Interaktive Gemeinwohl-Matrix).
+* ECG balancing web application (German: GWÖ Online Bilanzierung).
+
+## Interactive ECG matrix
+
+* [x] [interactive online ECG Matrix 4.1 (open the demo)](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/#).
+* [ ] add multi-language support.
+* [ ] create mobile version.
+
+## ECG balancing web app
+
+* [x] [ECG balancing web app (open the demo)](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/storage.html)
+* [ ] clean separation between backend and frontend. Enables offline application use (no need for Internet)
+* [ ] add multi-language support.
+
+## Download
+
+* Open the [GitHub repository](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie) and click on "Download ZIP" button on the right.
+* Interactive ECG matrix: open the file ```dist/index.html```
+* ECG balancing web application: open the file ```dist/index.html```
 
 ## Modularity
 
@@ -34,17 +49,6 @@ The application offers a clean separation between frontend (browser) and backend
  * Server-side grunt compilation (and rendering) of the templates.
  * Responsive Indicator Tabs.
  * More best practices of Javascript and CSS.
-
-## Roadmap
-
-December Update: this roadmap will be updated/changed soon.
-
-### Create a web application to save a company's GWÖ balance.
-
-* :white_check_mark: Add rich text editor
-* Use localstorage
-* Add backend independent from the frontend. E.g. Django
-
 
 ## Progress
 See the [CHANGELOG](CHANGELOG.md).
