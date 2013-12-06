@@ -5,7 +5,7 @@ bei der Erstellung der GWÖ-Bilanz und den GWÖ-Bericht involviert.
 Die Online-Bilanzierung macht [den gesamten Prozess](http://creately.com/diagram/hlvynl1f1/MA9GKxHvxTVAKUOax04wCo1pbQc%3D) transparenter und vereinfacht und automatisiert ihn durch:
 
 * Speichern der einzelnen Bilanzierungs- und Berichtsdaten in einer frei ausgewählten Datenbank.
-* Visualisierung der GWÖ-Bilanz.
+* [Visualisierung der GWÖ-Bilanz](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/storage.html).
 * Vergebung von [Lese-, Editier-, Kommentar-, und Auditierrechte der entsprechend berechtigten Benutzer](http://creately.com/diagram/hlvynl1f1/MA9GKxHvxTVAKUOax04wCo1pbQc%3D).
 * automatisierte Benachrichtigungen an relevanten Benutzer während des Prozesses.
 * GWÖ-Bilanzen können online veröffentlicht werden.
