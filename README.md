@@ -25,11 +25,11 @@ Open Source, modular, user-friendly, multi-language, mobile, beautiful:
 
 ### Roadmap
 
-* Read [the Roadmap here](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/blob/master/docs/ECG_Online_Balancing_Roadmap_de.md#mitgestalten).
+* Read [the Roadmap here](docs/ECG_Online_Balancing_Roadmap_de.md#roadmap).
 
 ### Co-develop
 
-* If your company wants to use the Online Balancing tool, you can [share with us your needs here](docs/ECG_Online_Balancing_Roadmap_de.md) (currently only in German).
+* If your company wants to use the Online Balancing tool, you can [share with us your needs here](docs/ECG_Online_Balancing_Roadmap_de.md#mitgestalten) (currently only in German).
 
 
 ## Development Principles
