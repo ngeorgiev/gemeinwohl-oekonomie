@@ -28,6 +28,10 @@ Beispiele:
 * Hilfe bei der Erstellung der online GWÖ-Bilanz.
 * Unternehmen/Organisation, die das Crowdfunding unterstützt haben, werden über die Crowdfunding-Campaign promoted und danach.
 
+## Plattform
+
+* http://www.startnext.de/
+
 ## Dauer
 
 30-40 Tage.
