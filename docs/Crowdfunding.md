@@ -4,6 +4,10 @@ für die GWÖ Online Bilanzierung.
 * Das ist ein erster Vorschlag, erste Gedankensammlung.
 * **Ziel**: alle Crowdfunding-Berührungsgruppen betrachten und schauen wie man möglichst größeren Nutzwert für alle schaffen kann.
 
+## Kommentieren
+
+* Bitte [den Vorschlag in den GitHub issues kommentieren](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/issues).
+
 ## Bedeutung
 
 * engagiert die Masse/Öffentlichkeit - darüber wird geredet, berichtet usw.
