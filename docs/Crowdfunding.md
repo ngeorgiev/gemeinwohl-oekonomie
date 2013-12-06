@@ -26,7 +26,10 @@ Beispiele:
 * GWÖ unterstützendes Unternehmen werden.
 * Stiftungen können auch Geld spenden und promoted werden.
 * Hilfe bei der Erstellung der online GWÖ-Bilanz.
-* Unternehmen/Organisation, die das Crowdfunding unterstützt haben, werden über die Crowdfunding-Campaign promoted und danach.
+
+### Financial Supporters
+
+* Unternehmen/Organisation, die das Crowdfunding unterstützt haben, werden über die Crowdfunding-Kampagne promoted und als "Financial Supporters" gelistet.
 
 ## Plattform
 
