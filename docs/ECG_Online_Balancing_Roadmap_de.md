@@ -34,7 +34,7 @@ Wenn die WebApp professionell entwickelt werden soll, braucht man Finanzierung. 
 
 Unternehmen, die die Web Applikation für Online Bilanzierung nutzen würden, können deren Entwicklung mitgestalten.
 * Bitte lesen Sie die Einführung, das Roadmap und die Finanzierung.
-* Ihr Unternehmen kann die **gewünschte Funktionalitäten** der WebApp explizit an den Entwicklern mitteilen und eventuell Unterstützung bieten. Bitte fühlen Sie die Datei [Companyname_needs_de.md](Companyname_needs_de.md) aus [Download here](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/raw/master/docs/Companyname_needs_de.md) und entweder
+* Ihr Unternehmen kann die **gewünschte Funktionalitäten** der WebApp explizit an den Entwicklern mitteilen und eventuell Unterstützung bieten. Bitte fühlen Sie die Datei [Companyname_needs_de.md](Companyname_needs_de.md) aus ([Download here](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/raw/master/docs/Companyname_needs_de.md)) und entweder
     * senden Sie sie an Nikolay: ng@sinnwerkstatt.com
     * oder erstellen Sie ein [Pull Request](https://help.github.com/articles/using-pull-requests)
 
