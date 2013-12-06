@@ -1,7 +1,8 @@
 # Crowdfunding
-Für die GWÖ Online Bilanzierung.
+für die GWÖ Online Bilanzierung.
 
-Man soll alle Berührungsgruppen und schauen, wie man möglichst größeren Nutzwert für alle schaffen kann.
+* Das ist ein erster Vorschlag, erste Gedankensammlung.
+* **Ziel**: alle Crowdfunding-Berührungsgruppen betrachten und schauen wie man möglichst größeren Nutzwert für alle schaffen kann.
 
 ## Bedeutung
 
