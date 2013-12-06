@@ -16,6 +16,7 @@ Die Online-Bilanzierung macht [den gesamten Prozess](http://creately.com/diagram
 * :white_check_mark: [Vorschlag für die Weiterentwicklung erstellt: wer, wie, finanziell](ECG_Online_Balancing_Roadmap_de.md)
 * gewünschte Funktionalitäten und Hilfsmöglichkeiten von Unternehmen und Menschen, die eventuell mitmachen würden, abfragen.
 * Entscheiden welche Funktionalitäten zuerst implementiert werden.
+* Finanzierung suchen.
 * Technische Verbesserungen:
     * Modularity: backbone, routing, data binding, templating.
     * Performance: server-side grunt compilation (and rendering) of the templates. Load and show quickly the initial content.
