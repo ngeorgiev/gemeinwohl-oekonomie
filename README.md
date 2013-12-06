@@ -11,18 +11,18 @@ Open Source, modular, user-friendly, multi-language, mobile, beautiful:
 ## Interactive ECG matrix
 
 * :white_check_mark: [interactive online ECG Matrix 4.1 (open the demo)](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/#).
-* add multi-language support.
-* create mobile version.
 
-### Roadmap:
+### Roadmap
 * clarify whether it will be used officially by the ECG movement.
 * clarify how this will be done and update this Roadmap.
+* add multi-language support.
+* create mobile version.
 
 ## ECG Balancing Web Application
 
 * :white_check_mark: [ECG balancing web app (open initial prototype)](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/storage.html)
 
-### Roadmap:
+### Roadmap
 
 * Create and share a proposal for further development: who, how, finance.
 * Find companies who want to use the application and possible help with its development.
@@ -33,7 +33,7 @@ Open Source, modular, user-friendly, multi-language, mobile, beautiful:
 * Update the roadmap.
 * Execute the roadmap and iterate the process if needed.
 
-## Development Principles:
+## Development Principles
 
 * Freedom:
     * Everyone is free to do anything with the software. The license is MIT.
