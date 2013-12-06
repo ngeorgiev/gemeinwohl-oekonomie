@@ -37,6 +37,8 @@ The application offers a clean separation between frontend (browser) and backend
 
 ## Roadmap
 
+December Update: this roadmap will be updated/changed soon.
+
 ### Create a web application to save a company's GWÖ balance.
 
 * :white_check_mark: Add rich text editor
