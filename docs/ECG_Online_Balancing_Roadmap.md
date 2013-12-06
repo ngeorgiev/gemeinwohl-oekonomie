@@ -1,4 +1,4 @@
-See the [German version](docs/ECG_Online_Balancing_Roadmap_de.md)
+See the [German version](ECG_Online_Balancing_Roadmap_de.md)
 
 # Introduction
 
@@ -15,7 +15,7 @@ Die Online-Bilanzierung macht [den gesamten Prozess](creately.com/diagram/hlvynl
 
 # Roadmap
 
-* :white_check_mark: [created a proposal for further development: who, how, finance.](docs/ECG_Online_Balancing_Roadmap_de.md)
+* :white_check_mark: [created a proposal for further development: who, how, finance.](ECG_Online_Balancing_Roadmap_de.md)
 * Sharing the proposal and get in touch with companies and people who may want to participate.
 * Get company needs.
 * Technical improvements:

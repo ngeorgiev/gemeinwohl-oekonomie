@@ -13,7 +13,7 @@ Die Online-Bilanzierung macht [den gesamten Prozess](creately.com/diagram/hlvynl
 
 # Roadmap
 
-* :white_check_mark: [Vorschlag für die Weiterentwicklung erstellt: wer, wie, finanziell](docs/ECG_Online_Balancing_Roadmap_de.md)
+* :white_check_mark: [Vorschlag für die Weiterentwicklung erstellt: wer, wie, finanziell](ECG_Online_Balancing_Roadmap_de.md)
 * gewünschte Funktionalitäten und Hilfsmöglichkeiten von Unternehmen und Menschen, die eventuell mitmachen würden, abfragen.
 * Technische Verbesserungen:
     * Modularity: backbone, routing, data binding, templating.
@@ -27,7 +27,7 @@ Die Online-Bilanzierung macht [den gesamten Prozess](creately.com/diagram/hlvynl
 
 Liste der Unternehmen, die mitmachen werden:
 
-* [Sinnwerkstatt](docs/Sinnwerkstatt_needs_de.md), Berlin. [Website](https://www.sinnwerkstatt.com/)
+* [Sinnwerkstatt](Sinnwerkstatt_needs_de.md), Berlin. [Website](https://www.sinnwerkstatt.com/)
 
 ## Gefragt
 Liste der Unternehmen, die Interesse geäußert haben und gefragt wurden:
