@@ -5,7 +5,7 @@ The [Economy for the Common Good (ECG)](http://gemeinwohl-oekonomie.org) is an a
 ## Project Goals
 Open Source, modular, user-friendly, multi-language, mobile, beautiful:
 
-* interactive ECG matrix (German: Interaktive Gemeinwohl-Matrix).
+* interactive ECG matrix (German: Interaktive GWÖ-Matrix).
 * ECG balancing web application (German: GWÖ Online Bilanzierung).
 
 ## Interactive ECG matrix
@@ -14,41 +14,52 @@ Open Source, modular, user-friendly, multi-language, mobile, beautiful:
 - [ ] add multi-language support.
 - [ ] create mobile version.
 
-## ECG balancing web app
+## ECG Balancing Web Application
 
-* [x] [ECG balancing web app (open the demo)](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/storage.html)
-* [ ] clean separation between backend and frontend. Enables offline application use (no need for Internet)
-* [ ] add multi-language support.
+* [ECG balancing web app (open the demo)](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/storage.html)
+
+### Roadmap:
+
+* Create and share a proposal for further development: who, how, finance.
+* Find companies who want to use the application and possible help with its development.
+* Get company needs.
+* Technical improvements:
+    * Performance: server-side grunt compilation (and rendering) of the templates. Load and show quickly the initial content.
+    * Modularity: backbone, routing, data binding, templating.
+* Update the roadmap.
+* Execute the roadmap and iterate the process if needed.
+
+## Development Principles:
+
+* Freedom:
+    * Everyone is free to do anything with the software. The license is MIT.
+    * The user/organization/company decides whether and where to save entered data.
+* Openness:
+    * All software is open source.
+    * This page contains the most important information and will be updated regularly.
+    * See open and productive communication below.
+* Modularity:
+    * The frontend is separated from the backend, so that the user has the freedom to choose his backend technology.
+    * The application should work offline (no Internet needed) and without a backend. Technically it should be possible to export and import data only with the frontend. Implementation: use the HTML5 localStorage, [read](http://www.html5rocks.com/en/tutorials/file/dndfiles/) and [save matrix files](http://stackoverflow.com/a/20194533/2510374).
+    * Modular frontend: matrix structure and balances are saved as JSON file, matrix contents are saved in HTML files, a clean separation of : collections, routing, templates.
+* User-friendly:
+    * enable shortest possible path from a desire to execution.
+    * simple, clean and beautiful.
+    * fast.
+* Real use:
+    * The application should be used by companies to create their ECG balance.
+* Lean development
+    * No bureaucracy, no barriers to participation, no waste of time.
+    * focus on creating real value.
+* Productive Communication
+    * focus on concrete, result-oriented and inspiring communication.
+    * Open communication: preferred communication channel are the [GitHub issues](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/issues) - open for everyone to comment and resolve.
 
 ## Download
 
 * Open the [GitHub repository](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie) and click on "Download ZIP" button on the right.
 * Interactive ECG matrix: open the file ```dist/index.html```
 * ECG balancing web application: open the file ```dist/index.html```
-
-## Modularity
-
-### Offline
-Offline (only frontend, no Internet needed) use can be implemented in the following ways:
-
-* use the HTML5 localStorage
-* [read](http://www.html5rocks.com/en/tutorials/file/dndfiles/) and [save matrix files](http://stackoverflow.com/a/20194533/2510374)
-
-### Frontend separate from Backend
-The application offers a clean separation between frontend (browser) and backend (server). Being backend independent enables easily adding needed backends.
-
-### Modular frontend
-
-* Matrix structure and balances are saved as JSON file.
-* Matrix contents are saved in HTML files.
-* needs a clean separation of : collections, routing, templates.
-* ...
-
-## Wishlist
-
- * Server-side grunt compilation (and rendering) of the templates.
- * Responsive Indicator Tabs.
- * More best practices of Javascript and CSS.
 
 ## Progress
 See the [CHANGELOG](CHANGELOG.md).
