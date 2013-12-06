@@ -13,7 +13,8 @@ Open Source, modular, user-friendly, multi-language, mobile, beautiful:
 * :white_check_mark: [interactive online ECG Matrix 4.1 (open the demo)](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/#).
 
 ### Roadmap
-* clarify whether it will be used officially by the ECG movement.
+
+* :arrow_right: clarify whether it will be used officially by the ECG movement.
 * clarify how this will be done and update this Roadmap.
 * add multi-language support.
 * create mobile version.
