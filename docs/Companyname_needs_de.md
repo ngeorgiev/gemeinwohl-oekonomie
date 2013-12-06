@@ -43,8 +43,8 @@ Wir können folgendermaßen die Entwicklung der WebApp unterstützen:
 ### Crowdfunding
 
 * Wir haben den Vorschlag für [Crowdfunding](Crowdfunding.md) gelesen: Ja/Nein.
-* Wir würden gerne ein Crowdfunding unterstützen (in unserem Netzwerk darüber berichten, Fans werden): Ja/Nein.
-* Wir würden gerne offizielle finanzielle Unterstützer des Crowdfunding sein: Ja/Nein.
+* Wir würden gerne ein Crowdfunding unterstützen (in unserem Netzwerk darüber berichten, Fans werden, etc): Ja/Nein.
+* Wir würden gerne offiziell finanzielle Unterstützer des Crowdfunding sein: Ja/Nein.
 
 ### Spenden
 
