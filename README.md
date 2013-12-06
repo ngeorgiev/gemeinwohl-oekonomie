@@ -25,14 +25,12 @@ Open Source, modular, user-friendly, multi-language, mobile, beautiful:
 
 ### Roadmap
 
-* Create and share a proposal for further development: who, how, finance.
-* Find companies who want to use the application and possible help with its development.
-* Get company needs.
-* Technical improvements:
-    * Performance: server-side grunt compilation (and rendering) of the templates. Load and show quickly the initial content.
-    * Modularity: backbone, routing, data binding, templating.
-* Update the roadmap.
-* Execute the roadmap and iterate the process if needed.
+* Read [the Roadmap here](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/blob/master/docs/ECG_Online_Balancing_Roadmap_de.md#mitgestalten).
+
+### Co-develop
+
+* If your company wants to use the Online Balancing tool, you can [share with us your needs here](docs/ECG_Online_Balancing_Roadmap_de.md) (currently only in German).
+
 
 ## Development Principles
 
