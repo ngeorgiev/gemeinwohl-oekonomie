@@ -40,17 +40,17 @@ Unternehmen, die die Web Applikation für Online Bilanzierung nutzen würden, k�
     * oder erstellen Sie ein [Pull Request](https://help.github.com/articles/using-pull-requests)
 * Die gewünschte Funktionalitäten werden bei der Implementierung berücksichtigt.
 * Die ausgefüllte Datei wird im [öffentlichen doc-Verzeichnis](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/tree/master/docs) veröffentlicht, falls nicht explizit anders gewünscht.
-* Sie können zu jeder Zeit Fragen an Nikolay stellen: öffentlich [als GitHub issues](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/issues) oder persönlich an ng@sinnwerkstatt.com.
+* Sie können Fragen an Nikolay zu jeder Zeit stellen: öffentlich [als GitHub issues](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/issues) oder persönlich an ng@sinnwerkstatt.com.
 
 # Unternehmen
 
-## Mitmachen
+## Mitgestaltende Unternehmen
 
-Liste der Unternehmen, die mitmachen werden, und deren Bedürfnisse:
+Liste der Unternehmen, die mitgestalten werden, und deren Bedürfnisse:
 
 * [Sinnwerkstatt](Sinnwerkstatt_needs_de.md), Berlin. [Website](https://www.sinnwerkstatt.com/)
 
-## Eingeladen
+## Eingeladene Unternehmen
 
 Liste der Unternehmen, die Interesse geäußert haben und eingeladen wurden [mitzugestalten](ECG_Online_Balancing_Roadmap_de.md#mitgestalten):
 
