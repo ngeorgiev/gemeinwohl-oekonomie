@@ -10,7 +10,7 @@ Die gewünschte Funktionalitäten in drei Kategorien beschreiben:
 
 ## notwendige Funktionalitäten
 
-| notwendige Funktionalitäten | Unternehmen | Summe (Geld) |
+| notwendige Funktionalitäten | Unternehmen | Geldsumme |
 |--- | --- |--- |
 | Benutzerlogin und -gruppen mit Schreibrechte. | Sinnwerkstatt |  |
 | Django/PostgreSQL Backend. | Sinnwerkstatt |  |
@@ -18,7 +18,7 @@ Die gewünschte Funktionalitäten in drei Kategorien beschreiben:
 
 ## hilfreiche Funktionalitäten
 
-| hilfreiche Funktionalitäten | Unternehmen | Summe (Geld) |
+| hilfreiche Funktionalitäten | Unternehmen | Geldsumme |
 |--- | --- |--- |
 | Benutzergruppen mit Leserechte. | Sinnwerkstatt |  |
 | Vergebung von Lese- und Schreibrechte pro Indikator. | Sinnwerkstatt |  |
@@ -31,7 +31,7 @@ Die gewünschte Funktionalitäten in drei Kategorien beschreiben:
 
 ## extra Funktionalitäten
 
-| extra Funktionalitäten | Unternehmen | Summe (Geld) |
+| extra Funktionalitäten | Unternehmen | Geldsumme |
 |--- | --- |--- |
 | Änderungen bei der Versionierung zeigen. | Sinnwerkstatt |  |
 | Abstimmungen-Funktionen. | Sinnwerkstatt |  |
