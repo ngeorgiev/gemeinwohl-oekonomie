@@ -50,8 +50,9 @@ Liste der Unternehmen, die mitmachen werden, und deren Bedürfnisse:
 
 * [Sinnwerkstatt](Sinnwerkstatt_needs_de.md), Berlin. [Website](https://www.sinnwerkstatt.com/)
 
-## Gefragt
-Liste der Unternehmen, die Interesse geäußert haben und gefragt wurden:
+## Eingeladen
+
+Liste der Unternehmen, die Interesse geäußert haben und eingeladen wurden [mitzugestalten](ECG_Online_Balancing_Roadmap_de.md#mitgestalten):
 
 * Fairnopoly, Berlin. [Website](https://www.fairnopoly.de/)
 * Premium-Cola, [Europa](http://www.premium-cola.de/kontakte/landkarte). [Website](http://www.premium-cola.de/)
