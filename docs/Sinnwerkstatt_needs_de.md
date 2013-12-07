@@ -17,7 +17,7 @@ Die gewünschte Funktionalitäten in drei Kategorien beschreiben:
 
 * Benutzerlogin und -gruppen mit Schreibrechte.
 * Django/PostgreSQL Backend.
-* Editierung und Bewertung von Indikatoren.
+* Editierung, Bewertung und Speichern von Indikatoren.
 
 ## hilfreiche Funktionalitäten
 
