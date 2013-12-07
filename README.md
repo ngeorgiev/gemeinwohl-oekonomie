@@ -58,6 +58,7 @@ Open Source, modular, user-friendly, multi-language, mobile, beautiful:
 * Productive Communication
     * focus on concrete, result-oriented and inspiring communication.
     * Open communication: preferred communication channel are the [GitHub issues](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/issues) - open for everyone to comment and resolve.
+    * First open and then personal: when sharing information that is good to be visible by everyone, share it first openly and then send links to the people to whom it is relevant.
 
 ## Download
 
