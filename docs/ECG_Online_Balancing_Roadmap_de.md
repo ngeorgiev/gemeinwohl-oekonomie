@@ -54,6 +54,6 @@ Liste der Unternehmen, die mitgestalten werden, und deren Bedürfnisse:
 
 Liste der Unternehmen, die Interesse geäußert haben und eingeladen wurden [mitzugestalten](ECG_Online_Balancing_Roadmap_de.md#mitgestalten):
 
-* Fairnopoly, Berlin. [Website](https://www.fairnopoly.de/)
-* Premium-Cola, [Europa](http://www.premium-cola.de/kontakte/landkarte). [Website](http://www.premium-cola.de/)
-* Jan-Peter, Berlin.
+* Fairnopoly, Berlin. [Webesite](https://www.fairnopoly.de/)
+* Premium-Cola, [Europa](http://www.premium-cola.de/kontakte/landkarte). [Webseite](http://www.premium-cola.de/)
+* Homann Colormanagement, Berlin. [Webseite](http://www.colormanagement.de/)
