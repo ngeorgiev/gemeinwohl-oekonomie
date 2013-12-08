@@ -31,6 +31,7 @@ Wenn die WebApp professionell entwickelt werden soll, braucht man Finanzierung. 
 * Förderprojekte? In Zusammenarbeit mit GWÖ-Berlin und andere?
 * Weitere Ideen?
 
+
 # Mitgestalten
 
 Unternehmen, die die Web Applikation für Online Bilanzierung nutzen würden, können deren Entwicklung mitgestalten.
@@ -49,6 +50,7 @@ Unternehmen, die die Web Applikation für Online Bilanzierung nutzen würden, k�
 Liste der Unternehmen, die mitgestalten werden, und deren Bedürfnisse:
 
 * [Sinnwerkstatt](Sinnwerkstatt_needs_de.md), Berlin. [Webseite](https://www.sinnwerkstatt.com/)
+* Homann Colormanagement, Berlin. [Webseite](http://www.colormanagement.de/)
 
 ## Eingeladene Unternehmen
 
@@ -56,4 +58,4 @@ Liste der Unternehmen, die Interesse geäußert haben und eingeladen wurden [mit
 
 * Fairnopoly, Berlin. [Webesite](https://www.fairnopoly.de/)
 * Premium-Cola, [Europa](http://www.premium-cola.de/kontakte/landkarte). [Webseite](http://www.premium-cola.de/)
-* Homann Colormanagement, Berlin. [Webseite](http://www.colormanagement.de/)
+
