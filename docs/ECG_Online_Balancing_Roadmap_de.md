@@ -48,7 +48,7 @@ Unternehmen, die die Web Applikation für Online Bilanzierung nutzen würden, k�
 
 Liste der Unternehmen, die mitgestalten werden, und deren Bedürfnisse:
 
-* [Sinnwerkstatt](Sinnwerkstatt_needs_de.md), Berlin. [Website](https://www.sinnwerkstatt.com/)
+* [Sinnwerkstatt](Sinnwerkstatt_needs_de.md), Berlin. [Webseite](https://www.sinnwerkstatt.com/)
 
 ## Eingeladene Unternehmen
 
