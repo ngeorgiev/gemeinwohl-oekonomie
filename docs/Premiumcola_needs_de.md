@@ -57,8 +57,10 @@ Wir können folgendermaßen die Entwicklung der WebApp unterstützen:
 
 ## Feedback
 
-* Wir würden gerne Verbesserungsvorschläge und -wünsche geben: Ja/Nein. Erklärung:
+* Wir würden gerne Verbesserungsvorschläge und -wünsche geben: Ja. Testen des Tools.
 
 ## Andere
+
+Koffein, alkohol?
 
 * Wir möchten noch Folgendes mitteilen: GROẞE freude darüber, dass das online kommt. die möglichkeiten!!!
