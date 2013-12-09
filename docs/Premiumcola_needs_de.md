@@ -39,7 +39,7 @@ Wir können folgendermaßen die Entwicklung der WebApp unterstützen:
 
 ## Programmierung
 
-*
+* können wir im Kollektiv fragen.
 
 ## Finanziell
 
