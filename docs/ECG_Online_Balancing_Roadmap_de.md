@@ -58,4 +58,4 @@ Liste der Unternehmen, die mitgestalten werden, und deren Bedürfnisse:
 Liste der Unternehmen, die Interesse geäußert haben und eingeladen wurden [mitzugestalten](ECG_Online_Balancing_Roadmap_de.md#mitgestalten):
 
 * Fairnopoly, Berlin. [Webesite](https://www.fairnopoly.de/)
-
+* Ihr Unternehmen?
