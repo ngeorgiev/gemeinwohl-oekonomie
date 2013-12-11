@@ -49,7 +49,7 @@ Unternehmen, die die Web Applikation für Online Bilanzierung nutzen würden, k�
 
 Liste der Unternehmen, die mitgestalten werden, und deren Bedürfnisse:
 
-* Homann Colormanagement, Berlin. [Webseite](http://www.colormanagement.de/)
+* [Homann Colormanagement](Homann_Colormanagement_needs_de.md), Berlin. [Webseite](http://www.colormanagement.de/)
 * [Premium-Cola](), [Europa](http://www.premium-cola.de/kontakte/landkarte). [Webseite](http://www.premium-cola.de/)
 * [Sinnwerkstatt](Sinnwerkstatt_needs_de.md), Berlin. [Webseite](https://www.sinnwerkstatt.com/)
 
