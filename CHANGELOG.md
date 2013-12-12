@@ -1,5 +1,6 @@
 # Change Log
 
+* 11.12.2013 - added ``the needs of 2 companies`` and improved documentation.
 * 06.12.2013 - updated README.md with Development Principles, [Roadmap for the Online Balancing](ECG_Online_Balancing_Roadmap_de.md) and [invited 3 companies to participate](docs/ECG_Online_Balancing_Roadmap_de.md#mitgestalten).
 * 05.12.2013 - the applications were well received by few companies and Christian Felber at a meeting in Berlin.
 * 22.11.2013 - Improved CKeditor and Grunt configuration.
