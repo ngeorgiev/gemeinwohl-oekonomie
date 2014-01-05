@@ -192,10 +192,14 @@ var Controller = {
                 document.getElementById('matrix-'+indicator.shortcodeSlug+'-moreinfo-content').innerHTML =
                     indicator.moreinfo.content;
             }
-            document.getElementById('matrix-'+indicator.shortcodeSlug+'-indicator-table').innerHTML =
-                Controller.getMeasurementTableHTMLString(indicator);
-            document.getElementById('matrix-'+indicator.shortcodeSlug+'-indicator-table-legend').innerHTML =
-                Controller.getTableLegendString(indicator.table);
+            var indicatorTableEl = document.getElementById('matrix-'+indicator.shortcodeSlug+'-indicator-table');
+            if (indicatorTableEl) {
+                indicatorTableEl.innerHTML = Controller.getMeasurementTableHTMLString(indicator);
+            }
+            var indicatorTableLegendEl = document.getElementById('matrix-'+indicator.shortcodeSlug+'-indicator-table-legend');
+            if (indicatorTableLegendEl) {
+                indicatorTableLegendEl.innerHTML =Controller.getTableLegendString(indicator.table);
+            }
             // TODO: add the rest.
         }
 
