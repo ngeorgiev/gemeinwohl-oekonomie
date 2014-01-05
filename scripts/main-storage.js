@@ -3198,17 +3198,17 @@ var Controller = {
         var numOfIndicators = indicators.length;
         var indicator;
 
+        // add tab names
+        $('.matrix-goals-tab-title').html(structure.goals);
+        $('.matrix-impulsQuestions-tab-title').html(structure.impulsQuestions);
+        $('.matrix-table-tab-title').html(structure.table);
+        $('.matrix-definition-tab-title').html(structure.definition);
+        $('.matrix-implementationHelp-tab-title').html(structure.implementationHelp);
+        $('.matrix-moreinfo-tab-title').html(structure.moreinfo);
+
         for (var indicatorIndex = 0; indicatorIndex < numOfIndicators; indicatorIndex++) {
             // the current indicator data
             indicator = indicators[indicatorIndex];
-
-            // add tab names
-            $('.matrix-goals-tab-title').html(structure.goals);
-            $('.matrix-impulsQuestions-tab-title').html(structure.impulsQuestions);
-            $('.matrix-table-tab-title').html(structure.table);
-            $('.matrix-definition-tab-title').html(structure.definition);
-            $('.matrix-implementationHelp-tab-title').html(structure.implementationHelp);
-            $('.matrix-moreinfo-tab-title').html(structure.moreinfo);
 
             // add tab contents
             if (indicator.goals) {
@@ -3235,13 +3235,14 @@ var Controller = {
                 document.getElementById('matrix-'+indicator.shortcodeSlug+'-moreinfo-content').innerHTML =
                     indicator.moreinfo.content;
             }
-            var indicatorTableEl = document.getElementById('matrix-'+indicator.shortcodeSlug+'-indicator-table');
+            var indicatorTableEl = $('#matrix-'+indicator.shortcodeSlug+'-indicator-table');
             if (indicatorTableEl) {
-                indicatorTableEl.innerHTML = Controller.getMeasurementTableHTMLString(indicator);
+                // use jQuery, as innerHTML throws an exception in IE7, IE8
+                indicatorTableEl.html(Controller.getMeasurementTableHTMLString(indicator));
             }
             var indicatorTableLegendEl = document.getElementById('matrix-'+indicator.shortcodeSlug+'-indicator-table-legend');
             if (indicatorTableLegendEl) {
-                indicatorTableLegendEl.innerHTML =Controller.getTableLegendString(indicator.table);
+                indicatorTableLegendEl.innerHTML = Controller.getTableLegendString(indicator.table);
             }
             // TODO: add the rest.
         }
