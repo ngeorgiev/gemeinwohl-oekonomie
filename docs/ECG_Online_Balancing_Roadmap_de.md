@@ -30,6 +30,7 @@ Wenn die WebApp professionell entwickelt werden soll, braucht man Finanzierung. 
 * [Crowdfunding](Crowdfunding.md)
 * Förderprojekte? In Zusammenarbeit mit GWÖ-Berlin und andere?
 * Weitere Ideen?
+* Im Februar gibt es in Berlin ein Treffen der deutschen GWÖ Energiefelder. Hier könnte das Projekt vorgestellt werden, um neue Unternehmen zu finden, die es ebenfalls unterstützen wollen. Hier wäre es sehr sinnvoll, wenn wir einzelne noch zu entwickelnde Module genauer spezifizieren und Nikolay ein Angebot abgibt, zu welchen Konditionen er bereit ist diese Module als Open Source zu programmieren, falls sich niemand anderes findet, der das übernimmt.
 
 
 # Mitgestalten
@@ -50,7 +51,7 @@ Unternehmen, die die Web Applikation für Online Bilanzierung nutzen würden, k�
 Liste der Unternehmen, die mitgestalten werden, und deren Bedürfnisse:
 
 * [Homann Colormanagement](Homann_Colormanagement_needs_de.md), Berlin. [Webseite](http://www.colormanagement.de/)
-* [Premium-Cola](), [Europa](http://www.premium-cola.de/kontakte/landkarte). [Webseite](http://www.premium-cola.de/)
+* [Premium-Cola](Premiumcola_needs_de.md), [Europa](http://www.premium-cola.de/kontakte/landkarte). [Webseite](http://www.premium-cola.de/)
 * [Sinnwerkstatt](Sinnwerkstatt_needs_de.md), Berlin. [Webseite](https://www.sinnwerkstatt.com/)
 
 ## Eingeladene Unternehmen

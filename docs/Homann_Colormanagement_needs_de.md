@@ -15,7 +15,7 @@ Die gewünschte Funktionalitäten in drei Kategorien beschreiben:
 
 ## notwendige Funktionalitäten
 
-* Berechnung einer Gemeinwohlbilanz: Eingabe von Zahlen in die einzelnen Indikatoren und identische Berechnung wie in Excel / OpenOffice Referenzdatei von www.gemeinwohloekonomie.org
+* Berechnung einer Gemeinwohlbilanz: Eingabe von Zahlen in die einzelnen Indikatoren und identische Berechnung wie in [Excel](http://gemeinwohl-oekonomie.org/sites/default/files/GWB-Rechner_4-1-2c.xlsx) / OpenOffice Referenzdatei von www.gemeinwohloekonomie.org
 * Erstellung eines Gemeinwohlberichtes gemäß des [Word](http://www.gemeinwohl-oekonomie.org/sites/default/files/Vorlage-GWOe-Bericht-Matrix4.1.doc) / [Openoffice Templates](http://www.gemeinwohl-oekonomie.org/sites/default/files/Vorlage-GWOe-Bericht-Matrix4.1.odt) von http://gemeinwohl-oekonomie.org/de/content/downloads
 
 
