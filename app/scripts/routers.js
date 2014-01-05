@@ -28,7 +28,7 @@ var Router = {
      */
     init: function () {
 
-        var urlHash = window.location.hash;
+        var urlHash = Router.getUrlHash();
         console.log('urlHash = ' + urlHash);
 
         var pageWasShown = Router.onHashChange();
@@ -72,10 +72,7 @@ var Router = {
      * @returns {boolean}
      */
     onHashChange: function () {
-        var urlHash = window.location.hash;
-        if (urlHash === Router.hashSymbol && urlHash.length === 1) {
-            urlHash = ''; // IE fix: remove the # symbol
-        }
+        var urlHash = Router.getUrlHash();
         var pageWasShown = false;
 
         if(!urlHash && urlHash !== Router.lastUrlHash) {
@@ -90,6 +87,15 @@ var Router = {
         }
         Router.lastUrlHash = urlHash;
         return pageWasShown;
+    },
+
+    getUrlHash: function () {
+        var urlHash = window.location.hash;
+
+        if (urlHash === Router.hashSymbol && urlHash.length === 1) {
+            urlHash = ''; // IE fix: remove the # symbol
+        }
+        return urlHash;
     },
 
     showPage: function (indicatorId, indicatorDetailId) {
@@ -112,12 +118,9 @@ var Router = {
     },
 
     showMainPage : function () {
-        console.log('showMainPage ...');
         if (Router.visibleElementId) {
-            console.log('Router.visibleElementId');
             $('#' + Router.visibleElementId).fadeOut(Router.fadeOutSpeed, Router.fadeInMainPage);
         } else {
-            console.log('fadeInMainPage');
             Router.fadeInMainPage();
         }
         window.location.hash = '';

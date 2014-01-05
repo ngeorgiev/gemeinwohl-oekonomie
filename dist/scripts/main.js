@@ -2892,7 +2892,7 @@ var Router = {
      */
     init: function () {
 
-        var urlHash = window.location.hash;
+        var urlHash = Router.getUrlHash();
         console.log('urlHash = ' + urlHash);
 
         var pageWasShown = Router.onHashChange();
@@ -2936,10 +2936,7 @@ var Router = {
      * @returns {boolean}
      */
     onHashChange: function () {
-        var urlHash = window.location.hash;
-        if (urlHash === Router.hashSymbol && urlHash.length === 1) {
-            urlHash = ''; // IE fix: remove the # symbol
-        }
+        var urlHash = Router.getUrlHash();
         var pageWasShown = false;
 
         if(!urlHash && urlHash !== Router.lastUrlHash) {
@@ -2954,6 +2951,15 @@ var Router = {
         }
         Router.lastUrlHash = urlHash;
         return pageWasShown;
+    },
+
+    getUrlHash: function () {
+        var urlHash = window.location.hash;
+
+        if (urlHash === Router.hashSymbol && urlHash.length === 1) {
+            urlHash = ''; // IE fix: remove the # symbol
+        }
+        return urlHash;
     },
 
     showPage: function (indicatorId, indicatorDetailId) {
@@ -2976,12 +2982,9 @@ var Router = {
     },
 
     showMainPage : function () {
-        console.log('showMainPage ...');
         if (Router.visibleElementId) {
-            console.log('Router.visibleElementId');
             $('#' + Router.visibleElementId).fadeOut(Router.fadeOutSpeed, Router.fadeInMainPage);
         } else {
-            console.log('fadeInMainPage');
             Router.fadeInMainPage();
         }
         window.location.hash = '';
@@ -3191,40 +3194,34 @@ var Controller = {
         for (var indicatorIndex = 0; indicatorIndex < numOfIndicators; indicatorIndex++) {
             // the current indicator data
             indicator = indicators[indicatorIndex];
-
+            console.log('indicator.shortcodeSlug = ' + indicator.shortcodeSlug);
             // add tab contents
             if (indicator.goals) {
-                document.getElementById('matrix-'+indicator.shortcodeSlug+'-goals-content').innerHTML =
-                    indicator.goals.content;
+                $('#matrix-'+indicator.shortcodeSlug+'-goals-content').html(indicator.goals.content);
             }
             if (indicator.impulsQuestions) {
-                document.getElementById('matrix-'+indicator.shortcodeSlug+'-impulsQuestions-content').innerHTML =
-                    indicator.impulsQuestions.content;
+                $('#matrix-'+indicator.shortcodeSlug+'-impulsQuestions-content').html(indicator.impulsQuestions.content);
             }
             if (indicator.details) {
-                document.getElementById('matrix-'+indicator.shortcodeSlug+'-details-content').innerHTML =
-                    indicator.details.content;
+                $('#matrix-'+indicator.shortcodeSlug+'-details-content').html(indicator.details.content);
             }
             if (indicator.definition && indicator.definition.content) {
-                document.getElementById('matrix-'+indicator.shortcodeSlug+'-definition-content').innerHTML =
-                    indicator.definition.content;
+                $('#matrix-'+indicator.shortcodeSlug+'-definition-content').html(indicator.definition.content);
             }
             if (indicator.implementationHelp && indicator.implementationHelp.content) {
-                document.getElementById('matrix-'+indicator.shortcodeSlug+'-implementationHelp-content').innerHTML =
-                    indicator.implementationHelp.content;
+                $('#matrix-'+indicator.shortcodeSlug+'-implementationHelp-content').html(indicator.implementationHelp.content);
             }
             if (indicator.moreinfo) {
-                document.getElementById('matrix-'+indicator.shortcodeSlug+'-moreinfo-content').innerHTML =
-                    indicator.moreinfo.content;
+                $('#matrix-'+indicator.shortcodeSlug+'-moreinfo-content').html(indicator.moreinfo.content);
             }
             var indicatorTableEl = $('#matrix-'+indicator.shortcodeSlug+'-indicator-table');
             if (indicatorTableEl) {
                 // use jQuery, as innerHTML throws an exception in IE7, IE8
                 indicatorTableEl.html(Controller.getMeasurementTableHTMLString(indicator));
             }
-            var indicatorTableLegendEl = document.getElementById('matrix-'+indicator.shortcodeSlug+'-indicator-table-legend');
+            var indicatorTableLegendEl = $('#matrix-'+indicator.shortcodeSlug+'-indicator-table-legend');
             if (indicatorTableLegendEl) {
-                indicatorTableLegendEl.innerHTML = Controller.getTableLegendString(indicator.table);
+                indicatorTableLegendEl.html(Controller.getTableLegendString(indicator.table));
             }
             // TODO: add the rest.
         }
@@ -3279,49 +3276,53 @@ var Controller = {
         }
 
         var numOfSubindicators = indicatorTableData.subindicators.length;
-        for (var indicatorIndex = 0; indicatorIndex < numOfSubindicators; indicatorIndex++) {
-            var subindicator = indicatorTableData.subindicators[indicatorIndex];
+        for (var subindicatorIndex = 0; subindicatorIndex < numOfSubindicators; subindicatorIndex++) {
+            var subindicator = indicatorTableData.subindicators[subindicatorIndex];
             var subindicatorAdded = false;
 
-            var numOfDevTracks = subindicator.developmentTracks.length;
-            for (var devTrackIndex = 0; devTrackIndex < numOfDevTracks; devTrackIndex++) {
-                var devTrack = subindicator.developmentTracks[devTrackIndex];
-                var numOfDevDetails = devTrack.developmentDetails.length;
+            if (subindicator) {
+                console.log('subindicatorIndex = ' + subindicatorIndex);
+                console.log('subindicator.developmentTracks = ' + subindicator.developmentTracks);
+                var numOfDevTracks = subindicator.developmentTracks.length;
+                for (var devTrackIndex = 0; devTrackIndex < numOfDevTracks; devTrackIndex++) {
+                    var devTrack = subindicator.developmentTracks[devTrackIndex];
+                    var numOfDevDetails = devTrack.developmentDetails.length;
 
-                // one row for every dev track
-                hmlString += '<tr>';
+                    // one row for every dev track
+                    hmlString += '<tr>';
 
-                if (!subindicatorAdded) {
-                    // add subindicator info
-                    // if more than one dev track and this is the first one
-                    if (numOfDevTracks > 1) {
-                        hmlString += '<td rowspan="2" class="dtable-cell indicator-cell dheader-style dheader-style-border-l" >';
-                    } else {
-                        hmlString += '<td class="dtable-cell indicator-cell dheader-style dheader-style-border-l">';
-                    }
-                    hmlString += subindicator.title + '<br/><br/>';
-                    hmlString += '('+Data.indicators.structure.relevance+': '+
-                        Data.indicators.structure.relevances[subindicator.relevance]+')';
-                    hmlString += '</td>';
-                }
-
-                // add development tracks
-                for (var devDetailsIndex = 0; devDetailsIndex < numOfDevDetails; devDetailsIndex++) {
-                    var devDetail = devTrack.developmentDetails[devDetailsIndex];
-
-                    // if more than one dev track and this is the first one
-                    if (devDetail.levels.length > 1) {
-                        hmlString += '<td colspan="'+devDetail.levels.length+'"  class="dtable-cell indicator-cell" >';
-                    } else {
-                        hmlString += '<td class="dtable-cell indicator-cell">';
+                    if (!subindicatorAdded) {
+                        // add subindicator info
+                        // if more than one dev track and this is the first one
+                        if (numOfDevTracks > 1) {
+                            hmlString += '<td rowspan="2" class="dtable-cell indicator-cell dheader-style dheader-style-border-l" >';
+                        } else {
+                            hmlString += '<td class="dtable-cell indicator-cell dheader-style dheader-style-border-l">';
+                        }
+                        hmlString += subindicator.title + '<br/><br/>';
+                        hmlString += '('+Data.indicators.structure.relevance+': '+
+                            Data.indicators.structure.relevances[subindicator.relevance]+')';
+                        hmlString += '</td>';
                     }
 
-                    hmlString += devDetail.description;
-                    hmlString += '</td>';
-                }
+                    // add development tracks
+                    for (var devDetailsIndex = 0; devDetailsIndex < numOfDevDetails; devDetailsIndex++) {
+                        var devDetail = devTrack.developmentDetails[devDetailsIndex];
 
-                subindicatorAdded = true;
-                hmlString += '</tr>';
+                        // if more than one dev track and this is the first one
+                        if (devDetail.levels.length > 1) {
+                            hmlString += '<td colspan="'+devDetail.levels.length+'"  class="dtable-cell indicator-cell" >';
+                        } else {
+                            hmlString += '<td class="dtable-cell indicator-cell">';
+                        }
+
+                        hmlString += devDetail.description;
+                        hmlString += '</td>';
+                    }
+
+                    subindicatorAdded = true;
+                    hmlString += '</tr>';
+                }
             }
         }
 
