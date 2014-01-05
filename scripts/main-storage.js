@@ -2922,11 +2922,13 @@ var Router = {
     init: function () {
 
         var urlHash = window.location.hash;
+        console.log('urlHash = ' + urlHash);
 
         var pageWasShown = Router.onHashChange();
 
         if(!pageWasShown && urlHash && urlHash.length > 1) {
             var hash = urlHash.substr(1);
+            console.log('hash = ' + hash);
 
             if (hash.startsWith(Router.hashMatrixMinus)) {
                 // hack: assumes the format "matrix-<pageid>"
@@ -2940,11 +2942,14 @@ var Router = {
                     Router.showMatrix();
                 }
             } else if (hash.startsWith(Router.hashMatrix)) {
+                console.log('showMatrix');
                 Router.showMatrix();
             } else if (hash.startsWith(Router.hashMatrix)) {
                 Router.showQuickTest();
+                console.log('showQuickTest');
             } else {
                 Router.showMainPage();
+                console.log('showMainPage');
             }
         }
 
@@ -2961,6 +2966,9 @@ var Router = {
      */
     onHashChange: function () {
         var urlHash = window.location.hash;
+        if (urlHash === Router.hashSymbol && urlHash.length === 1) {
+            urlHash = ''; // IE fix: remove the # symbol
+        }
         var pageWasShown = false;
 
         if(!urlHash && urlHash !== Router.lastUrlHash) {
@@ -2997,9 +3005,12 @@ var Router = {
     },
 
     showMainPage : function () {
+        console.log('showMainPage ...');
         if (Router.visibleElementId) {
+            console.log('Router.visibleElementId');
             $('#' + Router.visibleElementId).fadeOut(Router.fadeOutSpeed, Router.fadeInMainPage);
         } else {
+            console.log('fadeInMainPage');
             Router.fadeInMainPage();
         }
         window.location.hash = '';
