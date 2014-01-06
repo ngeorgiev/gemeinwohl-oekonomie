@@ -2872,7 +2872,7 @@ Template.footerTemplate = '<div id="footer-contents">    Open Source @ <a href="
 
 Template.gwoeMatrixTemplate = '<div id="gwoe-matrix" class="bubble display-none">    <div class="bootstrap-table whitebg unselectable">        <div class="row row-border dheader-style js-equal-height">            <div class="row-cell col-lg-2 col-md-2 col-sm-2 col-xs-2">                <span class="gwoe-green">{valueName}</span> / <span class="gwoe-blue">{stakeholdersName|s}</span>            </div>            <div class="row-cell gwoe-green col-lg-2 col-md-2 col-sm-2 col-xs-2">{values[0]|s}</div>            <div class="row-cell gwoe-green col-lg-2 col-md-2 col-sm-2 col-xs-2">{values[1]|s}</div>            <div class="row-cell gwoe-green col-lg-2 col-md-2 col-sm-2 col-xs-2">{values[2]|s}</div>            <div class="row-cell gwoe-green col-lg-2 col-md-2 col-sm-2 col-xs-2">{values[3]|s}</div>            <div class="row-cell last-cell gwoe-green col-lg-2 col-md-2 col-sm-2 col-xs-2">{values[4]|s}</div>        </div>        <div class="row row-border js-equal-height clear-both">            <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">                {stakeholders[0].shortcode}) {stakeholders[0].name|s}            </div>            <div class="row-cell indicator-cell last-cell ind-trigger col-lg-10 col-md-10 col-sm-10 col-xs-10"                 data-modal="matrix-{stakeholders[0].values[0].shortcodeSlug}">                <div class="indicator-title">                    {stakeholders[0].values[0].shortcode}) {stakeholders[0].values[0].title|s}                </div>                <div class="indicator-description">                    {stakeholders[0].values[0].content|s}                </div>                <div class="indicator-points">                    {stakeholders[0].values[0].points}                </div>            </div>        </div>        <div class="row row-border js-equal-height">            <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">                {stakeholders[1].shortcode}) {stakeholders[1].name|s}            </div>            <div class="row-cell indicator-cell last-cell ind-trigger col-lg-10 col-md-10 col-sm-10 col-xs-10"                 data-modal="matrix-{stakeholders[1].values[0].shortcodeSlug}">                <div class="indicator-title">                    {stakeholders[1].values[0].shortcode}) {stakeholders[1].values[0].title|s}                </div>                <div class="indicator-description">                    {stakeholders[1].values[0].content|s}                </div>                <div class="indicator-points">                    {stakeholders[1].values[0].points}                </div>            </div>        </div>        <div class="row row-border js-equal-height">            <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">                {stakeholders[2].shortcode}) {stakeholders[2].name|s}            </div>            {#stakeholders[2].values}            <div class="row-cell indicator-cell {@if cond="            {$idx} == 4"}last-cell {/if}ind-trigger col-lg-2 col-md-2 col-sm-2 col-xs-2"            data-modal="matrix-{shortcodeSlug}">                <div class="indicator-title">                    {shortcode}) {title|s}                </div>                <div class="indicator-description">                    {content|s}                </div>                <div class="indicator-points">                    {points}                </div>            </div>            {/stakeholders[2].values}        </div>        <div class="row row-border js-equal-height">            <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">                {stakeholders[3].shortcode}) {stakeholders[3].name|s}            </div>            {#stakeholders[3].values}            <div class="row-cell indicator-cell {@if cond="            {$idx} == 4"}last-cell {/if}ind-trigger col-lg-2 col-md-2 col-sm-2 col-xs-2"            data-modal="matrix-{shortcodeSlug}">                <div class="indicator-title">                    {shortcode}) {title|s}                </div>                <div class="indicator-description">                    {content|s}                </div>                <div class="indicator-points">                    {points}                </div>            </div>            {/stakeholders[3].values}        </div>        <div class="row row-border js-equal-height">            <div class="row-cell dheader-style gwoe-blue-b col-lg-2 col-md-2 col-sm-2 col-xs-2">                {stakeholders[4].shortcode}) {stakeholders[4].name|s}                <div class="matrix-group-explanation">                    {stakeholders[4].explanation|s}                </div>            </div>            {#stakeholders[4].values}            <div class="row-cell indicator-cell {@if cond="            {$idx} == 4"}last-cell {/if}ind-trigger col-lg-2 col-md-2 col-sm-2 col-xs-2"            data-modal="matrix-{shortcodeSlug}">                <div class="indicator-title">                    {shortcode}) {title|s}                </div>                <div class="indicator-description">                    {content|s}                </div>                <div class="indicator-points">                    {points}                </div>            </div>            {/stakeholders[4].values}        </div>        <div class="row row-border js-equal-height">            <div class="row-cell dheader-style negative-color-b col-lg-2 col-md-2 col-sm-2 col-xs-2">                {negativeCriteriaName|s}            </div>            {#negativeCriteria}            <div class="row-cell indicator-cell {@if cond="            {$idx} == 4"}last-cell {/if}col-lg-2 col-md-2 col-sm-2 col-xs-2">                {#values}                <div class="negative-container ind-trigger" data-modal="matrix-{shortcodeSlug}">                    <div class="negative-points">                        {points}                    </div>                    <div class="negative-content">                        {titleShort|s}                    </div>                </div>                {/values}            </div>            {/negativeCriteria}        </div>    </div>    <!-- end of matrix table --></div><!-- end of bubble -->';
 
-Template.indicatorTabsTemplate = '<div id="matrix-{shortcodeSlug}" class="display-none">    <div class="container pagehead">        <table>            <tr>                <td class="vmiddle">                    <img class="back-to-matrix pointer"                         src="images/gwoe-matrix-icon-arrow-50h.png" title="Zurück zur GWÖ-Matrix"/>                </td>                <td><span class="indicator-page-title"> <h2>{shortcode}: {name}</h2></span></td>            </tr>        </table>    </div>    <div class="tabs">        <ul class="tablist">            <span id="matrix-{shortcodeSlug}-goals" class="fixedanchor"></span>            <li class="tabcontainer">                <a href="#matrix-{shortcodeSlug}-goals" class="tablink matrix-goals-tab-title"></a>                <div id="matrix-{shortcodeSlug}-goals-content" class="tabcontent">                </div>            </li>            <span id="matrix-{shortcodeSlug}-impulsQuestions" class="fixedanchor"></span>            <li class="tabcontainer">                <a href="#matrix-{shortcodeSlug}-impulsQuestions" class="tablink matrix-impulsQuestions-tab-title"></a>                <div id="matrix-{shortcodeSlug}-impulsQuestions-content" class="tabcontent">                </div>            </li>            <span id="matrix-{shortcodeSlug}-table" class="fixedanchor"></span>            <li class="tabcontainer">                <a href="#matrix-{shortcodeSlug}-table" class="tablink matrix-table-tab-title"></a>                <div id="matrix-{shortcodeSlug}-table-content" class="tabcontent">                    <div id="matrix-{shortcodeSlug}-indicator-table-legend" class="indicator-table-legend"></div>                    <table id="matrix-{shortcodeSlug}-indicator-table" class="dtable">                    </table>                    <div id="matrix-{shortcodeSlug}-details-content"                         class="indicator-table-details"></div>                </div>            </li>            <span id="matrix-{shortcodeSlug}-definition" class="fixedanchor"></span>            <li class="tabcontainer">                <a href="#matrix-{shortcodeSlug}-definition" class="tablink matrix-definition-tab-title"></a>                <div id="matrix-{shortcodeSlug}-definition-content" class="tabcontent">                </div>            </li>            <span id="matrix-{shortcodeSlug}-implementationHelp" class="fixedanchor"></span>            <li class="tabcontainer">                <a href="#matrix-{shortcodeSlug}-implementationHelp"                   class="tablink matrix-implementationHelp-tab-title"></a>                <div id="matrix-{shortcodeSlug}-implementationHelp-content" class="tabcontent">                </div>            </li>            <span id="matrix-{shortcodeSlug}-moreinfo" class="fixedanchor"></span>            <li class="tabcontainer">                <a href="#matrix-{shortcodeSlug}-moreinfo" class="tablink matrix-moreinfo-tab-title"></a>                <div id="matrix-{shortcodeSlug}-moreinfo-content" class="tabcontent">                </div>            </li>        </ul>    </div></div>';
+Template.indicatorTabsTemplate = '<div id="matrix-{shortcodeSlug}" class="display-none">    <div class="container pagehead">        <table>            <tr>                <td class="vmiddle">                    <img class="back-to-matrix pointer"                         src="images/gwoe-matrix-icon-arrow-50h.png" title="Zurück zur GWÖ-Matrix"/>                </td>                <td><span class="indicator-page-title"> <h2>{shortcode}: {name}</h2></span></td>            </tr>        </table>    </div>    <div class="tabs">        <ul class="tablist">            <span id="matrix-{shortcodeSlug}-goals" class="fixedanchor"></span>            <li class="tabcontainer">                <a id="matrix-{shortcodeSlug}-goals-link" class="tablink matrix-goals-tab-title"                   href="#matrix-{shortcodeSlug}-goals"></a>                <div id="matrix-{shortcodeSlug}-goals-content" class="tabcontent">                </div>            </li>            <span id="matrix-{shortcodeSlug}-impulsQuestions" class="fixedanchor"></span>            <li class="tabcontainer">                <a id="matrix-{shortcodeSlug}-impulsQuestions-link" class="tablink matrix-impulsQuestions-tab-title"                    href="#matrix-{shortcodeSlug}-impulsQuestions" ></a>                <div id="matrix-{shortcodeSlug}-impulsQuestions-content" class="tabcontent">                </div>            </li>            <span id="matrix-{shortcodeSlug}-table" class="fixedanchor"></span>            <li class="tabcontainer">                <a id="matrix-{shortcodeSlug}-table-link" class="tablink matrix-table-tab-title"                    href="#matrix-{shortcodeSlug}-table"></a>                <div id="matrix-{shortcodeSlug}-table-content" class="tabcontent">                    <div id="matrix-{shortcodeSlug}-indicator-table-legend" class="indicator-table-legend"></div>                    <table id="matrix-{shortcodeSlug}-indicator-table" class="dtable">                    </table>                    <div id="matrix-{shortcodeSlug}-details-content"                         class="indicator-table-details"></div>                </div>            </li>            <span id="matrix-{shortcodeSlug}-definition" class="fixedanchor"></span>            <li class="tabcontainer">                <a id="matrix-{shortcodeSlug}-definition-link" class="tablink matrix-definition-tab-title"                    href="#matrix-{shortcodeSlug}-definition"></a>                <div id="matrix-{shortcodeSlug}-definition-content" class="tabcontent">                </div>            </li>            <span id="matrix-{shortcodeSlug}-implementationHelp" class="fixedanchor"></span>            <li class="tabcontainer">                <a id="matrix-{shortcodeSlug}-implementationHelp-link" class="tablink matrix-implementationHelp-tab-title"                   href="#matrix-{shortcodeSlug}-implementationHelp"></a>                <div id="matrix-{shortcodeSlug}-implementationHelp-content" class="tabcontent">                </div>            </li>            <span id="matrix-{shortcodeSlug}-moreinfo" class="fixedanchor"></span>            <li class="tabcontainer">                <a id="matrix-{shortcodeSlug}-moreinfo-link" class="tablink matrix-moreinfo-tab-title"                    href="#matrix-{shortcodeSlug}-moreinfo"></a>                <div id="matrix-{shortcodeSlug}-moreinfo-content" class="tabcontent">                </div>            </li>        </ul>    </div></div>';
 
 Template.mainPageTemplate = '<div id="main-page" class="display-none">    <div class="main-page-introtext img-center center">        Ein alternatives Wirtschaftssystem, das auf Gemeinwohl-fördernden Werten aufgebaut ist.        <br/><br/>        Ein Veränderungshebel auf wirtschaftlicher, politischer und gesellschaftlicher Ebene – eine Brücke von Altem zu Neuem.        <br/><br/>        Besuchen Sie die <a href="http://gemeinwohl-oekonomie.org">offizielle Webseite der Gemeinwohl-Ökonomie</a>.    </div>    <div class="main-page-container-link col-lg-12 col-md-12 col-sm-12 col-xs-12">        <a href="#matrix" class="img-link">            <img class="img-center img-responsive main-page-matrix-img" src="images/gwoe-matrix-icon.png" />            <div class="main-page-container-link-title center">                Interaktive<br/>Gemeinwohl-Matrix            </div>            <div class="main-page-container-link-description center">                Erfahren Sie mehr über Gemeinwohl-Bilanzen.            </div>        </a>    </div></div>';
 
@@ -2915,6 +2915,8 @@ var Router = {
     visibleElementId : '',
 
     lastUrlHash : '---',
+    lastIndicatorId : '',
+    lastIndicatorDetailId : '',
 
     /**
      * Initializes the URL Routing
@@ -2957,7 +2959,7 @@ var Router = {
     },
 
     getCurrentPageUrl : function() {
-        return window.location.hash;
+        return Router.getUrlHash();
     },
 
     /**
@@ -2993,6 +2995,7 @@ var Router = {
 
     showPage: function (indicatorId, indicatorDetailId) {
 
+        console.log('showPage: ('+indicatorId+', '+indicatorDetailId+')');
         // init params
         if (indicatorId.startsWith(Router.hashMatrixMinus)) { // if matrix URL
             if (indicatorId.startsWith('n')) { // negative criteria URL
@@ -3002,12 +3005,43 @@ var Router = {
                     indicatorDetailId : Router.defaultSubIndicatorId;
             }
         }
+        console.log('indicatorDetailId = '+indicatorDetailId);
         Router.visibleElementId = indicatorId;
 
         $('#gwoe-matrix').fadeOut(Router.fadeOutSpeed, function () {
             $(Router.hashSymbol + indicatorId).fadeIn(Router.fadeInSpeed);
         });
+
+        if ($('html').hasClass('lt-ie9')) {
+
+            var tabContentCssClass = 'js-tabcontainer';
+            if (Router.lastIndicatorId.length > 0) {
+                var lastTabContentId = 'matrix-'+Router.lastIndicatorId+Router.lastIndicatorDetailId+'-content';
+                var lastTabContent = document.getElementById(lastTabContentId);
+                var lastCurrentClass = lastTabContent.className;
+                lastTabContent.className = lastCurrentClass.substring(0, lastCurrentClass.length - tabContentCssClass.length-1);
+            }
+            var tabContentId = 'matrix-'+indicatorId+indicatorDetailId+'-content';
+            var tabContent = document.getElementById(tabContentId);
+            console.log('document.getElementById(\''+tabContentId+'\')');
+            var newCssClass = tabContent.getAttribute('class') + ' ' + tabContentCssClass;
+            console.log('newCssClass = ' + newCssClass);
+            console.log('newCssClass = ' + newCssClass);
+            tabContent.setAttribute('class', newCssClass);
+
+
+            /*
+            var tabLinkId = '#matrix-'+indicatorId+indicatorDetailId+'-link';
+            var tabLink = $(tabLinkId);
+            tabLink.addClass('js-tablink');
+            console.log('$(\''+tabLinkId+'\').addClass(\'js-tablink\')');
+            */
+        }
+
         window.location.hash = Router.hashSymbol + indicatorId + indicatorDetailId;
+
+        Router.lastIndicatorId = indicatorId;
+        Router.lastIndicatorDetailId = indicatorDetailId;
     },
 
     showMainPage : function () {
@@ -3223,7 +3257,6 @@ var Controller = {
         for (var indicatorIndex = 0; indicatorIndex < numOfIndicators; indicatorIndex++) {
             // the current indicator data
             indicator = indicators[indicatorIndex];
-            console.log('indicator.shortcodeSlug = ' + indicator.shortcodeSlug);
             // add tab contents
             if (indicator.goals) {
                 $('#matrix-'+indicator.shortcodeSlug+'-goals-content').html(indicator.goals.content);
@@ -3310,8 +3343,6 @@ var Controller = {
             var subindicatorAdded = false;
 
             if (subindicator) {
-                console.log('subindicatorIndex = ' + subindicatorIndex);
-                console.log('subindicator.developmentTracks = ' + subindicator.developmentTracks);
                 var numOfDevTracks = subindicator.developmentTracks.length;
                 for (var devTrackIndex = 0; devTrackIndex < numOfDevTracks; devTrackIndex++) {
                     var devTrack = subindicator.developmentTracks[devTrackIndex];
@@ -3409,7 +3440,6 @@ var Controller = {
             footerHtml += out;
         });
         document.getElementById('footer-container').innerHTML = footerHtml;
-        console.log('createFooterHtml');
     }
 };
 
