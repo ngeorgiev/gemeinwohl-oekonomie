@@ -69,6 +69,9 @@ Open Source, modular, user-friendly, multi-language, mobile, beautiful:
 ## Progress
 See the [CHANGELOG](CHANGELOG.md).
 
+## Browser Support
+Tested on Firefox, Chrome, IE8+.
+
 ## License
 
 * Source code is under the MIT License.
