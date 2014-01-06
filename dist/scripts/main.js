@@ -2918,13 +2918,10 @@ var Router = {
     init: function () {
 
         var urlHash = Router.getUrlHash();
-        console.log('urlHash = ' + urlHash);
-
         var pageWasShown = Router.onHashChange();
 
         if(!pageWasShown && urlHash && urlHash.length > 1) {
             var hash = urlHash.substr(1);
-            console.log('hash = ' + hash);
 
             if (hash.startsWith(Router.hashMatrixMinus)) {
                 // hack: assumes the format "matrix-<pageid>"
@@ -2938,14 +2935,11 @@ var Router = {
                     Router.showMatrix();
                 }
             } else if (hash.startsWith(Router.hashMatrix)) {
-                console.log('showMatrix');
                 Router.showMatrix();
             } else if (hash.startsWith(Router.hashMatrix)) {
                 Router.showQuickTest();
-                console.log('showQuickTest');
             } else {
                 Router.showMainPage();
-                console.log('showMainPage');
             }
         }
 
@@ -2998,7 +2992,6 @@ var Router = {
 
     showPage: function (indicatorId, indicatorDetailId) {
 
-        console.log('showPage: ('+indicatorId+', '+indicatorDetailId+')');
         // init params
         if (indicatorId.startsWith(Router.hashMatrixMinus)) { // if matrix URL
             if (indicatorId.startsWith('n')) { // negative criteria URL
@@ -3008,7 +3001,6 @@ var Router = {
                     indicatorDetailId : Router.defaultSubIndicatorId;
             }
         }
-        console.log('indicatorDetailId = '+indicatorDetailId);
         Router.visibleElementId = indicatorId;
 
         $('#gwoe-matrix').fadeOut(Router.fadeOutSpeed, function () {
@@ -3030,7 +3022,6 @@ var Router = {
                 lastTabContent.setAttribute('style', 'visibility: hidden !important');
 
                 var lastTabLinkId = Router.lastIndicatorId+Router.lastIndicatorDetailId+'-link';
-                console.log('lastTabLinkId = ' + lastTabLinkId);
                 var lastTabLink = document.getElementById(lastTabLinkId);
                 // var tabLink = $(tabLinkId);
                 // tabLink.toggleClass('js-tablink'); // added, but not painted in IE8
@@ -3038,7 +3029,6 @@ var Router = {
             }
             var tabContentId = indicatorId+indicatorDetailId+'-content';
             var tabContent = document.getElementById(tabContentId);
-            console.log('document.getElementById(\''+tabContentId+'\')');
             var newCssClass = 'tabcontent ' + tabContentCssClass;
             //tabContent.setAttribute('class', newCssClass);
             tabContent.setAttribute('style', 'visibility: visible !important');
