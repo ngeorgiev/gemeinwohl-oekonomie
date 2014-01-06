@@ -1,5 +1,6 @@
 # Change Log
 
+* 06.01.2013 - added IE8, IE9 and IE10 support.
 * 11.12.2013 - added the needs of Homann Colormanagement and improved documentation.
 * 09.12.2013 - added the needs of PREMIUM.
 * 06.12.2013 - updated README.md with Development Principles, [Roadmap for the Online Balancing](ECG_Online_Balancing_Roadmap_de.md) and [invited 3 companies to participate](docs/ECG_Online_Balancing_Roadmap_de.md#mitgestalten).
