@@ -25,7 +25,8 @@ $tabs-border-color: $grey-border;
 .tabcontainer .tablink {
 }
 
-.fixedanchor:target + .tabcontainer .tablink {
+.fixedanchor:target + .tabcontainer .tablink,
+.js-tablink {
   border-radius: 3px 3px 0 0;
 
   color: #000000;
@@ -39,11 +40,12 @@ $tabs-border-color: $grey-border;
   border-bottom: none;
 }
 
-.fixedanchor:target + .tabcontainer div {
+.fixedanchor:target + .tabcontainer div,
+.js-tabcontainer {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=100);
-  opacity: 1;
-  visibility: visible;
+  filter: alpha(opacity=100) !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
 .tablink {

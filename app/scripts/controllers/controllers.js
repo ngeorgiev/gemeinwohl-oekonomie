@@ -166,7 +166,6 @@ var Controller = {
         for (var indicatorIndex = 0; indicatorIndex < numOfIndicators; indicatorIndex++) {
             // the current indicator data
             indicator = indicators[indicatorIndex];
-            console.log('indicator.shortcodeSlug = ' + indicator.shortcodeSlug);
             // add tab contents
             if (indicator.goals) {
                 $('#matrix-'+indicator.shortcodeSlug+'-goals-content').html(indicator.goals.content);
@@ -253,8 +252,6 @@ var Controller = {
             var subindicatorAdded = false;
 
             if (subindicator) {
-                console.log('subindicatorIndex = ' + subindicatorIndex);
-                console.log('subindicator.developmentTracks = ' + subindicator.developmentTracks);
                 var numOfDevTracks = subindicator.developmentTracks.length;
                 for (var devTrackIndex = 0; devTrackIndex < numOfDevTracks; devTrackIndex++) {
                     var devTrack = subindicator.developmentTracks[devTrackIndex];
@@ -352,6 +349,5 @@ var Controller = {
             footerHtml += out;
         });
         document.getElementById('footer-container').innerHTML = footerHtml;
-        console.log('createFooterHtml');
     }
 };

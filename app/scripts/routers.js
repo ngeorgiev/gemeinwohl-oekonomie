@@ -22,6 +22,8 @@ var Router = {
     visibleElementId : '',
 
     lastUrlHash : '---',
+    lastIndicatorId : '',
+    lastIndicatorDetailId : '',
 
     /**
      * Initializes the URL Routing
@@ -64,7 +66,7 @@ var Router = {
     },
 
     getCurrentPageUrl : function() {
-        return window.location.hash;
+        return Router.getUrlHash();
     },
 
     /**
@@ -100,6 +102,7 @@ var Router = {
 
     showPage: function (indicatorId, indicatorDetailId) {
 
+        console.log('showPage: ('+indicatorId+', '+indicatorDetailId+')');
         // init params
         if (indicatorId.startsWith(Router.hashMatrixMinus)) { // if matrix URL
             if (indicatorId.startsWith('n')) { // negative criteria URL
@@ -109,12 +112,39 @@ var Router = {
                     indicatorDetailId : Router.defaultSubIndicatorId;
             }
         }
+        console.log('indicatorDetailId = '+indicatorDetailId);
         Router.visibleElementId = indicatorId;
 
         $('#gwoe-matrix').fadeOut(Router.fadeOutSpeed, function () {
             $(Router.hashSymbol + indicatorId).fadeIn(Router.fadeInSpeed);
         });
+
+        if ($('html').hasClass('lt-ie9')) {
+
+            var tabContentCssClass = 'js-tabcontainer';
+            if (Router.lastIndicatorId.length > 0) {
+                var lastTabContentId = 'matrix-'+Router.lastIndicatorId+Router.lastIndicatorDetailId+'-content';
+                var lastTabContent = document.getElementById(lastTabContentId);
+                lastTabContent.setAttribute('class', 'tabcontent');
+            }
+            var tabContentId = 'matrix-'+indicatorId+indicatorDetailId+'-content';
+            var tabContent = document.getElementById(tabContentId);
+            console.log('document.getElementById(\''+tabContentId+'\')');
+            var newCssClass = 'tabcontent ' + tabContentCssClass;
+            tabContent.setAttribute('class', newCssClass);
+
+            /*
+            var tabLinkId = '#matrix-'+indicatorId+indicatorDetailId+'-link';
+            var tabLink = $(tabLinkId);
+            tabLink.addClass('js-tablink');
+            console.log('$(\''+tabLinkId+'\').addClass(\'js-tablink\')');
+            */
+        }
+
         window.location.hash = Router.hashSymbol + indicatorId + indicatorDetailId;
+
+        Router.lastIndicatorId = indicatorId;
+        Router.lastIndicatorDetailId = indicatorDetailId;
     },
 
     showMainPage : function () {
