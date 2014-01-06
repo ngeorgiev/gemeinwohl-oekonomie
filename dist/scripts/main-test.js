@@ -476,6 +476,15 @@ var Router = {
             pageWasShown = true;
         }
         Router.lastUrlHash = urlHash;
+
+        // hack: assumes the format "matrix-<pageid>"
+        if (urlHash.length > 9) {
+            var hash = urlHash.substr(1);
+            var indicatorId = hash.substr(0, 9);
+            var indicatorDetailId = hash.substr(9);
+            Router.fixIECssTabs(indicatorId, indicatorDetailId);
+        }
+
         return pageWasShown;
     },
 
@@ -507,29 +516,40 @@ var Router = {
             $(Router.hashSymbol + indicatorId).fadeIn(Router.fadeInSpeed);
         });
 
+        window.location.hash = Router.hashSymbol + indicatorId + indicatorDetailId;
+    },
+
+    fixIECssTabs : function (indicatorId, indicatorDetailId) {
+
         if ($('html').hasClass('lt-ie9')) {
 
             var tabContentCssClass = 'js-tabcontainer';
             if (Router.lastIndicatorId.length > 0) {
-                var lastTabContentId = 'matrix-'+Router.lastIndicatorId+Router.lastIndicatorDetailId+'-content';
+                var lastTabContentId = Router.lastIndicatorId+Router.lastIndicatorDetailId+'-content';
                 var lastTabContent = document.getElementById(lastTabContentId);
-                lastTabContent.setAttribute('class', 'tabcontent');
+                //lastTabContent.setAttribute('class', 'tabcontent');
+                lastTabContent.setAttribute('style', 'visibility: hidden !important');
+
+                var lastTabLinkId = Router.lastIndicatorId+Router.lastIndicatorDetailId+'-link';
+                console.log('lastTabLinkId = ' + lastTabLinkId);
+                var lastTabLink = document.getElementById(lastTabLinkId);
+                // var tabLink = $(tabLinkId);
+                // tabLink.toggleClass('js-tablink'); // added, but not painted in IE8
+                lastTabLink.setAttribute('style', 'border-bottom: 1px solid #D8D8D8; color: #888888;');
             }
-            var tabContentId = 'matrix-'+indicatorId+indicatorDetailId+'-content';
+            var tabContentId = indicatorId+indicatorDetailId+'-content';
             var tabContent = document.getElementById(tabContentId);
             console.log('document.getElementById(\''+tabContentId+'\')');
             var newCssClass = 'tabcontent ' + tabContentCssClass;
-            tabContent.setAttribute('class', newCssClass);
+            //tabContent.setAttribute('class', newCssClass);
+            tabContent.setAttribute('style', 'visibility: visible !important');
 
-            /*
-            var tabLinkId = '#matrix-'+indicatorId+indicatorDetailId+'-link';
-            var tabLink = $(tabLinkId);
-            tabLink.addClass('js-tablink');
-            console.log('$(\''+tabLinkId+'\').addClass(\'js-tablink\')');
-            */
+            var tabLinkId = indicatorId+indicatorDetailId+'-link';
+            var tabLink = document.getElementById(tabLinkId);
+            // var tabLink = $(tabLinkId);
+            // tabLink.toggleClass('js-tablink'); // added, but not painted in IE8
+            tabLink.setAttribute('style', 'border-color: #D8D8D8; border-radius: 3px 3px 0 0; border-style: solid solid none; border-width: 1px 1px 0; color: #000000;');
         }
-
-        window.location.hash = Router.hashSymbol + indicatorId + indicatorDetailId;
 
         Router.lastIndicatorId = indicatorId;
         Router.lastIndicatorDetailId = indicatorDetailId;
