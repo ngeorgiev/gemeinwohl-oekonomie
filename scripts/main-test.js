@@ -513,17 +513,13 @@ var Router = {
             if (Router.lastIndicatorId.length > 0) {
                 var lastTabContentId = 'matrix-'+Router.lastIndicatorId+Router.lastIndicatorDetailId+'-content';
                 var lastTabContent = document.getElementById(lastTabContentId);
-                var lastCurrentClass = lastTabContent.className;
-                lastTabContent.className = lastCurrentClass.substring(0, lastCurrentClass.length - tabContentCssClass.length-1);
+                lastTabContent.setAttribute('class', 'tabcontent');
             }
             var tabContentId = 'matrix-'+indicatorId+indicatorDetailId+'-content';
             var tabContent = document.getElementById(tabContentId);
             console.log('document.getElementById(\''+tabContentId+'\')');
-            var newCssClass = tabContent.getAttribute('class') + ' ' + tabContentCssClass;
-            console.log('newCssClass = ' + newCssClass);
-            console.log('newCssClass = ' + newCssClass);
+            var newCssClass = 'tabcontent ' + tabContentCssClass;
             tabContent.setAttribute('class', newCssClass);
-
 
             /*
             var tabLinkId = '#matrix-'+indicatorId+indicatorDetailId+'-link';

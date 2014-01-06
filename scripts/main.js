@@ -4,7 +4,7 @@ var Utils = {};
 
 /**
  * Returns the sum of all integers in the given array.
- * a
+ *
  * @param intArray the array contain integers of type number and string.
  * @returns {number} the sum of all integers in the array.
  */
@@ -2989,17 +2989,13 @@ var Router = {
             if (Router.lastIndicatorId.length > 0) {
                 var lastTabContentId = 'matrix-'+Router.lastIndicatorId+Router.lastIndicatorDetailId+'-content';
                 var lastTabContent = document.getElementById(lastTabContentId);
-                var lastCurrentClass = lastTabContent.className;
-                lastTabContent.className = lastCurrentClass.substring(0, lastCurrentClass.length - tabContentCssClass.length-1);
+                lastTabContent.setAttribute('class', 'tabcontent');
             }
             var tabContentId = 'matrix-'+indicatorId+indicatorDetailId+'-content';
             var tabContent = document.getElementById(tabContentId);
             console.log('document.getElementById(\''+tabContentId+'\')');
-            var newCssClass = tabContent.getAttribute('class') + ' ' + tabContentCssClass;
-            console.log('newCssClass = ' + newCssClass);
-            console.log('newCssClass = ' + newCssClass);
+            var newCssClass = 'tabcontent ' + tabContentCssClass;
             tabContent.setAttribute('class', newCssClass);
-
 
             /*
             var tabLinkId = '#matrix-'+indicatorId+indicatorDetailId+'-link';
@@ -3656,19 +3652,28 @@ Controller.fadeInQuestion = function () {
     $('#' + Controller.currentQuestionId).fadeIn(Router.fadeInSpeed);
 };
 
-var isIE9 = document.addEventListener;
-var isIE8 = document.querySelector;
-var isIE7 = window.XMLHttpRequest;
+// Avoid `console` errors in browsers that lack a console.
+(function() {
+    var method;
+    var noop = function () {};
+    var methods = [
+        'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
+        'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
+        'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
+        'timeStamp', 'trace', 'warn'
+    ];
+    var length = methods.length;
+    var console = (window.console = window.console || {});
 
-if (isIE9) {
-    console.log('isIE9');
-}
-if (isIE8) {
-    console.log('isIE8');
-}
-if (isIE7) {
-    console.log('isIE7');
-}
+    while (length--) {
+        method = methods[length];
+
+        // Only stub undefined methods.
+        if (!console[method]) {
+            console[method] = noop;
+        }
+    }
+}());
 
 'use strict';
 
