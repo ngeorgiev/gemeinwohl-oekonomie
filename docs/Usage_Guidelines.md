@@ -5,3 +5,9 @@
 * Give appropriate name to the file, e.g. *Companyname_needs_de.md*
 * Copy the contents from https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/edit/master/docs/Companyname_needs_de.md to the new file contents and enter the data you wish.
 * Click the green button "Commit New File"
+
+## Edit a file
+
+* Open a file.
+* Click on the *Edit* button and change the file contents.
+* Click on the *Commit Changes* button at the bottom of the page.
