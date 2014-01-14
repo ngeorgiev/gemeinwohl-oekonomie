@@ -11,6 +11,7 @@ Open Source, modular, user-friendly, multi-language, mobile, beautiful:
 ## Interactive ECG matrix
 
 * :white_check_mark: [interactive online ECG Matrix 4.1 (open the demo)](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/#).
+* :white_check_mark: [Video Interaktive GWÖ-Matrix ](http://www.youtube.com/watch?v=b3aGKeZJlBI)
 
 ### Roadmap
 
