@@ -95,7 +95,7 @@ If you want to send a bug, or want a new feature for the online GWÖ-Matrix, ple
  * You can write in English or German.
 
 ### Contribute to the source code
- * Fork, improve it and send a pull request.
+ * Fork, improve it and send a pull request (see [Video Tutorial](http://www.youtube.com/watch?v=SCZF6I-Rc4I&feature=c4-overview-vl&list=PLg7s6cbtAD15Das5LK9mXt_g59DLWxKUe)).
 
 ## Integration
  * Due to the modular architecture, the interactive matrix can be integrated easily in other projects
