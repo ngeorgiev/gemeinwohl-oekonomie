@@ -22,6 +22,7 @@ Open Source, modular, user-friendly, multi-language, mobile, beautiful:
 ## ECG Balancing Web Application
 
 * :white_check_mark: [ECG balancing web app (open initial prototype)](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/storage.html)
+* :white_check_mark: [Video of GWÖ Online Bilanzierung WebApp - Frontend Prototype v0.1](http://www.youtube.com/watch?v=5SWigCkOKBk) (no sound)
 * :white_check_mark: [initial draft of the online balancing process](http://creately.com/diagram/hlvynl1f1/MA9GKxHvxTVAKUOax04wCo1pbQc%3D)
 
 ### Roadmap
