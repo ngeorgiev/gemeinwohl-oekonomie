@@ -11,6 +11,7 @@ Open Source, modular, user-friendly, multi-language, mobile, beautiful:
 ## Interactive ECG matrix
 
 * :white_check_mark: [interactive online ECG Matrix 4.1 (open the demo)](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/#).
+* :white_check_mark: [Video Interaktive GWÖ-Matrix ](http://www.youtube.com/watch?v=b3aGKeZJlBI)
 
 ### Roadmap
 
@@ -22,6 +23,7 @@ Open Source, modular, user-friendly, multi-language, mobile, beautiful:
 ## ECG Balancing Web Application
 
 * :white_check_mark: [ECG balancing web app (open initial prototype)](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/storage.html)
+* :white_check_mark: [Video of GWÖ Online Bilanzierung WebApp - Frontend Prototype v0.1](http://www.youtube.com/watch?v=5SWigCkOKBk) (no sound)
 * :white_check_mark: [initial draft of the online balancing process](http://creately.com/diagram/hlvynl1f1/MA9GKxHvxTVAKUOax04wCo1pbQc%3D)
 
 ### Roadmap
@@ -95,7 +97,7 @@ If you want to send a bug, or want a new feature for the online GWÖ-Matrix, ple
  * You can write in English or German.
 
 ### Contribute to the source code
- * Fork, improve it and send a pull request.
+ * Fork, improve it and send a pull request (see [Video Tutorial](http://www.youtube.com/watch?v=SCZF6I-Rc4I&feature=c4-overview-vl&list=PLg7s6cbtAD15Das5LK9mXt_g59DLWxKUe)).
 
 ## Integration
  * Due to the modular architecture, the interactive matrix can be integrated easily in other projects
