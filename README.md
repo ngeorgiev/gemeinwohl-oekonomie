@@ -67,6 +67,7 @@ Open Source, modular, user-friendly, multi-language, mobile, beautiful:
 
 * Open the [GitHub repository](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie) and click on "Download ZIP" button on the right.
 * Interactive ECG matrix: open the file ```dist/index.html```
+* ECG Quick Test: open the file ```dist/test.html```
 * ECG balancing web application: open the file ```dist/storage.html```
 
 ## Progress
