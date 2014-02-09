@@ -140,29 +140,30 @@ Data.quickTest = {
                             minValue: 0,
                             maxValue: 32,
                             content :
-                                '<p>Ihr Unternehmen setzt sich mit gemeinwohlorientierten Aspekten auseinander und ist damit schon mal über dem gesetzlichen Mindeststandards.</p>'+
-                                '<p>Allerdings gibt es noch ein sehr hohes Entwicklungspotiential in Richtung Gemeinwohl und Nachhaltigkeit.</p>'+
-                                '<p>Der interne Gemeinwohl-Bericht kann helfen, den Status Quo detaillierter zu ermitteln und auf Basis dessen Ziele und Maßnahmen für das nächste Jahr zu setzen.</p>'
+                                '<p>Ihr Unternehmen setzt sich mit gemeinwohlorientierten Aspekten auseinander und geht damit bereits über die gesetzlichen Mindeststandards hinaus. Allerdings gibt es noch ein sehr hohes Entwicklungspotenzial in Richtung Gemeinwohl und Nachhaltigkeit.</p>'+
+                                '<p>Allerdings gibt es noch ein sehr hohes Entwicklungspotenzial in Richtung Gemeinwohl und Nachhaltigkeit.</p>'+
+                                '<p>Der interne Gemeinwohl-Bericht kann helfen, den Status quo detaillierter zu ermitteln und darauf aufbauend Ziele und Maßnahmen für das nächste Jahr zu setzen.</p>'
                         },
                         {
                             minValue: 33,
                             maxValue: 62,
                             content :
                                 '<p>Ihr Unternehmen hat bereits mehr als 25% der Gemeinwohl-Aspekte verwirklicht und befindet sich auf einem „guten“ Weg.</p>'+
-                                '<p>Für einen besseren Überblick könnten Sie jetzt eineEinstiegsbilanz erstellen, die ein detailliertere Auseinandersetzung ermöglicht und gleichzeitig weniger Zeit benötigt als eine vollständige Gemeinwohl-Bilanz.</p>'
+                                '<p>Für einen besseren Überblick könnten Sie jetzt eine Einstiegsbilanz erstellen, die eine  detailliertere Auseinandersetzung ermöglicht und gleichzeitig weniger Zeit benötigt als eine vollständige Gemeinwohl-Bilanz.</p>'
                         },
                         {
                             minValue: 63,
                             maxValue: 94,
                             content :
-                                '<p>Ihr Unternehmen ist überaus nachhaltigkeitsorientiert und legt gesteigerten Wert auf sozial- und umweltgerechtes Wirtschaften. Ihr Unternehmen könnte voraussichtlich bereits einen Gemeinwohl-Bericht erstellen und in den vorbildlichen Bereich der Unternehmen stoßen.</p>'+
-                                '<p>Ein Gemeinwohlbericht gibt eine detaillierte Aufschlüsselung ihrer Aktivitäten und hilft weitere Verbesserungen vorzunehmen. Gleichzeitig können Ihre Kunden, Lieferanten und Mitbewerber so mehr über Ihre Aktivitäten erfahren und so sich neue Geschäftsfelder erschließen.</p>'
+                                '<p>Ihr Unternehmen ist schon sehr nachhaltigkeitsorientiert und legt gesteigerten Wert auf sozial- und umweltgerechtes Wirtschaften. Erstellen Sie wenn möglich einen Gemeinwohl-Bericht und treten Sie, falls noch nicht geschehen, in Kontakt mit gleichgesinnten Unternehmen, um gemeinsam effektiver zu lernen.</p>'+
+                                '<p>Ein Gemeinwohl-Bericht ermöglicht eine detaillierte Aufschlüsselung ihres aktuellen Stands und hilft Ihnen, Bereiche mit Entwicklungspotenzial zu definieren sowie weitere Verbesserungen strategisch anzugehen.</p>'
                         },
                         {
                             minValue: 95,
-                            maxValue: 128,
+                            maxValue: 126,
                             content :
-                                '<p>Ihr Unternehmen ist bereits vorbildlich nach vielen Kriterien der Gemeinwohlökonomie. Wahrscheinlich sind Sie schon GWÖ-Unternehmen oder  seit Jahren branchenführend in der Nachhaltigkeitsszene. Als Vorreiter und Pionier sind Sie Vorbild für ihre Mitbewerber und Inspiration für andere gemeinwohl-interessierte Unternehmer. Bitte erstellen Sie einen Gemeinwohl-Bericht und geben so ihre Erfahrung weiter!</p>'
+                                '<p>Ihr Unternehmen ist bereits vorbildlich in Bezug auf viele Kriterien und Ziele der Gemeinwohlökonomie.</p>'+
+                                '<p>Wahrscheinlich sind Sie schon ein GWÖ-Unternehmen oder seit Jahren branchenführend in der Nachhaltigkeits- oder Social-Business-Szene. Als VorreiterIn und PionierIn sind Sie Vorbild für ihre Mitunternehmen und Inspiration für andere ethisch interessierte Betriebe. Wir laden Sie herzlich ein, einen Gemeinwohl-Bericht zu verfassen und ihre Erfahrung weiterzugeben!</p>'
                         }
                     ]
                 }
@@ -176,86 +177,88 @@ Data.quickTest = {
                 type : 'calculateOneOfManyAnswers',
                 introduction : {
                     content :
-                        '<p>Die Gemeinwohl-Ökonomie ist eine politische Vision,die eine Wirtschaft für die Menschen und die Umwelt schaffen möchte. Dabei soll das wirtschaftliche Ziel nicht mehr allein die Profitmaximierung sein, sondern die Maximierung des „Gemeinwohls".</p>'+
-                        '<p>Das Gemeinwohl wird auf Basis der Gemeinwohl-Matrix definiert:</p>'+
-                        '<p>Wie lebe ich als Unternehmer fünf Werte (Menschenwürde, Solidarität, Ökologische Nachhaltigkeit, Soziale Gerechtigkeit und Demokratie/Transparenz) im Kontakt mit meinen Berührungsgruppen (LieferantInnen, Geldgeber, Mitarbeiter, Kunden/Mitbewerber und das gesellschaftliche Umfeld)?</p>'+
-                        '<p>Konkret gibt es auf Basis der Verbindungen 17 Indikatoren, die das Gemeinwohl messen können. Wie wird z.B. die Menschenwürde innerhalb des Betriebes im Umgang mit den Mitarbeitern gelebt? Genauer haben wir das in dem Indikator C1 „Arbeitsplatzqualität“ beschrieben.</p>'+
-                        '<p>Mit Hilfe eines umfassenden Gemeinwohl-Berichtes gibt ein Unternehmen detailliert Auskunft über das Gemeinwohl-Verhalten anhand dieser 17 Indikatoren. Diese Auseinandersetzung braucht Zeit und Engagement, das viele Unternehmen derzeit aufgrund wirtschaftlicher Zwänge nicht haben.</p>'+
-                        '<p>Um einen „schnellen“ ersten Einblick zu bekommen, haben wir diesen Schnelltest von Thomas Haderlapp für die Matrix 4.1. modifiziert und neu gestaltet.</p>'+
-                        '<p>Innerhalb von einer halben Stunde haben Sie einen Eindruck, worum es in der GWÖ geht und ein erstes sehr grobes Ergebnis, wie gemeinwohlorientiert Sie wirtschaften.</p>'+
-                        '<p>Der nächste Schritt danach könnte sein, eine vereinfachte Einstiegsbilanz zu erstellen.</p>'+
-                        '<p>Hinter der den Nummer für die Fragen habe ich die Indikatoren der GWÖ-Matrix angefügt, d.h. A1 = A1 Ethisches Beschaffungswesen. So können Sie bei Lust und Laune im Handbuch nähere Hintergründe erfahren.</p>'+
-                        '<p>Nähere Informationen dazu erhalten Sie hier: Link GWÖ-Dokumente</p>'
+                        '<p>Die Gemeinwohl-Ökonomie ist eine Vision für eine menschenwürdige und nachhaltige Wirtschafts- und Lebensweise. Die Wirtschaft soll nach denselben Werten gestaltet werden, die menschliche Beziehungen gelingen lassen und zudem bereits in den Verfassungen verankert sind. Das erste Ziel des Wirtschaftens ist nicht mehr Profitmaximierung, sondern die Mehrung des Gemeinwohls.</p>'+
+                        '<p>Der Beitrag eines Unternehmens zum Gemeinwohl wird auf Basis der Gemeinwohl-Matrix definiert und messbar gemacht.</p>'+
+                        '<p>Die Gemeinwohl-Bilanz beantwortet, wie ich als UnternehmerIn fünf Grundwerte (neben der Freiheit die häufigsten Verfassungswerte demokratischer Staaten): Menschenwürde, Solidarität, Ökologische Nachhaltigkeit, soziale Gerechtigkeit und Demokratie/Transparenz lebe - im Kontakt mit den wichtigsten Berührungsgruppen: LieferantInnen, GeldgeberInnen, MitarbeiterInnen, KundInnen/Mitunternehmen (heute: KonkurrentInnen) und dem gesellschaftlichen Umfeld.</p>'+
+                        '<p>So entstehen an den Schnittstellen von Werten und Berührungsgruppen 17 Indikatoren, die den Beitrag eines Unternehmens zum Gemeinwohl messen. Zum Beispiel steht an der Schnittstelle „Menschenwürde“ und  „MitarbeiterInnen“ der Indikator C1 „Arbeitsplatzqualität“.</p>'+
+                        '<p>Mit Hilfe eines Gemeinwohl-Berichtes gibt ein Unternehmen detailliert Auskunft über seine Leistungen und seinen Beitrag zum Gemeinwohl, anhand dieser 17 Indikatoren. Diese Auseinandersetzung braucht Vertiefung und Zeit, die viele Unternehmen aufgrund wirtschaftlicher Zwänge, knapper Ressourcen oder anderer Umstände nicht immer haben.</p>'+
+                        '<p>Um einen „schnellen“ ersten Einblick zu bekommen, haben wir deshalb diesen Schnelltest von Thomas Haderlapp für die Matrix 4.1 modifiziert und neu gestaltet. Innerhalb einer halben Stunde gewinnen Sie einen Eindruck, worum es in der GWÖ geht und zudem ein grobes Erstergebnis, wie gemeinwohlorientiert Sie wirtschaften.</p>'+
+                        '<p>Der darauf folgende Schritt könnte sein, eine „Einstiegsbilanz“ zu erstellen, das ist eine vereinfachte Form der Gemeinwohl-Bilanz. Unterhalb der fortlaufenden Fragen-Nummern haben wir in Blau die zugehörigen Indikatoren der GWÖ-Matrix angegeben. Zum Beispiel steht unter der Frage „1.“ der Indikator „A1“ (= Ethisches Beschaffungswesen). So können Sie bei Interesse jederzeit im Handbuch nachschlagen und dort Hintergrundinformationen zum jeweiligen Indikator nachlesen.</p>'+
+                        '<p>Die Matrix, das dazugehörige Handbuch zur Bilanzerstellung und weitere hilfreiche Dokumente finden Sie hier: Downloads GWÖ-Dokumente.</p>'+
+                        '<p>Nähere Informationen dazu erhalten Sie hier: <a href="http://gemeinwohl-oekonomie.org/de/content/downloads">Link GWÖ-Dokumente</a></p>'+
+                        '<p>Christian Rüther und das Matrix-Entwicklungsteam</p>'+
+                        '<p><strong>Hinweis</strong>: Ihre Daten werden nicht über das Internet übertragen und dementsprechend nicht gespeichert!</p>'
                 },
                 questions : [
                     {
                         stakeholders : 'A',
                         gwoeValue : '1',
                         indicatorTitle : 'Ethisches Beschaffungsmanagement',
-                        text : 'Mein Unternehmen berücksichtigt bei allen wesentlichen zugekauften Produkten und Dienstleistungen die besten regionalen, sozialen und ökologischen Alternativen und findet innovative Lösungen zur Vermeidung kritischer Stoffe ohne höherwertige Alternative.'
+                        text : 'Mein Unternehmen berücksichtigt bei allen wesentlichen zugekauften Produkten und Dienstleistungen (P/D) die besten regionalen, sozialen und ökologischen Alternativen und findet innovative Lösungen zur Vermeidung kritischer Stoffe, für die es keine höherwertige Alternative gibt.'
                     },
                     {
                         stakeholders : 'A',
                         gwoeValue : '1',
                         indicatorTitle : 'Ethisches Beschaffungsmanagement',
-                        text : 'Mein Unternehmen kooperiert aktiv mit LieferantInnen, um soziale und ökologische Aspekte besser zu lösen. Es gibt ein nachgewiesenes Controlling, d.h. alle zugekauften P/D sind intern oder extern zertifiziert.'
+                        text : 'Mein Unternehmen kooperiert aktiv mit LieferantInnen, um soziale und ökologische Aspekte besser umzusetzen. Es gibt ein nachgewiesenes Controlling, d.h. alle zugekauften P/D sind intern oder extern zertifiziert (z.B. mit den Labels „Bio“, „Fairtrade“, ...).'
                     },
                     {
                         stakeholders : 'A',
                         gwoeValue : '1',
                         indicatorTitle : 'Ethisches Beschaffungsmanagement',
-                        text : 'Mein Unternehmen zahlt faire Preise, pflegt langfristige Kooperationen mit den LieferantInnen und hat erste innovative Strukturen entwickelt.'
+                        text : 'Mein Unternehmen zahlt faire Preise, pflegt langfristige Kooperationen mit den LieferantInnen und hat erste innovative Strukturen mit dem Ziel der Preisgerechtigkeit entwickelt.'
                     },
                     {
                         stakeholders : 'B',
                         gwoeValue : '1',
                         indicatorTitle : 'Ethisches Finanzmanagement',
-                        text : 'Mein Unternehmen hat ausschließlich ethisch-ökologische Finanzdienstleister, d.h. Bank/ Vorsorgekasse und veranlagt/finanziert sich dort zu 100 %.'
+                        text : 'Mein Unternehmen arbeitet ausschließlich mit ethisch-ökologischen FinanzdienstleisterInnen (Bank, Vorsorgekasse) und veranlagt/finanziert sich dort zu 100%.'
                     },
                     {
                         stakeholders : 'C',
                         gwoeValue : '1',
                         indicatorTitle : 'MitarbeiterInnen inklusive EigentümerInnen',
-                        text : 'Mein Unternehmen pflegt eine wertschätzende, offeneOrganisationskultur mit klaren Aufgaben/ Kompetenzen, ausreichender Weiterbildung und einer partizipativen Führungskultur.'
+                        text : 'Mein Unternehmen bietet allen Menschen, die im Unternehmen tätig sind, in ihrer individuellen Verschiedenheit Strukturen und Entwicklungsmöglichkeiten, die ihren persönlichen und beruflichen Bedürfnissen gerecht werden.',
+                        textEPU : 'Meine Arbeitssituation entspricht meinen Bedürfnissen und ermöglicht mir ein gutes Leben/Arbeiten.'
                     },
                     {
                         stakeholders : 'C',
                         gwoeValue : '1',
                         indicatorTitle : 'MitarbeiterInnen inklusive EigentümerInnen',
-                        text : 'Mein Unternehmen bietet optimale Arbeitsplatzsicherheit für die Mitarbeiter. Es gibt eine Vielzahl von Arbeitszeit-Modellen, die von den MA selbst gewählt werden können. Die Rahmenbedingungen für eine optimale Work-Life-Balance sind vorhanden.',
-                        excludedParticipants : ['oneperson']
+                        text : 'Mein Unternehmen bietet höchste Arbeitsplatzsicherheit und eine gesundheitsfördernde Arbeitsgestaltung für alle Menschen, die im Unternehmen tätig sind. Verschiedene Arbeitszeit-Modelle und familienfreundliche Rahmenbedingungen ermöglichen es allen im Unternehmen Beschäftigten, ihre persönliche Work-Life-Balance zu leben.',
+                        textEPU : 'Ich lebe eine für mich persönlich optimale Work-Life-Balance und gestalte meine Arbeit umfassend gesundheitssensibel.'
                     },
                     {
                         stakeholders : 'C',
                         gwoeValue : '1',
                         indicatorTitle : 'MitarbeiterInnen inklusive EigentümerInnen',
-                        text : 'Mein Unternehmen kümmert sich aktiv um diverse Mitarbeiter und die Gleichbehandlung von Mann/Frau. Es gibt gleiche Bezahlung für Männer/ Frauen, die Führungskräfte auf allen Ebenen sind zu 50% Frauen, es gibt eine besondere Berücksichtigung von älteren Arbeitnehmern, Arbeitnehmern mit Migrationshintergrund, behinderten Arbeitenehmern. Wir zahlen keine Ausgleichstaxe.',
+                        text : 'Mein Unternehmen leistet einen aktiven Beitrag zur Gleichstellung und fördert Diversität im Hinblick auf Geschlecht, Herkunft, Alter, Behinderung, sexuelle Orientierung u. a. durch strukturelle und bewusstseinsbildende Maßnahmen. Es gibt gleiche Bezahlung für gleiche Tätigkeiten, Menschen sind in ihrer ganzen Vielfalt auf allen Hierarchieebenen des Unternehmens gleichwertig vertreten. Wir zahlen keine Ausgleichstaxe.',
                         excludedParticipants : ['oneperson']
                     },
                     {
                         stakeholders : 'C',
                         gwoeValue : '2',
                         indicatorTitle : 'Gerechte Verteilung der Erwerbsarbeit',
-                        text : 'Mein Unternehmen hat keine All-incl. Verträge und baut Überstunden ab. Statt neuer Überstunden werden neue MitarbeiterInnen eingestellt. Wir leisten einen Beitrag zur Reduktion der Arbeitslosigkeit.'
+                        text : 'Mein Unternehmen hat keine All-Inclusive- Verträge und baut Überstunden ab. Statt neuer Überstunden werden neue MitarbeiterInnen eingestellt. Wir leisten einen Beitrag zur Reduktion der Arbeitslosigkeit.'
                     },
                     {
                         stakeholders : 'C',
                         gwoeValue : '3',
                         indicatorTitle : 'Förderung ökologischen Verhaltens der MitarbeiterInnen',
-                        text : 'Mein Unternehmen fördert und fordert das ökologische Verhalten der Mitarbeiter durch eine biologisch, regionale, fleischlose Ernährung, umfassende Weiterbildungsmaßnahmen und finanzielle Förderung von schadstoffarmen Verkehrsmitteln.'
+                        text : 'Mein Unternehmen fördert und fordert ein ökologisch nachhaltiges Verhalten der MitarbeiterInnen (z.B. eine biologische, regionale, fleischarme/fleischlose Ernährung, Nutzung umweltfreundlicher Verkehrsmittel etc.) durch umfassende Weiterbildungsmaßnahmen und finanzielle Förderungen.'
                     },
                     {
                         stakeholders : 'C',
                         gwoeValue : '4',
                         indicatorTitle : 'Gerechte Verteilung des Einkommens',
-                        text : 'Mein Unternehmen hat eine maximale Einkommensspreizung von 1:3, d.h. der bezahlte Höchstlohn entspricht max. das dreifache des bezahlten Niedrigstlohns.',
+                        text : 'In meinem Unternehmen gibt es eine maximale Einkommensspreizung von 1:4, d.h. der bezahlte Höchstlohn entspricht max. dem Vierfachen des bezahlten Niedrigstlohns.',
                         excludedParticipants : ['oneperson']
                     },
                     {
                         stakeholders : 'C',
                         gwoeValue : '4',
                         indicatorTitle : 'Gerechte Verteilung des Einkommens',
-                        text : 'Mein Unternehmen zahlt mind. 1250 Euro monatlich netto und maximal das zehnfache davon an den Höchstverdiener.',
+                        text : 'Mein Unternehmen zahlt mindestens 1250 Euro monatlich netto für eine Vollzeitstelle.',
                         excludedParticipants : ['oneperson']
                     },
                     {
@@ -276,71 +279,71 @@ Data.quickTest = {
                         stakeholders : 'C',
                         gwoeValue : '5',
                         indicatorTitle : 'Innerbetriebliche Demokratie und Transparenz',
-                        text : 'Unser Unternehmen gehört allen Mitarbeitern oder einer unabhängigen Stiftung. Es gibt keine „Übermacht“ einiger weniger Eigentümer mehr.',
+                        text : 'Unser Unternehmen gehört allen MitarbeiterInnen oder einer unabhängigen Stiftung. Es gibt keine „Übermacht“ einiger weniger EigentümerInnen.',
                         excludedParticipants : ['oneperson']
                     },
                     {
                         stakeholders : 'D',
                         gwoeValue : '1',
                         indicatorTitle : 'Ethische Kundenbeziehung',
-                        text : 'Mein Unternehmen hat ein Gesamtkonzept für Ethik im Verkauf und sorgt für Preistransparenz, faire Preise und beliefert nur ethisch einwandfreie Kunden.'
+                        text : 'Mein Unternehmen hat ein Gesamtkonzept für Ethik im Verkauf und sorgt für Preistransparenz, faire Preise und meidet KundInnen, die ethisch bedenklich handeln (insbesondere bei GeschäftskundInnen und anderen Unternehmen).'
                     },
                     {
                         stakeholders : 'D',
                         gwoeValue : '1',
                         indicatorTitle : 'Ethische Kundenbeziehung',
-                        text : 'Mein Unternehmen bezieht die Kunden bei der Produktentwicklung mit ein und lässt die Kunden bestmöglich mitentscheiden.'
+                        text : 'Mein Unternehmen bezieht die KundInnen in die Produktentwicklung und in relevante Entscheidungen mit ein.'
                     },
                     {
                         stakeholders : 'D',
                         gwoeValue : '2',
                         indicatorTitle : 'Solidarität mit Mitunternehmen',
-                        text : 'Mein Unternehmen gibt das eigene Knowhow, Kalkulationen und Lieferquellen an gleichgesinnte Mitbewerber weiter. Gemeinsam wird an einem Produktinformationssystem gearbeitet, so dass die Kunden optimal informiert sind und Leistungen gut vergleichen können.'
+                        text : 'Mein Unternehmen pflegt eine Open-Source-Politik und gibt das eigene Know-How, Kalkulationen und Lieferquellen an kooperative Mitunternehmen weiter. Gemeinsam wird an einem unabhängigen Produktinformationssystem gearbeitet, so dass die KundInnen optimal informiert sind und angebotene Leistungen gut vergleichen können.'
                     },
                     {
                         stakeholders : 'D',
                         gwoeValue : '2',
                         indicatorTitle : 'Solidarität mit Mitunternehmen',
-                        text : 'Mein Unternehmen gibt Aufträge an Mitbewerber weiter, wenn sie nicht mehr selbst bedient werden können, unterstützt die Mitbewerber mit eigenen Arbeitskräften bei Engpässen und stellt gleichgesinnten Mitbewerbern auch Fremdkapital zu einem angemessenen Zinssatz zur Verfügung.'
+                        text : 'Mein Unternehmen gibt Aufträge an Mitunternehmen weiter, wenn es sie nicht selbst bedienen kann, unterstützt Mitunternehmen mit eigenen Arbeitskräften bei Engpässen und stellt kooperativen Mitunternehmen Fremdkapital zu einem angemessenen Zinssatz zur Verfügung.'
                     },
                     {
                         stakeholders : 'D',
                         gwoeValue : '3',
                         indicatorTitle : 'Ökologische Gestaltung der Produkte und Dienstleistungen',
-                        text : 'Die Produkte/Dienstleistungen meines Unternehmens sind im Vergleich zu den Mitbewerbern ökologisch branchenführend z.B. Cradle-to-cradle. Wir sind Vorreiter bei der ökologischen Qualität der P/D',
+                        text : 'Die P/D meines Unternehmens sind im Vergleich zu den Mitunternehmen ökologisch branchenführend bzw. auf höchstem Standard z.B. Energie-Effizienz oder Cradle-to-cradle. Wir sind VorreiterInnen bei der ökologischen Qualität und der Minimierung des ökologischen Fußabdrucks der P/D.',
                         weight : 2
                     },
                     {
                         stakeholders : 'D',
                         gwoeValue : '3',
                         indicatorTitle : 'Ökologische Gestaltung der Produkte und Dienstleistungen',
-                        text : 'Mein Unternehmen fördert das ökologische Verhalten der Kunden. Preisvorteile & Anreiz-systeme; Reparatur, Wiederverwendung und gemeinschaftliche Nutzung sind wesentliche Bestandteile unseres Geschäftsmodells.'
+                        text : 'Mein Unternehmen fördert ökologisch nachhaltiges Verhalten unserer KundInnen. Preisvorteile und Anreizsysteme für Reparatur, Wiederverwendung und gemeinschaftliche Nutzung sind wesentliche Bestandteile unseres Geschäftsmodells.'
                     },
                     {
                         stakeholders : 'D',
                         gwoeValue : '4',
                         indicatorTitle : 'Soziale Gestaltung der Produkte und Dienstleistungen',
-                        text : 'Mein Unternehmen setzt sich aktiv mit den Zugang von Benachteiligten (Geringverdiener, MigrantInnen, älteren Menschen, Behinderte) zu unseren Produkten/ Dienstleistungen auseinander und schafftangemessene Zugangsmöglichkeiten für die Gruppen',
+                        text : 'Mein Unternehmen setzt sich aktiv für den Zugang „benachteiligter“ KundInnengruppen (GeringverdienerInnen, MigrantInnen, ältere Menschen, Behinderte) zu unseren P/D ein.',
                         weight : 2
                     },
                     {
                         stakeholders : 'D',
                         gwoeValue : '5',
                         indicatorTitle : 'Erhöhung der sozialen und ökologischen Branchenstandards',
-                        text : 'Mein Unternehmen arbeitet mit den Mitbewerbern aktiv an höheren sozialen und ökologischen Branchenstandards und versucht hier ein positives Lobbying.'
+                        text : 'Mein Unternehmen arbeitet mit den Mitunternehmen aktiv an höheren sozialen und ökologischen Branchenstandards und betreibt hier Lobbying im Interesse des Gemeinwohls.'
                     },
                     {
                         stakeholders : 'E',
                         gwoeValue : '1',
                         indicatorTitle : 'Sinn und Gesellschaftliche Wirkung der Produkte / Dienstleistungen',
-                        text : 'Mein Unternehmen stellt Produkte/Dienstleistungen her, die einen deutlich positiven Nutzen für die Gesellschaft (nicht primärdie Kunden) haben. 75% bis 100% der P/D decken Grundbedarf oder haben deutlich positive + nachgewiesen Auswirkungen und lösen wesentliche gesellschaftliche Probleme (Social Business).',
+                        text : 'Mein Unternehmen stellt P/D her, die einen positiven Nutzen für die gesamte Gesellschaft (nicht primär für einzelne KundInnen) haben. 75% bis 100% der P/D decken den Grundbedarf, dienen der menschlichen Entwicklung oder lösen wesentliche gesellschaftliche Probleme (Social Business).',
                         weight : 2
                     },
                     {
                         stakeholders : 'E',
                         gwoeValue : '2',
                         indicatorTitle : 'Beitrag zum Gemeinwesen',
-                        text : 'Mein Unternehmen gibt mehr als 2,5% des Umsatzes für zusätzliches gesellschaftliches Engagement aus. Dabei haben wir eine umfassende Strategie sowie nachhaltige Wirkungen in mehreren Feldern.'
+                        text : 'Mein Unternehmen engagiert sich kraftvoll für die Gesellschaft und fördert solches Engagement, das über ein reines Eigeninteresse hinausgeht (Richtwert >2,5% des Umsatzes). Es existiert eine umfassende Strategie und ein Management für dieses Engagement.'
                     },
                     {
                         stakeholders : 'E',
@@ -353,7 +356,7 @@ Data.quickTest = {
                         stakeholders : 'E',
                         gwoeValue : '4',
                         indicatorTitle : 'Gemeinwohlorientierte Gewinn-Verteilung',
-                        text : 'Unsere Gewinne werden zwischen Arbeitnehmern und Kapitalgebern gerecht verteilt, dienen der Erhöhung der Eigenkapitalquoteoder fließt in sozial-ökologische Investitionen (gemeinwohl-orientierte Gewinnverwendung). Es gibt keine Ausschüttung an nicht mitarbeitende Eigentümer.',
+                        text : 'Unsere Gewinne werden möglichst nicht an Externe ausgeschüttet, sondern zwischen ArbeitnehmerInnen und KapitalgeberInnen gerecht verteilt oder zur Erhöhung der Eigenkapitalquote und für gemeinwohlfördernde Investitionen eingesetzt.',
                         excludedParticipants : ['oneperson'],
                         weight : 2
                     },
@@ -361,7 +364,7 @@ Data.quickTest = {
                         stakeholders : 'E',
                         gwoeValue : '5',
                         indicatorTitle : 'Gesellschaftliche Transparenz und Mitbestimmung',
-                        text : 'Mein Unternehmen publiziert einen Gemeinwohlbericht oder einen umfassenden Nachhaltigkeitsbericht ala GRI. Darüberhinaus beziehen wir die gesellschaftlichen Berührungsgruppen bei wesentlichen Entscheidungen mit ein.'
+                        text : 'Mein Unternehmen publiziert einen Gemeinwohlbericht oder einen umfassenden Nachhaltigkeitsbericht (z. B. Global Reporting Initiative GRI). Darüber hinaus beziehen wir die gesellschaftlichen Berührungsgruppen bei wesentlichen Entscheidungen mit ein.'
                     }
                 ]
             }
