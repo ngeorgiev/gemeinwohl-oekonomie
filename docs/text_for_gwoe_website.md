@@ -17,9 +17,9 @@ Die mobile GWÖ-Applikation stellt alle wichtige Informationen über die GWÖ mo
 
 Hier ist [die aktuelle Roadmap](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie#roadmap).
 
-## Schnelltest
+## Schnelltest GWÖ
 
-Der [GWÖ-Schnelltest](http://gemeinwohl-oekonomie.org/sites/default/files/Schnelltest-Matrix4.1-final-1.2.pdf) steht [online zur Verfügung](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/test.html#).
+Der [Schnelltest GWÖ](http://gemeinwohl-oekonomie.org/sites/default/files/Schnelltest-Matrix4.1-final-1.2.pdf) steht [online zur Verfügung](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/test.html#).
 
 ## GWÖ Online-Bilanzierung App
 
