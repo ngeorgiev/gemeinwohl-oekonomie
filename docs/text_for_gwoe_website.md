@@ -1,4 +1,4 @@
-AK: GWÖ Software-Tools
+# AK: GWÖ Software-Tools
 
 Wir erstellen Software-Tools für die GWÖ, die modular, open source, benutzerfreundlich, vielsprachig, mobil und schön sind. Der Arbeitskreis ist offen für alle, und und ist tätig lokal und international über das Internet.
 
@@ -15,6 +15,6 @@ Video.
 Video.
 
 
-## Online-Bilanzierung Web-Applikation
+## GWÖ Online-Bilanzierung App
 
 Video.
