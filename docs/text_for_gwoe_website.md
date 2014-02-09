@@ -39,6 +39,6 @@ Hier ist [die aktuelle Roadmap](https://github.com/sinnwerkstatt/gemeinwohl-oeko
 
 ## Kontakte
 
-Falls Du Fragen hast, kannst du gerne Nikolay kontaktieren:
+Bei Fragen gerne Nikolay kontaktieren:
 
 * Nikolay Georgiev, ng@sinnwerkstatt.com
