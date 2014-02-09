@@ -2,6 +2,7 @@
 
 ## 2014
 
+* 09.02 - updated the new [quick test](sinnwerkstatt.github.io/gemeinwohl-oekonomie/test.html).
 * 06.01 - added IE8, IE9 and IE10 support.
 
 ## 2013
