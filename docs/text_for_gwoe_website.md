@@ -5,16 +5,16 @@ Wir erstellen Software-Tools für die GWÖ, die modular, open source, benutzerfr
 Unsere aktuelle Software-Tools sind:
 
 
-## Die interaktive GWÖ-Matrix - 
+## Die interaktive GWÖ-Matrix
 http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/#matrix
 
 Video.
 
-## Mobile GWÖ-Applikation - 
+## Mobile GWÖ-Applikation
 
 Video.
 
 
-## Online-Bilanzierung Web-Applikation - 
+## Online-Bilanzierung Web-Applikation
 
 Video.
