@@ -18,7 +18,7 @@ Open Source, modular, user-friendly, multi-language, mobile, beautiful:
 * :arrow_right: clarify whether it will be used officially by the ECG movement.
     * Yes, the desire is there, waiting for more info from the official ECG editorial team.
     * clarify how this will be done and update this Roadmap.
-* :arrow_right: [create mobile application of the ECG matrix](https://github.com/sinnwerkstatt/economy-common-good-mobile) (in progress)
+* :white_check_mark: [create mobile application of the ECG matrix](https://github.com/sinnwerkstatt/economy-common-good-mobile) (done, needs approval)
 * add multi-language support.
 
 ## ECG Balancing Web Application
