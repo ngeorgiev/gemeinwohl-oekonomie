@@ -76,11 +76,6 @@ See the [CHANGELOG](CHANGELOG.md).
 ## Browser Support
 Tested on Firefox, Chrome, IE8+.
 
-## License
-
-* Source code is under the MIT License.
-* All data belongs to the [Gemeinwohl-Ökonomie movement](http://gemeinwohl-oekonomie.de)
-
 ## Developers
 
 * [Nikolay Georgiev](http://nikolay-georgiev.net), [sinnwerkstatt Medienagentur GmbH](https://www.sinnwerkstatt.com/), Berlin
@@ -115,4 +110,11 @@ The indicators data is stored in HTML files. In order to change it, you:
 The changed data can be viewed from the ```dist/index.html``` file.
 
 ## Learn more
+
  * Visit the official [Gemeinwohl-Ökonomie website](http://www.gemeinwohl-oekonomie.de/).
+
+## License
+
+* Source code is under the MIT License.
+* All data belongs to the [Gemeinwohl-Ökonomie movement](http://gemeinwohl-oekonomie.de) (Hopefully to be open source too?)
+* 
