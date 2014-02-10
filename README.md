@@ -117,4 +117,3 @@ The changed data can be viewed from the ```dist/index.html``` file.
 
 * Source code is under the MIT License.
 * All data belongs to the [Gemeinwohl-Ökonomie movement](http://gemeinwohl-oekonomie.de) (Hopefully to be open source too?)
-* 
