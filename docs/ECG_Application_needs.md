@@ -31,6 +31,7 @@ Die gewünschte Funktionalitäten in drei Kategorien beschreiben:
 | Kommentare. | Sinnwerkstatt |  |
 | Bilder hochladen. | Sinnwerkstatt |  |
 | Dokumente hochladen. | Sinnwerkstatt |  |
+| Potential/mögliche oder geplannte Entwicklung pro Indikator. | Sinnwerkstatt |  |
 | Versionierung der Bilanz- und Berichtdaten. | Sinnwerkstatt |  |
 | Printing vom Browser. | Sinnwerkstatt |  |
 
