@@ -12,17 +12,21 @@ Die gewünschte Funktionalitäten in drei Kategorien beschreiben:
 
 | notwendige Funktionalitäten | Unternehmen | Geldsumme |
 |--- | --- |--- |
+| Unternehmensprofil erstellen (Name, Logo, Branche, Anzahl der Mitarbeiter). | Sinnwerkstatt |  |
+| Bilanz erstellen (Datum, Status). | Sinnwerkstatt |  |
 | Benutzerlogin und -gruppen mit Schreibrechte. | Sinnwerkstatt |  |
+| Benutzergruppen mit Leserechte. | Sinnwerkstatt |  |
 | Django/PostgreSQL Backend. | Sinnwerkstatt |  |
-| Editierung, Bewertung und Speichern von Indikatoren. | Sinnwerkstatt |  |
+| Editierung und Speichern von Indikatoren. | Sinnwerkstatt |  |
+| Bewertung von Indikatoren. | Sinnwerkstatt |  |
 
 ## hilfreiche Funktionalitäten
 
 | hilfreiche Funktionalitäten | Unternehmen | Geldsumme |
 |--- | --- |--- |
-| Benutzergruppen mit Leserechte. | Sinnwerkstatt |  |
 | Vergebung von Lese- und Schreibrechte pro Indikator. | Sinnwerkstatt |  |
-| Editierung von SubIndikatoren. | Sinnwerkstatt |  |
+| Editierung und Speichern von SubIndikatoren. | Sinnwerkstatt |  |
+| Bewertung von SubIndikatoren. | Sinnwerkstatt |  |
 | Kommentare. | Sinnwerkstatt |  |
 | Bilder hochladen. | Sinnwerkstatt |  |
 | Dokumente hochladen. | Sinnwerkstatt |  |
