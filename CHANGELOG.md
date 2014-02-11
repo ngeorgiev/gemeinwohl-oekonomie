@@ -2,6 +2,7 @@
 
 ## 2014
 
+* 11.02 - [implemented](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/commit/2385a106bbbe9e246ad6719d429986f7b8eb184f) Feedback from Sabine Siehl, GWÖ Berlin.
 * 09.02 - updated the new [quick test](sinnwerkstatt.github.io/gemeinwohl-oekonomie/test.html).
 * 06.01 - added IE8, IE9 and IE10 support.
 
