@@ -12,7 +12,7 @@ Die gewünschte Funktionalitäten in drei Kategorien beschreiben:
 
 | notwendige Funktionalitäten | Unternehmen | Geldsumme |
 |--- | --- |--- |
-| Unternehmensprofil erstellen (Name, Logo, Gegründet, Webseite, Standort, Branche, Anzahl der Mitarbeiter, Umsatz). | Sinnwerkstatt |  |
+| Unternehmensprofil erstellen (Name, Logo, Gegründet, Webseite, E-Mail, Telefonnummer, Fax, Adresse, Branche, Tätigkeit, Anzahl der Mitarbeiter, Umsatz, Inhaber, Geschäftsführer). | Sinnwerkstatt |  |
 | Bilanz erstellen (Datum/Zeitraum, Status, Auditor/Peer-Unternehmen, Anzahl der Mitarbeiter, Tätigkeitsbereich, Das Unternehmen und Gemeinwohl, Ausblick, Beschreibung des Prozesses der Erstellung der GWÖ-Bilanz). | Sinnwerkstatt |  |
 | Benutzerlogin und -gruppen mit Schreibrechte. | Sinnwerkstatt |  |
 | Benutzergruppen mit Leserechte. | Sinnwerkstatt |  |
@@ -30,8 +30,9 @@ Die gewünschte Funktionalitäten in drei Kategorien beschreiben:
 | Bewertung von SubIndikatoren. | Sinnwerkstatt |  |
 | Kommentare. | Sinnwerkstatt |  |
 | Bilder hochladen. | Sinnwerkstatt |  |
-| Dokumente hochladen. | Sinnwerkstatt |  |
+| Dokumente/Anhänge hochladen. | Sinnwerkstatt |  |
 | Potential/mögliche oder geplannte Entwicklung pro Indikator. | Sinnwerkstatt |  |
+| Grafische Darstellung der Bilanz (nach Werten/Stakeholdern). | Sinnwerkstatt |  |
 | Versionierung der Bilanz- und Berichtdaten. | Sinnwerkstatt |  |
 | Printing vom Browser. | Sinnwerkstatt |  |
 
