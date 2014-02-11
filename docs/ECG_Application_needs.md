@@ -13,7 +13,7 @@ Die gewünschte Funktionalitäten in drei Kategorien beschreiben:
 | notwendige Funktionalitäten | Unternehmen | Geldsumme |
 |--- | --- |--- |
 | Unternehmensprofil erstellen (Name, Logo, Branche, Anzahl der Mitarbeiter). | Sinnwerkstatt |  |
-| Bilanz erstellen (Datum, Status, Auditor/Peer-Unternehmen, Ausblick, Beschreibung des Prozesses der Erstellung der GWÖ-Bilanz). | Sinnwerkstatt |  |
+| Bilanz erstellen (Datum/Zeitraum, Status, Auditor/Peer-Unternehmen, Ausblick, Beschreibung des Prozesses der Erstellung der GWÖ-Bilanz). | Sinnwerkstatt |  |
 | Benutzerlogin und -gruppen mit Schreibrechte. | Sinnwerkstatt |  |
 | Benutzergruppen mit Leserechte. | Sinnwerkstatt |  |
 | Django/PostgreSQL Backend. | Sinnwerkstatt |  |
