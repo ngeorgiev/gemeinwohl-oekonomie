@@ -18,7 +18,7 @@ Open Source, modular, user-friendly, multi-language, mobile, beautiful:
 * :arrow_right: clarify whether it will be used officially by the ECG movement.
     * Yes, the desire is there, waiting for more info from the official ECG editorial team.
     * clarify how this will be done and update this Roadmap.
-* :arrow_right: [create mobile application of the ECG matrix](https://github.com/sinnwerkstatt/economy-common-good-mobile) (in progress)
+* :white_check_mark: [create mobile application of the ECG matrix](https://github.com/sinnwerkstatt/economy-common-good-mobile) (done, needs approval)
 * add multi-language support.
 
 ## ECG Balancing Web Application
@@ -67,6 +67,7 @@ Open Source, modular, user-friendly, multi-language, mobile, beautiful:
 
 * Open the [GitHub repository](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie) and click on "Download ZIP" button on the right.
 * Interactive ECG matrix: open the file ```dist/index.html```
+* ECG Quick Test: open the file ```dist/test.html```
 * ECG balancing web application: open the file ```dist/storage.html```
 
 ## Progress
@@ -74,11 +75,6 @@ See the [CHANGELOG](CHANGELOG.md).
 
 ## Browser Support
 Tested on Firefox, Chrome, IE8+.
-
-## License
-
-* Source code is under the MIT License.
-* All data belongs to the [Gemeinwohl-Ökonomie movement](http://gemeinwohl-oekonomie.de)
 
 ## Developers
 
@@ -114,4 +110,10 @@ The indicators data is stored in HTML files. In order to change it, you:
 The changed data can be viewed from the ```dist/index.html``` file.
 
 ## Learn more
+
  * Visit the official [Gemeinwohl-Ökonomie website](http://www.gemeinwohl-oekonomie.de/).
+
+## License
+
+* Source code is under the MIT License.
+* All data belongs to the [Gemeinwohl-Ökonomie movement](http://gemeinwohl-oekonomie.de) (Hopefully to be open source too?)
