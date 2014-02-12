@@ -7,7 +7,7 @@ Die Online-Bilanzierung macht [den gesamten Prozess](http://creately.com/diagram
 * Speichern der einzelnen Bilanzierungs- und Berichtsdaten in einer frei ausgewählten Datenbank.
 * [Visualisierung der GWÖ-Bilanz](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/storage.html).
 * Vergebung von [Lese-, Editier-, Kommentar-, und Auditierrechte der entsprechend berechtigten Benutzer](http://creately.com/diagram/hlvynl1f1/MA9GKxHvxTVAKUOax04wCo1pbQc%3D).
-* automatisierte Benachrichtigungen an relevanten Benutzer während des Prozesses.
+* Benachrichtigungen an Benutzern bei relevanten Ereignissen.
 * GWÖ-Bilanzen können online veröffentlicht werden.
 * noch mehrere Funktionalitäten sind möglich und werden eventuell durch die Weiterentwicklung bestimmt und implementiert.
 
