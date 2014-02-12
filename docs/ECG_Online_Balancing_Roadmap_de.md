@@ -13,16 +13,22 @@ Die Online-Bilanzierung macht [den gesamten Prozess](http://creately.com/diagram
 
 # Roadmap
 
-* :white_check_mark: [Vorschlag für die Weiterentwicklung erstellt: wer, wie, finanziell](ECG_Online_Balancing_Roadmap_de.md)
-* :arrow_right: gewünschte Funktionalitäten und Hilfsmöglichkeiten von Unternehmen und Menschen, die eventuell mitmachen würden, abfragen.
-    * Entscheiden welche Funktionalitäten zuerst implementiert werden.
-* :arrow_right: [Strategie-Treffen, GWÖ Berlin mit Sinnwerkstatt](http://pad.sinnwerkstatt.com/p/gwoe-sinn-meetup), 11.02.2014 in der ThinKFarm, Berlin.
-* Finanzierung suchen.
-* Technische Verbesserungen:
-    * Modularity: backbone, routing, data binding, templating.
-    * Performance: server-side grunt compilation (and rendering) of the templates. Load and show quickly the initial content.
-* Roadmap aktualisieren.
-* Roadmap ausführen und wenn nötig den Prozess iterieren.
+* :arrow_right: (17.02.2014) Sinnwerkstatt definiert [notwendige und hilfreiche Funktionalitäten und Budget](ECG_Application_needs.md)
+* (18.02.2014) [zweites Strategie-Treffen GWÖ-Berlin-Sinnwerkstatt](http://pad.sinnwerkstatt.com/p/gwoe-sinn-meetup)
+* Grafische Aufbereitung Materialien für Kampagne
+* Durchführung Kampagne
+* Programmierung
+* Evaluation
+
+
+Technische Verbesserungen:
+* [Backbone.Marionette](https://github.com/sinnwerkstatt/sinnwerkstatt-web/blob/master/Javascript/Marionette.md) als Frontend Framework nutzen.
+
+## Fertig
+
+* :white_check_mark: [Funktionalitäten von wenigen Unternehmen abgefragt](#unternehmen).
+* :white_check_mark: (11.02.2014) [Strategie-Treffen, GWÖ Berlin mit Sinnwerkstatt](http://pad.sinnwerkstatt.com/p/gwoe-sinn-meetup), in der ThinKFarm, Berlin.
+
 
 # Finanzierung
 
