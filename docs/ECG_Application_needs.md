@@ -29,6 +29,7 @@ Die gewünschte Funktionalitäten in drei Kategorien beschreiben:
 | Editierung und Speichern von SubIndikatoren. | Sinnwerkstatt |  |
 | Bewertung von SubIndikatoren. | Sinnwerkstatt |  |
 | Kommentare. | Sinnwerkstatt |  |
+| Benachrichtigungen an Benutzern bei relevanten Ereignissen | Sinnwerkstatt |  |
 | Bilder hochladen. | Sinnwerkstatt |  |
 | Dokumente/Anhänge hochladen. | Sinnwerkstatt |  |
 | Potential/mögliche oder geplannte Entwicklung pro Indikator. | Sinnwerkstatt |  |
