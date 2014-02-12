@@ -9,7 +9,7 @@ Die aktuelle Software-Tools sind:
 
 [Die interaktiven GWÖ-Matrix](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/#matrix) präsentiert [das Handbuch  Handbuch zur Gemeinwohl-Bilanz](http://gemeinwohl-oekonomie.org/sites/default/files/Handbuch_v4.1_offical_release.pdf) (200 Seiten PDF) online, benutzerfreundlich und interaktiv. Der Benutzer sieht die GWÖ-Matrix und durch klicken auf ein Indikator kann sofort über die Ziele, Impulsfragen, die Bewertungstabelle usw. des GWÖ-Indikators erfahren. Der Benutzer kann auch Links zu jedem Punkt eines Indikator an Freunden schicken, z.B. hier ist [der Link zu der Bewertungstabelle von C1, Arbeitsplatzqualität und Gleichstellung](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/#matrix-c1-table)
 
-Hier ist [die aktulle Roadmap](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie#roadmap).
+Hier ist [die aktuelle Roadmap](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie#roadmap).
 
 ## Mobile GWÖ-Applikation
 
