@@ -1,25 +1,33 @@
-Hier werden die gewünschten Funktionalitäten der Unternehmen und für die Software-Entwicklung geschätzte Geldsumme dargestellt.
+# Ziel
 
-# Funktionalitäten
+Weiterentwicklung der [GWÖ Online-Bilanzierung Web-Applikation](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie#ecg-balancing-web-application).
 
-Die gewünschte Funktionalitäten in drei Kategorien beschreiben:
-
-* **notwendige Funktionalitäten**: ohne diese, werden/können wir die WebApp nicht nutzen.
-* **hilfreiche Funktionalitäten**: werden unsere Arbeit erleichtern, sind aber kein NO-GO für die Nutzung der WebApp.
-* **extra Funktionalitäten**: finden wir cool, haben niedrige Priotität als die hilfreiche Funktionalitäten.
+Hier werden die gewünschten Funktionalitäten der Unternehmen und für die Software-Entwicklung geschätztes Budget dargestellt.
 
 # Angebot von Sinnwerkstatt
 
 Das Angebot von Sinnwerkstatt enthält die aktuellen Funktionen und das Budget dafür.
 
-* 13.02.2014: [Angebot von Sinnwerkstatt für die Online-Bilanzierung App](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/blob/master/docs/Angebot_Online-Bilanzierung_Sinnwerkstatt.pdf?raw=true)
+* 13.02.2014: [Angebot von Sinnwerkstatt für die Online-Bilanzierung App (PDF)](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/blob/master/docs/Angebot_Online-Bilanzierung_Sinnwerkstatt.pdf?raw=true)
     * Notwendige Funktionen: 1.800,00 € Netto / 2.142,00 € Brutto
     * Hilfreiche Funktionen: 2.350,00 € Netto / 2.796.50 € Brutto
     * **Insgesamt**:
       * **4.150,00 € Netto / 4.938.50 € Brutto**
       * 98.76 Stunden bei Stundensatz 50,00 €.
 
-## notwendige Funktionalitäten
+## Technologien
+
+Die Web-Applikation für Online-Bilanzierung wird auf [Django](https://www.djangoproject.com/) auf dem Server und [Backbone.Marionette](http://marionettejs.com/) auf dem Client basieren.
+
+## Funktionalitäten
+
+Die gewünschte Funktionalitäten sind in drei Kategorien beschreiben:
+
+* **notwendige Funktionalitäten**: ohne diese, werden/können wir die WebApp nicht nutzen.
+* **hilfreiche Funktionalitäten**: werden unsere Arbeit erleichtern, sind aber kein NO-GO für die Nutzung der WebApp.
+* **extra Funktionalitäten**: finden wir cool, haben niedrige Priotität als die hilfreiche Funktionalitäten.
+
+### notwendige Funktionalitäten
 
 | notwendige Funktionalitäten | Budget (Netto) |
 |--- | --- |--- |
@@ -30,7 +38,7 @@ Das Angebot von Sinnwerkstatt enthält die aktuellen Funktionen und das Budget d
 | Verwaltungsoberfläche. Administratoren können in einer Verwaltungsoberfläche („Backend“) neue Objekte hinzufügen und vorhandene Objekte ändern und löschen. Dazu zählen Unternehmen und Jahresbilanzen. | 100,00 € |
 | Insgesamt | 1.800,00 € Netto / 2.142,00 € Brutto |
 
-## hilfreiche Funktionalitäten
+### hilfreiche Funktionalitäten
 
 | hilfreiche Funktionalitäten | Budget (Netto) |
 |--- | --- | --- |
@@ -45,7 +53,7 @@ für den übergeordneten Indikator gesetzt werden. | 400,00 € |
 | Übersicht und Indikatoren ausdrucken. Benutzer können die GWÖ-Matrix-Übersicht und die einzelnen Indikatoren-Seiten über die Druckfunktion des Browsers ausdrucken. Die Seiten werden entsprechend für den Druck optimiert. | 100,00 € |
 | Insgesamt | 2.350,00 € Netto / 2.796.50 € Brutto |
 
-## extra Funktionalitäten
+### extra Funktionalitäten
 
 | extra Funktionalitäten | Geldsumme |
 |--- | --- |

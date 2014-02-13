@@ -16,7 +16,7 @@ Open Source, modular, user-friendly, multi-language, mobile, beautiful:
 ### Roadmap
 
 * :arrow_right: clarify whether it will be used officially by the ECG movement.
-    * Yes, the desire is there, waiting for more info from the official ECG editorial team.
+    * Yes, the desire is there, waiting for more info from the official ECG editorial team (06.01.2014).
     * clarify how this will be done and update this Roadmap.
 * :white_check_mark: [create mobile application of the ECG matrix](https://github.com/sinnwerkstatt/economy-common-good-mobile) (done, needs approval)
 * :arrow_right: add multi-language support.
