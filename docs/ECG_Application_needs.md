@@ -31,8 +31,8 @@ Das Angebot von Sinnwerkstatt enthält die aktuellen Funktionen und das Budget d
 
 ## hilfreiche Funktionalitäten
 
-| hilfreiche Funktionalitäten | Unternehmen | Geldsumme |
-|--- | --- |
+| hilfreiche Funktionalitäten | Geldsumme |
+|--- | --- | --- |
 | Berechtigungen pro Indikator setzen. Unternehmensadministratoren können für ihr Unternehmen festlegen, welche Indikatoren von ihren Benutzern geändert werden können. Dazu können sie in der GWÖ-Matrix nach einem Klick auf einen Indikator Lese- oder Schreibrechte vergeben. | 700,00 € |
 | Subindikatoren angeben. Benutzer können auf der Indikator-Seite die jeweiligen Subindikatoren angeben. Dazu stehen zusätzlich zum Indikator pro Subindikator Editor und Slider mit Speicherfunktion zur Verfügung. Berechtigungen können nur
 für den übergeordneten Indikator gesetzt werden. | 400,00 € |
