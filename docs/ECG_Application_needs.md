@@ -27,28 +27,23 @@ Das Angebot von Sinnwerkstatt enthält die aktuellen Funktionen und das Budget d
 |--- | --- |--- |
 | Benutzerprofil erstellen. Benutzer können ihr Profil anlegen (Name, Profilbild, E-Mail, Unternehmen), nachträglich bearbeiten und ihr Passwort ändern. Wenn sie ihr Passwort vergessen haben können sie auf der Anmeldeseite einen Link zum Neusetzen des Passworts per E-Mail anfordern.  | 300,00 € |
 | Unternehmensprofil erstellen. Benutzer können ihr Unternehmensprofil anlegen (Name, Logo, Gegründet, Webseite, E-Mail, Telefonnummer, Fax, Adresse, Branche, Tätigkeit, Anzahl der Mitarbeiter, Umsatz, Inhaber, Geschäftsführer) und nachträglich bearbeiten. Dieses Profil ist vorerst nur für sie einsehbar. | 200,00 € |
-| Jahresbilanz erstellen. Benutzer können GWÖ-Jahresbilanzen für ihr Unternehmen erstellen. Dazu sind folgende Schritte notwendig: 1. Metadaten erfassen Benutzer können in einem Formular ihre Metadaten angeben (Datum/Zeitraum, Status, Auditor/Peer-Unternehmen, Das Unternehmen und Gemeinwohl, Ausblick, Beschreibung des Prozesses der Erstellung der GWÖ-Bilanz) und nachträglich ändern. 2. Überblick (interaktive GWÖ-Matrix/Testat) Benutzer können in einer interaktiven GWÖ-Matrix für ihr Unternehmen Indikatoren und deren Punkte auf einen Blick einsehen. Beim Klick auf einen Indikator öffnet sich eine Indikator-Seite mit den jeweiligen Detailinformationen in einem Editor („WYSIWYG“). 3. Indikatoren editieren und bewerten. Iem Editor des Indikators können Benutzer nun ihre unternehmensspezifischen Informationen eingeben und speichern. Desweiteren können sie den Indikator mit einem „Slider“ selbst bewerten und speichern.| 1.000,00  |
-| Berechtigungen festlegen. Benutzer werden vorerst über eine Verwaltungsoberfläche („Backend“) angelegt. Dort können sie Benutzergruppen (Administrator, Unternehmensadministrator, Benutzer) zugeordnet werden und darüber die Berechtigungen festgelegt werden. Es wird unterschieden zwischen Lese- und Schreibrechten. Hat ein Benutzer nur Leserechte, kann er
-Metadaten und Indikatoren nur betrachten (und nicht ändern). |  |
-| Editierung und Speichern von Indikatoren. |  |
-| Bewertung von Indikatoren. |  |
-| Bilanz-Überblick erstellen (GWÖ-Matrix/Testat). |  |
+| Jahresbilanz erstellen. Benutzer können GWÖ-Jahresbilanzen für ihr Unternehmen erstellen. Dazu sind folgende Schritte notwendig: 1. Metadaten erfassen Benutzer können in einem Formular ihre Metadaten angeben (Datum/Zeitraum, Status, Auditor/Peer-Unternehmen, Das Unternehmen und Gemeinwohl, Ausblick, Beschreibung des Prozesses der Erstellung der GWÖ-Bilanz) und nachträglich ändern. 2. Überblick (interaktive GWÖ-Matrix/Testat). Benutzer können in einer interaktiven GWÖ-Matrix für ihr Unternehmen Indikatoren und deren Punkte auf einen Blick einsehen. Beim Klick auf einen Indikator öffnet sich eine Indikator-Seite mit den jeweiligen Detailinformationen in einem Editor („WYSIWYG“). 3. Indikatoren editieren und bewerten. In dem Editor des Indikators können Benutzer nun ihre unternehmensspezifischen Informationen eingeben und speichern. Desweiteren können sie den Indikator mit einem „Slider“ selbst bewerten und speichern.| 1.000,00  |
+| Berechtigungen festlegen. Benutzer werden vorerst über eine Verwaltungsoberfläche („Backend“) angelegt. Dort können sie Benutzergruppen (Administrator, Unternehmensadministrator, Benutzer) zugeordnet werden und darüber die Berechtigungen festgelegt werden. Es wird unterschieden zwischen Lese- und Schreibrechten. Hat ein Benutzer nur Leserechte, kann er Metadaten und Indikatoren nur betrachten (und nicht ändern). | 200,00 € |
+| Verwaltungsoberfläche. Administratoren können in einer Verwaltungsoberfläche („Backend“) neue Objekte hinzufügen und vorhandene Objekte ändern und löschen. Dazu zählen Unternehmen und Jahresbilanzen. | 100,00 € |
 
 ## hilfreiche Funktionalitäten
 
 | hilfreiche Funktionalitäten | Unternehmen | Geldsumme |
 |--- | --- |--- |
-| Vergebung von Lese- und Schreibrechte pro Indikator. | Sinnwerkstatt |  |
-| Editierung und Speichern von SubIndikatoren. | Sinnwerkstatt |  |
-| Bewertung von SubIndikatoren. | Sinnwerkstatt |  |
-| Kommentare. | Sinnwerkstatt |  |
-| Benachrichtigungen an Benutzern bei relevanten Ereignissen | Sinnwerkstatt |  |
-| Bilder hochladen. | Sinnwerkstatt |  |
-| Dokumente/Anhänge hochladen. | Sinnwerkstatt |  |
-| Potential/mögliche oder geplannte Entwicklung pro Indikator. | Sinnwerkstatt |  |
-| Grafische Darstellung der Bilanz (nach Werten/Stakeholdern). | Sinnwerkstatt |  |
-| Versionierung der Bilanz- und Berichtdaten. | Sinnwerkstatt |  |
-| Printing vom Browser. | Sinnwerkstatt |  |
+| Berechtigungen pro Indikator setzen. Unternehmensadministratoren können für ihr Unternehmen festlegen, welche Indikatoren von ihren Benutzern geändert werden können. Dazu können sie in der GWÖ-Matrix nach einem Klick auf einen Indikator Lese- oder Schreibrechte vergeben. | 700,00 € |
+| Subindikatoren angeben. Benutzer können auf der Indikator-Seite die jeweiligen Subindikatoren angeben. Dazu stehen zusätzlich zum Indikator pro Subindikator Editor und Slider mit Speicherfunktion zur Verfügung. Berechtigungen können nur
+für den übergeordneten Indikator gesetzt werden. | 400,00 € |
+| Kommentare zum Indikator abgeben. Benutzer können auf der Indikator-Seite Kommentare erstellen und auf vorhandene Kommentare antworten. Zu ihrem Kommentar werden jeweils Name, Datum und Profilbild angezeigt. | 300,00 € |
+| Benutzer-Benachrichtigungen versenden. Benutzer erhalten bei folgenden Ereignissen eine E-Mailbenachrichtigung: Jahresbilanz angelegt, Jahresbilanz geändert, neuer Kommentar angelegt. Zusätzlich können sie in ihrem Benutzerprofil die Häufigkeit der E-Mailbenachrichtungen (alle, keine) bearbeiten. Jede E-Mailbenachrichtigung enthält einen Link zu diesen Einstellungen. | 400,00 € |
+| Bilder zum Indikator hochladen. Benutzer können auf der Indikator-Seite über den Editor Bilder vom eigenen Rechner hochladen und einfügen. Diese Funktion steht auch für Subindikatoren zur Verfügung. | 100,00€ |
+| Dokumente/Anhänge zur Jahresbilanz hochladen. Benutzer können auf der GWÖ-Matrix-Übersicht Dateien (Dokumente, Anhänge) hochladen und benennen. | 300,00 € |
+| Entwicklungspotential pro Indikator festlegen. Benutzer können auf der Indikator-Seite über einen weiteren Editor das Entwicklungspotential für den jeweiligen Indikator festlegen. | 50,00 € |
+| Übersicht und Indikatoren ausdrucken. Benutzer können die GWÖ-Matrix-Übersicht und die einzelnen Indikatoren-Seiten über die Druckfunktion des Browsers ausdrucken. Die Seiten werden entsprechend für den Druck optimiert. | 100,00 € |
 
 ## extra Funktionalitäten
 
