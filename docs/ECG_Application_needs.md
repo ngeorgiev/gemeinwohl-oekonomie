@@ -21,7 +21,7 @@ Das Angebot von Sinnwerkstatt enthält die aktuellen Funktionen und das Budget d
 
 ## notwendige Funktionalitäten
 
-| notwendige Funktionalitäten | Geldsumme |
+| notwendige Funktionalitäten | Budget |
 |--- | --- |--- |
 | Benutzerprofil erstellen. Benutzer können ihr Profil anlegen (Name, Profilbild, E-Mail, Unternehmen), nachträglich bearbeiten und ihr Passwort ändern. Wenn sie ihr Passwort vergessen haben können sie auf der Anmeldeseite einen Link zum Neusetzen des Passworts per E-Mail anfordern.  | 300,00 € |
 | Unternehmensprofil erstellen. Benutzer können ihr Unternehmensprofil anlegen (Name, Logo, Gegründet, Webseite, E-Mail, Telefonnummer, Fax, Adresse, Branche, Tätigkeit, Anzahl der Mitarbeiter, Umsatz, Inhaber, Geschäftsführer) und nachträglich bearbeiten. Dieses Profil ist vorerst nur für sie einsehbar. | 200,00 € |
@@ -31,7 +31,7 @@ Das Angebot von Sinnwerkstatt enthält die aktuellen Funktionen und das Budget d
 
 ## hilfreiche Funktionalitäten
 
-| hilfreiche Funktionalitäten | Geldsumme |
+| hilfreiche Funktionalitäten | Budget |
 |--- | --- | --- |
 | Berechtigungen pro Indikator setzen. Unternehmensadministratoren können für ihr Unternehmen festlegen, welche Indikatoren von ihren Benutzern geändert werden können. Dazu können sie in der GWÖ-Matrix nach einem Klick auf einen Indikator Lese- oder Schreibrechte vergeben. | 700,00 € |
 | Subindikatoren angeben. Benutzer können auf der Indikator-Seite die jeweiligen Subindikatoren angeben. Dazu stehen zusätzlich zum Indikator pro Subindikator Editor und Slider mit Speicherfunktion zur Verfügung. Berechtigungen können nur
