@@ -19,6 +19,10 @@ Das Angebot von Sinnwerkstatt enthält die aktuellen Funktionen und das Budget d
       * **4.150,00 € Netto / 4.938.50 € Brutto**
       * 98.76 Stunden bei Stundensatz 50,00 €.
 
+## Technologien
+
+Die Web-Applikation für Online-Bilanzierung wird auf [Django](https://www.djangoproject.com/) auf dem Server und [Backbone.Marionette](http://marionettejs.com/) auf dem Client basieren.
+
 ## notwendige Funktionalitäten
 
 | notwendige Funktionalitäten | Budget (Netto) |
