@@ -13,7 +13,7 @@ Die Online-Bilanzierung macht [den gesamten Prozess](http://creately.com/diagram
 
 # Roadmap
 
-* :arrow_right: (17.02.2014) Sinnwerkstatt definiert [notwendige und hilfreiche Funktionalitäten und Budget](ECG_Application_needs.md)
+* :white_check_mark: (17.02.2014) Sinnwerkstatt bestimmt [die notwendigen und hilfreichen Funktionalitäten und das Budget](ECG_Application_needs.md)
 * (18.02.2014) [zweites Strategie-Treffen GWÖ-Berlin-Sinnwerkstatt](http://pad.sinnwerkstatt.com/p/gwoe-sinn-meetup)
 * Grafische Aufbereitung Materialien für Kampagne
 * Durchführung Kampagne

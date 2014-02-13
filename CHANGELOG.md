@@ -2,6 +2,7 @@
 
 ## 2014
 
+* 13.02 - Sinnwerkstatt created [a project offer with functionalities to be implemented and budget](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/blob/aa8c3b7241c58d9c3a278c2c0cba9534d1ae7850/docs/ECG_Application_needs.md.
 * 11.02 - [implemented](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/commit/2385a106bbbe9e246ad6719d429986f7b8eb184f) Feedback from Sabine Siehl, GWÖ Berlin.
 * 09.02 - updated the new [quick test](sinnwerkstatt.github.io/gemeinwohl-oekonomie/test.html).
 * 06.01 - added IE8, IE9 and IE10 support.
