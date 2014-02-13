@@ -2,7 +2,7 @@
 
 Weiterentwicklung der [GWÖ Online-Bilanzierung Web-Applikation](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie#ecg-balancing-web-application).
 
-Hier werden die gewünschten Funktionalitäten der Unternehmen und für die Software-Entwicklung geschätzte Geldsumme dargestellt.
+Hier werden die gewünschten Funktionalitäten der Unternehmen und für die Software-Entwicklung geschätztes Budget dargestellt.
 
 # Angebot von Sinnwerkstatt
 
