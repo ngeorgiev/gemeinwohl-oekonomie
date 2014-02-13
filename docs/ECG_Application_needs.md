@@ -19,8 +19,6 @@ Das Angebot von Sinnwerkstatt enthält die aktuellen Funktionen und das Budget d
       * 4.150,00 € Netto / 4.938.50 € Brutto
       * 98.76 Stunden bei Stundensatz 50,00 €.
 
-# Nicht aktualisierte Funktionen
-
 ## notwendige Funktionalitäten
 
 | notwendige Funktionalitäten | Geldsumme |
