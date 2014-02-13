@@ -1,44 +1,45 @@
-# AK: GWÖ Software-Tools
+# WG: ECG Software Tools
 
-Wir erstellen Software-Tools für die GWÖ, die [modular, open source, benutzerfreundlich, vielsprachig, mobil und schön](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie#development-principles) sind. Der Arbeitskreis ist offen für alle, und und ist tätig lokal und international über das Internet.
+We create [Open Source, modular, user-friendly, multi-language, mobile, beautiful]((https://github.com/sinnwerkstatt/gemeinwohl-oekonomie#development-principles)) software tools for the ECG.
+The working group is open for everyone, and is active locally and internationally over the Internet.
 
-Die aktuelle Software-Tools sind:
+The current software tools are:
+
+## The interactive ECG Matrix
+
+[The interactive ECG Matrix](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/#matrix) presents [the guidelines for the Common Good report](http://gemeinwohl-oekonomie.org/sites/default/files/guidlines_short_ecg_report_en.pdf) (60 pages PDF) online, user-friendly und interactively. The users sees the ECG matrix and through clicking on an indicator can learn immediately more about the goals, motivational questions, evaluation table and other important infos about the ECG indicators. The user can send link of every indicator information to a friend, e.g. this is [the link to the evaluation table of C1, workplace quality and affirmative action](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/#matrix-c1-table).
+
+Here is [the current Roadmap](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie#roadmap).
+
+## Mobile ECG Application
+
+The Mobile ECG Application shows all important informations about the ECG on a smartphone. [The 20 principles](http://gemeinwohl-oekonomie.org/en/content/20-principles-guiding-economy-common-good), the [Vision](http://gemeinwohl-oekonomie.org/en/content/vision-and-mission), [history](http://gemeinwohl-oekonomie.org/en/content/bottom-democratic-process) and [the interactive ECG Matrix](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/#matrix).
+
+Here is [the current Roadmap](https://github.com/sinnwerkstatt/economy-common-good-mobile#roadmap).
+
+## ECG Quick Test
+
+The [ECG Quick Test](http://gemeinwohl-oekonomie.org/sites/default/files/Schnelltest-Matrix4.1-final-1.2.pdf) can be taken [online](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/test.html#).
+
+## Online ECG Balancing App
+
+The ECG Balancing is a learning process involving ECG companies, peer companies, workers, consultants and auditors in the creation of the ECG balanace and ECG report. 
+The Online ECG Balancing makes [the whole process](http://creately.com/diagram/hlvynl1f1/MA9GKxHvxTVAKUOax04wCo1pbQc%3D) transparent, simplifies and automatizes it through:
+
+* Saving the balancing and report data in a desirable database.
+* [Visualizing the ECG report](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/storage.html).
+* Assigning [read, edit, comment, und audit roles to users](http://creately.com/diagram/hlvynl1f1/MA9GKxHvxTVAKUOax04wCo1pbQc%3D).
+* Sending automatically relevant notifications to users during the whole process.
+* Publications of ECG balances.
+* other funcationalities are possible and will be co-defined during the further development.
+
+Status: [a first prototype is online](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/storage.html#).
+
+Here is [the current roadmap](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie#roadmap-1).
 
 
-## Die interaktive GWÖ-Matrix
+## Contacts
 
-[Die interaktiven GWÖ-Matrix](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/#matrix) präsentiert [das Handbuch  Handbuch zur Gemeinwohl-Bilanz](http://gemeinwohl-oekonomie.org/sites/default/files/Handbuch_v4.1_offical_release.pdf) (200 Seiten PDF) online, benutzerfreundlich und interaktiv. Der Benutzer sieht die GWÖ-Matrix und durch klicken auf ein Indikator kann sofort über die Ziele, Impulsfragen, die Bewertungstabelle usw. des GWÖ-Indikators erfahren. Der Benutzer kann auch Links zu jedem Punkt eines Indikator an Freunden schicken, z.B. hier ist [der Link zu der Bewertungstabelle von C1, Arbeitsplatzqualität und Gleichstellung](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/#matrix-c1-table)
-
-Hier ist [die aktulle Roadmap](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie#roadmap).
-
-## Mobile GWÖ-Applikation
-
-Die mobile GWÖ-Applikation stellt alle wichtige Informationen über die GWÖ mobil zu Verfügung: die [Inhalte](http://gemeinwohl-oekonomie.org/de/content/ein-wirtschaftsmodell-mit-zukunft), [Vision](http://gemeinwohl-oekonomie.org/de/content/vision-und-mission), [Geschichte](http://gemeinwohl-oekonomie.org/de/content/ein-bottom-prozess-zum-mitmachen) und [die interaktiven GWÖ-Matrix](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/#matrix).
-
-Hier ist [die aktuelle Roadmap](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie#roadmap).
-
-## Schnelltest GWÖ
-
-Der [Schnelltest GWÖ](http://gemeinwohl-oekonomie.org/sites/default/files/Schnelltest-Matrix4.1-final-1.2.pdf) steht [online zur Verfügung](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/test.html#).
-
-## GWÖ Online-Bilanzierung App
-
-Die GWÖ-Bilanzierung ist ein Lernprozess, der GWÖ-Unternehmen, Peer-Unternehmen, Mitarbeiter, BeraterInnen und AuditorInnen bei der Erstellung der GWÖ-Bilanz und den GWÖ-Bericht involviert. Die Online-Bilanzierung macht [den gesamten Prozess](http://creately.com/diagram/hlvynl1f1/MA9GKxHvxTVAKUOax04wCo1pbQc%3D) transparenter und vereinfacht und automatisiert ihn durch:
-
-* Speichern der einzelnen Bilanzierungs- und Berichtsdaten in einer frei ausgewählten Datenbank.
-* [Visualisierung der GWÖ-Bilanz](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/storage.html).
-* Vergebung von [Lese-, Editier-, Kommentar-, und Auditierrechte der entsprechend berechtigten Benutzer](http://creately.com/diagram/hlvynl1f1/MA9GKxHvxTVAKUOax04wCo1pbQc%3D).
-* automatisierte Benachrichtigungen an relevanten Benutzer während des Prozesses.
-* GWÖ-Bilanzen können online veröffentlicht werden.
-* noch mehrere Funktionalitäten sind möglich und werden eventuell durch die Weiterentwicklung mitbestimmt und implementiert.
-
-Status: [Ein erstes Prototyp steht online zur Verfügung](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/storage.html#).
-
-Hier ist [die aktuelle Roadmap](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie#roadmap-1).
-
-
-## Kontakte
-
-Bei Fragen gerne Nikolay kontaktieren:
+If you have any questions, feel free to contact Nikolay:
 
 * Nikolay Georgiev, ng@sinnwerkstatt.com

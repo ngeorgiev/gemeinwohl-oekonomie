@@ -12,20 +12,28 @@ Die gewünschte Funktionalitäten in drei Kategorien beschreiben:
 
 | notwendige Funktionalitäten | Unternehmen | Geldsumme |
 |--- | --- |--- |
+| Unternehmensprofil erstellen (Name, Logo, Gegründet, Webseite, E-Mail, Telefonnummer, Fax, Adresse, Branche, Tätigkeit, Anzahl der Mitarbeiter, Umsatz, Inhaber, Geschäftsführer). | Sinnwerkstatt |  |
+| Bilanz erstellen (Datum/Zeitraum, Status, Auditor/Peer-Unternehmen, Anzahl der Mitarbeiter, Tätigkeitsbereich, Das Unternehmen und Gemeinwohl, Ausblick, Beschreibung des Prozesses der Erstellung der GWÖ-Bilanz). | Sinnwerkstatt |  |
 | Benutzerlogin und -gruppen mit Schreibrechte. | Sinnwerkstatt |  |
+| Benutzergruppen mit Leserechte. | Sinnwerkstatt |  |
 | Django/PostgreSQL Backend. | Sinnwerkstatt |  |
-| Editierung, Bewertung und Speichern von Indikatoren. | Sinnwerkstatt |  |
+| Editierung und Speichern von Indikatoren. | Sinnwerkstatt |  |
+| Bewertung von Indikatoren. | Sinnwerkstatt |  |
+| Bilanz-Überblick erstellen (GWÖ-Matrix/Testat). | Sinnwerkstatt |  |
 
 ## hilfreiche Funktionalitäten
 
 | hilfreiche Funktionalitäten | Unternehmen | Geldsumme |
 |--- | --- |--- |
-| Benutzergruppen mit Leserechte. | Sinnwerkstatt |  |
 | Vergebung von Lese- und Schreibrechte pro Indikator. | Sinnwerkstatt |  |
-| Editierung von SubIndikatoren. | Sinnwerkstatt |  |
+| Editierung und Speichern von SubIndikatoren. | Sinnwerkstatt |  |
+| Bewertung von SubIndikatoren. | Sinnwerkstatt |  |
 | Kommentare. | Sinnwerkstatt |  |
+| Benachrichtigungen an Benutzern bei relevanten Ereignissen | Sinnwerkstatt |  |
 | Bilder hochladen. | Sinnwerkstatt |  |
-| Dokumente hochladen. | Sinnwerkstatt |  |
+| Dokumente/Anhänge hochladen. | Sinnwerkstatt |  |
+| Potential/mögliche oder geplannte Entwicklung pro Indikator. | Sinnwerkstatt |  |
+| Grafische Darstellung der Bilanz (nach Werten/Stakeholdern). | Sinnwerkstatt |  |
 | Versionierung der Bilanz- und Berichtdaten. | Sinnwerkstatt |  |
 | Printing vom Browser. | Sinnwerkstatt |  |
 
