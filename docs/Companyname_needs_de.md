@@ -1,4 +1,4 @@
-# Unternehmensname
+# Name des Unternehmens
 
 * Webseite:
 * Kontakt, Name und E-Mail:

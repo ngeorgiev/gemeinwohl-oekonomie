@@ -1,4 +1,4 @@
-# Unternehmensname
+# Homann Colormanagement
 
 * Webseite: www.colormanagement.de
 * Kontakt, Name und E-Mail: homann@colormanagement.de
