@@ -37,7 +37,7 @@ Die gewünschte Funktionalitäten sind in drei Kategorien beschreiben:
 | Subindikatoren angeben. Benutzer können auf der Indikator-Seite die jeweiligen Subindikatoren angeben. Dazu stehen zusätzlich zum Indikator pro Subindikator Editor und Slider mit Speicherfunktion zur Verfügung. Berechtigungen können nur für den übergeordneten Indikator gesetzt werden. | 400,00 € |
 | Berechtigungen festlegen. Benutzer werden vorerst über eine Verwaltungsoberfläche („Backend“) angelegt. Dort können sie Benutzergruppen (Administrator, Unternehmensadministrator, Benutzer) zugeordnet werden und darüber die Berechtigungen festgelegt werden. Es wird unterschieden zwischen Lese- und Schreibrechten. Hat ein Benutzer nur Leserechte, kann er Metadaten und Indikatoren nur betrachten (und nicht ändern). | 200,00 € |
 | Verwaltungsoberfläche. Administratoren können in einer Verwaltungsoberfläche („Backend“) neue Objekte hinzufügen und vorhandene Objekte ändern und löschen. Dazu zählen Unternehmen und Jahresbilanzen. | 100,00 € |
-| Insgesamt | 1.800,00 € Netto / 2.142,00 € Brutto |
+| Insgesamt | 2.200,00 € Netto / 2.618,00 € Brutto |
 
 ### hilfreiche Funktionalitäten
 
