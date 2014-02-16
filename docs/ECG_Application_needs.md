@@ -43,8 +43,7 @@ Die gewünschte Funktionalitäten sind in drei Kategorien beschreiben:
 | hilfreiche Funktionalitäten | Budget (Netto) |
 |--- | --- | --- |
 | Berechtigungen pro Indikator setzen. Unternehmensadministratoren können für ihr Unternehmen festlegen, welche Indikatoren von ihren Benutzern geändert werden können. Dazu können sie in der GWÖ-Matrix nach einem Klick auf einen Indikator Lese- oder Schreibrechte vergeben. | 700,00 € |
-| Subindikatoren angeben. Benutzer können auf der Indikator-Seite die jeweiligen Subindikatoren angeben. Dazu stehen zusätzlich zum Indikator pro Subindikator Editor und Slider mit Speicherfunktion zur Verfügung. Berechtigungen können nur
-für den übergeordneten Indikator gesetzt werden. | 400,00 € |
+| Subindikatoren angeben. Benutzer können auf der Indikator-Seite die jeweiligen Subindikatoren angeben. Dazu stehen zusätzlich zum Indikator pro Subindikator Editor und Slider mit Speicherfunktion zur Verfügung. Berechtigungen können nur für den übergeordneten Indikator gesetzt werden. | 400,00 € |
 | Kommentare zum Indikator abgeben. Benutzer können auf der Indikator-Seite Kommentare erstellen und auf vorhandene Kommentare antworten. Zu ihrem Kommentar werden jeweils Name, Datum und Profilbild angezeigt. | 300,00 € |
 | Benutzer-Benachrichtigungen versenden. Benutzer erhalten bei folgenden Ereignissen eine E-Mailbenachrichtigung: Jahresbilanz angelegt, Jahresbilanz geändert, neuer Kommentar angelegt. Zusätzlich können sie in ihrem Benutzerprofil die Häufigkeit der E-Mailbenachrichtungen (alle, keine) bearbeiten. Jede E-Mailbenachrichtigung enthält einen Link zu diesen Einstellungen. | 400,00 € |
 | Bilder zum Indikator hochladen. Benutzer können auf der Indikator-Seite über den Editor Bilder vom eigenen Rechner hochladen und einfügen. Diese Funktion steht auch für Subindikatoren zur Verfügung. | 100,00€ |
