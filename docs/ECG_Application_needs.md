@@ -60,3 +60,4 @@ Die gewünschte Funktionalitäten sind in drei Kategorien beschreiben:
 | Änderungen bei der Versionierung zeigen. |  |
 | Abstimmungen-Funktionen. |  |
 | Export to PDF. |  |
+| Einstiegsbericht. |  |
