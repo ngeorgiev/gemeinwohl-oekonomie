@@ -51,7 +51,7 @@ Die gewünschte Funktionalitäten sind in drei Kategorien beschreiben:
 | Dokumente/Anhänge zur Jahresbilanz hochladen. Benutzer können auf der GWÖ-Matrix-Übersicht Dateien (Dokumente, Anhänge) hochladen und benennen. | 300,00 € |
 | Entwicklungspotential von Unternehmen pro Indikator festlegen. Benutzer können auf der Indikator-Seite über einen weiteren Editor das Entwicklungspotential für den jeweiligen Indikator festlegen. | 50,00 € |
 | Übersicht und Indikatoren ausdrucken. Benutzer können die GWÖ-Matrix-Übersicht und die einzelnen Indikatoren-Seiten über die Druckfunktion des Browsers ausdrucken. Die Seiten werden entsprechend für den Druck optimiert. | 100,00 € |
-| Insgesamt | 2.350,00 € Netto / 2.796.50 € Brutto |
+| Insgesamt | 1.950,00 € Netto / 2.320.50 € Brutto |
 
 ### extra Funktionalitäten
 
