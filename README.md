@@ -67,6 +67,9 @@ Open Source, modular, user-friendly, multi-language, mobile, beautiful:
     * focus on concrete, result-oriented and inspiring communication.
     * Open communication: preferred communication channel are the [GitHub issues](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/issues) - open for everyone to comment and resolve.
     * First open and then personal: when sharing information that is good to be visible by everyone, share it first openly and then send links to the people to whom it is personally relevant.
+* Cooperation
+    * Everyone who wants to contribute is welcome to do so. See [how to contribute](#Contribute).
+    * We document as much as possible so that it is easy even for people who we don't know to use and develop the software.
 
 ## Download
 
