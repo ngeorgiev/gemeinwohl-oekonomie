@@ -43,6 +43,7 @@ Open Source, modular, user-friendly, multi-language, mobile, beautiful:
     * Everyone is free to do anything with the software. The license is MIT.
     * The user/organization/company decides whether and where to save entered data.
 * Openness:
+    * We share openly the strategic, organizational and technical development of the software.
     * All software is open source.
     * The data is not yet open source - it depends on the decision of the ECG movement.
     * This page contains the most important information and will be updated regularly.
