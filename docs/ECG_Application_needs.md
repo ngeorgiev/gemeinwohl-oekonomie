@@ -49,9 +49,9 @@ Die gewünschte Funktionalitäten sind in drei Kategorien beschreiben:
 | Benutzer-Benachrichtigungen versenden. Benutzer erhalten bei folgenden Ereignissen eine E-Mailbenachrichtigung: Jahresbilanz angelegt, Jahresbilanz geändert, neuer Kommentar angelegt. Zusätzlich können sie in ihrem Benutzerprofil die Häufigkeit der E-Mailbenachrichtungen (alle, keine) bearbeiten. Jede E-Mailbenachrichtigung enthält einen Link zu diesen Einstellungen. | 400,00 € |
 | Bilder zum Indikator hochladen. Benutzer können auf der Indikator-Seite über den Editor Bilder vom eigenen Rechner hochladen und einfügen. Diese Funktion steht auch für Subindikatoren zur Verfügung. | 100,00€ |
 | Dokumente/Anhänge zur Jahresbilanz hochladen. Benutzer können auf der GWÖ-Matrix-Übersicht Dateien (Dokumente, Anhänge) hochladen und benennen. | 300,00 € |
-| Entwicklungspotential von Unternehmen pro Indikator festlegen. Benutzer können auf der Indikator-Seite über einen weiteren Editor das Entwicklungspotential für den jeweiligen Indikator festlegen. | 50,00 € |
+| Entwicklungspotential mit kurzfristigen und langfristigen Zielen von Unternehmen pro Indikator festlegen. Benutzer können auf der Indikator-Seite über einen weiteren Editor das Entwicklungspotential für den jeweiligen Indikator festlegen. | 100,00 € |
 | Übersicht und Indikatoren ausdrucken. Benutzer können die GWÖ-Matrix-Übersicht und die einzelnen Indikatoren-Seiten über die Druckfunktion des Browsers ausdrucken. Die Seiten werden entsprechend für den Druck optimiert. | 100,00 € |
-| Insgesamt | 1.950,00 € Netto / 2.320.50 € Brutto |
+| Insgesamt | 2.000,00 € Netto / 2.380,00 € Brutto |
 
 ### extra Funktionalitäten
 
