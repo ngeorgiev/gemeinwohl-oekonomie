@@ -44,22 +44,26 @@ Open Source, modular, user-friendly, multi-language, mobile, beautiful:
     * The user/organization/company decides whether and where to save entered data.
 * Openness:
     * All software is open source.
+    * The data is not yet open source - it depends on the decision of the ECG movement.
     * This page contains the most important information and will be updated regularly.
     * See open and productive communication below.
 * Modularity:
     * The frontend is separated from the backend, so that the user has the freedom to choose his backend technology.
-    * The application should work offline (no Internet needed) and without a backend. Technically it should be possible to export and import data only with the frontend. Implementation: use the HTML5 localStorage, [read](http://www.html5rocks.com/en/tutorials/file/dndfiles/) and [save matrix files](http://stackoverflow.com/a/20194533/2510374).
-    * Modular frontend: matrix structure and balances are saved as JSON file, matrix contents are saved in HTML files, a clean separation of : collections, routing, templates.
+    * Modular frontend: matrix structure and balances are saved as JSON file, matrix contents are saved in HTML files, a clean separation of : collections, routing, templates. 
+    * Technically, it should be as easy as possible for the application to work offline (no Internet needed) and without a backend. Technically, it should be possible to export and import data only with the frontend. Implementation: use the HTML5 localStorage, [read](http://www.html5rocks.com/en/tutorials/file/dndfiles/) and [save matrix files](http://stackoverflow.com/a/20194533/2510374).
+* Automation:
+    * Automate as many manual tasks as possible.
+    * Automation, software architecture and modularity enable us to change easily the matrix strucutre and data (in the JSON and HTML  files) and run scripts that automatically generate the whole ECG interactive matrix and mobile application.
 * User-friendly:
-    * enable shortest possible path from a desire to execution.
+    * enable shortest possible path from a desire to result.
     * simple, clean and beautiful.
     * fast.
 * Real use:
-    * The application should be used by companies to create their ECG balance.
+    * The application should match the needs of ECG companies and people interested in ECG.
 * Lean development
     * No bureaucracy, no barriers to participation, no waste of time.
     * focus on creating real value.
-* Productive Communication
+* Productive and Open Communication
     * focus on concrete, result-oriented and inspiring communication.
     * Open communication: preferred communication channel are the [GitHub issues](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/issues) - open for everyone to comment and resolve.
     * First open and then personal: when sharing information that is good to be visible by everyone, share it first openly and then send links to the people to whom it is personally relevant.
