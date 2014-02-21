@@ -124,9 +124,9 @@ The changed data can be viewed from the ```dist/index.html``` file.
 
  * Visit the official [Gemeinwohl-Ökonomie website](http://www.gemeinwohl-oekonomie.de/).
 
-## Q&A
+## FAQ
 
-Please read the Q&A and if your questions is missing or not well answered, please
+Please read the [FAQ](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/blob/master/docs/FAQ.md) and if your questions is missing or not well answered, please
 * ask it in [a new GitHub issue](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/issues/new) (so that it is open to everyone)
 * or send a personal email to Nikolay: ng@sinnwerkstatt.com
 
