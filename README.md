@@ -124,6 +124,12 @@ The changed data can be viewed from the ```dist/index.html``` file.
 
  * Visit the official [Gemeinwohl-Ökonomie website](http://www.gemeinwohl-oekonomie.de/).
 
+## Q&A
+
+Please read the Q&A and if your questions is missing or not well answered, please
+* ask it in [a new GitHub issue](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/issues/new) (so that it is open to everyone)
+* or send a personal email to Nikolay: ng@sinnwerkstatt.com
+
 ## License
 
 * Source code is under the MIT License.
