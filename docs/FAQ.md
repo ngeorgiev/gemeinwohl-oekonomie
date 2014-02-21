@@ -4,7 +4,7 @@ Ja:
 
 * In Abstimmung mit Christian Kozina (GWÖ IT-Koordination) und Nikolay Georgiev ([AK GWÖ Software-Tools](http://berlin.gwoe.net/ag/gwoe-software-tools/)) wurde [die folgende Vorgehensweise für die Entwicklung der GWÖ Software-Tools](software-deployment-process.md), von Konzeption bis offizielle Anerkennung, mitbestimmt. Die GWÖ-Software Tools werden entwickelt mit den Menschen, welche diese Tools nutzen werden.
 * Wir arbeiten mit Dominik Sennes (GWÖ Redaktionsteam) zusammen. Wir warten auf Feedback von dem Redaktionsteam für die Weiterentwicklung der GWÖ interaktiven Matrix.
-* Wir kommunizieren mit Manfred Kofranek über Online-Bilanzierung. Siehe [aktueller Stand](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/issues/35).
+* Wir kommunizieren mit Manfred Kofranek über die Online-Bilanzierung. Siehe [aktueller Stand](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/issues/35).
 * Beim Bedarf kommunizieren wir mit Nikolaus Dürk und Carina Waidhofer von [x-net](https://www.x-net.at/). Siehe zum Beispiel die aktuelle [Entscheidung über die Online-Bilanzierung](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/issues/18) und die eventuelle Integration mit Backoffice.
 
 # Online-Bilanzierung
