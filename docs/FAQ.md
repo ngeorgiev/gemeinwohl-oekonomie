@@ -13,7 +13,7 @@ Bitte zuerst [hier über das Online-Bilanzierungs-Tool lesen](https://github.com
 
 # Die Online-Bilanzierung wird doch von der GWÖ nicht gebraucht.
 
-Nur eine kleine Gruppe von Menschen, die in der GWÖ involviert sind haben in Oktober 2013 gesagt, dass die GWÖ keine Online-Bilanzierung braucht. Andere kleine Gruppe von Menschen, die in der GWÖ involviert sind, brauchen (manche dringend) ein Online-Bilanzierungs-Tool. Wegen den verschiedene Bedürfnisse von der GWÖ-Involvierten wird das Tool weiterentwickelt.
+Nur eine kleine Gruppe von Menschen, die in der GWÖ involviert sind haben in Oktober 2013 gesagt, dass die GWÖ keine Online-Bilanzierung braucht. Andere kleine Gruppe von Menschen, die in der GWÖ involviert sind, brauchen (manche dringend) ein Online-Bilanzierungs-Tool (hier sind paar [GWÖ-affine Unternehmen mit deren Bedürfnissen am Tool](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/blob/master/docs/ECG_Online_Balancing_Roadmap_de.md#unternehmen)). Wegen den verschiedene Bedürfnisse von der GWÖ-Involvierten wird das Tool weiterentwickelt.
 
 # Die Online-Bilanzierung braucht zu viele Ressourcen
 
