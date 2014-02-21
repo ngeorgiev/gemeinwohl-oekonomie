@@ -1,4 +1,6 @@
-In Abstimmung mit Christian Kozina (GWÖ IT-Koordination) wurde die folgende Vorgehensweise für die Entwicklung der GWÖ Software-Tools bestimmt:
+# Prozess der Bereitstellung von GWÖ-Software
+
+In Abstimmung mit Christian Kozina (GWÖ IT-Koordination) wurde die folgende Vorgehensweise für die Entwicklung der GWÖ Software-Tools mitbestimmt:
 
 * Wenn ein neues Tool entwickelt wird, wird folgedes "Testing-Logo" benutzt: https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/blob/master/app/images/gwoe-logo-beta.png
 * Wenn das Tool fertig ist, es wird getestet - entweder in Berlin, oder, indem man über die Blicke fragt, wer mittesten möchte.
