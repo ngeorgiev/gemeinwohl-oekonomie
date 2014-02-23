@@ -8,6 +8,8 @@ Development of [Open Source, modular, user-friendly, multi-language, mobile, bea
 
 ## Development Principles
 
+The working group works according to the following development principles: https://github.com/sinnwerkstatt/gemeinwohl-oekonomie#development-principles
+
 * Freedom and Openness: We share openly the strategic, organizational and technical development of the software tools. All software tools are open source and the users have the freedom to install them on their own computers and use the databases they like.
 * Modularity: The tools are developed modularly so that changes are easy to make, e.g. change the contents of the structure of the ECG Matrix or its contents.
 * Automation: Automation, software architecture and modularity enable us to change easily the matrix strucutre and data (in the JSON and HTML  files) and run scripts that automatically generate the whole ECG interactive matrix and mobile application. On changes of the contents and matrix data, the software tools can be generated automatically through automation. We automate as many manual tasks as possible.
