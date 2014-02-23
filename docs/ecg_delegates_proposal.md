@@ -65,8 +65,27 @@ We are working together with:
 * Looking for cooperation with ECG Consultants.
 * Looking for cooperation with ECG Audit people.
 
-## Next Steps
+### Next Steps
 
 * Financing and development of the [ECG Online Balancing Web App](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie#roadmap-1). Looking for ECG Consultants and Companies.
 * English version of the interactive ECG matrix and ECG mobile app.
 * Improvement of the quick test.
+
+
+## Rationale
+
+### Rationale of the Software Tools
+
+The interactive ECG matrix offers an user-friendly, practical way to navigate the ECG manual and learn more about the ECG. The mobile ECG application makes it easy to read and learn on the way and share infos with friends or people who are interested in the ECG. You can share all 200 pages of the manual, including the goals, description and evaluation tables of every ECG indicator. Valuable ECG information, easy to share online and offline.
+
+The quick test was developed because of the desire of ECG Consultants and ECG active people in order for companies to quickly get in touch with the core ECG questions of the 17 ECG indicators. The quick test is suitable for demonstrations during talks, fairs etc.
+
+As alternative to paper and Word/Excel documents work, the online balacing web application offers an online place for the company workers, executives, peer companies and ECG consultants to cooperatively, coordinatively, transparently and easily read, edit, comment and evaluate ECG balances and ECG reports. It can be extended even to take inputs and feedbacks from the crowd. The ECG reports could also be visualized in the mobile application.
+
+### Rationale of the Proposal
+
+* Share about the open international working group.
+* Cooperate internationally with other stakeholders
+* Connect resources and synergies for the further development.
+* Profesionalize the software tools.
+* Better use of our time and engagement.
