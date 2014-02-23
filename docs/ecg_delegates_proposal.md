@@ -10,12 +10,12 @@ Development of [Open Source, modular, user-friendly, multi-language, mobile, bea
 
 The working group works according to the following development principles: https://github.com/sinnwerkstatt/gemeinwohl-oekonomie#development-principles
 
-* Freedom and Openness: We share openly the strategic, organizational and technical development of the software tools. All software tools are open source and the users have the freedom to install them on their own computers and use the databases they like.
-* Modularity: The tools are developed modularly so that changes are easy to make, e.g. change the contents of the structure of the ECG Matrix or its contents.
-* Automation: Automation, software architecture and modularity enable us to change easily the matrix strucutre and data (in the JSON and HTML  files) and run scripts that automatically generate the whole ECG interactive matrix and mobile application. On changes of the contents and matrix data, the software tools can be generated automatically through automation. We automate as many manual tasks as possible.
-* User-friendly: enable shortest possible path from a desire to result. The software tools are simple, clean and beautiful.
-* Lean development: no bureaucracy, no barriers to participation, no waste of time. Focus on creating real value. Communication in GitHub. Preferred is open communicatino than private.
-* Cooperation: everyone is welcome to contribute - make suggestions, share needs, co-develop the software: https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/blob/master/README.md#contribute. We document as much as possible to make cooperation easy. The working group is open for everyone, and is active locally as well as internationally through the Internet.
+* **Freedom and Openness**: We share openly the strategic, organizational and technical development of the software tools. All software tools are open source and the users have the freedom to install them on their own computers and use the databases they like.
+* **Modularity**: The tools are developed modularly so that changes are easy to make, e.g. change the contents of the structure of the ECG Matrix or its contents.
+* **Automation**: Automation, software architecture and modularity enable us to change easily the matrix strucutre and data (in the JSON and HTML  files) and run scripts that automatically generate the whole ECG interactive matrix and mobile application. On changes of the contents and matrix data, the software tools can be generated automatically through automation. We automate as many manual tasks as possible.
+* **User-friendly**: enable shortest possible path from a desire to result. The software tools are simple, clean and beautiful.
+* **Lean development**: no bureaucracy, no barriers to participation, no waste of time. Focus on creating real value. Communication in GitHub. Preferred is open communicatino than private.
+* **Cooperation**: everyone is welcome to contribute - make suggestions, share needs, co-develop the software: https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/blob/master/README.md#contribute. We document as much as possible to make cooperation easy. The working group is open for everyone, and is active locally as well as internationally through the Internet.
 
 ## Status Quo
 
