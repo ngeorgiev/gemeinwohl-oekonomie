@@ -5,8 +5,10 @@ The [Economy for the Common Good (ECG)](http://gemeinwohl-oekonomie.org) is an a
 ## Project Goals
 Open Source, modular, user-friendly, multi-language, mobile, beautiful:
 
-* interactive ECG matrix (German: Interaktive GWÖ-Matrix).
-* ECG balancing web application (German: GWÖ Online Bilanzierung).
+* [Interactive ECG matrix](#interactive-ecg-matrix) (German: Interaktive GWÖ-Matrix).
+* [ECG mobile app](https://github.com/sinnwerkstatt/economy-common-good-mobile#economy-for-the-common-good---mobile-app) (zur Zeit für Android, bald für iPhone).
+* [ECG Quick Test](http://sinnwerkstatt.github.io/gemeinwohl-oekonomie/test.html#)
+* [ECG Online Balancing web application](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie#ecg-balancing-web-application) (German: GWÖ Online Bilanzierung).
 
 ## Interactive ECG matrix
 
@@ -121,6 +123,12 @@ The changed data can be viewed from the ```dist/index.html``` file.
 ## Learn more
 
  * Visit the official [Gemeinwohl-Ökonomie website](http://www.gemeinwohl-oekonomie.de/).
+
+## FAQ
+
+Please read the [FAQ](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/blob/master/docs/FAQ.md) and if your question is missing or not well answered, please
+* ask it in [a new GitHub issue](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/issues/new) (so that it is open to everyone)
+* or send a personal email to Nikolay: ng@sinnwerkstatt.com
 
 ## License
 
