@@ -8,7 +8,7 @@ Hier werden die gewünschten Funktionalitäten der Unternehmen und für die Soft
 
 Das Angebot von Sinnwerkstatt enthält die aktuellen Funktionen und das Budget dafür.
 
-* 13.02.2014: [Angebot von Sinnwerkstatt für die Online-Bilanzierung App (PDF)](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/blob/master/docs/Angebot_Online-Bilanzierung_Sinnwerkstatt.pdf?raw=true)
+* 28.03.2014: [Angebot von Sinnwerkstatt für die Online-Bilanzierung App (PDF)](https://github.com/sinnwerkstatt/gemeinwohl-oekonomie/blob/master/docs/Angebot_Online-Bilanzierung_Sinnwerkstatt.pdf?raw=true)
     * Notwendige Funktionen: 1.800,00 € Netto / 2.142,00 € Brutto
     * Hilfreiche Funktionen: 2.350,00 € Netto / 2.796.50 € Brutto
     * **Insgesamt**:
